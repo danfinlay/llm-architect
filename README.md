@@ -28,7 +28,7 @@ cd sdk_gpt
 2. Install the required dependencies:
 
 ```bash
-npm install
+yarn
 ```
 
 3. Create a .env file in the project root directory and add your OpenAI API key:
