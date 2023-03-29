@@ -83,6 +83,12 @@ curl --request POST \
   }'
 ```
 
+that sends an answer similar to:
+
+```
+{"question":"How can I install MetaMask SDK on iOS?","answer":"To install MetaMask SDK on iOS, you will need to add it as a cocoapods dependency to your project by adding this entry in your Podfile: `pod 'metamask-ios-sdk'` and then running `pod install`. You can also add MetaMask iOS SDK as an SPM package to your project using the repository url: https://github.com/MetaMask/metamask-ios-sdk. Finally, you need to run the postinstall script: `yarn postinstall`, and then install the necessary pods that came with the library: `cd ios && pod install && cd ..`."}
+```
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
