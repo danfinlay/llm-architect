@@ -1,0 +1,19 @@
+{
+  "name": "sdk_gpt",
+  "version": "1.0.0",
+  "description": "Simple OpenAI MetaMask SDK documentation example",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:interactive": "node index_interactive.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.43"
+  }
+}
