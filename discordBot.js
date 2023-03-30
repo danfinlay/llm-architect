@@ -1,6 +1,6 @@
-import { Client, Intents } from "discord.js";
+import { Client, IntentsBitField } from "discord.js";
 import dotenv from "dotenv";
-import { loadAndProcessDocuments } from "./documentProcessor";
+import { loadAndProcessDocuments } from "./documentProcessor.js";
 import { OpenAI } from "langchain/llms";
 import { ConversationalRetrievalQAChain } from "langchain/chains";
 
@@ -27,7 +27,13 @@ async function setup() {
 
 const chainPromise = setup();
 
-const client = new Client({ intents: [Intents.FLAGS.GUILD_MESSAGES] });
+const client = new Client({
+  intents: [
+    IntentsBitField.Flags.Guilds,
+    IntentsBitField.Flags.GuildMessages,
+    IntentsBitField.Flags.MessageContent,
+  ],
+});
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
