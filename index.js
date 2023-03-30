@@ -13,7 +13,7 @@ async function main() {
   const model = new OpenAI({
     openAIApiKey: OPENAI_API_KEY,
     temperature: 0.9,
-    maxTokens: 2000,
+    maxTokens: 2500,
   });
 
   const vectorStore = await loadAndProcessDocuments("sdk_docs/");

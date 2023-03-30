@@ -12,8 +12,8 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 async function setup() {
   const model = new OpenAI({
     openAIApiKey: OPENAI_API_KEY,
-    temperature: 0.8,
-    maxTokens: 1000,
+    temperature: 0.9,
+    maxTokens: 2500,
   });
 
   const vectorStore = await loadAndProcessDocuments("sdk_docs/");
