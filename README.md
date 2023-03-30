@@ -89,6 +89,23 @@ that sends an answer similar to:
 {"question":"How can I install MetaMask SDK on iOS?","answer":"To install MetaMask SDK on iOS, you will need to add it as a cocoapods dependency to your project by adding this entry in your Podfile: `pod 'metamask-ios-sdk'` and then running `pod install`. You can also add MetaMask iOS SDK as an SPM package to your project using the repository url: https://github.com/MetaMask/metamask-ios-sdk. Finally, you need to run the postinstall script: `yarn postinstall`, and then install the necessary pods that came with the library: `cd ios && pod install && cd ..`."}
 ```
 
+### Run as Discord bot
+
+1. Create your bot on the Discord Developer Portal:
+   - Go to the Discord Developer Portal: https://discord.com/developers/applications.
+   - Sign in with your Discord account.
+   - Click "New Application" and provide a name for your bot.
+   - Navigate to the "Bot" tab on the left side and click "Add Bot."
+   - On the bot page, you'll find the bot's token. Keep it secret, as it's used to authenticate your bot.
+2. Run your bot:
+   - In your terminal or command prompt, run node index.js to start your bot. If everything is set up correctly, you should see a message saying "Logged in as [bot-username]!".
+3. Invite your bot to a server:
+   - To invite the bot to a server, you'll need to create an invite link. Replace YOUR_CLIENT_ID with the client ID found on the "General Information" page of your bot's application on the Discord Developer Portal:
+   - Paste the following link into your browser and follow the instructions:
+     ```
+     https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot&permissions=3072
+     ```
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
