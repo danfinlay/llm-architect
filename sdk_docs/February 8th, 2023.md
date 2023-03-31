@@ -1,0 +1,8 @@
+- [[[[Multiple Network Connection]] API]]
+    - [[service tag based discovery]]
+        - Imagine a [[secure extensible permission system]] has a "service registry", where any plugin can register a method by service tag string.
+            - Examples
+                - `eip:155:1:eth_accounts` to request an account on chainId 1
+                - `eip155:1:eth` for reads
+        - Each service tag needs a human readable description that can be presented to the user.
+- 

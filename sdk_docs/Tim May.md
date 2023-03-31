@@ -1,0 +1,2 @@
+- Physicist turned [[Cryptoanarchists]]
+- "...a smart guy, but".. "the shock jock for Cypherpunks" - [[Dean Tribble]]

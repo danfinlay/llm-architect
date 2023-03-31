@@ -1,0 +1,5 @@
+- Example
+    - HP sent out a draft of an announcement and accidentally sent to a reporter b/c of autocomplete.
+        - This would have been impossible if there had been some kind of [[admonition system]].
+            - "Please enter text to explain to your manager why you want to include this external party"
+            - This kind of extra friction greatly reduced this kind of external sharing.

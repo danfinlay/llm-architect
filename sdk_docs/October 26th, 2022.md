@@ -1,0 +1,3 @@
+- [[October 26th, 2022]] at 19:21 [[[[EIP]] 1014: CREATE2]]
+    - https://twitter.com/bl4ckb1rd71/status/1585028935687241729?s=12&t=apVbDZlU1X0I2o03vwAarQ
+    - 

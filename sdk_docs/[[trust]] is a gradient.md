@@ -1,0 +1,9 @@
+- While I often profess the law of [[social collateral]] as You must not lend more to another than that other values your relationship, I'd like to highlight how reality plays into this.
+- You never really know how much another values your relationship, and so this is always a gradient.
+    - You may know a person definitely likes you at least a little bit.
+    - You may __suspect__ a person likes you a lot.
+- When choosing what you're willing to risk in another person's hands, you're forced to make a bet along that gradient.
+    - This is why even in a high-trust environment, a person might still honor a [[principle of least authority (POLA)]]
+        - excess risk can strain a relationship even subconsciously.
+        - Minimizing risk frees a relationship up to leverage its [[social collateral]] for other things that might come up.
+        - [[conservation of trust]]

@@ -1,0 +1,2 @@
+- [[Kris Kowal]] responds to [[Christine Lemmer Webber]] tweet with a gist to a hypothetical [[mud]]
+    - https://twitter.com/kriskowal/status/1377812396496932865?s=20

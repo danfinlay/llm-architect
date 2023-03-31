@@ -1,0 +1,66 @@
+- Dan's takes
+    - I've been gathering information on the OpenSea phishing incident, and have resisted rushing to any conclusions, but I've seen so many red-hot takes, that I wanted to at least lay out a high-level outline of my thinking.
+    - First off, this was primarily a phishing incident.
+        - Phishing is a huge problem, and there are a lot of tools and techniques that we can employ to help the world become more phishing resistant. We're also building up a counter-phishing team at MM, so if you're into that sort of thing, keep an eye here: https://consensys.net/open-roles/?discipline=32543
+        - Phishing is not unique to web3, and people who imply it is are wrong. Web3 merely makes phishing more valuable, and is exposing flaws in the way people have learned to use computers today.
+        - Several components contributed to this phishing attack: Attackers had the victim's email address, were able to spoof a plausible OpenSea sending address and website, and the users were willing to accept an inbound email as a credible source of a link that they would follow to sign transactions from.
+            - User email
+            - Sender perceived appearance
+            - Phishing site perceived legitimacy
+        - Warn users when they are interacting with a contract they've interacted with before from a different domain, and **especially** when the new domain resembles the domain they formerly used that contract from.
+            - https://github.com/MetaMask/metamask-extension/pull/13685#issuecomment-1046422013
+            - This is a nice benefit of being a [[dapp [[browser]]]]: We can provide concrete safety indications about a transaction requestor.
+        - In my opinion, one of the biggest ways we can combat phishing is by normalizing web tools that make it harder to impersonate credible looking names, and that's part of why I'm very interested in pet name systems.  https://twitter.com/danfinlay/status/1425282346018754562
+    - Signature readability is a weaker component of this attack, but is still something we care a lot about at MM.
+        - The phishing email was claiming a protocol upgrade. Even if the proposed transaction was perfectly readable, a user who believed they were on an official OpenSea page could very plausibly believe that "grant allowances to all NFTs to a new strange contract" was the legitimate upgrade transaction.
+        - Signatures or transactions should both be maximally readable. We're heading towards a MetaTransaction world, and so the difference needs to dissolve and users should just have a good sense of what they're exposing to a given site.
+        - The problem was not that Wyvern allows the other party to submit the transaction: Any counterfactual protocol should enable the other party to do this. The problem was that the people were phished in the first place and signed the messages that the attacker was able to submit to perform the theft.
+        - In some ways, the users who were phished here already thought they were on an official OpenSea site, so in some ways they were already in an extremely dangerous position. Enabling safe review of transactions in those conditions is much harder and less likely.
+    - So in a way, both major takes have a component of truth: First, this is a phishing problem, and if you're phished, you're in deep trouble, and phishing needs to be addressed in many ways.
+        - Having readable transactions is still critical for ensuring that users are still able to take calculated risks: The NFT allowance confirmations that these users originally granted to OpenSea were what made them vulnerable to this phishing, but is also why they weren't vulnerable to more than that.
+        - Allow [[attenuation]] for [[NFT]] allowances
+- Technical analyses
+    - light/early
+        - https://twitter.com/charliemktplace/status/1495214437904654346?s=21
+        - https://twitter.com/isotile/status/1495406582250807298?s=20&t=8bAs3eVrE7CIvCl7PTSyjg
+        - https://twitter.com/vgr/status/1495534796918956037?s=20&t=lz_bVBfRRDHvM4phMxc9vQ
+    - https://twitter.com/0xfoobar/status/1495208281329000451?s=20&t=s_--T3qP-GX4YDRPZuCaZg
+    - https://twitter.com/nesotual/status/1495223117450551300?s=21
+    - https://twitter.com/dfinzer/status/1495245307898044416?s=21
+    - https://twitter.com/isotile/status/1495234655154577408?s=20&t=vpWkqPS3yBIoHLQTc5IwDQ
+    - https://twitter.com/0xfoobar/status/1495208279210876930?s=20&t=bQ2O5KIXZp-4VSp1r-3RhQ
+    - https://twitter.com/nadavahollander/status/1495509511179755530?s=21
+- Claimed causes
+    - [[Wyvern]] [allows counterparty to submit your signed orders](https://twitter.com/isotile/status/1495406587363614725?s=20&t=IuQq9E6e4kwd99QlW7wBXA)
+        - this doesn't seem compelling to me. Once you've signed a malicious order, you were already phished. We want metatransactions to be the norm in the future: We don't want users to have to be responsible for submitting their orders, and there isn't a particularly meaningful distinction to the user between signing a message and signing a message to submit themselves, other than maybe the gas fee (an annoyance!)
+- Hot takes
+    - https://twitter.com/matthew_d_green/status/1495476471166554114?s=21
+    - https://twitter.com/hunterorrell/status/1495218030095192068?s=21
+    - https://twitter.com/fulldecent/status/1495392396246462470?s=20&t=QZ8zHgjDnTNQyQknGyGDIQ
+    - https://twitter.com/EdgeBitcoin/status/1495288564166320132?s=20&t=BTfKpRW_Lsc2jKL6oIMHOQ
+    - https://twitter.com/richburroughs/status/1495469182263054337?s=20&t=btx9wOD4wesHBjyNNXILtA
+    - https://twitter.com/twobitidiot/status/1495417374358396929?s=21
+- Open questions
+    - Was the old OpenSea using personal_sign to define a tx hash that was blind signable? They advised warning against txs in pereonal_sign, and one tweeter claimed that the victims blind signed like this:
+        - https://twitter.com/treasureseth/status/1495364584068157451?s=21
+    - I’m curious to see the balance of:
+        - how much did the wyvern contract make it hard to coherently understand what a user is agreeing to?
+        - how much more coherent could we make the same challenge? (like if we used tx-insight type comprehension on the challenge)
+            - https://twitter.com/itstylersays/status/1495466552493318146?s=21
+- Action items
+    - [Begin storing signed messages and the signing domain in the state logs.](https://github.com/MetaMask/metamask-extension/issues/13694)
+- Proposed Solutions
+    - Warn users when they are interacting with a contract they've interacted with before from a different domain, and **especially** when the new domain resembles the domain they formerly used that contract from.
+    - Allow [[attenuation]] for [[NFT]] allowances
+        - https://twitter.com/alcueca/status/1495782101290991627?s=21
+    - https://ethresear.ch/t/simple-phishing-protection-erc-xxxx/12081
+    - [Include the dapp URL on every signature](https://twitter.com/isotile/status/1495406610348445706)
+        - Clarification: Enforce the `domain` field on [[EIP 712: signTypedData]] so that if it's provided, the wallet will either not allow signing from other domains, or at least have a salient warning indicating that this is not an official domain.
+            - This proposal implies the contract "blesses" an official UI, and so is not useful for true platform-type contracts (like Wyvern protocol!) which are designed to be used by many websites.
+    - Show which of your friends have used a given contract
+        - problem: phishing attacks are interacting with trustworthy contracts, that isn’t the problem, it’s that they are doing untrustworthy things with them.
+        - https://twitter.com/alexcusack/status/1495623504703758337?s=21
+    - Generally be careful when signing messages
+        - a tweet
+            - https://twitter.com/treasureseth/status/1495364584068157451?s=21
+        - Perpetuates a myth that [[personal_sign]] can sign transactions.

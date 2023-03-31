@@ -1,0 +1,3 @@
+- Chinese for “doubt sensation”
+- A type of energy that is aspired to developing from the [[huatou]] of a [[koan]].
+- I wonder if this is similar or equivalent to the [[semantically neutral energy]] described in the theory of [[neural annealing]]. They seem very similar.

@@ -1,0 +1,2 @@
+- [[keyboard]]
+- https://www.charachorder.com/shop

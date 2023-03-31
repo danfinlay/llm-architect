@@ -1,0 +1,9 @@
+- [[endo]]
+    - [Restore CommonJS support to CompartmentMapper](https://github.com/endojs/endo/issues/501)
+        - CJS could be put back in IF a lexer can be used to infer what the imports & exports are of CJS modules, so that you can support `export * from 'x';`
+            - per how Any bundler that supports both ESM and CJS must use some heuristics to identify the names of all transitive dependencies of any imports, because ESM allows `export * from ‘other-module’`, which draws namespace from those imported modules, while a CJS module may not define its exports until they are run, and so a bundler needs to perform heuristics/interpretation to anticipate what names will be exported from a CJS module when it is imported into an ESM module.
+        - How do you interpret exports when importing a CJS into an ESM module.
+- Learn [[web development]]
+    - https://twitter.com/austingriffith/status/1376929669551771654?s=20
+- [[Amazon]] [[troll army]] was hired for sense of humor
+    - https://twitter.com/kenklippenstein/status/1377053576565039105?s=20

@@ -1,0 +1,19 @@
+- A version of [[the Commons Stack]]
+- https://developer.holochain.org/concepts/1_the_basics/
+- [Whitepaper](https://github.com/holochain/holochain-proto/blob/whitepaper/holochain.pdf)
+    - Notes
+        - Highlights a schism in [[decentralized]] systems today
+            - [[agent centric]]: Like [[git]]. Each agent freely empowered. Sounds equivalent to [[loosely-coupled decentralization]].
+            - [[data centric]]. Like [[Bitcoin]]. Focused on establishing shared state. Sounds equivalent to [[coordinated decentralization]]
+- [Forum](https://forum.holochain.org/)
+- Members
+    - [[Arthur Brock]]
+- Not a crypto-currency, has no coin.
+    - [[Holo]] has two transactions
+        - [[HOT]]: built on [[Ethereum]]
+- A distributed framework for applications.
+    - Each transaction is signed by both recipient.
+        - This double-signature proves a dual trust gesture,
+        - allows identification of bad actors.
+    - No transaction fee.
+    - No blocks, just a chain.

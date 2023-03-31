@@ -1,0 +1,6 @@
+- Personal info
+    - Was a humanities (history?) major
+    - Big participant in DAOs and NFTs.
+    - Working closely with [[JuiceBox]]
+        - Working on making a component that could allow selling NFTs via [[JuiceBox]]
+- https://twitter.com/nnnnicholas

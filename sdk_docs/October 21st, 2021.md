@@ -1,0 +1,12 @@
+- [[decentralized [[identity]]]] [[Sarah Jamie Lewis]]
+    - https://twitter.com/SarahJamieLewis/status/1041043532654542848?s=20
+- [[proof of humanity]] [[UBI (token)]] had a spike and crash
+    - [Twitter thread version](https://twitter.com/danfinlay/status/1451371276702916611?s=20)
+    - [[Vitalik Buterin]] sold a lot of his [[SHIB Token]] for [[UBI (token)]], sending its price up.
+        - https://twitter.com/connoroday0/status/1450597992717643776?s=20
+    - A person who had been in the system for a year suddenly had ~$5k worth of UBI tokens.
+    - The [[UBI (token)]] holders then generally cashed out, crashing the price back down towards a small amount.
+        - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FNkG9u4bFGW.png?alt=media&token=15120ffb-56c1-46a5-bfdb-08801e41267d)
+    - I think this reflects the way that a [[token]] value creates a sort of shared trust economy.  The only way the token's price would not crash is if every holder preferred to uphold the token's value to redeeming that value for themselves. It's a bit of a [[prisoner's dilemna]] where any token holder is able to defect, making it a chain where any link can weaken the entire chain's integrity.
+    - I think this starts to show an important problem with any one-currency UBI whose value is fully virtual. This is in contrast to other approaches, like [[Circles UBI]], where the trust graph itself creates a sort of circuit-breaker system that prevents one user dumping from hurting the entire population's UBI value. On the other hand, this would also make it harder for Vitalik to donate in a one-transaction way that then benefits everyone. But did it it help everyone, or did it only help the people who watched the blockchain, and raced to sell first?
+    - In a Circles style system, Vitalik would have to choose which individuals' he trusted. Of course, in Circles, he already would have done that if he were a user of the system, and so the equivalent action would be to back his own personal currency with his excess SHIB, which would still provide an opportunity for people to liquidate that SHIB position in a race to the door, but now it would not just be a race among all people, it would be a race among the people he had chosen to trust, and IF he had chosen to trust people who were inclined to preserve the value of their UBI network, he would have facilitated the creation of a sybil-resistant UBI system that could also have a resilient value.

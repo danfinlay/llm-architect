@@ -1,0 +1,2 @@
+- https://subconscious.substack.com/p/soulbinding-like-a-state
+- by [[Gordon Brander]]

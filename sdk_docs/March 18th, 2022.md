@@ -1,0 +1,5 @@
+- [[[[EIP]] 4844: Transaction Blobs]]
+    - https://twitter.com/pseudotheos/status/1504457560396468231?s=21
+    - https://twitter.com/norswap/status/1504509819813777410?s=21
+- [[Jim Yang]] on [[delegation]]
+    - https://twitter.com/proofstake/status/1504848630548598786

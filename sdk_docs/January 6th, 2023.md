@@ -1,0 +1,15 @@
+- [[sooper looper]] with [[riffusion]]
+    - I'm pretty sure we could use riffusion to process a vocal loop and convert it into "an instrument". Would have a little latency, but you could imagine a looper where you press an instrument button on a track and in a little bit it morphs into that instrument. 🎸🥁🎹🎻🎺
+    - m1 mac setup
+        - also run `conda install pytorch torchvision torchaudio -c pytorch-nightly`
+    - steps
+        - record wav audio (56)
+        - run inference sever
+            - `PYTORCH_ENABLE_MPS_FALLBACK=1 python3 -m riffusion.server --host 127.0.0.1 --port 3013`
+            - http://127.0.0.1:3013/run_inference via POST
+        - Run our new great command for adding a prompt to a sound file:
+            - `./sound2sound.sh loops/0-raw/056_5.WAV ./loops/3-converted-audio/ "A jazzy drum beat" 10.0.0.25:3013`
+            - The result will be in `loops/3-converted-audio/`
+- [[dyneema]] via [[Vinay Gupta]]
+    - https://twitter.com/leashless/status/1611391921016180737?s=20
+- [[warm.xyz]]

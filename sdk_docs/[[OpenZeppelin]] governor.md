@@ -1,0 +1,2 @@
+- https://blog.openzeppelin.com/governor-smart-contract/
+- Based on [[OpenZeppelin]]'s experience auditing [[Governor Bravo]]

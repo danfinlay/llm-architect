@@ -1,0 +1,24 @@
+- Object based
+    - Aka [[object capability (ocap)]] pattern.
+    - Avoid [[confused deputy]] problem
+    - No more passing identifiers as parameters
+        - no `sendTransaction(fromAddress, toWhom)`. Instead `account1.sendTo(account2)`.
+    - This grows in importance with [[[[MetaMask]] Snaps]] system, since they allow a [[dependency]] graph to grow, and the confused deputy problem specifically becomes an issue when you have >2 cooperating agents in a system.
+- Distributed references
+    - Using [[CapTP]]
+        - I know, the [[Eventual Send]] operator can be off-putting. Maybe we create a version that avoids that, more like [[Capnode]], for the sake of adoption. We would lose [[Promise Pipelining]], but would still get some of the most important parts.
+- Assets are passed to other agents like [[dapp]]s as object references which hold all the methods that the asset permission is meant to imbue.
+    - [[programming with [[object capability (ocap)]] style]]
+- Simplest possible interface
+    - What is the get/put (aws) of a wallet?
+    - Possibility
+        - putAsset
+            - The [[[[EIP]] 747: wallet_watchAsset]] approach
+                - Leans on our default knowledge of [[Ethereum]] and [[ERC-20]] and other common-enough-to-be-default standards.
+            - A permissionless extensibility approach
+                - `wallet_addSnap` would be like this, except snaps are currently based on string identifiers, and so the [[confused deputy]] problem, rather than being objects that can be passed to Ðapps.
+            - What is the shape of an asset? What is the interface one must expose to "the wallet?"
+                - The snap approach
+                    - Include a script that knows how to request needed permissions and provide the needed interface.
+                - The backwards-compatible 
+        - getAsset

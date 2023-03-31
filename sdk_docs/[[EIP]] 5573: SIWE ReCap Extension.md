@@ -1,0 +1,43 @@
+- An extension of [[EIP-4361: Sign in with Ethereum (SiWE)]]
+- By the [[SpruceID]] team
+    - [[Oliver Terbu]]
+    - [[Jacob Ward]]
+    - [[Charles Lehner]]
+    - [[Sam Gbafa]]
+    - [[Wayne Chang]]
+- [Discussion](https://ethereum-magicians.org/t/eip-5573-siwe-recap/10627)
+- [EIP body](https://github.com/ethereum/EIPs/blob/6557d2a60c24c5281c0727eb5c058af482555d43/EIPS/eip-5573.md)
+- Notes https://twitter.com/danfinlay/status/1581422154184151040
+    - Aims to provide a [[EIP-4361: Sign in with Ethereum (SiWE)]] extension that allows any cryptographic [[capability]] to also be delegated as part of the same signature.
+        - Uses the terms [[capability]] and [[object capability (ocap)]], unclear if they fulfill [[rich sharing]] criteria.
+            - At the very least, this seems to be more cap than ocap, since the designation is not being conveyed as a programming language object.
+        - Claims to enable "any protocols and APIs that support [[object capability (ocap)]]."
+            - This is not possible, since a capability format may require additional signatures that are not part of this one.
+    - Uses the term [[delegee]] for the recipient of a [[delegation]]. New to me, appears to be a real word!
+    - Since it overloads [[EIP-4361: Sign in with Ethereum (SiWE)]], it's building on top of [[personal_sign]]
+        - This ensures the signature will be somewhat less efficient to parse on chain (string parsing).
+        - Making the signature challenge human readable will either need to be
+            - Plain text
+                - This appears to be what it does. 
+                - more expensive to parse on chain
+                - Not multi-lingual
+                - Uses a `URI` as the delegate in the signature
+                    - Unclear how a URI should be interpreted as the designee of a capability. 
+                    - Shows an example with [[DID]]s
+                        - So the implementation needs to be able to interpret them. Who is implementing that? Which schemes will be supported?
+            - More dense format
+                - This may also be used, via the `ReCap URI Scheme`.
+                    - Since there is __both__ a human-readable and "URI Scheme" representation of the delegation, **there needs to be some measure to ensure these are the same thing, so the user does not sign one thing that means another.**
+                - Would require feature additions of [[wallet]] software.
+                    - Implementation/distribution can be simplified using [[[[MetaMask]] Snaps]]
+        - Will probably not work for [[contract account]]s
+            - I hope to address this with [[Delegatable 4337]]
+    - Includes a new [[JSON-RPC API]] method that allows requesting methods.
+        - Each capability is specified by a sort of resource identifier like `my.resource.1`.
+            - This is not open ended enough to satisfy the kind of reference passing across domains that really distinguishes true [[rich sharing]] and avoids the [[confused deputy]] problem. Ideally capabilities would be represented as objects that could have been granted from other methods/sources.
+                - This isn't a show stopper. There is still lots of value to having a way of requesting multiple resources from a user, I'm just being very specific about what distinguishes this method from some of the approaches it is borrowing language from.
+        - I'm largely skimming this schema for now.
+    - Does not seem to have an implementation today, which leaves a lot of questions open. I think a lot here is left to the implementers.
+        - Can the holder of a ReCap also delegate it?
+        - How is a ReCap used/redeemed?
+        - Can contract accounts interact with these?

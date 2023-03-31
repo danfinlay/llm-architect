@@ -1,0 +1,6 @@
+- https://concerned.tech/
+- An anti [[crypto]] letter to U.S. legislators.
+- Co-signed by some big names
+    - [[Cory Doctorow]]
+    - [[Stephen Diehl]]
+        - https://twitter.com/dystopiabreaker/status/1532124304778833921?s=21&t=-FcT8g

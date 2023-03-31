@@ -1,0 +1,35 @@
+- [[Snapshot (dao voting)]] is a [[dapp]] for token-weighted voting off-chain, pointed out by [[Shane Jonas]]
+- [[[[endo]] [[LavaMoat]] Call]]
+    - newly released by [[Kris Kowal]], all [[Secure EcmaScript (SES)]] friendly, [[esm]] first, can run in resm and esm.
+        - netstring library
+        - [[Static Module Record]]
+        - zip file package
+    - How to release packages
+        - github actions?
+    - [[LavaMoat]]
+        - trying out [[swc]]
+            - Great API
+            - Some bugs found
+            - Single maintainer
+                - Very helpful and responsive
+            - Started integrating [[Static Module Record]]
+                - Hit another bug, but got a response pretty quickly again.
+    - [[Dan Connolly]] was trying to run the [[LavaMoat]] policy generator on the agoric-sdk repository
+    - How is [[dynamic import]] different from a function call?
+        - [[direct eval]] is very different because it uses the [[lexical scope]] of the code itself, like any other special form (with/while blocks).
+        - [[dynamic import]] expression is much more __like__ a function call.
+            - "In retrospect, it should have been a function call" to a name in lexical scope - [[Mark Miller]]
+            - The funny thing about dynamic import semantics is that it's relative to the module that it's in as a referrer.
+        - Does the parser need to treat [[eval]] as different from any other JS function call?
+            - The parser does need to identify if it's a [[direct eval]], so it should be a different [[abstract syntax tree (AST)]] type from a function call.
+            - However, many common parsers today like [[babel.js]] probably don't enforce this at all!
+        - [[babel.js]] optimizer danger according to [[Mark Miller]]
+            - What it does 
+                - Has to climb the AST, and ask "does this node that is flagged as a function call happen to fall into the pattern that characterizes the [[direct eval]] expression"?
+            - why it's a terrible idea
+                - If someone inserts a lightweight optimizer that sees things like `(1, eval)(‘console.log(“hi”))` might see that the expression that is invoking the function is a common expression with a do-nothing left side and a lexical right side, might default to the lexical right side ( `eval('console.log("hi")')`), which would cause the pattern recognizer below to interpret this as a [[direct eval]], which would be wrong.
+                    - That one comma conveys that this subsequent call is not a [[direct eval]] expression.
+    - a re-exporter cannot tell if the original exporter is exporting something live or not, so any re-exported module must be treated as a possible [[live binding]].
+    - `export *` got past [[TC-39]], but at least it's not as bad as `import *`, which pollutes the local namespace unpredictably.
+    - [[Screeps]] is a [[JavaScript]] automata game confined using the [[Node.js]] [[isolated-vm]]
+        - A friend of [[Kris Kowal]]'s

@@ -1,0 +1,22 @@
+- A documentary series from [[Reason TV]] by [[Jim Epstein]]
+- Part one: "Before the Web" {{youtube: https://youtu.be/YWh6Yzr12iQ}}
+    - Features [[Mark Miller]]
+    - [[High-tech Hayeckian]]
+    - [[AMiX: The American Information Exchange]]
+    - [[Tim May]]
+    - [[Cryptoanarchists]]
+    - [[Phil Salin]]
+    - [[Chip Morningstar]]
+        - [[The Lessons From [[LucasFilm's Habitat]]]]
+    - [[BlackNet]]
+    - [[Dean Tribble]]
+- Part two {{youtube: https://youtu.be/n4qonsvSgAg}}
+- Part three {{youtube: https://youtu.be/lv8OFSWZkGs}}
+    - [[Mark Miller]] committed to preventing the regulation of [[cryptography]] “over my dead body”, and photo copied [[A Method for Obtaining Digital Signatures and Public-Key Cryptosystems]] and mailed it all over to many magazines and friends. “If I disappear, make sure this gets out.”
+    - The downsides of encryption
+        - terrorists
+        - money launderers
+        - drug dealers
+        - child pornographers
+    - The U.S. government tried to claim exporting [[cryptography]] was illegal.
+- Part four {{youtube: https://www.youtube.com/watch?v=HDKQulqVCQg}}

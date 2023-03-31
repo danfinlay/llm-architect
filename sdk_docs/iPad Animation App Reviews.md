@@ -1,0 +1,28 @@
+- Mini breakdowns
+    - FlipaClip
+        - Good for hand drawn onion skinning type animation
+        - Even after paying it interrupts workflow with ads
+        - Does not have a watermark, so at least you can get decent animations at a fixed price.
+    - Animation Desk
+        - Good for hand drawn onion skinning type animation
+        - No way to pay for without a subscription, so requires a commitment.
+        - Free version exports a watermarked video.
+        - Can export GIFs
+        - Does not support an audio track
+    - Animation & Drawing by Do Ink
+        - The only animation app for iPad that I’ve seen that incorporates vector art and compositing those shapes, which is totally stand-out.
+        - Fixed at 30fps, no way to adjust animation timing besides duplicating frames meticulously.
+        - Cannot support an audio track
+        - Drawing and compositing are separate modes of the app.
+            - Drawing mode supports frame by frame animation and layers
+        - Overall the vector tools make it completely standout, and yet a lot of parts feel a little rough, like all the drawing tools sharing one color setting, makes it hard to find a groove.
+    - Splice
+        - More of a video compositing app than animation, but checked it out in case it could be used as one.
+        - Seems oriented at editing live footage to music.
+        - Does not allow editing in landscape mode, seems oriented towards instagram productions.
+        - May allow some kinds of compositing, but already lost my interest for opinionated constraints that didn’t resonate with me.
+- Conclusion
+    - Current leads for basic usage is probably FlipaClip for my style. Its feature set is pretty basic, but it’s enough to do a lot, and what it does is solid. Biggest complaint is the ads that seem to run even after you pay for unlocks, like Hulu.
+    - Animation Desk is very similar to it, but requires a subscription, so it’s probably going to be the most popular choice for most people. Can be used free with a watermark.
+    - Do Ink is the thing to use if you want vector shapes, but is pretty basic and rough, so don’t expect advanced layer grouping or anything like that.
+    - Splice is probably what I’d use if I were a TikTok live action content creator and wanted to edit on my phone.

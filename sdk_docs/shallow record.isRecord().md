@@ -1,0 +1,2 @@
+- Anywhere you use this where you use identity, it will fail.
+- It would mean someone could not construct another object that will pass the `===` check against it.

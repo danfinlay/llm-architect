@@ -1,0 +1,10 @@
+- General Theory of Reactivity by [[Kris Kowal]]
+- A set of programming patterns for performant distributed code.
+- Divides types of language iteration methods into duals:
+    - getter vs setter
+    - singular vs plural
+    - spatial vs temporal
+        - spatial: batch processing
+        - temporal: stream processing
+- https://github.com/kriskowal/gtor
+- {{youtube:  https://www.youtube.com/watch?v=2p51PE1MZ8U}}

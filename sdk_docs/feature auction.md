@@ -1,0 +1,12 @@
+- Problem statement
+    - You have a product
+    - You want to fund the product
+    - You have a few ideas for which parts of the product you could monetize, but aren't sure what set of features would justify the amount of revenue you need to fund the product.
+    - You'd like to minimize the number of features that become monetized, to maintain optimal product integrity.
+- Strategy
+    - Identify your target revenue
+    - List out the features you could possibly paywall, sort them in order from "most willing to paywall" to "least willing to paywall".
+    - You issue a token/NFT (maybe on a curve, or in a market in tranches, so you can discover a general "current price" but without expiring your reserves below your target price)
+    - You begin to add your listed features/utility to the token until the demand price meets your target price.
+- Background
+    - It eventually came out of a thought exploration I was going through for "finding the optimal set of features that would justify a token that is able to support a project, and discovering that token's price." So I guess it has common roots with [[MATT: An [[NFT]] Auction Concept]], in that it started with a very goal-oriented thought experiment, and then ended up so dead simple that I'm not sure there's much to say, except maybe enumerating some of the properties that this strategy ends up having.

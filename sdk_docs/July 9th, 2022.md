@@ -1,0 +1,9 @@
+- [[Move]]
+    - https://twitter.com/srinivasvalekar/status/1545421275962621954?s
+- [[July 9th, 2022]] at 10:43
+    - [[wagyu]] is a [[command line interface (CLI)]] [[key management]] for [[Ethereum]] [[Bitcoin]] and others, written in [[rust (language)]]
+        - https://twitter.com/_prestwich/status/1545820957247320064?s=21&t=
+- [[July 9th, 2022]] at 10:53
+    - [[cat physics]]
+        - https://twitter.com/weirdlilguys/status/1545759685680168960
+        - https://twitter.com/weirdlilguys/status/1545517809186357249

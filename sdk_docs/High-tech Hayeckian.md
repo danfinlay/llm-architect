@@ -1,0 +1,7 @@
+- A subgroup of the [[Cypherpunks]]
+- A counter-group to [[Cryptoanarchists]]
+- Take inspiration from [[Friedrich Hayek]] and his thinking on uncoordinated but efficient systems like markets.
+- Members
+    - [[Mark Miller]]
+    - [[Phil Salin]]
+    - [[Chip Morningstar]]

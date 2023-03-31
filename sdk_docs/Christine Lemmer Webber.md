@@ -1,0 +1,5 @@
+- Co-author of
+    - [[ActivityPub]]
+    - [[ocap-ld]]
+- Learning lessons from [[ActivityPub]], wrote an article articulating some new goals she called [[OcapPub]]
+- Her [[object capability (ocap)]] goals are currently living in [[Spritely]]

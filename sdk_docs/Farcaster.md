@@ -1,0 +1,10 @@
+- A "web 2.5" social network
+    - Keeps most messages off-chain, but signed as JSON.
+    - Has some rooting relationship to [[Ethereum]]
+    - Very similar to [[ActivityPub]] but accounts rooted on [[Ethereum]]
+- [Protocol description](https://github.com/farcasterxyz/protocol/)
+- Community-built sites that could be integrated once they introduce their "delegate keys" feature
+- Feedback
+    - Why back up the farcaster “delegate signer” account if the “custody signer” can just sign a new delegation message? Would simplify onboarding, keep separate keys per device, could leverage the [[secure enclave]]
+    - Seemingly incorrect characterization of [[secure scuttlebutt (SSB)]] naming system, maybe missed [[pet name]]s. 
+    - Check out [[OcapPub]] which became [[Spritely]]

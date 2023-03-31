@@ -1,0 +1,2 @@
+- A talk by [[Marc Stiegler]]
+- {{youtube: https://www.youtube.com/watch?v=vrbmMPlCp3U}}

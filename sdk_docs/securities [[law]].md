@@ -1,0 +1,12 @@
+- A random thought on the relationship between securities law and [[digital [[social collateral]]]]
+    - Early stage investments tend to have the most upside.
+    - Early stage investments tend to be labeled securities
+    - The poor need upside the most
+    - The poor are least able to access pre-IPO securities
+    - Therefore, it seems to me that in a weird way, securities law illegalizes giving the poor access to high upside potential, in the interest of keeping them safe.
+        - [[baby with the bathwater]]
+    - It may make sense since it’s impractical for the law to keep everyone safe from all scammy promises.
+    - One way to potentially avoid this would be to simply not associate promises of profits alongside our peer to peer investments, and simply make a habit of regularly making generous [[trustlines]] and [[power/capability]] sharing more common.
+    - Friends who might otherwise violate securities law if they “invested in each other” and promised to pay each other back might avoid the need to be a security by (religiously?) separating the expectation of profit from the reason for the sharing.
+        - [[why would someone share?]]
+        - https://twitter.com/danfinlay/status/1547862710582292480

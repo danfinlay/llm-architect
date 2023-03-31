@@ -1,0 +1,1 @@
+- A place where a currency is spent and redeemed.

@@ -1,0 +1,12 @@
+- An [[Ethereum]] [[DAO]] library.
+- Developed by [[Compound]] as an improvement over [[Governor Alpha]]
+- Features
+    - Uses token-weighted voting, with owner-defined thresholds for quorum & other things.
+    - Upgradable
+    - Supports "abstain"
+    - Supports adding a comment to a vote on-chain
+- [Summary](https://blog.withtally.com/understanding-governor-bravo-69b06f1875da) by [[monetsupply]] from [[WithTally]]
+- [Source code](https://github.com/compound-finance/compound-protocol/tree/f86c247f6f81e14f8e0fd78402653a0b8371266a/contracts/Governance)
+- Questions
+    - Does this support [[vote [[delegation]] / liquid democracy]]?
+    - What types of proposals can be made? Only expense proposals, or can the DAO perform arbitrary transactions?

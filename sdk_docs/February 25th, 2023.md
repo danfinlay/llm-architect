@@ -1,0 +1,1 @@
+- [[Delegate.cash]] submits [[[[EIP]] 5639: Delegation Registry]]

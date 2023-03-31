@@ -1,0 +1,6 @@
+- [[can people be trusted to take risks?]] seems to be a cultural divide with [[hasu]] taking the [[hard [[paternalism]]]] side
+    - https://twitter.com/drnicka/status/1631220193203478529?s
+    - 
+- [[Eddie Penta]] wrote an [[Extended Token Standard]] that as a lot of overlap of [[EIP 2535 Diamond Standard]] but with [[Role Based Access Control (RBAC)]] for facets
+- [[CACAO (Chain agnostic capability object)]]
+    - 

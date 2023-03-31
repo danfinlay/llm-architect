@@ -1,0 +1,2 @@
+- https://twitter.com/rhanty/status/1389143186556301313?s=21
+- [[dhh]] and the whole controversy he started about the list of names kept at his company, which he chose to reframe as “no politics at work”. https://twitter.com/dhh/status/1387044958377447424?s=21

@@ -1,0 +1,2 @@
+- perhaps the most popular federated social networking protocol.
+- Migrate from [[Twitter]] with https://fedifinder.glitch.me/

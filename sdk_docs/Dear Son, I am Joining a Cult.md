@@ -1,0 +1,8 @@
+- https://zenrants.substack.com/p/dear-son
+- speaks to
+    - [[global warming]]
+        - as a global [[hero’s journey]]
+    - having children
+    - breaking cycles
+        - of consumption
+        - of abuse

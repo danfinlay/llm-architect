@@ -1,0 +1,19 @@
+- [[ChatGPT]] API [[incentive trees]]
+    - A nice demonstration of how [[CapTP]] (or at least, [[object capability (ocap)]] syntax) allows for highly incentive-aligned digital composability.
+    - Imagine
+        - An API provider whose access is valuable for reuse. It charges users a subscription for some amount of access to the service.
+        - The user effectively has an "object"/function that allows them to invoke the API as long as they've satisfied the payment requirements.
+        - A second API might want to build on the first one.
+        - That second API would have at least two different ways of building a dependent service:
+            - Pay for the base API themselves, and now ask users to pay them even more for access on a per request basis.
+                - Can work as a default behavior, is basically the norm today.
+            - Allow the user to "pass over" their own ability to call the service providing object, delegating their right to use the dependent service to the secondary service provider.
+                - pros
+                    - A user can easily substitute service providers, if they self-host one of the data sources, for example, just by passing in an alternate object providing the same interface
+                    - Can allow consumers to save costs by subscribing to the things they use a lot and reusing those services wherever they're needed.
+                    - Can create a more competitive market, since service providers can be substituted more easily by the consumer.
+                - cons
+                    - Requires a [[distributed [[object capability (ocap)]]]] system.
+- [[transaction simulation]]
+    - [[FoolProofApp]]
+    - [[Tenderly]]

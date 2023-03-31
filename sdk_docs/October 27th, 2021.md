@@ -1,0 +1,2 @@
+- [[[[EIP]] 3074: Delegated Invocation Contracts]] would let you actually throw away an old [[externally owned account (EOA)]].
+    - Any "non-transferrable assets" on an [[externally owned account (EOA)]] basically binds you to keeping some keys forever.

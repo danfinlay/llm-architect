@@ -1,0 +1,10 @@
+- A [[JavaScript]] language feature
+- When [[Kumavis]] asked [[Mark Miller]] what this feature was, he laughed a long time, said "I wish I could have those neurons back", and then explained:
+    - When adding methods to some prototypes, like Array.prototype [[TC-39]] had to protect backwards compatibility with [[with ([[JavaScript]] feature)]]
+    - Imagine some code that does a `with(someArrayInstance) {}`
+    - This would do a full `.get` and `.has` on the instance, so it should get all properties, including non-enumerable properties.
+        - push() will be in scope, for example
+    - As [[TC-39]] adds more methods to `Array.prototype`, we change the result of previous `with()` calls so now more `Array.prototype` properties are now in the with scope, so something that used to be in scope for the existing program from an outer scope will get shadowed by the with as a result of TC-39 adding methods `Array.prototype`.
+    - They created Symbol.unscopables so that if you have it as a property on an object, (`Array` has this, for example), when `with()` enumerates these objects, the values of unscopables suppresses the enumerated values.
+        - You can try this with `Array.prototype[Symbol.unscopables]`, to see what properties have been added to Array since unscopables.
+    - This means every call of with(){} invokes a lookup on Symbol.unscopables, which slows it down, but with(){} is already super slow code that no engine optimizes for.

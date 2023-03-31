@@ -1,0 +1,32 @@
+- Idea for [[[[counterfactual]] [[Delegatable Eth]] contracts]] addition for getting a little closer to the [[Counterfactual WebCap Wallet]] dream, by allowing delegating to a counterfactaully published contract
+- Context
+    - [[Delegatable Eth]] can only delegate to an [[externally owned account (EOA)]] today.
+    - I have a general notion that a [[caveat]] could be constructed that allowed delegating to a multisig, or set of token holders, for example.
+    - Furthermore
+        - It would be nice to be able to deploy counterfactual delegatable-wrapper contracts for existing contracts.
+            - a [[EIP 2612: DAI_v2 style permit()]] contract could sign an allowance to a wrapper contract that anyone could publish, and so with no transactions, its permissions could be extended transitively.
+            - For regular on-chain allowance types, a single tx to grant the allowance to the counterfactual address could allow this.
+- Proposed approaches
+    - A delegation message could include some kind of counterfactual contract-deploying commitment.
+    - Let the counterfactual contract account handle itself, and rely on our contractInvoke method to redeem its permissions. 
+        - IF the contract account is itself delegatable
+            - each signer could be delegated
+            - What would it take for the contract itself to issue a [[counterfactual delegation message]]
+                - is there a way it might already work?
+                    - If each signer signed an equivalent delegation to the recipient 
+                        - in a [[n of m multisig]], recipient could then sign within the approved constraints on behalf of each signer.
+                        - in a [[token-weighted vote]], recipient could cast votes within the approved [[attenuation]]
+- Goals
+    - A delegation could be signed for an m of n of some group of recipients, even if that group had no contract account published prior to receiving this delegation.
+    - The commitment should only publish if that contract is not on chain already
+    - If the recipient multisig logic is stateless, no state should be necessarily deployed persistently to the chain.
+    - The address for the recipient should be deterministic
+        - Multiple delegations to the same contract could rely on the same state.
+        - Deterministic components
+            - the code to deploy / init_code
+            - the deployer factory
+            - salt
+                - to allow this instance to be a singleton.
+        - Almost certainly using [[[[EIP]] 1014: CREATE2]]
+- Current delegation shape
+- Playing with necessary alternatives

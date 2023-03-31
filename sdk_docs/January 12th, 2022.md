@@ -1,0 +1,2 @@
+- [[Dan Connolly]] recommends [[Fractal Web, Fractal Society]]
+    - https://twitter.com/dckc/status/1481488969066074112?s=21

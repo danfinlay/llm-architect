@@ -1,0 +1,2 @@
+- A proposal that suggests a shared obstacle to any number of groups.
+- May include an individual making a commitment towards that solution.

@@ -1,0 +1,14 @@
+- A [[evm]] [[delegation]] framework
+- https://github.com/0xfoobar/delegation-registry
+- https://github.com/0xfoobar/delegation-registry/blob/main/src/DelegationRegistry.sol
+- Differences from [[Delegatable Eth]]
+    - Keeps all delegations on chain
+        - Makes lookups and revocations more certain, not dependent on users retaining their signature history
+            - This could be addressed by a [[wallet]] persisting all signatures in a well backed up way.
+        - Makes all delegations require eth, and payment for unused delegations
+        - Allows delegations from contracts in the same forms
+            - This is no longer actually a distinction from Delgegatable Eth, post [[[[[[EIP]] 1271: Standard Signature Validation Method for Contracts]] variant of [[Delegatable Eth]]]]
+    - Has a an immutable number of delegation types, vs an open ended [[caveat]] system.
+        - It is unclear what abilities each type of delegation should convey
+            - https://twitter.com/danfinlay/status/1575332318117433345?s=46&t=P2sb_
+    - Delegations are one hop deep, and so does not appear to support transitive delegation.

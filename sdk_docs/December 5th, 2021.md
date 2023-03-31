@@ -1,0 +1,1 @@
+- [[Cory Doctorow]] on [[Subgenius]] https://gen.medium.com/give-me-slack-b4e88a007dbf

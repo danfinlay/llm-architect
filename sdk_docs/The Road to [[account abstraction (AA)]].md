@@ -1,0 +1,39 @@
+- https://notes.ethereum.org/@vbuterin/account_abstraction_roadmap
+- by [[Vitalik Buterin]]
+- Notes
+    - Summarizes [[[[EIP]] 4337: [[account abstraction (AA)]] via Entry Point Contract]] as in protocol practice of batching [[User Operation]] packets on behalf of accounts in a format that can later be adopted at the protocol layer to add gas payment and savings in the form of [[[[EIP]] 2938: [[account abstraction (AA)]]]]
+    - Reviews methods of upgrading an [[externally owned account (EOA)]] to a [[contract account]]
+        - A special transaction type. (Needs specification)
+        - [[[[EIP]] 5003: AUTH_USURP]]
+            - Describes 5003 as an extension to [[[[EIP]] 3074: Delegated Invocation Contracts]], but I would point out it only depends on one of two opcodes introduced by 3074: `AUTH`, but not `AUTH_CALL`. 3074 should probably be broken up into two proposals to avoid this kind of confusion.
+            - Claims that [[[[EIP]] 3074: Delegated Invocation Contracts]] is strictly more complicated than [[[[EIP]] 2938: [[account abstraction (AA)]]]], and would only be preferable for usability benefits.
+                - It's unclear at what layer this is considered more complicated (only at the client layer?). At the wallet layer, 3074 is strictly simpler to implement, and it would be good to value more of the ecosystem's time when weighing the complexity of changes.
+                - The potential benefits are great! I'd like to bring the option of [[Delegatable Eth]] to all accounts and all their authority: Give people a safe path to granular connections to new un-trusted contracts!
+                - 3074 provides a way for EOAs to participate in the conversion without ever having had gas in the EOA account, also.
+                - 2938 and 4437 are also opinionated about replay protection, while 3074 could abstract that aspect of accounts as well (not just gas pament).
+                    - I guess this is one way of saying there are at least two [[types of [[account abstraction (AA)]]]]
+                - 3074 can also create a hybrid account type, where an account can be both owned by a key and a contract.
+    - Proposes possible paths to force migrations
+        - Even if EOAs later have an implicit contract code published at them, I would probably recommend preserving the interface for accounts to interact with them, for the sake of cold-stored accounts preserving their ability to transact.
+        - Issues
+            - > **In-contract ECRECOVER validation**
+                - Discusses the problem with existant contracts that might continue to perform [[ECRECOVER]] on a signature and treat the signer with authority.
+                    - Suggests a solution is for contracts to begin using [[[[EIP]] 1271: Standard Signature Validation Method for Contracts]].
+                        - Points against
+                            - This doesn't solve the problem for all contracts.
+                            - Since this doesn't solve for all contracts, we can say with certainty that some accounts will have assets that are persistently owned by the former account.
+                            - If we want to enable a user to rotate the authority of assets in this case, they will need to be sent to another account.
+                                - This obviously can't work for any non-transferable assets.
+                            - If we want users to be able to transfer assets away from an [[externally owned account (EOA)]] without needing gas, (do all the proposals handle this)?
+                            - This would only impact assets that could *only* be controlled via signature, but the current state of the ecosystem has a strong bias towards assets that are directly controlled via [[msg.sender]], with any signature validations (like metaTransactions or off-chain offers and bids) usually used to provide additional authority to whoever the underlying owner is.
+                            - As long as the owner is able to send a message to a contract that properly reflects its [[msg.sender]], I think we could assume that the vast majority of outlying signatures can be invalidated as well.
+                            - Even if we could get [[[[EIP]] 1271: Standard Signature Validation Method for Contracts]] widely adopted for all new contracts, this puts a significant burden on every new contract account, because signatures do not have a fixed level of authority, and the level of authority implied by a signature is not defined by the signer but by the recipient, and so it is virtually impossible for contract accounts to retain the benefits of any custom security policy when trying to implement [[[[EIP]] 1271: Standard Signature Validation Method for Contracts]].
+                                - I know this is not a popular perspective. I have written more about this at [[[[contract account]] challenge signature]].
+                    - I wonder if the ability to migrate an EOA to something else is in fundamental conflict with [[SoulBound Tokens (SBT)]].
+            - > **Not-yet-detectable accounts**
+                - > there would need to be a cutoff period (eg. 4 years after deployment) after which accounts that have not yet instantiated themselves would be burned.
+                    - **I consider this an extremely dangerous proposal** that could make a lot of people very angry if they had their investment burned for lack of activity. I can't believe I even have to say this. There are some basic principles of [[non breaking API]] that [[Vitalik Buterin]] is clearly not valuing.
+    - Suggests burning [[externally owned account (EOA)]]s that never send a transaction or perform a migration signature.
+        - I think this sounds pretty harsh. Maybe it's technically necessary, but sure sounds harsh for anyone storing funds in cold storage.
+        - Hey, maybe it's [[demurrage]].
+    - [Not finished. To be continued.]

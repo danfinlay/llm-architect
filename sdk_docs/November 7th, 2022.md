@@ -1,0 +1,5 @@
+- [[Apple]][[iMessage]][[green bubble]]
+    - https://twitter.com/techemails/status/1589450766506692609?s=
+- [[evm]] [[decompiler]] [[ethervm]]
+    - https://ethervm.io/decompile
+- [[Zone.js]] is reminiscent of [[endo]]

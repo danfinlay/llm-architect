@@ -1,0 +1,3 @@
+- "This tool would be a lot better if it had some security. Is there any way I can turn some on?"
+- From HP Labs
+- [[Alan Karp]] [[Marc Stiegler]] [[Tyler Close]]

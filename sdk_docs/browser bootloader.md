@@ -1,0 +1,26 @@
+- History
+    - The idea for the bootloader is to have a script with an http cache header that told the browser to perma-cache it, and in that script have a signature verifier, or ideally some kind of multi-sig verifier, and a list of sources to check, and it checks the sources, maybe validates a (hopefully short) chain of policy updates, identifies the latest valid policy, uses it to load the latest version of the script.
+    - So a sort of http-cache based bootloader. This was an idea for distributing [[MetaMascara]], and I think that if it were built right, it could be more secure than an extension’s distribution.
+- Minimum viable Permanently cached script.
+    - Utilizes the browser’s cache header to lock a script in the user’s browser that can implement a custom update policy, employing network requests and evaling validated updates.
+    - Allows for potentially more secure (and upgradable) upgrade path than any app store.
+        - After initial load, could be immune to dns and ca attacks.
+    - Gives us a secure extensionless distribution path.
+    - gives us a secure mobile distribution path in case we got blocked from an app store.
+- Requires a content update function
+    - comes built with an initial “update function”
+        - Allows the script to verify valid updates to the target script before loading any changes, defaulting to locally cached content when valid changes cannot be found.
+        - Can be any policy for updating itself.
+        - simple example one would be “update is signed by key A”
+    - update function is ideally able to recognize updates to the update policy.
+        - Verify update (u)
+        - because a series of policy updates can be required to “deduce” the latest policy, later state updates need to be able to “justify themselves” by providing the series of updates that leaves themselves valid
+            - Equivalent to a blockchain catching up in sync, except instead of every state transition, this chain is exclusively used to manage update policy updates.
+        - This is effectively an extensible consensus algorithm with ability to update itself.
+        - initial proposed update policy: Simple 2 of 3 signatures required to update.
+            - Bonus casper extension: slash signer authority if caught signing two updates at the same height.
+        - secondary policy update:
+            - One “signer” could be a pointer to a dao output via infura.
+            - Maybe the update could just follow a dao, and the verifier could just check several known providers for state, leaving policy updates “on chain”.
+- Related
+    - Very similar in concept to [[secure bookmark]]

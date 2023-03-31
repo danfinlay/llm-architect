@@ -1,0 +1,4 @@
+- https://rss3.io/
+- A cryptographically enhanced version of [[RSS]] with [[web of [[trust]]]] elements and [[backlinks]].
+- [Lightpaper](https://gateway.pinata.cloud/ipfs/QmPYZWZeKJt2b6CrmPcEPfUtAzUW44mD16vUK6fVfM1pvS)
+    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FYGG5HIlQsL.pdf?alt=media&token=9db8586b-6e08-49d7-88f6-3f5e1797ce3e}}

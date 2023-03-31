@@ -1,0 +1,2 @@
+- Prize categories
+    - Most legitimate and unique bugs reported

@@ -1,0 +1,2 @@
+- A technical term for any entity, be it a person, an organization, a computer program, sub-process, a dolphin, or anything.
+- Agents are implied to have their own motivations, processes of being, and modes of communication.

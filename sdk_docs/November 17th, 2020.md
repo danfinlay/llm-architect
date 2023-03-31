@@ -1,0 +1,61 @@
+- [[endo]] meeting
+    - Milestones
+        - https://github.com/Agoric/SES-shim/issues/517
+        - https://github.com/Agoric/SES-shim/issues/514
+    - Was awarded the endo [[npm]] org!
+    - Agoric style modules
+        - [[JSDoc]] for [[TypeScript]] Types
+            - at the package boundary, TypeScript expects to find a types file, but they are not currently building this, and there is maybe a weird interaction related to globals.
+        - Using [[ava]] for testing for concurrency and better reporting than [[tape]].
+    - [[deno]] seems to have rallied support in the [[yarn]] community including [[Bradley Farias]] and [[Guy Bedford]] to develop a standard way to add explicit authority requests to a JS runtime.
+        - Someday you may use [[yarn]] to install an [[endo]] application, and it may be the authority system for granting endo's endowments.
+            - There may be other approaches, like using [[pet name]]s for binaries on your system.
+            - If you want to grant a binary different authorities by different names
+                - You might grant foo access to resources in folder bar.
+                    - In [[CapDesk]] you could theoretically install a [[caplet]] multiple times, naming each installation, and endowing [[power/capability]] to individual installations.
+    - Should [[endo]] expose platform-specific APIs and scripting and file permissions, or should it try to emphasize exposing a new security model, even if it means eschewing exposing some platform-specific interfaces?
+    - [[endo]] is aiming to use [[LavaMoat]] as its inter-module security enforcement for v1.
+        - We need to ensure that [[LavaMoat]] suppresses all timing-related APIs by default (unless part of the policy file).
+    - Currently there is a tension between the definition of [[Realm]] as defined by [[TC-39]], as it lacks many platform-specific APIs.
+        - The terminal experience should be analogous to the devtools: Unify the real-production dev tools with the terminal ones.
+    - [[endo]] is the new recipient of the project formerly called [[Dr. SES]]
+    - [[Kris Kowal]] initially chose the name [[endo]] when looking for a new name for the [[Compartment Mapper]] he was building, which is now just part of [[endo]] and could also be a dependency of [[LavaMoat]].
+    - Need to discuss with [[Moddable SDK]] folks about possibly running [[endo]] on the [[XS Engine]].
+    - "We won't have workers, we'll have something more amazing: References to objects in other processes."
+        - Today you push apps/deployments to the chain/web.
+        - In the future, those may request a deployment from you: Or perhaps maybe they pass you a capability to publish.
+        - Scenario
+            - a deploy script
+            - You pay a service provider for x processes & a load balancer: Each a blank endo environment.
+            - You point your DNS at that load balancer
+            - In the [[endo]] model, your local deployment script would have references to powers that you want the deployments to have.
+            - For each endo, it gets passed its [[power/capability]].
+            - On page load, it is going to be a blank endo, and be passed an initial capTp reference to one of the load balanced instances.
+    - Questions
+        - will this handle [[unwrapping]] of [[membrane]] references?
+        - how will updating an endo process work?
+            - You create a new [[caplet]] and transfer [[power/capability]] and [[responsibility]] to it.
+    - To do
+        - It would be very cool to create an executable "power" file format, so you can send someone a power they can store on disk, drag into your wallet, or double click to invoke!
+- [[Mark Miller]] shared a [draft link for a blog post](https://medium.com/@erights/5a15a10747b8) called [[A Taxonomy of Security Issues]]
+    - Checking its definitions against my own
+        - [[integrity]]
+            - I had only heard Mark cite in reference to this issue, so the article's definition sounds fine to me.
+        - [[availability]]
+            - I had only heard Mark cite in reference to this issue, so the article's definition sounds fine to me.
+        - [[confidentiality]]
+            - [[overt channel]]
+                - Perfectly aligns with [my local definition](((TNkAHzNmc))) 
+            - [[non-overt channel]]
+                - Cuts off abruptly, this definition is much shorter than the one I have locally, but seems like a good summary.
+            - [[side channel]]
+                - Nicely defined in the article.
+            - [[covert-channels]]
+                - Nicely defined in the article.
+            - [[semi-[[overt channel]]]]
+                - Not addressed in the article, but is an interesting point on [WeakRef
+            - [[anthropic [[side channel]]]]
+                - Not addressed in the article, and is probably out of scope.
+    - Key notes
+        - "It is much easier to defend against side channels than defend against covert channels."
+            - On first read I have to think a bit about why. I might add "because a covert channel implies the leaker is actively trying to leak" or something.

@@ -1,0 +1,3 @@
+- An [[Ethereum]] [[DAO]] framework
+- https://linktr.ee/joincolony
+- Built around task management and paying for tasks.

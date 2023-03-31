@@ -1,0 +1,5 @@
+- An [[Ethereum]] polyglot, who has made many things.
+- Past projects
+    - [[4byte.directory]]
+    - [[Ethereum Package Manager (epm)]]
+- Current focus is on [[stateless]] [[Ethereum]] clients.

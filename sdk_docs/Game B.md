@@ -1,0 +1,1 @@
+- https://www.gameb.wiki/index.php?title=Game_B

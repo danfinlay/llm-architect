@@ -1,0 +1,3 @@
+- The original web browser concept, by [[Ted Nelson]].
+- Introduced the concept of [[backlinks]] used in this same application, [[Roam Research]]
+- Ultimately was unfunded by its sponsor organization, [[Autodesk]].

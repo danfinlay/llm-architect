@@ -1,0 +1,4 @@
+- A property of a [[programming language]] where its state variables are committed to in a way that they will be restored even after a crash.
+- When combined with [[JavaScript]] [[CapTP]], you have the makings of a [[Secure Distributed JavaScript]].
+- Examples
+    - [[SwingSet]]

@@ -1,0 +1,5 @@
+- A process that enforces [[User Controlled Authorization Network (UCAN)]] based [[attenuation]] to allow [[object capability (ocap)]] style attenuation with a delegated key for protocols that don't natively support those forms of attenuation.
+- Is set up as a member of a BLS multi-sig.
+- Runs as a trusted process
+- Co-signs any transactions that meet its own [[User Controlled Authorization Network (UCAN)]] authorized constraints.
+    - This means it is not just trusted, but seriously security critical, as all attenuation depends on it for their constraining properties.

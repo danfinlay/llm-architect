@@ -1,0 +1,11 @@
+- A contract that is used to validate a proposed transaction.
+- May have near perfect overlap with [[[[[[Gnosis]] SAFE]] guards]], so we could nearly adopt that interface as a standard, except that we want to be able to re-use the guard with different parameters from different callers, while guards are deployed with their configuration.
+- Ideas to implement
+    - Allow listed methods
+    - Expiration time
+    - Total token (parameter) allowance
+    - [[streaming payment]]
+    - Valid target parameter range
+    - Valid target parameter value
+    - Gas relay reimbursement (with limit)
+    - Ether allowance

@@ -1,0 +1,1 @@
+- https://en.wikipedia.org/wiki/DARPA_Network_Challenge#Winning_strategy

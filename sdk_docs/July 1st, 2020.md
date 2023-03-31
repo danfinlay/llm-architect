@@ -1,0 +1,2 @@
+- #[[Quick Capture]]
+    - [[hawala]] [[social collateral]] [[Yan Zhang]] [[Ben Kuhn]] https://twitter.com/krzhang/status/1278492154365489152?s=21

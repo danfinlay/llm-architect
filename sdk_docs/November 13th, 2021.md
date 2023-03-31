@@ -1,0 +1,3 @@
+- [[Figma]] competitor [[Penpot]]
+    - https://news.slashdot.org/story/21/11/13/1929237/penpot-the-vector-design-web-app-taking-on-figma-and-canva-with-foss-hits-beta
+- 

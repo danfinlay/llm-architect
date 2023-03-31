@@ -1,0 +1,2 @@
+- Do not prematurely nest bullets.
+    - Sometimes [a list of examples](((MmE66-EZG))) is the only thing that goes under an item, no need for an "examples" key.

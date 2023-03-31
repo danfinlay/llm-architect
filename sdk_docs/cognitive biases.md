@@ -1,0 +1,28 @@
+- That affect how users make security decisions in computer systems
+    - [[anchoring]]
+        - Using information encountered early as a yard stick for information encountered later.
+        - Can include [[social norm]]s
+    - [[loss aversion]]
+        - people tend to dislike losses more than they like equivalent gains.
+    - framing effects
+    - [[hyperbolic discounting]]
+        - The effect where people prefer short-term benefits to long-term benefits.
+        - Long term benefits have a diminishing perceived value, maybe reflecting the uncertainty of the future, or just the immediacy of the present.
+    - [[optimism bias]]
+        - People under-estimate the likelihood of things going wrong.
+        - Lichtenstein et al. [1982] showed how people who were certain about their answers to general knowledge questions were right only 80% of the time, revealing a 20% overestimation of their accuracy.
+    - [[post-completion error]]
+        - If there are responsibilities a person has after their primary goal is completed, they are less likely to accomplish those responsibilities.
+        - Examples
+            - Leaving an original in the copy machine once the copy is made.
+            - Forgetting your ATM card in the machine after getting cash
+                - Has been addressed by newer systems’ designs that require you remove it before you receive the cash.
+    - [[status quo bias]]
+        - The power of defaults.
+        - Organ donations went up once donation was assumed and opting out required an action.
+    - [[peak indifference]]
+        - it's easy to ignore the problems with something that works well but fails badly, until those failures mount to a point where you can't ignore them anymore.
+        - https://twitter.com/doctorow/status/1476072203577872385?s=21
+- That can adversely affect user decision making
+    - [[representativeness bias]]
+        - The bias to associate a product’s benefits with the characteristics of someone representing it. Celebrity endorsement logic.

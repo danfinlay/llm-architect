@@ -1,0 +1,7 @@
+- [[[[Delegatable Eth]] [[trusted [[MetaTransaction]] relay]]]]
+- [[September 17th, 2022]] at 21:32
+    - [[Sui]]
+        - https://twitter.com/0xmisaka/status/1571355232809934849?s=46&t=
+- [[September 18th, 2022]] at 21:48
+    - [[to listen]]
+        - https://twitter.com/stonecoldpat0/status/1571718631473430528?s=46&t=

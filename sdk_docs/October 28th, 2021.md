@@ -1,0 +1,4 @@
+- [[malicious [[[[npm]] [[dependency]]]]]]
+    - https://twitter.com/segphault/status/1452440407447572480?s=21
+    - https://twitter.com/reybango/status/1453480001198755840?t=k6vh9YF9h_AguQ6K6pCLuA
+    - 

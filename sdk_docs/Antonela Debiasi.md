@@ -1,0 +1,2 @@
+- [[Secure UI]] designer at [[MetaMask]]
+- Formerly at [[Tor (Browser)]]

@@ -1,0 +1,4 @@
+- A hotel with infinite rooms can fit infinite people, and still fit infinite more.
+- This has implications in computer security.
+    - An object that can have arbitrary keys can be annotated with an arbitrary number of additional meta-keys.
+    - Escape sequences allow extra information to be encoded in a densely-packed data stream.

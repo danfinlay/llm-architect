@@ -1,0 +1,3 @@
+- [[Michael Fig]] [wrote a document](https://docs.google.com/document/d/17zKtAyOpwCBDQDIyzLIUxUUENTA7lU753suyP_onefU/edit) outlining an approach to [[trusted-in-untrusted [[Secure UI]]]] using [[iframes]] he's called [[Web Amplets]].
+- #[[Quick Capture]]
+    - [[Whole Earth Catalog]] in your browser: http://blog.archive.org/2020/07/08/the-whole-earth-on-cd-rom-in-hypercard-in-your-browser/

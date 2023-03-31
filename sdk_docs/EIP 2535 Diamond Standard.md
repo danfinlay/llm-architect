@@ -1,0 +1,9 @@
+- https://eips.ethereum.org/EIPS/eip-2535
+- https://eip2535diamonds.substack.com/
+- https://github.com/solidstate-network/solidstate-solidity/tree/master/contracts/proxy/diamond
+- Contracts to draw from
+    - [reference implementations](https://github.com/mudgen/Diamond)
+        - [diamond-2](https://github.com/mudgen/diamond-2-hardhat) is the gas optimized one
+    - [[ERC-20]] [diamond facet](https://github.com/andrew-fleming/diamond1-erc20/blob/main/contracts/facets/TokenFacet.sol)
+- Sites that use this
+    - https://louper.dev/ - A site for inspecting diamonds

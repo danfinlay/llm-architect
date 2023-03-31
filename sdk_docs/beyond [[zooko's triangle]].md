@@ -1,0 +1,12 @@
+- Zooko's triangle traditionally has three corners
+    - Global
+    - Secure
+    - Memorable
+- However, "secure" in that triangle has ambiguity!
+    - https://twitter.com/zooko/status/1478898462976458752?s=20
+- For example, as [Nick Szabo](https://web.archive.org/web/20160331174414/http://szabo.best.vwh.net/securetitle.html) and [Aaron Swartz](http://www.aaronsw.com/weblog/squarezooko) have noticed, a [[NameCoin]] or [[ENS]] type solution satisfies the triangle under definitions of security that relate to strong property rights.
+- However, as [[Marc Stiegler]] noted in [[An Introduction to [[pet name]] Systems]], [[pet name]]s are another solution to [[zooko's triangle]], but in this case he defines security instead as "securely __unique__", and discusses [[mimicry]] as a problem that this corner aims to avoid.
+    - Mimicry is notably not solved by the DNS-on-blockchain type solutions suggested [here](((ByhbmX-qe))).
+    - Mimicry is incredibly frequently used on social media today. For example, you cannot use the word [[MetaMask]] on [[Twitter]] today without a deluge of bots with plausibly helpful sounding names all directing the user to other channels of communication "for help", where they are promptly asked for the [[private key]] to their [[wallet]].
+    - It should be no surprise that I take [[mimicry]] extremely seriously, and I do not consider a [[permissionless]] web to be safe until users are not mercilessly prone to public and unchecked impersonation.
+    - This may imply there is another naming trilemna available to be defined. Or maybe it's a square. Or maybe we just need distributed systems that more strongly distinguish self-attesting strangers from others with repute, and we need the tools for building the visibility of that repute.

@@ -1,0 +1,26 @@
+- Contracts that are hybrids of smart contracts and prose.
+- Pioneered at [[AMiX: The American Information Exchange]]
+- Example
+    - Alice hires Bob to do a marketing study
+        - Some can be automated
+            - Delivering study
+            - transferring payment on delivery
+        - Some cannot be automated
+            - The actual study
+        - Some can be monitored by machines
+            - Was the delivery on time?
+        - Some cannot be
+            - Was it good?
+            - Was the result even a marketing study?
+- Technology can capture the communications back and forth, and aid in [[arbitration]].
+    - The stuff machines do
+    - The comms between humans
+    - The state of the interaction as the contract unfolds
+    - Things go wrong, that's normal, most of real contracts are about edge cases.
+    - Structured negotiation includes re-negotiation
+    - Worst case, we have an audit trail that aids dispute mediation.
+- Context is King
+    - Reputation of provider (history, reviews)
+    - Reputation of product
+    - Warranties and guarantees
+    - Ability to ask questions

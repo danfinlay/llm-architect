@@ -1,0 +1,4 @@
+- To contrast with [[mass defaults]].
+- Defaults that are tuned to the user.
+- Wilson et al. [2013] investigated the effect of privacy profiles that help users specify their location-sharing preferences and found that these profiles can considerably affect users’ sharing behavior. Liu et al. [2016] leverage similar profiles to provide users with personalized recommendations for mobile app permission settings.
+- personalized defaults require some information about the user. They should therefore be created in a way that respects the user’s privacy. 

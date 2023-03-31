@@ -1,0 +1,28 @@
+- What if we wrote a [[roam/js]] plugin that allows writing plugins?
+- From the [[Social Terminal]] play I've found that one of the challenges is going to be "providing a convenient interface for letting users traverse their personal namespace"
+    - Was initially imagining like a browser console style object inspector, but it occurred to me when thinking about circular (non hierarchical) references that Roam is a very similar type of object structure, and could probably be synchronized with a deterministic SES machine to provide something of a capability [[Power Box]]. Maybe even an interactive one, and a shareable one.
+    - May not need to bother with [[orthogonal persistence]] since Roam already manages reference IDs. Could use Roam as the personal context/data store.
+    - Since Roam doesn't use cryptographically strong identifiers, would need to generate a local salt or something to hash with the IDs to generate something like [[macaroon]]s for the capability links.
+    - Browsers could connect capTP over WebRTC.
+- Special block types
+- Ideally you could share a capability link, and users would have a special kind of block they could write like `{{cap abiuaherl429475aihflea982y4}}` and this would render as either
+    - readables
+        - a read-only block of the user that shared it
+        - an auto-updating reference to a given block?
+            - Could allow copying a special type of block reference when right clicking the block, which is supposedly a [[roamAlphaAPI]] method, although it didn't work when I tried it last.
+    - an interface
+        - Functions would need to implement some kind of interface-declaration probably to make this sane/useful.
+        - If no interface-detection
+        - Would be cool to let users paste blocks (as if object references) into parameter fields. A function block could look like:
+            - {{addNickname}} for: (tag or block) nickname: `Dan`
+        - Function declaration ideas
+            - A special format
+                - `{{cap-func methodName interface }}`
+                    - The third argument could be an [open-rpc](https://spec.open-rpc.org/#method-object) method object, designed for declaring strongly typed methods. If that's provided, we could provide really strong UI on the other end, like auto-filling params and stuff. Could probably even make roam-specific parameter types, like "the block", of course, which allows blocks to be passed like object references as function parameters. [[open-rpc]]
+        - Invoking these functions would send an [[CapTP]] message over [[WebRTC]], which would retry as long as the current roam page stayed open. Could show a "resolved" indication when completed, may even be able to persist "pending outgoing attempts" in local state, so that functions could resolve "the next time both clients are open".
+- Security
+    - e2e encrypted by default if webrtc
+    - If you ever expose a function that can execute arbitrary code and share it, that's as good as giving away your roam session cookie.
+    - If the IDs are guessable at all, that could give away any block or function.
+- Some inspiration/sources
+    - [[Meekaale]]'s telegram bot https://twitter.com/meekaale/status/1382268520860356608

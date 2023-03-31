@@ -1,0 +1,19 @@
+- In the [[[[MetaMask]] Snaps]] project, many of us have a recurring thought: Imbuing some portion of code with a private key sure is dangerous! It should would be great if we could further confine this access. Maybe we could provide low-level cryptography functions related to a private key instead, like (`signForKey(pubKey, blob)` and `decryptForKey(pubKey, blob)`).
+- I've been through this thought-circuit a few times, and I believe I can articulate why this isn't a solution to our problems.
+- The original intention of the Snaps system is the pursuit of a way of scaling the functionality of the wallet while maximizing its security.
+- Keeping even a single protocol's signer "best in class" is already a full time job for a team.
+    - MetaMask currently specializes in Ethereum support, and a significant majority of time spent in-app is spent looking at confirmations, and yet we have a long list of improvements to Ethereum confirmations we would still like to make, and probably will for a very long time.
+- Therefore, at a certain point, adding additional signers should reasonably require additional teams, and each extra team brings risk.
+- Even if we build additional signers for additional protocols "in house", any one kernel team is still limited in the amount of code they can review, and so there is still a question about how much we can limit possible damage to users that comes from a single department in a wallet company from being corrupted.
+    - The goal of securely isolating subsets of code is therefore useful both for adding external features, and for reducing the gravity of vulnerabilities in large and complex code that is developed by "a single entity".
+- The [[principle of least authority (POLA)]] for a cryptographic signer is access to a private key.
+    - If the signer is given access to a carte-blanche signing function, this is [nearly equivalent](https://blog.trailofbits.com/2020/06/11/ecdsa-handle-with-care/) to a full private key.
+    - If the parent environment preserves the ability for the user to review any proposed signature before completing it, then either:
+        - The parent environment is able to comprehend & represent transactions in that protocol adequately, in which case the child delegate isn't really useful.
+            - Like in the case of a wallet that is already "owning" the review-ability of its transactions on one protocol.
+        - The parent environment is not able to provide coherent signature representation, in which case adding this review step is not useful, and fundamentally the delegate is being trusted to act on the user's behalf (either by confirmation or just desirable automation).
+- Fundamentally, the job of a wallet/signer is to faithfully behave as a cryptographic agent on behalf of a user. This can come from confirmation or automation, but this delegation cannot happen without access to keys. The goal of signer snaps is about breaking up the risks of developing many cryptographic signers in multiple teams, so that mistakes in one signer have minimal impact on other signers.
+- This does not mean the system does not require trust. For first-tier snap users ("you don't know anyone who trusts this snap"), the [saliency of the warning]([[Nudges for Privacy and Security]]) of install should be extremely high, to scare away naive users and ensure the first tier of recomenders are more likely to actually trust the developer or read the code.
+    - We may even want to ask a user which way they'd like to install:
+        - I trust this developer, and accept future updates.
+        - I have reviewed this version and trust it, and would want to review future updates.

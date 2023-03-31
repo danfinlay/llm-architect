@@ -1,0 +1,3 @@
+- A language built by [[Mark Miller]] and [[Dean Tribble]] originally for [[LucasFilm's Habitat]]
+- A precursor to [[E (Language)]]
+    - The move to E was significant because it simplified 

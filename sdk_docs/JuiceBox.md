@@ -1,0 +1,15 @@
+- https://juicebox.money/
+- [Explainer page](https://www.daomasters.xyz/tools/juicebox)
+- An [[Ethereum]] [[DAO]] deploying framework, oriented at crowdfunding.
+    - Deposit a token, get a governance token back
+    - Usually a multisig with snapshots
+    - 5% of all funds spent go to the JuiceBox protocol, in exchange for some of the tokens at the current rate.
+        - Allows splitting your token proceeds
+    - Sells on "funding cycles", and adjusts its sale rate between cycles.
+- [[SharkDAO]] is the most popular [[JuiceBox]] [[DAO]]
+- Cool emergent phenomenon: People contracting, receiving a recurring allocation of funding, and then evolving from an independent contractors into new DAOs to serve those roles
+    - Roles that have done this
+        - media
+        - community management
+    - This "building trust until it becomes delegated" really resonates with other themes of this graph, like [[social collateral]] and [[delegation]].
+- Lead dev [[Django? [[JuiceBox]] dev]] is making it all more modular, like the "funding strategy": What happens in response to new funding? Get the base token by default.

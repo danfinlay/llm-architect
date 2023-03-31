@@ -1,0 +1,2 @@
+- [[feross]] [[Stanford]] [[security]] https://twitter.com/feross/status/1311146753815502848?s=21
+- [[Douglas Hofstadter]][[metaphor]] https://prelectur.stanford.edu/lecturers/hofstadter/analogy.html

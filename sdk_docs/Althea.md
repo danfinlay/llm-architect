@@ -1,0 +1,2 @@
+- incentivized mesh networking with payments on a [[[[Cosmos]] Zone]]
+- https://twitter.com/deborahsimpier/status/1388303592788938754?s=21

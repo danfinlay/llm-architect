@@ -1,0 +1,10 @@
+- A global scope for global variables that are not properties on the [[JavaScript]] global object.
+- "closer" lexically than the global object.
+- Is effectively an append-only scope.
+- Two ways to add new bindings
+    - sloppy evaluation, "as eval code"
+        - `const`, `let`, or `class`
+    - script tags in the browser evaluate code "as global code"
+        - If this code begins with `"use strict"`, then it's both strict and global instead of eval code, in which case a top-level `const`, `let`, or `class` would go into the global contour.
+- Not assigned to it
+    - Top-level `var` and `const` assignment.

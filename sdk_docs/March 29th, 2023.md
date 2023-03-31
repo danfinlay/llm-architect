@@ -1,0 +1,2 @@
+- [[cybernetics]] [[feedback loop]] via [[Gordon Brander]]
+    - https://twitter.com/gordonbrander/status/1640808226697498642?s=20

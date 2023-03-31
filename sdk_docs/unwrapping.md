@@ -1,0 +1,2 @@
+- When a [[presence]] is passed from one side of a [[membrane]] and then back to its original environment, the original environment should be able to recognize the reference as its own, and have a "local" copy of the same object.
+- A [[membrane]] supports unwrapping if an object that is passed over a [[membrane]] and back again passes equality checks with the original object that was passed out.

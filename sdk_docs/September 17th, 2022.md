@@ -1,0 +1,6 @@
+- [[September 17th, 2022]] at 21:31
+    - [[credit score]]
+        - https://twitter.com/jbrowder1/status/1571309871785709568?s=
+- [[September 17th, 2022]] at 21:32
+    - [[Sui]]
+        - https://twitter.com/0xmisaka/status/1571355232809934849?s=46&t=

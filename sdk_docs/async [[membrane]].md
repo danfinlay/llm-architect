@@ -1,0 +1,1 @@
+- A [[membrane]] that exposes a [[presence]] via an async interface, especially for allowing the concurrent sharing of a given resource, like via [[CapTP]].

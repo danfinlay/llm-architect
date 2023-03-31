@@ -1,0 +1,25 @@
+- https://www.researchgate.net/publication/221166412_Not_one_click_for_security
+- Topics
+    - [[affordance]]
+    - [[object capability (ocap)]]
+- [Not One Click for Security](http://www.hpl.hp.com/techreports/2009/HPL-2009-53.html)
+- The final paper on [[ScoopFS]]
+- by [[Alan Karp]], [[Marc Stiegler]] and [[Tyler Close]]
+- Notes
+    - Types of authorization
+        - [[Authentication-Based Access Control (NBAC)]]
+        - [[Role Based Access Control (RBAC)]]
+        - [[Attribute Based Access Control (ABAC)]]
+        - [[AuthoriZation Based Access Control (ZBAC)]]
+    - [[Webkey]]
+        - `https://${senderPubKeyFingerprint}.domain.com/#${unguessableFragment}`
+        - Supports the Six principles to [[rich sharing]]
+    - [[the caretaker pattern]]
+    - [[zooko's triangle]]
+    - [[Waterken]] server is installed first
+    - The confusing diagram from [[Rich Sharing for the Web]] was explained in part 5: Emergent uses
+    - While I may consider many of these UI elements to be "security elements", it's interesting to measure them when asking "normal users" whether they seem like security elements, or just usability.
+    - Types of names
+        - [[pet name]]
+        - [[proposed name]]
+        - [[alleged name]]

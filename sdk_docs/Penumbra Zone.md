@@ -1,0 +1,1 @@
+- A fully private [[proof of stake]] [[[[Cosmos]] Zone]] based on [[zero-knowledge proofs]].

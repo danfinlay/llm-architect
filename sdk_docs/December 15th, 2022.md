@@ -1,0 +1,3 @@
+- [[Optimism]] [[AttestationStation]]
+    - https://twitter.com/optimismFND/status/1603437488592371712
+- [[StableDiffusion]] can operate on spectrograms of music. [[riffusion]]

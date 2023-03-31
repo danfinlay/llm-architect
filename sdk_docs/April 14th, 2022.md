@@ -1,0 +1,3 @@
+- Turns out [[Solidity]] doesn't support [[recursion]] of structs, and so [[EIP 712: signTypedData]] v4's support for recursive structs is basically useless, but [can be worked around by using arrays](https://ethereum.stackexchange.com/questions/44392/recursive-struct-in-solidity)
+    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FTLzDqRmbdR.35.19%20PM.png?alt=media&token=2de0cc05-a5cf-4591-a382-83ac48d7f36c)
+    - This is going to mean that [[Delegatable Eth]] needs to use arrays of chained messages instead of recursive structs.

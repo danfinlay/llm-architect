@@ -1,0 +1,67 @@
+- txs that would cause an infinite loop can not be caught in an error
+    - I want to better understand why this is a design decision and not just a technical short term shortcoming
+    - [[vat]] as "the unit of untrusted computation"
+        - This means if there is ever a crash, the entire vat is lost? Maybe I just need to come to terms with that, but it sounds a bit dire.
+    - [[E (Language)]] made some mistakes that informed this
+    - [[Waterken]] was fully [[orthogonal persistence]] with no [[hangover inconsistency]]
+        - [[SwingSet]] is in this family.
+    - Currently on [[The Agoric Blockchain]]
+        - Each contract has its own [[vat]]
+        - Eventually when exhausting a vat, there should be a way to resuscitate it before that message.
+- Near empty db is multiple gigabytes
+    - Pretty much dealbreaker for mobile usage.
+    - {{[[TODO]]}} this is [[lmdb]], talk to [[Brian Warner]] about the mobile use case.
+- Because rollbacks are expensive, there is not an efficient mechanism for querying state without performing a logged transaction with a fee.
+    - Currently is done with the normal tx logic.
+        - An incoming call that triggers an infinite loop means that code was vulnerable to an infinite loop.
+    - Short term answer: two observer patterns
+        - Subscriptions (pub/sub)
+            - If computation in a vat is trying to emit a record that should be accumulated/queried without sending a message to the vat, it can use this subscription pattern.
+            - An infinite linked list of promises, successively fulfilling further promises for extending the list.
+            - These promises garbage collect very efficiently, which enables it as a multicast medium.
+            - When you go to query, you've already subscribed to the data you're subscribed to.
+        - Notifiers
+            - Has no collection burden when you're not looking, by skipping intermediate state.
+- Forkability with [[Brian Warner]]
+    - Makes more sense at the Swingset than the vat level
+        - The SwingSet is the kernel as a whole, not an individual vat
+        - The current model is built around the assumption of finality from the underlying system.
+        - State => Proposed State => Progress or rollback
+        - To support finality, you may want a tree of history, or at least the ability to roll-back to arbitrary points.
+        - SwingSet expects from its host
+            - A db host that provides a key-value store.
+                - This database is not currently merkleized.
+                - If you're rolling back a lot, you might want "a versioned key-value store"
+        - In the market for a key-value store that includes associations of keys to facilitate merkleization.
+        - Swingset does not know about block boundaries
+            - The host library that loads SwingSet makes the commits at the appropriate points.
+        - Currently has not moved to XS and does not yet have heap snapshots
+            - When you say rewind, it spins up all vats, replays all messages
+            - To get more efficient, we could integrate the heap with the db so that everything gets committed on the block boundary.
+        - Heap snapshot
+            - A snapshot of the vats in a kernel, not the kernel itself.
+            - The kernel state is not important, is kept in the database.
+            - The vats are what receives orthogonal persistence.
+            - We're not sure we want to rely on these in consensus, so we're torn
+                - Commit to a snapshot & share them
+                - Decide heaps aren't deterministic enough to be part of the consensus algorithm
+            - They'll reference a snapshot by a hash of the snapshot file, commit to in a block or roll back.
+            - The snapshot storage "snap-store" will be a bunch of images, and they will be pointed at by the chain.
+                - If we lacked finality, we'd need to keep more of these around.
+    - When moving to XS, there could be an XS-engine c-structure per vat, which allows using linux process-level fork & exec.
+        - Abusing linux page tables and copy on write mechanism.
+        - Useful if your speculative execution is more short term than hours/days snapshots.
+    - Querying without spending funds
+        - Merkleizing more of the state vector
+            - You could publish deliberately to the merkleized state vector from within the contract.
+            - But since their state isn't fundamentally merkleized, there is an open question about what the address for a given piece of state is.
+        - What would the semantics be of accessing state that may only be available to a capability holder, to someone who is not one?
+    - You could imagine something like a full node that can be queried but doesn't commit state
+        - "This would be almost as expensive as participating in the chain!" - Brian
+        - One approach by Mark
+            - Distinguished "query" messages, such that the successor state to the query is always thrown away.
+                - Sounds like [[ag-solo]]
+                    - User has special key to distinguish themselves
+                    - User sends transactions to a chain
+- XS Engine keeps entire runtime in RAM, and ideally could be allowed to do a “virtual memory” sort of swap to disk.
+- There is no method for efficient state diffing/merkle proving the existence of storage in the VM.

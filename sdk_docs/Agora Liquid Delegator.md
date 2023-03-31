@@ -1,0 +1,3 @@
+- An [[evm]] [[vote [[delegation]] / liquid democracy]] framework.
+- Supports [[transitive [[delegation]]]]!
+- 

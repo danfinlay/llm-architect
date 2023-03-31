@@ -1,0 +1,4 @@
+- [[open bounty]]
+    - add [[CapTP]] handoffs to the [[JavaScript]] version.
+    - Get [[CapTP]] running on [[Moddable SDK]]
+    - Get [[Moddable SDK]] resuming env vars from [[memristor]]

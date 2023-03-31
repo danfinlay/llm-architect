@@ -1,0 +1,4 @@
+- The first computational [[blockchain]]
+- First conceived by [[Vitalik Buterin]]
+- Introduced a concept of [[gas price]] [[metering]] to preserve [[sybil resistance]] to its virtual machine, the [[evm]].
+- Developed a rich world of intercompatible [[smart contract]]s sometimes called [[dapp]]s, and often using [[MetaMask]] as a user account manager.

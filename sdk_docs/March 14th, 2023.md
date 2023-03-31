@@ -1,0 +1,4 @@
+- [[Korean Keh]]
+    - https://twitter.com/0xcarnation/status/1635518396866469889?s=46&t=
+- [[Altair]] [[light client]] is not a real light client, by [[James Prestwich]]
+    - https://twitter.com/_prestwich/status/1617988962139934721?s=20

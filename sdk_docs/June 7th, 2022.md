@@ -1,0 +1,4 @@
+- [[Kate Sills]] and [[Glen Weyl]] debating [[SoulBound Tokens (SBT)]] vs [[verified credentials/verifiable claims (VCs)]]
+    - https://twitter.com/glenweyl/status/1533958833877360641?s=21&t=T25BF_
+- [[liberal arts]] education
+    - https://twitter.com/mengwong/status/1534050723612110848?s=20&t=rF

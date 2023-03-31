@@ -1,0 +1,1 @@
+- [[David Bowie]]had a sort of [[personal token]] called [[Bowie Bonds]] https://en.wikipedia.org/wiki/Celebrity_bond?wprov=sfti1

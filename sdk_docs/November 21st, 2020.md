@@ -1,0 +1,1 @@
+- [[horizontal [[trust]]]] is a new term to me here. Related to [[covid-19]].

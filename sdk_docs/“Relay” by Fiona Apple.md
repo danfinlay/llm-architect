@@ -1,0 +1,5 @@
+- This song caught my ear and evoked a chain of [[social collateral]] being enforced.
+    - Evil is a relay sport
+    - When the one who's burnt
+    - Turns to pass the torch
+- The song wasn't really meant to represent this, it was more written to represent a cycle of abuse, but it can also represent a long chain of social endorsement bubbling up to enforce against a wrong claim.

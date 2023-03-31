@@ -1,0 +1,3 @@
+- A [[Lisp]] like language
+- Similar to [[The Actor Model]] except that like [[JavaScript]] [[Promises]] you call a function and then get a reference to the response.
+    - In [[The Actor Model]] you would just send a message, then create a second object called a "customer" for receiving the response.

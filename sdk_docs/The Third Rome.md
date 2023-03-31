@@ -1,0 +1,4 @@
+- Second: Istanbul
+- Third: ... Moscow?
+- Promoted by [[Pat Buchanan]] to say god was on the side of [[Vladamir Putin]]
+- 

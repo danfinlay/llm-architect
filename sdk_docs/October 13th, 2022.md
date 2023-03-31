@@ -1,0 +1,13 @@
+- [[October 13th, 2022]] at 00:35
+    - [[Superintelligence]] [[William Gillis]]
+        - https://twitter.com/deontologistics/status/1578876600795664389?s=46&t=
+- [[Nimbus ([[Ethereum]] client)]] has released a [[light client]]
+    - https://twitter.com/jcksie/status/1580201162846146565
+    - https://twitter.com/shresth3103/status/1580735567075377152?s=20&t=cIbTc-FI3ShRqVL6FzRWQA
+- [[October 14th, 2022]] at 16:42
+    - [[StableDiffusion]] https://twitter.com/stablediffusion/status/1580840619114582016?s=46&t=
+- [[October 14th, 2022]] at 16:50
+    - [[decentralized]] https://twitter.com/bascule/status/1580947389254275073?s=46&t=
+- [[October 14th, 2022]] at 17:05
+    - [[Suave]] [[Phil Daian]] [[order flow]]
+        - https://twitter.com/vitalikbuterin/status/1580980594871504896?s=46&t=

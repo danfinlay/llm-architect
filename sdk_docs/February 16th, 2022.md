@@ -1,0 +1,3 @@
+- [[open source]] [[soylent green]]
+    - https://twitter.com/shehackspurple/status/1493843788258709506?s=21
+- [[Foresight Institute]] [[arthereosclerosis]] [[Repair Biotechnologies]]

@@ -1,0 +1,2 @@
+- [[Ken Kocienda]] on [[Directly Responsible Individual (DRI)]] at [[Apple]]
+    - https://twitter.com/kocienda/status/1563943261038727168?s=21&t=

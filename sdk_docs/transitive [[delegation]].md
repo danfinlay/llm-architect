@@ -1,0 +1,3 @@
+- A cool property of any [[rich sharing]] system like [[social collateral]] or [[object capability (ocap)]]
+- Any [[power/capability]] granted can itself be granted to others.
+    - Ideally, with arbitrary [[caveat]]s

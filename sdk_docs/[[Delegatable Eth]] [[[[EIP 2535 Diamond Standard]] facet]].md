@@ -1,0 +1,7 @@
+- Status
+    - Deployed at [0x22B7922dEA4816799380B78944d45669a37f4e98](https://etherscan.io/address/0x22b7922dea4816799380b78944d45669a37f4e98)
+    - [Code on GitHub](https://github.com/delegatable/delegatable-sol/tree/main/contracts/diamond)
+    - Tests passing! May be workable!
+    - I do not believe anyone is using it in production yet, so use with caution!
+    - Caveats
+        - Can only add delegation to other facets that integrate the [[the _msgSender() trick]] [as I did for my custom Delegatable LibDiamond here](https://github.com/delegatable/delegatable-sol/blob/add-diamond-facet/contracts/diamond/libraries/LibDiamond.sol#L356).

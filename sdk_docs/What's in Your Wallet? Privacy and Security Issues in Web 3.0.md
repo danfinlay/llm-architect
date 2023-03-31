@@ -1,0 +1,55 @@
+- A paper on [[web3]] security, particularly [[MetaMask]], written by some staff at [[Brave (Browser)]]
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FR10LIIi7Z_.png?alt=media&token=224da97f-ef90-4856-8576-24cbf6d9e90b)
+- [Full text](https://arxiv.org/abs/2109.06836)
+    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FOJYgkiNQ0F.pdf?alt=media&token=433925f9-06f4-4f47-a699-892a6794e301}}
+    - 
+- Authors
+    - [[Philipp Winter]]
+    - [[Anna Harbluk Lorimer]]
+    - [[Pete Snyder]]
+    - [[Benjamin Livshits]]
+- Notes
+    - Presents the appeal of web3 as largely related to privacy promises.
+        - I'm unclear how much people are drawn to web3 by privacy.
+    - Alleged vulnerabilities
+        - > If a DeFi site embeds scripts, those scripts are able to interact with the user’s wallet api, which can facilitate phishing attacks.
+            - I think this is describing [[supply chain security]], not [[phishing]]. It's a good argument for dapps to adopt more widespread [[LavaMoat]] usage.
+            - > While this transactions would have to be approved by the user, we believe that a well-crafted transaction at the right time would fool many users.
+        - Claims [[MetaMask]] should not let users reveal their accounts to websites they visit.
+            - Does acknowledge that MetaMask does not leak accounts by default, only addresses the case where the user has connected their accounts consensually to the sites in question, effectively delegating that account information to those sites.
+                - > Note that MetaMask makes available some of its api functions only after the user gave permission—typically by manually clicking the “connect wallet” button7 (to prevent unauthorized sites from accessing the user’s Ethereum account information [5]), which prompts the DeFi site to ask MetaMask for permission, followed by a UI dialog asking the user to confirm the DeFi site’s request. Once the user gave permission, the DeFi site is able to access the user’s Ethereum address and balance, and create transactions (that still need to be signed off by
+the user).
+                    - I wonder if this is good enough to get our [[Wikipedia]] article corrected.
+                - Helping users understand the risks of data disclosure could be a productive avenue of improvement.
+                - If a browser disallowed trackers by default, that would also help this situation, which is probably why [[Brave (Browser)]] chose to highlight these concerns, since built-in tracker blocking has long been their flagship feature.
+            - one common tracker has the ability to record Ethereum addresses on over 56% of websites analyzed.
+                - This is largely a problem with using third party trackers on [[web3]] sites, and can be mitigated by either not using trackers, using trusted trackers, or confining trackers using a technique like [[LavaMoat]].
+            - Proposed solution: per-site disposable addresses.
+                - > We therefore further raise
+the bar by implementing a simple, yet effective privacy-enhancing patch for
+the MetaMask in-browser wallet.
+                - We've had this idea for years ([[app keys]]), but I don't think it actually solves the problems they claim it does.
+                - If the proposed solution of disposable accounts are used per site, those sites will either lack useful utility or be associated (destroying the supposed anonymity)
+                    - either
+                        - These disposable accounts would be useless, since they would have no on-chain [[asset]]s or [[capability]].
+                        - Users would become habituated to destroying the anonymity of these accounts by transferring funds to them in order to make them useful, or just promptly connecting actually useful accounts to the sites they're using.
+                - Their approach is actually much heavier-handed than [[app keys]] ever was, and I'm certain would break most sites.
+                    - > However, doing this alone would likely break both the DeFi site’s UI and its functionality because DeFi sites often take into account the user’s wallet balance to determine if a transaction is possible. To work around this issue, we intercept the DeFi site’s rpc calls and replace fake with real wallet addresses in the request parameters, which effectively results in the DeFi site only ever learning the user’s fake address but with its real balance.
+                    - I can see the appeal here, we are saying "web sites can't be trusted with private info, so keep all private info in the wallet, and then make websites live in a parallel universe that is meaningless".
+                        - It seems like this could also be addressed by adding reasonable permissions (opt-in to trackability) or tracker-blocking to the browser, and this would be a more fundamental correction for the problem, and would be less likely to break how apps are working today.
+                        - I'm certain many so-called [[web3]] sites today rely on third party services, either centralized or somewhat decentralized, like [[Graph Protocol]] for example, to enrich their interfaces. If the site's UI were loaded exclusively from the [[ethereum provider]], this wouldn't be a problem, but I don't think this is often the case today.
+                            - A more full-featured wallet might include injecting all the services a site might need via its trusted provider, and it might all be anonymized in a way that prevents the site from knowing what accounts are interacting, I guess.
+                                - A dedicated site of course could do some basic correlation with transactions sent on-chain, and accounts with similar balances (eighteen digits of precision is a pretty good starting point), but I guess we're assuming Google wouldn't do anything sophisticated like that.
+                        - > While we believe that the core functionality of the sites we tested remained intact, we cannot rule out that there are niche features that we overlooked, which are broken by our patch.
+                        - > We believe that a sensible initial deployment plan for our MetaMask patch would include a whitelist that contains known-to-work sites.
+                            - So we would only protect user privacy from sites that played nice with our privacy measures? 
+                            - This sounds painfully manual for what is meant to be a permissionless platform.
+        - [[1inch.exchange]] vulnerabilities
+            - Points out [[1inch.exchange]] sends user account info to [[[[Google]] Analytics]]
+            - Highlights that the live support provided by gives that third-party chat script full control over the application's [[DOM]].
+                - This would apply to other support platforms too, like [[LivePerson]]
+        - > What stands out is that [[Google]] is virtually omnipresent, observing all news and price discovery sites and most DeFi sites.
+    - Includes a pretty good diagram of basic [[MetaMask]] architecture.
+        - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2F7O3465GeNP.png?alt=media&token=10cf1b6d-e5e0-43b4-ae42-c51f545b7659)
+    - Makes a bold claim
+        - > This work is the first to examine the intersection between Web security and privacy, and DeFi.

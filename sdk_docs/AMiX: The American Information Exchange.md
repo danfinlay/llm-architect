@@ -1,0 +1,30 @@
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FqvQZnyHX0j.png?alt=media&token=97b8a3e0-3091-42e4-a534-f26d4e7c696c)
+- An early digital exchange, for selling and negotiating information services, based on the ideas of [[Phil Salin]].
+- A progenitor to any online marketplace like [[eBay]] [[Amazon]] etc.
+- Grounded in political philosophy and [[Austrian Economics]], believed in simply making new things possible, like lowering transaction costs, rather than dictating user behavior.
+- Users could actually often get paid for using the service, rather than paying for it, which ended up being hard to teach users because it was so different from what they expected.
+- Had strong guarantees about payment under inaction (defaults to approved payment!)
+- All activity was in the open, making it unsuited to dark markets like [[BlackNet]]
+- Questions
+    - [[Kate Sills]] asks: what did the legal world think of this? Many lawyers are mad about the term "smart contract", but this [[split contract]] is a hybrid.
+        - Not sure we even used the language of a contract in the description of the consulting system. Said agreement, negotiation, etc. "How the system worked was part of the deal, and there was a fairly carefully drafted customer agreement in which customers agreed to work together on these terms, and all of that paperwork is available online somewhere"
+        - One lawyer had commented "If you're giving legal advice on AMiX, you'd better have passed the BAR in the jurisdiction that you're giving advice in. If you're giving medical advice on AMiX, you'd better __not__ be a doctor!"
+    - What did dispute resolution look like in AMiX, when people didn't get along? Did AMiX have to maintain a whole court system internally?
+        - There weren't many disputes, so it was easy enough to support! When you lower the friction for all this other stuff, you avoid big fights in the first place!
+            - Refund request example
+                - send a request for a refund
+                - By clicking in a few places, they could issue a refund
+            - They had some professional mediators
+                - Received a workstation
+                - Would get pinged with a dispute
+                - Could review all the context
+    - Did AMiX reviews ever have problems with spam/Sybil attacks, with fake accounts leaving positive reviews to prop up scams?
+
+- Members
+    - [[Phil Salin]] (founder)
+    - [[Chip Morningstar]] (Chief architect)
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2Fbp_xoSLp0R.png?alt=media&token=7def1c42-53a9-4806-a734-7f49613bddaa)
+- Bill Tulloh on smart contracts, split contracts, AMIX
+    - {{youtube: https://www.youtube.com/watch?v=3IqH2T6QaMs}}
+- AMiX Guide PDF
+    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FHkvGhIaKrP.pdf?alt=media&token=e355a4e1-a3ed-4bd1-81b0-1ee7342313a5}}

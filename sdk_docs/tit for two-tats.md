@@ -1,0 +1,2 @@
+- A more forgiving variant of [[tit for tat]]
+- If you only punish __most of the time__ when someone defects, you can create a more cooperation-prone pattern.

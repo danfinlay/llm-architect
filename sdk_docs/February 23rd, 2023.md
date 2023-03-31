@@ -1,0 +1,7 @@
+- [[Simon Wardley]] shares [[Gordon Brander]] idea on [[power/capability]] as commerce
+    - https://twitter.com/swardley/status/1628796052215046146?s=20
+    - https://learnwardleymapping.com/2023/02/13/features-are-fashion-capabilities-are-commerce/
+- A [[dapp]] for using [[[[Bitcoin]] Ordinals]] on [[MetaMask]] is using [[3box style key generation]]
+    - https://twitter.com/punk3700/status/1628424283247767552
+- [[getting ahead by staying behind]]
+    - https://twitter.com/mutual_ayyde/status/1628710613441552385?s=20

@@ -1,0 +1,16 @@
+- A platform for decentralized [[arbitration]] in [[smart contract]]s on [[Ethereum]]
+- https://kleros.io/about/
+- Selects jurors based on a lottery based on staked [[PNK (token)]]
+    - Jurors vote on the outcome
+    - Minority jurors lose their stake to the majority jurors.
+    - There is an appeal system that triggers a larger jury (2x+1).
+- Criticism
+    - By selecting jurors according to [[PNK (token)]], the right to arbitrate is up for sale to the highest bidder.
+    - [[Robin Hanson]] says "in the old South, there's a saying that you'd better vote the way everyone else does." Picking token holders rather than random people will bias for people who are willing to play the [[Keynesian beauty contest]]
+        - [[Federico Ast]] says that the appeal process complicates the game of playing this [[Schelling point]] game.
+- Concept is based on work of [[Thomas Schelling]]
+    - [[The Strategy of Conflict]] [[Schelling point]]
+- Used to arbitrate
+    - [[proof of humanity]]
+- Team members
+    - [[Federico Ast]]

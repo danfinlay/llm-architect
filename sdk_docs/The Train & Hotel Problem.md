@@ -1,0 +1,2 @@
+- As explained by [[Dean Tribble]]
+    - {{youtube: https://www.youtube.com/watch?v=WQTBVd4H-fY}}

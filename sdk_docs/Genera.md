@@ -1,0 +1,2 @@
+- Was a [[Lisp]] based [[operating system]]
+- https://en.wikipedia.org/wiki/Genera_(operating_system)

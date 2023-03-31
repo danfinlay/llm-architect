@@ -1,0 +1,37 @@
+- Basic version [has been completed](https://github.com/delegatable/delegatable-sol/pull/34), could use more testing.
+    - [[[[Gnosis]] SAFE]] testing
+        - [sample 712 signature code in test](https://github.com/safe-global/safe-contracts/blob/main/test/handlers/CompatibilityFallbackHandler.spec.ts#L86-L94)
+            - Unclear why the two signatures are generated in such different ways.
+- Necessary changes
+    - Needs to call `isValidSignature` on the signer's contract instead of performing an `ecrecover`.
+        - Formerly we would get the caller's address by performing an `ecrecover`, but if the signature is more an arbitrary proof-blob, we can't infer the caller's address from it. For that reason, we need another way to infer a signer's address.
+        - Options
+            - Update the type system
+                - pros
+                    - Better overall simplicity
+                - cons
+                    - Higher implementation burden
+                - Add an `isContractAccount` field alongside any signature, and use that flag to trim an address off the beginning of the `signature` field.
+                    - pros
+                        - Gas efficient (trust the signer whether to ecrecover or not)
+                        - Only adds a bit of data to the signed payload in the EOA case
+                    - cons
+                        - A little wonkier to use
+                - Add a `senderAddress` field along any signature, and check it for `data` to determine whether it's a contract.
+                    - pros
+                        - Very easy to implement
+                        - Very easy to use
+                    - cons
+                        - Higher gas cost (an SLOAD per signature!)
+                - Add a `proof` field instead of a `signature`, and keep the `signature` and `isContractAccount` in it
+                    - pros
+                        - Semantically nicer
+                    - cons
+                        - Higher gas costs (each 721 struct adds hashing overhead on the evm)
+            - Preserve existing types
+                - Overload the `signature` field to embed a special format that includes the signer's address.
+                    - pros
+                        - Backwards compatible
+                    - cons
+                        - Harder to work with
+                        - Harder to build

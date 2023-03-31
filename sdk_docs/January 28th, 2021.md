@@ -1,0 +1,2 @@
+- [[Amazon]] intoduces [[hunch]]es, which are when an [[AI]] acts on its own judgment. Big step from a [[nudge]].
+    - https://www.theverge.com/2021/1/25/22249044/amazon-alexa-update-proactive-hunches-guard-plus-subscription

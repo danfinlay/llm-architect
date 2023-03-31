@@ -1,0 +1,3 @@
+- [[Rich Hickey]] [[Are We There Yet?]] talk recommended by [[Connor White-Sullivan]] https://twitter.com/Conaw/status/1206061644654075910?s=20
+- [[Lawson Baker]][[social money]] https://twitter.com/lwsnbaker/status/1308813607593943046?s=21
+- [[trust]] https://twitter.com/peterc/status/1306566489911316480?s=19

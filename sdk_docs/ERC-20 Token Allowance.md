@@ -1,0 +1,2 @@
+- An [[Ethereum]] [[token]] standard that allows assigning another address the permission to withdraw up to a number of a given type of tokens from an account’s balance.
+- Is used mostly to extend allowances to smart contracts, which are then able to withdraw that number of tokens and perform operations on them on behalf of the user.

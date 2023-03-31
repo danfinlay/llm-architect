@@ -1,0 +1,8 @@
+- The common name for [[[[ECMA]]Script]]
+- [Specification](https://tc39.es/ecma262/)
+- The language of the web [[browser]]
+- Originally written by [[Brendan Eich]]
+    - Was heavily inspired by [[Scheme]], but with [[Prototype]] inheritance slapped on to match the [[Java (language)]] centric fashion of the time.
+- Good parts identified by [[Douglas Crockford]]
+    - Highlighted the parts that were the most [[Scheme]]-like.
+    - He then told [[Mark Miller]] that he could probably achieve the [[object capability (ocap)]] goals of [[E Language]] via [[TC-39]], where he still contributes security guidance towards [[Secure EcmaScript (SES)]].

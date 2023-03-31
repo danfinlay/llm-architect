@@ -1,0 +1,1 @@
+- A mailing list for enthuiasts of [[object capability (ocap)]] security.

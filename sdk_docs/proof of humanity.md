@@ -1,0 +1,16 @@
+- An [[Ethereum]] based [[dapp]] that aspires to create a [[sybil resistance]] registry of all humans, and give them a [[UBI]] by [[Santiago Siri]]
+- [[Dan Finlay]]'s profile: https://app.proofofhumanity.id/profile/0x55e2780588aa5000F464f700D2676fD0a22Ee160?network=mainnet
+- Process
+    - Anyone can apply for membership
+        - Includes staking 0.15 ether
+        - Includes a video testimonial of uniqueness
+    - Any already-registered human can "vouch" for a pending application.
+    - After a vouch, there is a 3 day open challenge period. Challenges are arbitrated by [[Kleros]]
+        - If the challenge is accepted
+            - the application is rejected
+            - the person who vouched loses their membership
+                - Does the person who vouched for them also lose their membership? If so, how far up the invitation tree?
+        - If the challenge is rejected, it is dismissed
+    - If no successful challenges after 3 days, the person is accepted into the registry, and they receive their ether deposit back.
+    - All members in the registry continuously receive a [[UBI]] of [[UBI (token)]]
+    - People can be challenged after they've been accepted, as well.

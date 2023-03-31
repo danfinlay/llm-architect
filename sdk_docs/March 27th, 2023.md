@@ -1,0 +1,12 @@
+- [[non breaking API]]
+    - https://twitter.com/swardley/status/1640349781909291009?s=46&t=
+- [[Patrick McCorry]] joining [[[[Arbitrum]] Foundation]]
+    - Previous writings
+        - [[[[Bitcoin]] Lightning]] https://eprint.iacr.org/2016/408
+- [[[[MetaMask]] SDK]] explained by [[Eric Bishard]]
+    - [Source code](https://github.com/MetaMask/onchain-svg-nft-tickets/tree/final#readme)
+    - {{youtube: https://www.youtube.com/watch?v=1ElzZ8KU7Lg}}
+- [[viem]] is apparently faster than [[ethers.js]] for some things?
+    - https://twitter.com/awkweb/status/1640435312940687368?s=46&t=
+- [[CHERI BSD]]
+    - A [[capability based security]] variant of [[Linux]]

@@ -1,0 +1,7 @@
+- #[[Quick Capture]]
+    - [[Machiavelli effect]][[science funding]] https://twitter.com/ben_reinhardt/status/1302662806127476736?s=21
+    - [[metering]] https://twitter.com/ben_reinhardt/status/1302676573083103238?s=21
+    - [[punctuated equilibrium]][[phase shifts]][[local optima]][[research]] https://twitter.com/ben_reinhardt/status/1302681296465022976?s=21
+    - [[nature]] [[Isaac Newton]]https://twitter.com/ben_reinhardt/status/1302682214199590915?s=21
+    - [[low hanging fruit theory]] https://twitter.com/ben_reinhardt/status/1303020051705016323?s=21
+    - [[[[EIP]] 1559]] implementation study by [[Vulcanize]] https://docs.google.com/document/d/1yqvvfrQ_He0fN1SsUcvZNBdyhv__d8-1QPyteCbNT6Q/edit?usp=sharing

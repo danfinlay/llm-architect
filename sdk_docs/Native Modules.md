@@ -1,0 +1,1 @@
+- Modules from node packages that plug into C++ code, making use of `node-gyp` & `bindings`. Examples of packages include `node-sass` & `fsevents`.

@@ -1,0 +1,22 @@
+- After a [[ses-shim]] [[lockdown]]
+- By [[Mark Miller]]
+- If we harden the console, and make error stack write-only, and all the information sent to the console is only available to who can view the output of the console, which is a host concept, not a language concept.
+    - The existing privilege of looking at the output of a console is the same as the existing privilege of operating a debugger.
+    - So we can hand out access to a console fairly widely, as long as the only ones who can see the output are fairly privileged.
+    - If we accept that the stack is primarily useful for debugging, and create an enhanced console that prints errors in a fully informative manner.
+    - Uses [[template literals]] to split the error message information into
+        - the info that should be disclosed to all callers
+        - the information that should only be available to a debugger
+    - Implicit debugging
+        - The components emit relevant information, going back
+        - This means the stack can go back all the way back as far as the system can remember.
+- Provides
+    - console taming
+    - stack filtering
+    - Compatibility with [[CapTP]] to allow for debugging distributed systems. [[[[CapTP]] [[debugger]]]]
+        - Whenever sending an error over the network, the current stack is passed over.
+        - The receiving side also sees the tag
+        - An error can go from one vat, through a swingset, over [[IBC]], to another context, and you're able to follow these "[[breadcrumbs]]" all the way to the stack of the error's original source, as well as the "[[breadcrumbs]]".
+- There is tension between
+    - Convenience to inspect what went wrong
+    - privacy for processes that are invoked to retain internal logic.

@@ -1,0 +1,7 @@
+- like [[Kickstarter]]
+- can include a refund bonus paid to funders if threshold is not met
+    - causes an equilibrium to contribute that never needs to pay out.
+        - similar to bank deposit insurance prevents runs on banks
+- Since crowd-funding is much more likely to succeed if funded earlier, this can be enhanced by adding an "early refund bonus", so earlier contributors get a larger early refund bonus.
+- Examples
+    - https://conditionalcommitment.com/

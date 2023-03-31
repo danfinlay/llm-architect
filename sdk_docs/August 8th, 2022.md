@@ -1,0 +1,5 @@
+- [[git]] versioning UI
+    - https://twitter.com/Conaw/status/1556812360051920897
+- [[August 8th, 2022]] at 23:14
+    - [[NEAR]] announces [[JavaScript]] [[smart contract]]s
+        - https://near.org/blog/near-releases-javascript-sdk-bringing-web3-to-20-million-developers/

@@ -1,0 +1,4 @@
+- [[Zed]] is a fast [[multiplayer]] [[code editor]] in [[rust (language)]]
+    - https://twitter.com/hdevalence/status/1636061686343032836?s=46&t=
+- [[Lurk (language)]]
+    - https://twitter.com/0xcccrrr/status/1636574789023289345?s=46&t=

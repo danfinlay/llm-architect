@@ -1,0 +1,8 @@
+- An early [[[[MetaMask]] Snaps]] internal architecture pattern designed to facilitate the creation of many types of things that can be extended.
+- The controller would be inherited from, and some resource-specific code would be added.
+- Original controller:
+    - https://github.com/MetaMask/metamask-snaps-beta/blob/develop/app/scripts/controllers/resource.js
+- Descendent controllers
+    - [accounts controller](https://github.com/MetaMask/metamask-snaps-beta/blob/develop/app/scripts/controllers/accounts.js)
+    - custom assets controller
+        - For adding things like new alternatives to [[ERC-20]], [[[[EIP]] 721: NFT]], or even totally new things to list in the wallet like [[streaming payment]]s or [[ERC-20 Token Allowance]]s.

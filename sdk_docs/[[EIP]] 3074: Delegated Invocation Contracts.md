@@ -1,0 +1,71 @@
+- Basic info
+    - An [[EIP]] that adds the ability for an [[externally owned account (EOA)]] to delegate its message-sending power to a [[smart contract]].
+    - by [[Matt Garnett (lightclient)]] [[Sam Wilson]] [[Angsar Dietrichs]] [[Micah Zoltu]]]
+    - https://eips.ethereum.org/EIPS/eip-3074
+- Motivations
+    - Original
+        - [[Batch Transactions]]
+    - Mine
+        - [[[[Ethereum]] [[object capability (ocap)]]]]
+- Summary
+    - Two new opcodes
+        - AUTH
+            - Recovers a special signature from an address.
+        - AUTHCALL
+            - Makes a call as the recovered address
+    - Allows wallet-trusted [[invoker]]s.
+- Use cases
+    - Sponsored transactions
+    - Batched transactions
+        - Can save gas by requiring only a single signature for many messages.
+    - Reduce overall gas consumption, contributing to scaling.
+    - [[multi-nonce]]
+    - expiring transactions
+    - contract wallet features
+    - Delegating account powers
+        - Delegating account powers to a multisig
+        - Delegating permission to interact with a specific contract to another account.
+        - Having a person who is permitted to manage your portfolio via a list of approved DEXes and tokens but not to withdraw.
+        - [[[[[[EIP]] 3074: Delegated Invocation Contracts]] Transitive Delegation Pattern]]
+    - [[MetaTransaction]] from [[externally owned account (EOA)]]s (no ether needed to use a relay!)
+        - Solves the EOA-MetaTx problem. Skips the need for [[Generalized MetaTransaction]]
+    - Counterfactual transactions
+    - [[Batch Transactions]] save 30k gas per batched tx over 1
+        - Combine [[Token Approve]] and contract invocations into a single call (a very common combination)
+    - [[multi-nonce]] for parallelized transactions that don't block each other.
+    - Contracts don't need to write their own signature-verification logic.
+    - Sending payment-offer packets that allow claiming like [[Linkdrop]]
+    - Revocation could be added to invokers via a revokable invoker.
+        - [Twitter thread](https://twitter.com/danfinlay/status/1388195506149462021?s=20)
+        - `Revoker` contract (by entire sender)
+            - `revokations = { [invoker: address]: { [delegator: address] => boolean }}; // if revoked`
+            - revoke (invoker address) 
+                - auth check
+                - `revokations[invoker][delegator] = true;`
+            - checkRevocation (address) : boolean
+                - `return revokations[invoker][delegator]`
+        - `Revoker` contract (by delegation message hash)
+        - `RevocableInvoker`
+            - AUTH(message)
+            - `assert(!Revoker.checkRevocation(authorized))` <-- The key revocable detail
+            - `// normal invoker behavior`
+- Caveats
+    - Signing a 3074 message yields full control of the EOA to the invoker.
+    - Wallets should ship with trusted invokers.
+    - eth value is deducted from the invoker (if it needs to send eth, the message needs to deposit eth to it first)
+    - Self sponsoring is not possible.
+        - Would mean `tx.origin == msg.sender` is true at multiple points during a transaction, which may break some invariants on contracts.
+        - This could be laxened later on if research proves it safe.
+        - This is an extremely careful measure by contracts to prevent contract accounts from calling them (ensuring only EOA)
+            - 
+    - An invoker may hold a user's ether, and wallets would need to be able to display that ether in that case.
+- Possible extensions
+    - [[[[[[EIP]] 3074: Delegated Invocation Contracts]] revocation extension]]
+    - [[[[[[EIP]] 3074: Delegated Invocation Contracts]] Transitive Delegation Pattern]]
+- Related links
+    - [Video recording](https://www.crowdcast.io/e/consensys-workshop-EIP-3074-Invoker-Contracts) of a talk by [[Dan Finlay]]
+    - [Discussion on Ethereum Magicians](https://ethereum-magicians.org/t/eip-3074-auth-and-authcall-opcodes/4880)
+        - [[Dan Finlay]] on [reasoning about its security properties.](https://ethereum-magicians.org/t/eip-3074-auth-and-authcall-opcodes/4880/61?u=danfinlay)
+    - [Implementation Draft](https://github.com/quilt/go-ethereum/pull/38) on [[Geth]]
+    - [Collection of security concerns that have been raised](https://hackmd.io/@matt/BknnAnyNu)
+- [[[[EIP]] 3074: Delegated Invocation Contracts]]

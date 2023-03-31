@@ -1,0 +1,6 @@
+- A [[JavaScript]] engine developed at [[Facebook]]
+- [Slide deck](https://drive.google.com/file/d/1mgKxKlpgjm2_KX4TP-G7hUti-JKjR2Xv/view)
+- Disallows some language features
+    - [[direct eval]]
+    - [[with ([[JavaScript]] feature)]]
+    - [[Symbol.unscopables]]

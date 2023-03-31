@@ -1,0 +1,2 @@
+- A currency with a negative interest rate
+- Generally incentivizes spending, since the currency is losing value.

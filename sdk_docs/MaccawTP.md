@@ -1,0 +1,4 @@
+- A variant of [[CapTP]] that uses cryptographically-strong identifiers for function IDs, in the style of [[macaroon]].
+    - This allows function references to be shared between consumers of a given node's [[bootstrap]].
+- Arguably [[Capnode]] is an implementation of [[MaccawTP]] since [capnode uses cryptographically secure identifiers as function IDs](https://github.com/danfinlay/capnode/pull/20)
+- Would be need to be added as a modification of [[CapTP]] to support [[Caputo (concurrency)]] to enable [meta-locks]([[meta-lock]]).

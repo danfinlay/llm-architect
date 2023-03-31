@@ -1,0 +1,2 @@
+- The [[Agoric]] project for running a single-process [[SwingSet]] that can initialize additional [[JavaScript]] [[vat]] in their own asynchronous but resumable contexts.
+- Uses [[@agoric/bundle-source]] as a transform

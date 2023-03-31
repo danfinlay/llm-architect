@@ -1,0 +1,2 @@
+- A project of [[Ripple]] that is a protocol for describing the ability to withdraw a given asset up to a limit, regardless of the underlying ledger.
+- May be seen as an implementation of [[The Original Ripple Whitepaper]] or [[digital [[social collateral]]]].

@@ -1,0 +1,6 @@
+- An [[NFT]] [[delegation]] framework for [[evm]].
+- Very similar to [[Delegate.cash]]
+- Requires third parties to "respect the connection".
+    - Can you delegate to many recipients, ie have infinite virtual cryptopunk holders?
+- Doesn't seem to allow the delegate to __do__ anything with the NFT, other than "proving ownership".
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FCxtp3WS01B.32.27%20PM.png?alt=media&token=94281d02-780c-4afb-911b-e9cc39f2ca48)

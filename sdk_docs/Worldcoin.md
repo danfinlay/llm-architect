@@ -1,0 +1,9 @@
+- A global [[proof of humanity]] system that involves deploying trusted hardware to scan the retina of every human on earth and then issue everyone a UBI in this currency.
+- https://worldcoin.org/the-worldcoin-protocol
+- Contributors
+    - [[Remco Bloemen]]
+    - [[Miguel Piedrafita]]
+        - https://twitter.com/m1guelpf/status/1533171471949959168?s=21&t=FY2k9V2E--
+- Criticism
+    - You can not know for certain that the system has [[sybil resistance]].
+    - https://twitter.com/quentinc137/status/1533177234718044160?s=21&t=FY2k9

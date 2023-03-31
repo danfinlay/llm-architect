@@ -1,0 +1,3 @@
+- https://en.wikipedia.org/wiki/Software_transactional_memory
+- Software Transactional Memory
+- 

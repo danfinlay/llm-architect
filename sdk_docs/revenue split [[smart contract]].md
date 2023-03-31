@@ -1,0 +1,1 @@
+- A contract that allows splitting a revenue stream between multiple parties.

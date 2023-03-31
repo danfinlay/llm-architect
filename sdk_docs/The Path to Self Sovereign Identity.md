@@ -1,0 +1,1 @@
+- https://www.coindesk.com/path-self-sovereign-identity

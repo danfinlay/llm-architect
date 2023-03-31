@@ -1,0 +1,1 @@
+- An object (in the [ocap sense]([[object capability (ocap)]])) or reference that stands-in for one that is not locally available, as is provided by a [[membrane]].

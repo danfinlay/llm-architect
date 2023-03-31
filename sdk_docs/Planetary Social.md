@@ -1,0 +1,2 @@
+- A decentralized social app built on [[secure scuttlebutt (SSB)]] for [[iOS]]
+- [Launch announcement](https://mailchi.mp/9d453992186b/planetary-launched-decentralized-community-controlled-social-media)

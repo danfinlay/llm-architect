@@ -1,0 +1,2 @@
+- Lead developer of [[swc]]
+- https://github.com/kdy1

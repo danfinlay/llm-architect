@@ -1,0 +1,5 @@
+- New term: [[lean [[token]]]]
+- [[[[Polaris]]: Virus Safe Computing for Windows XP]]
+- [[Michael Zargham]] and [[Kelsie Nabben]] wrote [[Algorithms as Policy]]
+    - https://twitter.com/thegrifft/status/1375188432423641088?s=20
+- [[Microsoft]] launched their [[DID]] protocol [[ION]]

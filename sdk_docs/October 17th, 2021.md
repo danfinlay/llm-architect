@@ -1,0 +1,6 @@
+- [[polynya]] on [[Cardano]] [[fee market]]
+    - https://twitter.com/epolynya/status/1449810036272685061?s=20
+- [[Christine Lemmer Webber]] makes [[Rocket]], a [[James]] to [[Jessie]] transpiler
+    - https://twitter.com/dustyweb/status/1449937383319687168?s=21
+- [[DAO]]
+    - https://twitter.com/cooopahtroopa/status/1449909594516455426?s=21

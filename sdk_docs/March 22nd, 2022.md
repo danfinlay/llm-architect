@@ -1,0 +1,6 @@
+- [[[[OpenZeppelin]] governor]]
+- [[JavaScript]] [[event loops]]
+    - https://twitter.com/Prathkum/status/1506240128657756163
+- [[Heart of [[Spritely]]]] paper is now out
+- [[n of m multisig]]
+    - https://twitter.com/derek_hsue/status/1506439260781662217?s=21

@@ -1,0 +1,12 @@
+- The field of designing user interfaces that can be used safely by human beings.
+- [[Mark Miller]]’s [links on secure UI](http://wiki.erights.org/wiki/Documentation#User_Interface)
+    - [[User Interaction Design for Secure Systems]] by [[Ka-Ping Yee]].
+    - [Rich Sharing for the Web](http://www.hpl.hp.com/techreports/2009/HPL-2009-169.html) by Marc Stiegler. What properties must computer-based human-to-human sharing mechanisms need to support, so that people don't just send email attachments instead?
+    - [Are you sure? Yes. Oops!](http://www.hpl.hp.com/techreports/2011/HPL-2011-96.html) by Marc Stiegler and Alan Karp. Even a yes-no approval choice can be less hazardous.
+    - [Making Policy Decisions Disappear into the User's Workflow](http://www.hpl.hp.com/techreports/2009/HPL-2009-341.html) by Alan Karp, Marc Stiegler. Structure user interactions so useful actions also express the access they would seem to.
+    - [Not One Click for Security](http://www.hpl.hp.com/techreports/2009/HPL-2009-53.html) by Alan Karp, Marc Stiegler, and Tyler Close. Describes how the ScoopFS (secure cooperative file sharing) UI design avoids ever presenting the user any interaction whose only purpose is security.
+    - [Polaris: Virus Safe Computing for Windows XP](http://www.hpl.hp.com/techreports/2004/HPL-2004-221.html) by Marc Stiegler, Alan Karp, Ka-Ping Yee, Mark Miller. Abusing the access control of legacy ACL OSes to implement less authority.
+    - [Belay Research](https://sites.google.com/site/belayresearchproject/) by Mark Lentczner. Secure ui principles for apps within the browser. [[Belay]]
+    - [Immunity from Viruses, Safety from Geeks Bearing Gifts](https://www.youtube.com/watch?v=KoM_aCuFk1w&list=PLKr-mvz8uvUgybLg53lgXSeLOp4BiwvB2) by Mark S. Miller, 2002, invited talk at Naval Postgraduate School, Monterey CA. CapDesk and DarpaBrowser are secure UIs with the same designation-as-authorization logic as ocap languages and OSes.
+- Additional readings
+    - [[Nudges for Privacy and Security]]

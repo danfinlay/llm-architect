@@ -1,0 +1,56 @@
+- Most of my programming career, I’ve had a recurring theme: The avoidance and suspicion of “magic”.
+    - I’m sure people mean many things when they refer to the “magic” of a programming environment, so to convey what I mean, I will choose a popular target, Ruby on Rails.
+        - Rails is an incredibly popular web framework, and it is excellent at allowing a programmer to quickly iterate on a particular type of application, so long as the programmer knows the conventions of Rails.
+        - The problem with frameworks like this is that for a novice to the code and framework, the logic is not all “on the page”; an understanding of a variety of core APIs is integral to reading what is on the page.
+    - Another type of “Magic” is the global variable. One of my first programming languages was Objective-C, the dominant language of iOS at the time, which introduced me to this tempting but dangerous pattern.
+        - In Objective-C, there is a global namespace, and it forces new developers to do some strange things that are confusing.
+        - Developers are encouraged to not use global variables, and yet there is a way to hang variables on a global namespace, and for a novice developer, this is a very tempting pattern that makes some kinds of composition easier, and it is not explicit or obvious why this is an anti-pattern.
+        - Meanwhile, since all modules are imported in the same namespace, developers are encouraged to choose a unique name prefix for all of their modules. This seems like a bizarre and archaic practice to impose on any developer, let alone novices, and seems like a good example of [[name-centric]] module linking when [[key-centric]] would allow a more natural and secure developer experience.
+        - This made me grateful when I discovered [[Node.js]], because its modules were assigned a local name on import, and so a node.js program was inherently more readable, as no modules were ever available without an explicit pointer at where they’re available from.
+- Perhaps blinded by early impostor syndrome, I was inclined early to blame myself for not liking “magic”, or think of it as a matter of opinion, but I’ve since come to appreciate ways that “being unintuitive to a novice developer” isn’t just a sign of that developer’s weakness, it is a sign of the environment’s own illegibility, and how illegibility can mean insecurity.
+    - When a developer uses a framework that relies heavily on convention-based knowledge, there can be ambient implications with every line of code that the developer doesn’t intend. Each global implication is one more thing that any reviewer has to keep in mind when auditing the code.
+    - When global variables are available that hold sensitive state, this form of [[ambient authority]] can lead to abuse or error by byzantine sub-components.
+    - In this way, there is something wonderfully safe about keeping things simple and explicit.
+    - I’ve come to believe that in fact security and simplicity are intimately bound, and rather than being a pipe dream ideal to combine, is more of an imperative.
+- It wasn’t until I was introduced to the work of [[Agoric]] that I learned that it was possible to compose [[JavaScript]] code in a way that creates a fully explicit programming environment, as outlined formally in [[The Agoric Papers]].
+    - By using [[Secure EcmaScript (SES)]], it is possible to compose sub-modules that can never import anything, and so all dependencies must be passed in as parameters.
+        - While this introduces a specific type of cumbersome coding (hierarchical dependency injection), it enforces a fully explicit form of programming that can be easily investigated from the entry-point by any basic JavaScript engineer.
+    - If we can trust the [[JavaScript]] environment to enforce its own basic confinement mechanisms (closures, block scoping, with blocks, and potentially the [[JavaScript Compartment]]), then this pattern of programming makes the code not only easier for a novice inspector to understand, but allows the code organization to also reflect the security isolation of the software, a [[programming language]] ideal known as [[object capability (ocap)]].
+    - At [[MetaMask]], we have begun an initiative called [[LavaMoat]], which uses [[Secure EcmaScript (SES)]] to wrap its confinement policy around every one of our [[npm]] dependencies.
+        - If successful, this will add a strict improvement in the isolation of each of our dependencies.
+        - Even if the confinement mechanism fails, the modules of our dependency graph will gain no additional authority over what they are implicitly granted by the global scope of the normal [[JavaScript]] runtime.
+- The work of [[Agoric]] does not stop at helping [[JavaScript]] achieve [[object capability (ocap)]] security, it in fact extends into a holistic vision for a secure distributed programming environment for the future, as described in [[The Agoric Papers]].
+    - The [[SwingSet]] project is the creation of a [[JavaScript]] runtime that is __resumable__, achieving [[orthogonal persistence]].
+        - Unlike [[Node.js]] or a browser session, which resets all of its local variables on reload, a [[SwingSet]] can retain its local variables, and by “re-playing” past messages, or check-pointing its state to disk, and so is able to even restore functions that were formerly constructed, and even reconstruct the same method identifiers, so that remote references to its functions (or even runtime generated lambdas) can remain valid and useful, which combined with [[CapTP]] facilitates the creation of a distributed object graph.
+        - This unit of resumable computing is sometimes referred to as [[vat]].
+        - This allows for the construction of types of programs that do not need to rely on system APIs to access storage for persistence.
+        - On the surface level, this can mean that many simple but persistent programs will be further simplified to develop, increasing security.
+            - Not needing storage or lookup APIs beyond the language’s own can speed up development.
+            - Using native language features for storage increases legibility for an external auditor.
+            - Together, these mean that simplicity, and so in turn likely security are increased, along with speed of development.
+            - Since passing a function can now be a persistent operation, the entire premise of an access control list can be replaced by the language-level reference graph, effectively enabling a distributed [[object capability (ocap)]] environment.
+    - The [[CapTP]] project aspires to allow [[JavaScript]]-type objects called a [[presence]] to be “passed” over the process or network boundary, or [[membrane]].
+        - This simple abstraction can effectively replace the design of [[RESTful APIs]] or [[JSON-RPC API]] with regular [[JavaScript]] object design.
+        - When run in a [[Secure EcmaScript (SES)]] context, these simply constructed objects can now not only represent local module security confinement, but also a program’s cross-process [[access-control security]].
+        - If implemented ergonomically enough, [[CapTP]] has the potential to extend the same simple and secure legibility of [[Secure EcmaScript (SES)]] to the the domain of multi-user programs and secure concurrency, allowing novice developers greatly increased confidence in building secure scalable software.
+        - Writing for a [[CapTP]] environment is a fairly new space, and I’ve written a bit about it in [[programming with [[object capability (ocap)]] style]].
+    - The [[VatTP]] project adds a layer of cryptography around a [[SwingSet]] so that its [[CapTP]] function references are cryptographically strong.
+        - While a [[SwingSet]] can reconstruct its own local functions, by default it relies on its setup code to dictate what messages are treated as valid or not.
+        - [[VatTP]] provides cryptographic uniqueness to each outbound function reference, so that the developer no longer needs to manage connection authentication on function invocation; every function invocation includes a proof of authenticity at the message layer.
+        - This can allow the notion of the [[Access Control List]] or otherwise in-environment access tracking can be replaced with the totally explicit code-level act of sharing references to objects and functions with other [agents]([[agent]]) per a [[principle of least authority (POLA)]].
+    - [[The Agoric Blockchain]] plans to combine these layers into a [[Tendermint]] blockchain and [[[[Cosmos]] Zone]], providing a public [[JavaScript]] environment for persistent [[smart contract]]s.
+        - I can’t emphasize the importance of the fact that this environment utilizes a secure subset of the world’s most popular programming language.
+        - For the reasons I’ve listed above, I expect this environment to be one of the easiest environments to program and audit safely in.
+        - By increasing the ease of safety, I expect this environment to help foster an explosion of rapid innovation, not only on this blockchain itself, but with various compositions of the above tools.
+- At [[MetaMask]], we are building a user-based [[JavaScript]] consent system, and I believe our work will allow extending this secure intuitive environment from [[JavaScript]] over into the hands of users, allowing not only the composition of resilient software, but of resilient social organizations.
+    - [[MetaMask]] earned its stripes by providing the [[ethereum provider]] API to websites a user visited, and allowing the user to consent to the actions they approved of.
+        - This API was never ergonomic to JS developers.
+        - This API was never very flexible.
+        - This environment was always limited to Ethereum.
+    - By integrating the tools of [[Agoric]], we are finding that new things are possible for the wallet:
+        - We are able to achieve unprecedented dependency security through initiatives like [[LavaMoat]].
+        - With [[Secure EcmaScript (SES)]], we have been exploring what it means to add new services to the wallet at runtime, in a project we call [[[[MetaMask]] Snaps]].
+        - Over time, it is possible that the other [[Agoric]] tools prove useful to [[MetaMask]] in other ways, too.
+            - [[CapTP]] could allow the [[ethereum provider]] to achieve new levels of ergonomics, and to reflect a more object-oriented view of provider access.
+            - A [[SwingSet]] system like [[endo]] could allow the wallet to be built in a simpler but more secure way that avoids some categories of [[race conditions]] like [[interleaving]].
+            - Eventual integration with [[VatTP]], possibly as a [Snap]([[[[MetaMask]] Snaps]]), could make “storing a crypto asset” as simple as storing an object locally for a user, which would both increase the ease of composition and in turn possibly the speed of innovation and security of those systems.

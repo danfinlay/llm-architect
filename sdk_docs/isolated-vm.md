@@ -1,0 +1,3 @@
+- A [[JavaScript]] confinement module
+- https://github.com/laverdet/isolated-vm
+- Uses the [[V8 Engine]] [[Isolate Interface]]

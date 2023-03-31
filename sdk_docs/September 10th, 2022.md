@@ -1,0 +1,5 @@
+- [[Business Insider]] reviewed a bunch of crypto startups https://www.businessinsider.com/most-promising-crypto-web3-startups-of-2022-2022-9
+    - [[TrueFi]] is a [[undercollateralized lending]] system using [[credit score]]s voted on by token holders. Sounds gameable.
+- [[unum]]
+- [[Graph Protocol]] blocked [[Tornado Cash]]
+    - https://twitter.com/MicahZoltu/status/1568602801206607872

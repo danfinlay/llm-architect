@@ -1,0 +1,1 @@
+- Co-founder of [[Rainbow Wallet]]

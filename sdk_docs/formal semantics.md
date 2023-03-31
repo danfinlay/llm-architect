@@ -1,0 +1,16 @@
+- The field of defining valid configurations of statements within a language.
+- Has its own semantics
+    - Example
+        - `e  :=  λx.e  |  e e  |  x  | (e,e) | l | ... atoms, if, bool`
+- Types
+    - [[operational semantics]]
+    - [[denotational semantics]]
+    - [[axiomatic semantics]]
+- Resources
+    - "The Formal Semantics of Programming Languages" by [Glynn Winskel](http://www.cl.cam.ac.uk/~gw104/), MIT Press, 1993.
+    - https://www.seas.harvard.edu/courses/cs152/2016sp/lectures/lec01-intro.pdf
+- Related topics
+    - [[abstract syntax tree (AST)]]
+- Components
+    - [[concrete syntax]]
+    - [[abstract syntax]]

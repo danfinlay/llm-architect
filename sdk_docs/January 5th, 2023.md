@@ -1,0 +1,22 @@
+- A series of [[Crypto Punks]] thefts via [[[[OpenSea]] [[Wyvern Protocol]] phishing attack]]
+    - I talked to [[YouMakinMeCrzy]] [here](https://twitter.com/YouMakinMeCrzy/status/1610853670752583680) last night, he’s interviewed these two victims. It seems they were both phished because they had [[Crypto Punks]] permitted to the old [[OpenSea]] contracts ([[[[Wyvern]] 1.3]]), so the confirmations used personal_sign in an unreadable way and had no red text, which they interpreted as making them safe. This is a tough situation!Should we show red text on **anything we can’t endorse as definitely safe**?? If we did, we’d probably really need to pick up the confirmation curation work, which would easily take another team to do well.personal_sign is the same one used by SIWE, so if we made it scarier, we’d make that experience scarier, unless it was paired with extra exceptions for them.Anyways, important topic, I wanted to highlight it.
+- [[BitKeep]] wallet [hacked](https://www.straitstimes.com/singapore/singapore-based-crypto-firm-hit-by-boxing-day-hack-more-than-10-million-lost)
+    - https://twitter.com/BitKeepOS/status/1610923162912555015
+    - From [[Taylor Monahan]]
+        - compromise a lib, comrpomise a library's infra, compromise a cdn, compromise a cdn's systems, compromise the internet and then inject2022 celer cbridge bgp + injection https://www.coinbase.com/blog/celer-bridge-incident-analysis and curve dns poisoning injection https://blog.credshields.com/curve-finance-dns-hijack-vulnerability-explained-8ca16283224e2022 klayswap bgp + via kakao lib + injection https://medium.com/s2wblog/post-mortem-of-klayswap-incident-through-bgp-hijacking-en-3ed7e33de6002021 badgerdao cloudflare api keys + injection https://web.archive.org/web/20211209031823/https://badger.com/technical-post-mortem2021 inky squid + injection + 0day via cdn https://www.volexity.com/blog/2021/08/17/north-korean-apt-inkysquid-infects-victims-using-browser-exploits/2020 iota trinity wallet  cloudflare api keys + injection  https://blog.iota.org/trinity-attack-incident-part-1-summary-and-next-steps-8c7ccc4d81e82018 gate + via statcounter + injection https://www.quadrigainitiative.com/casestudy/gateiocrypto-stealingjavascript.php2018 mew bgp + injection (with failed ssl—theyve evolved since 2018 by a lot)
+        - https://blog.cloudflare.com/bgp-leaks-and-crypto-currencies/ (edited)
+- Kickstarter dao format for [[vacuum walled inflatable house]] concept
+    - Alice has an idea: "I want to see this happen, but I only have X I could put up towards it, and I don't actually have the time or expertise to do it myself"
+    - Alice states what she wants to do:
+        - I'll put up $50k.
+        - I'll put out a bid for people to offer to do it, select the contractors, and pay to have it done. I estimate it will take $350k base R&D, and I'm not sure what it will cost per unit.
+            - and I'll hire two people for a year to try to build it, Let's imagine $150k/year, so $300k total in expenses, plus they obviously need supplies to try to build it, let's assume it might take at least $50k in materials to figure out a half basic prototype. So let's say $350k
+        - I'll provide estimated unit costs as soon as I have them, and I'll continue adding information especially if we're looking close to hitting a funding goal.
+    - Alice states the offer
+        - I am now accepting bid in a modified [[MATT: An [[NFT]] Auction Concept]]
+            - Bid the most you'd be willing to pay for one, delivered upon completion.
+            - On closing the auction
+                - No one will pay more than anyone else (base price)
+                - For people requesting immediate delivery, the delivery cost was subtracted from their effective bid, and so their bid must be equal to the base price + delivery cost.
+- [[Juan Benet]] on [[DeSci]]
+    - {{youtube: https://www.youtube.com/watch?v=5ORvbCIW39o}}

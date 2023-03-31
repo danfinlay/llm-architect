@@ -1,0 +1,7 @@
+- Edgar the [[etherscan]] of the [[[[securities [[law]]]] and exchange comission (]]sec) 
+    - https://twitter.com/recmo/status/1590143923011584001?s=46&t=4tUP
+- [[Elon Musk]]
+    - https://www.businessinsider.com/tesla-faulty-battery-cooling-systems-design-model-s-2012-2019-6
+    - https://www.businessinsider.com/tesla-elon-musk-orders-engineers-to-stop-brake-and-roll-testing-2018-6
+- [[[[Twitter]] verification]] [[delegation]] [[Delegatable Eth]] [[phishing]] strategy
+    - https://twitter.com/danfinlay/status/1590419991350104064

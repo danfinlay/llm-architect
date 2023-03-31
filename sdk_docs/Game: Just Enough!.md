@@ -1,0 +1,18 @@
+- Basically same game rules as [[Drawful]] by [[Jackbox]]
+    - Each user is shown a prompt
+    - Each user enters something privately in response to the prompt
+    - For each prompt, all users are then shown all prompts to vote on which one is actually correct.
+    - Users get points for selecting the original values, or for getting others to select their own responses.
+- instead of prompts for drawings, prompts are statements of the form:
+    - {{drawing}}
+    - In order to X, you need at least Y (amount) of Z (thing). + J (justification)
+- The prompt gives 2 varaibles filled in, and the users compete to come up with plausible entries for the other two.
+- Examples
+    - In order to live, a person needs at least `amount` of water. `Justification`
+        - Possible Answers:
+            - 8 cups daily. Because otherwise salts build up and you will die.
+            - 2 ml. In 1885 a chimney sweep child who was dehydrated to a mere 2ml of water content was resuscitated again.  
+    - In order to `goal` you need at least 2 eggs. `Justification`.
+        - Possible Answers
+            - Make ghiradelli brownies. To give that creamy texture.
+            - Continue the chicken species after all are dead. One hen and one rooster.

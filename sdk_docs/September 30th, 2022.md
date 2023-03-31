@@ -1,0 +1,7 @@
+- [[third place]] 
+    - https://twitter.com/eladnehorai/status/1575218783999836160
+- [[expo]] for [[[[React]] Native]]
+    - https://twitter.com/htormey/status/1575497068193320961?s=46&t=
+- [[September 30th, 2022]] at 20:40
+    - [[Web Component]]
+        - https://twitter.com/claviska/status/1575949212201930752?s=46&t=

@@ -1,0 +1,2 @@
+- https://www.genode-labs.com/products/graphical-user-interfaces#Nitpicker__a_minimal-complexity_GUI_server
+- [[A Nitpicker’s guide to a minimal-complexity secure GUI]]

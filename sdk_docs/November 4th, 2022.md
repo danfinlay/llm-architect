@@ -1,0 +1,7 @@
+- [[November 4th, 2022]] at 04:09
+    - [[Orchid Protocol]] https://twitter.com/snowden/status/1588487179541663745?s=46&t=Jl_
+- [[November 7th, 2022]] at 16:45
+    - [[Helios]] [[Ethereum]] [[light client]] [[rust (language)]] 
+        - https://twitter.com/noahcitron/status/1589739389545914368?s=4
+- [[November 7th, 2022]] at 19:51
+    - [[Twitter]] pursuing [[proof of humanity]] https://twitter.com/yoyoel/status/1589804648894193664?s=46&t=

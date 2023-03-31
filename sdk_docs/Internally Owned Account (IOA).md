@@ -1,0 +1,1 @@
+- The type of [[Ethereum]] account that is controlled by a [[smart contract]] code.

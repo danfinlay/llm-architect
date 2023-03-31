@@ -1,0 +1,6 @@
+- [[art]]
+    - https://twitter.com/algekalipso/status/1608574752435863552?s=46&t=RC
+- [[SecureRender]] repository on GitHub! https://github.com/eraeco/joy/tree/master/the
+    - backup: https://github.com/danfinlay/joy/tree/master/the
+- [[Venkatesh "vgr" Rao]] [[organization theory]] [[to read]]
+    - https://twitter.com/jonathanhillis/status/1502700674995429376?s=46&t=RC_

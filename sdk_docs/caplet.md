@@ -1,0 +1,2 @@
+- > Software applications that are confined by capability discipline even if they share cpu, disk, and memory resources.
+    - [source](http://www.combex.com/tech/darpaBrowser.html)

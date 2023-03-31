@@ -1,0 +1,6 @@
+- What does the world look like when each person can filter their digital world to appear the way they prefer?
+- Examples
+    - A trans person can filter out deadnames, and hear their preferred name.
+    - People can change the cast of a film to match their preference (bias/representation)
+    - You should always be able to remove advertisements from your world
+    - You should be able to add recommendations from your social network to your perspective

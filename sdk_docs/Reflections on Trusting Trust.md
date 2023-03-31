@@ -1,0 +1,2 @@
+- https://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf
+- Details the difficulty of proving safety from an [[audit]].

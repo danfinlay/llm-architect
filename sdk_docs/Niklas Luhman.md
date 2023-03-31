@@ -1,0 +1,1 @@
+- http://luhmann.surge.sh/communicating-with-slip-boxes [[Zettelkasten]]

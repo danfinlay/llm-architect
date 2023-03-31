@@ -1,0 +1,13 @@
+- this page probably deprecated in favor of [[digital [[social collateral]]]]
+- Name of this article is pending, this page represents a suspicion that a new term is needed.
+- Possible synonyms
+    - [[rich sharing]]
+- Intended to be a term to represent a computationally-facilitated network of deliberate risks made by users.
+- Like [[digital [[social collateral]]]] except not just monetary (also other, more functional [[power/capability]])
+    - it is not clear that digital social collateral is restricted to monetary risk.
+- Like [[object capability (ocap)]], except relating to how any [[power/capability]] is assigned, not just computer resources at the programming language level.
+- Any system of assigning [[power/capability]] that respects the basic principles of:
+    - No authority by default, respecting the [[principle of least authority (POLA)]]
+    - User defined [[attenuation]] & [[delegation]], enabling [[social collateral]] based networks.
+- Named somewhat after [[web of [[trust]]]], which I've learned is a word not to be used since it has a specific meaning related to the [[PGP]] protocol, but nods to it through the saying [[Trust is risk]].
+- Long term, I hope for [[MetaMask]] to be effective as this type of tool, in part by incorporating the trust act not just at the social layer but at the computational layer via [[[[EIP]] 2255: Wallet Permissions System]] and [[[[MetaMask]] Snaps]], and not just in the financial dimension but any dimension via [[object capability (ocap)]].

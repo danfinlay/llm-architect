@@ -1,0 +1,1 @@
+- [[Herbert Simon]] term for the way [[agent]]s make decisions with limited information.

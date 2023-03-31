@@ -1,0 +1,1 @@
+- [[Dankrad Feist]] on why ethereum should go [[stateless]] https://dankradfeist.de/ethereum/2021/02/14/why-stateless.html

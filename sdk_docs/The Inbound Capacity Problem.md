@@ -1,0 +1,12 @@
+- A fundamental scaling issue related to cross-ledger transactions that [[Egor Homakov]] has promoted as only solvable by [[credit line]].
+    - In the opinion of [[Dan Finlay]], this associates the virtues of [[social collateral]] with the technical possibilities for scalability, which imply the most socially impactful construct (peer to peer [[credit line]]) could also be central to effective scaling. ie, [[credit line]] systems (like [[Circles UBI]] and [[Trustlines]], which struggle with scaling) can solve their scaling challenges by embracing cross-L2 transfers, and L2s can solve their cross-ledger liquidity problems by embracing peer to peer lines of credit.
+        - This is not a new idea, of course.
+            - [[The Original Ripple Whitepaper]]
+- [A Summary Article](https://medium.com/@homakov/catch-22-of-lightning-network-inbound-capacity-7bdb4964e64a) by [[Egor Homakov]]
+- [An article](https://medium.com/fairlayer/why-lightning-and-raiden-networks-will-not-work-d1880e4bc294) on why [[[[Bitcoin]] Lightning]] will not work by [[Egor Homakov]]
+- These problems apply to a wide variety of projects
+    - [[[[Bitcoin]] Lightning]]
+    - [[Connext]]
+- Twitter threads
+    - https://twitter.com/hasufl/status/1325585168934047744?s=20
+    - https://twitter.com/homakov/status/1325584467432517637?s=20

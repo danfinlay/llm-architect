@@ -1,0 +1,13 @@
+- aka [[social money]]
+- [my personal token guide repo](https://github.com/danfinlay/personal-tokens/blob/master/README.md)
+- Platforms
+    - [[RollHQ]]
+    - [[personal tokenizer]]
+- Uses
+    - Sell your time with [[microsponsors.io]]
+- Historical theory
+    - [[E.C. Riegel]] believed individual-issued credit was key to stabilizing an economy. [blog post](https://medium.com/metokens/issue-your-own-credit-to-survive-economic-downturn-8b6178f69c64) by [[Chris Robison]]
+- Some examples
+    - https://chiwbaka.com/2020/why-you-should-create-your-own-currency-according-to-metokens-creator-chris-robison/
+- My running tweet storm on the topic:
+    - https://twitter.com/danfinlay/status/1260974722386255877?s=20

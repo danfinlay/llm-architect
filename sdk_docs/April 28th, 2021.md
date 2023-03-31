@@ -1,0 +1,3 @@
+- [[Bundle Magic]]
+- [[[[Balancer]] [[Gnosis]] Protocol (BGP)]] has premeired with [[CowSwap]]
+    - https://twitter.com/fleupold_/status/1387391837204361217?s=21

@@ -1,0 +1,5 @@
+- [[Vitalik Buterin]] [believes](https://vitalik.ca/general/2019/04/03/collusion.html) only systems with strong [[identity system]]s can be free from [[plutocracy]]
+    - https://twitter.com/vitalikbuterin/status/1199102604002902018?s=21
+- [[Vitalik Buterin]] believes [[identity system]]s are [one of the most important things](https://twitter.com/vitalikbuterin/status/1013892145412018176?s=21) to build.
+- [[Planetary Social]] launched on [[iOS]] today
+    - https://twitter.com/planetaryinc/status/1358843288384663555?s=20

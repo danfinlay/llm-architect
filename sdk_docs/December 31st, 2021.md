@@ -1,0 +1,6 @@
+- [[Cory Doctorow]] on [[cognitive biases]] of [[peak indifference]]
+    - https://twitter.com/doctorow/status/1476078496719900676?s=21
+- [[[[[[global warming]] quantified]] mitigation]]
+    - https://news.bloomberglaw.com/environment-and-energy/using-the-oceans-to-store-co2-could-help-avoid-climate-catastrophe
+- [[libsubmarine]] for reducing [[front running]]
+    - https://twitter.com/thegostep/status/1476754733880643590?s=21

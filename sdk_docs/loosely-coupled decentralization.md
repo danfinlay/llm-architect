@@ -1,0 +1,3 @@
+- A type of decentralization where there is not a need to come to a single coordinated decision, but the cooperation is emergent from the individual agents acting in parallel.
+- As opposed to [[coordinated decentralization]]
+- Coined by [[Mark Miller]]

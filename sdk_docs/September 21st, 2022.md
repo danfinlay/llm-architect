@@ -1,0 +1,5 @@
+- [[Secure UI]] [[terra/LUNA]] [[Binance]]
+    - https://twitter.com/alexstamos/status/1572316077597818880
+- [[Farcaster]]
+- [[Bardeen]] is a [[WebExtension]] that allows automating interactions between sites.
+- https://twitter.com/danfinlay/status/1572671086189506560

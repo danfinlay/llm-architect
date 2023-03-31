@@ -1,0 +1,4 @@
+- [[SoulBound Tokens (SBT)]] implementations
+    - [eips.ethereum.org/EIPS/eip-4671](https://t.co/TjZ7H5fSjM)
+    - [https://eips.ethereum.org/EIPS/eip-5484](https://t.co/EGzoMOArjJ)
+    - [https://eips.ethereum.org/EIPS/eip-5114](https://t.co/S9QsHx6AuZ)

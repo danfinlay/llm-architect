@@ -1,0 +1,6 @@
+- [[[[Gnosis]] SAFE]] [[DAO]] proposal
+    - https://twitter.com/gnosissafe/status/1491359822180401152?s=21
+- [[quantum computing]]
+    - https://twitter.com/zmanian/status/1491434354765344768?s=21
+- [[hardhat]] [[EIP 2535 Diamond Standard]] tool [[Gemcutter]]
+    - https://twitter.com/CastignoliMarco/status/1491453392354709505

@@ -1,0 +1,6 @@
+- [[Approaches to [[[[EIP]] 1271: Standard Signature Validation Method for Contracts]] signature serialization]]
+- [[Smalltalk]]
+    - https://twitter.com/jackrusher/status/1629472730880913409?s=20
+    - https://commandcenter.blogspot.com/2019/01/notes-from-1984-trip-to-xerox-parc.html
+- [[Optimism]] [[Superchain]]
+    - https://stack.optimism.io/docs/understand/explainer/

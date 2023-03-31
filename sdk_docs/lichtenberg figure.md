@@ -1,0 +1,2 @@
+- https://en.wikipedia.org/wiki/Lichtenberg_figure
+- A process of allowing high-voltage electricity to burn a pattern into wood, which traces its process of seeking a path of least resistance.

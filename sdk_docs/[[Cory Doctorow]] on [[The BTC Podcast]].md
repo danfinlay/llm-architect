@@ -1,0 +1,88 @@
+- [Doctorow on BTC podcast](https://thebitcoinpodcast.com/the-bitcoin-podcast-387/) notes
+- 22 mins in:
+    - Talks about how each token distribution has oligarchs, which look like banks. He seems to infer this means issuing tokens is bad and needs central regulation, where I would infer that maybe more people need access to token issuance.
+- On Smart contracts
+    - “I wrote a novel in 2002 on smart contracts”
+        - which?
+    - fears of smart contracts:
+        - intrinsic complexity
+            - already hard for people to review “prospectus”
+            - ability to parse the source
+                - most people can’t easily
+            - the history of cons
+                - “the golden age of the con”: railroad
+                    - stock swindle
+                    - race betting swindle
+                    - Tended to claim you could front-run, knew results before they were out.
+                    - Similar to Robin Hood: “order flow” sale.
+                    - Always conning in your off-topic
+                        - con a stock person with a horse
+                        - con a horse person with a stock
+                - Smart contracts are always hard to parse: No one is able to reliably consistently evaluate these things.
+                    - COUNTER: Not all good opportunities need to be novel smart contracts for each person to use; more opportunities should be of a form that is easier to recognize.
+                        - The global community has
+            - We have so much anti-scamming in the web2 world
+                - 33 minutes in:
+                    - anti-email scamming, like SPKI is a proven solution at scale for identity verification. You can't claim to be Bill Gates @ microsoft
+                        - I would point out that domain [[mimicry]] is already so easy that SPKI isn't actually doing significant protection against real scam shops, and if it was, crypto users would not be so prone to email mimicry as they are today.
+                    - The bill to force [[Apple]] to open the app store
+                        - They say third party app stores would allow bad apps into the world, and that an automated solution will never work.
+                        - "An attacker has an advantage: It only needs one flaw in the defense and it can win"
+        - immutability
+        - brittleness
+            - Smart contract proponents highlight flexibility, but the whole point is automation, which implies a form of rigidity (at least rigid in absence of intervention).
+                - Example: lending of an over-collateralized loan with auto-liquidation: the [[suicide note]] led up to the [[Great Financial Crisis (GFC)]]
+                    - This led to large chains of repercussions from defaults.
+                        - **My thoughts**
+                            - This was also an environment that was almost totally unreadable, AND these companies were betting with people's retirement accounts on these kinds of derivatives. In DeFi individuals could choose their level of risk.
+                    - He argues that a human court could've intervened and made people whole because it saw the larger picture.
+                    - This can cause flash-crashes in smart contracts.
+                    - The solution to this risk is having an [[oracle]], and if you have that, you don't need to pay gas, you could just pay a guy, and if you're going to pay a guy, you might as well just have a [[bankruptcy court]]
+                        - **My thoughts**
+                            - I actually do significantly agree that when trust is embedded in a system, that portion of the system does not need to be on chain (until something they rule might trigger on-chain repercussions).
+                            - There is a difference between trusting a bankruptcy court to adjudicate an agreement perfectly, and being able to choose your own mutually-trusted third parties. I suspect that individuals who are able to choose a mutually-trusted third party would be cheaper, have a higher likelihood of positive outcomes, and is more possible than ever with the advent of digital networks, per [[three and a half degrees of separation]].
+    - He suggests that it is practically impossible to un-fraud smart contracts: Prove that things are definitely safe, which are cheap enough for widespread access.
+        - Imagines "a low cost, high reliability [[oracle]]"
+    - [[Brian Eno]] [[Oblique Strategies Deck]]
+        - would make everyone follow the advice on a card
+        - “be the first person to try not doing something that no one has tried not doing before”
+        - [[street performer protocol]]
+        - The failure mode in web3 is just trying again.
+            - instead of any regulator, you’re just begging DeFi oligarchs for something?
+            - He feels modern regulation despite failure has *some hope*.
+
+                - I am not proposing dismantling existing regulators, just making extra tools for representing value.
+                - Modern smart contracts are opt in, so in some ways I’m not sure what Cory’s counter proposal is. As long as people have networks computers, do you have the option for participating in distributing smart contracts, semi-interested in making them as safe as possible, not pontificating on whether or not they would ideally be possible in their current form.
+    - ideology
+        - public goods are nice
+            - it seems today this end is only pursued through a promise of speculative upside.
+                - speculation is anti 
+                - will not work well 
+            - [[Margaret Thatcher]] right to buy flats as original airdrop.
+                - caused the worst crisis bc turned a right into speculation 
+                - compare to NYC housing cooperatives, which Courtney Pong is the most stable and desirable form of housing for both Rich and poor alike.
+            - FaceTime Cory raises the example so bad on NFTs as an example of a non-market incentivized used for blockchain. He indicates he thinks this is underexplored, and isn’t quite sure what it might look like long-term. To me it sounds quite a bit like a capabilities. So Byron NFT‘s are absolutely rediscovering the concept of assignments and delegations are locked to a recipient, and I’m only missing because of the revocation of transit delegation from being a full capabilities system. (sic voice memo)
+        - [[Steam]] chief economist said it turns out with a gods eye view of an economy, prices do not behave the way you’d expect. it’s more political than cleanly economical. seems to undermine the [[Chicago Economics]] of the last 40 years, which aspired to bring the clarity of economics to politics.
+    - The attempts to launch nuclear missiles have been repeatedly thwarted by a human in the chain refusing, and that would be tragic to lose.
+        - Modern DAOs tend to still signal to a person to go act on their behalf, and go bid on the constitution for them.
+            - This is his proof that real world things cannot be done without [[trust]], which I agree with.
+    - Down and Out in the Magic Kingdom
+        - Reputation is winner take all
+        - We mis-attribute others’ opinions as signals for ourselves, and it puts us at risk.
+    - 1:29 big dump
+        - DeFi is unsustainable 
+        - corn derivatives have a floor, unlike DeFi 
+            - fundamental natural limits that DeFi lacks
+        - [[impermanent loss]] is a lie 
+            - (seems to draw it beyond its context)
+        - Using dopamine to hook people on unsubstantial value
+        - maybe there is merit to a hybrid human-contract systrm
+            - like crowdfunding a bridge
+- Summary of my thoughts
+    - I actually agree with him on several points.
+        - Many things require trust, and don't require smart contracts at all.
+        - each new token issued tends to favor a distribution that is local to its issuer and community
+    - Where my perspective differs
+        - I think that it is possible to achieve [[Safety for Extensible Permissions Systems]] in a way that allow peoples' reviews of smart contracts to draw from their own [[web of [[trust]]]], similar to [[pet name]]s and [[proposed name]]s, but extending into the interpretation and rendering of contracts themselves.
+            - https://twitter.com/danfinlay/status/1516085528470323200?s=20&t=PAuZhnaJooRcUMVKDVFhbg
+        - If each new token issued tends to favor a distribution that is local to its issuer and community, then while regulating that issuance is one approach, that is pretty much the approach we already have: Securities laws already restrict who can issue (or at least sell) representations of future promises. An alternative approach is to democratize the access to the ability to issue these promises. The smart contract layer largely exists to ensure that holders of those promises are able to transfer them, or manage them with their own security policies, but the redemption and any other layers that can be rooted in trust can still be rooted in social trust. This is what I've called [[The Simplest Trustworthy Oracle]].

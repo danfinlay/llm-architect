@@ -1,0 +1,2 @@
+- https://monte.readthedocs.io/en/latest/
+- An [[object capability (ocap)]] programming language based on [[E (Language)]] and [[Python]]

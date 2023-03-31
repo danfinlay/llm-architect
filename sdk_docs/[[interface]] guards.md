@@ -1,0 +1,5 @@
+- A sort of runtime type system
+- examples
+    - https://github.com/Agoric/agoric-sdk/blob/f2ebdb5e0f419b75c258d0378a069606ebb5d3ea/packages/inter-protocol/src/psm/psm.js#L239-L245
+    - Working tests
+        - https://github.com/Agoric/agoric-sdk/blob/master/packages/store/test/test-heap-classes.js

@@ -1,0 +1,2 @@
+- https://ethereum-magicians.org/t/eip-erc-app-keys-application-specific-wallet-accounts/2742/21
+- The concept of generating unique keys per application interacted with.

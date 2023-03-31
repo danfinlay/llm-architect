@@ -1,0 +1,22 @@
+- [[LLaMA]] [[large language model (LLM)]] [[AI]] retraining
+    - https://twitter.com/_akhaliq/status/1636416647518097408?s=46&t=
+- [[[[Multiple Network Connection]] API]]
+    - Should we use a routing key instead of a chainID (as [[CAIP-25: Handshake]] does)?
+    - [[[[CAIP]] 211: Handshake]]
+        - CAIP 211 issues I'm aware of
+            - Undefined behavior:
+                - If multiple scope providers are returned, how does the consumer refer to one specifically?
+            - chainId is not a universal parameter for all possible scoped services (but maybe this parameter is only used on network requests, so this could just be an opinionated scope feature. Can we generalize that? Should opinionated parameters be in a special options field?)
+    - [[Caip 27: Request to a specific chain]]
+- [[Vitalik Buterin]] writes [a reddit post](https://old.reddit.com/r/ethereum/comments/11tijiv/how_i_think_about_choosing_guardians_for_multisig/) on [[social recovery]] and [[n of m multisig]] [[contract account]]s.
+    - Sounds like his favorite [[[[EIP]] 4337: [[account abstraction (AA)]] via Entry Point Contract]] wallet team is [[Soul Wallet]]
+- [[Delegatable 4337]]
+    - May actually require a variation to make it 4337 compatible
+        - 4337 disallows `validateUserOp` to call external contracts as part of validation (as the caveat system has!).
+        - I already always wanted a delegatable gas subsidy, and wanted it to be lean/light. It might be that a 4337-compatible delegation has two components:
+            - gas delegation
+                - Fixed caveat system
+                    - allowance
+                    - revocation
+            - functional delegation
+                - traditional [[Delegatable Eth]]

@@ -1,0 +1,9 @@
+- The parentehses-centric syntax of [[Lisp]]
+- Can be compiled from many other syntaxes:
+    - http://srfi.schemers.org/srfi-49/srfi-49.html
+    - http://breuleux.net/blog/liso.html
+    - http://lambda-the-ultimate.org/node/1646
+    - https://en.wikipedia.org/wiki/M-expression
+    - http://readable.sourceforge.net/
+    - http://dustycloud.org/blog/wisp-lisp-alternative/ [[Wisp ([[Lisp]] syntax)]]
+    - http://xahlee.info/comp/lisp_sans_sexp.html

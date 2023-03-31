@@ -1,0 +1,10 @@
+- A wizard from a fireball planet, Leonardo DaVinci type computer scientist, making broad and deep contributions to various fields.
+- Spent time in residence at [[MIT]] and [[Microsoft Research]]
+- Research
+    - [[Atlantis]] Robust, Extensible Execution Environments for Web Applications 
+- Has talks
+    - [[Building a Better Web Browser]]
+    - [[Blockchains are a Bad Idea]]
+- Ideas
+    - [[Private Logical Machine]]
+    - [[Technological Manifest Destiny]]

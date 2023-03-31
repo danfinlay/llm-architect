@@ -1,0 +1,5 @@
+- [[cfa Franc]] [[seignorage]]
+    - https://twitter.com/upholdreality/status/1593703642363748353?s=46&t=
+- [[[[[[EIP]] 1271: Standard Signature Validation Method for Contracts]] variant of [[Delegatable Eth]]]]
+- [[Gas (app)]]
+    - https://twitter.com/lukesophinos/status/1593268198064824320?s=46&t=

@@ -1,0 +1,3 @@
+- Start off cooperatory
+- Be retaliatory (punish defectors)
+- Be forgiving (if a defector begins cooperating again, cooperate again)

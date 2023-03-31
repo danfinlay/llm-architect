@@ -1,0 +1,3 @@
+- https://every.to/divinations/bundle-magic-379035
+- How voluntary bundle [[pricing]] can create mutually beneficial synergies between buyers and sellers.
+    - Half-baked thought: Could this same logic be used to create voluntary social safety networks?

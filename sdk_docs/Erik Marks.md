@@ -1,0 +1,4 @@
+- Member of [[MetaMask]] since ~2019? 2018?
+    - Lead engineer of [[[[MetaMask]] Snaps]]
+    - Joined as an intern while finishing masters' degree at [[Penn State University]]
+    - Has [[anthropology]] degree also.

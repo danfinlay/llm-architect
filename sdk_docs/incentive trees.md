@@ -1,0 +1,18 @@
+- The technique of having recursive, transitive [[referral fees]] to incentivize cooperative behavior, as seen in the strategy of the winning [[[[DARPA]] Network Red Balloon Challenge]] participants.
+- Basic Concept
+    - Some exclusive set of people are given the right to receive an award for completing an achievement.
+    - Those people are able to share their would-be award with others, who are able to recursively make the same deal.
+    - Effectively you've created a referral program where anyone can refer, and everyone has incentive to refer instead of complete the task if they are not able to complete the task alone.
+- Variations
+    - In the [[[[DARPA]] Network Red Balloon Challenge]] winner, the final referrer got the best price, with diminishing prizes for the referrers:
+        - Finder would get $2000, and their inviter would get 1/2 of that, and so on down to $250. If fewer than 4 hops invited the winner, the rest would go to charity.
+            - This has a vulnerability: It pays out the most to the longest invite chain, and so encourages long invite chains, which is slightly gameable. This problem doesn't manifest as very large with a mere 10 balloon challenge and only $2000 per balloon, but should be considered for larger scale implementations.
+    - In an [[object capability (ocap)]] model, any eligible inviter could determine what their cut would be of anyone they invited, which creates a competitive market for invitations which can scale to any number of hops, and is not gameable.
+- A twitter thread on the topic, extending to [[referral fee]]: https://twitter.com/danfinlay/status/1127686312033579008?s=20
+- Incentive tree use case examples
+    - Selling tickets to an exclusive event, like [[Burning Man]]:
+        - You add a commission to each friend you invite, and thus can set your commission according to how badly you want that person to have access, or what you’d want to be paid for them to get access.
+    - Creating a [[0x Protocol]] style relay system except that it supports arbitrarily deep tries of aggregators.
+    - Buying shares of a vacation house, or a retreat, or a [[Community Supported Agriculture  (CSA)]]
+        - Rather than having a fully public market, you have a market where each sale and each price increase is intimately connected to the recipient of the opportunity.
+- Is explored a bit on https://incentive.exchange/

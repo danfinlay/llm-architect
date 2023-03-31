@@ -1,0 +1,24 @@
+- When [delegating]([[delegation]]) a [[power/capability]], the ability to restrict, limit, or otherwise adjust the way that it can be used.
+- The word comes from physics/electronics. To attenuate a signal is to mask out the many frequencies except for the ones you're interested in.
+- Examples
+    - Adding a [[caveat]]
+        - You can borrow my car __this weekend__.
+    - [[Airbnb]] is access to someone's home, attenuated over a specific time range.
+    - Revocability
+        - You can visit any time, unless I ever take it back.
+    - Qualifying a statement
+        - I’d love a salad __with no tomatoes__.
+    - Log out timer
+        - Keep me signed-in __for two weeks__.
+    - Credit line
+        - You may borrow __up to five thousand dollars.__
+    - Creating a [[Proxy]]
+        - A [[JavaScript]] language construct for arbitrarily disrupting access to an object.
+    - Disruption
+        - Rejecting some kinds of uses of a [[power/capability]], like “you can visit the hotel room __between these hours__”.
+    - Distortion
+        - Adjusting how a [[power/capability]] is used. Like showing a censored version of a movie.
+    - In [[LavaMoat]], limitations on what modules can be loaded.
+- In an [[object capability (ocap)]] security model, upon each delegation there is an opportunity to add additional [[attenuation]] to the delegation.
+    - This is in part because any time you are passing a reference to another agent, you have an option of providing a [[closure]] or [[Proxy]] instead.
+- Because each delegation can only delegate from its own capabilities, each delegation can at most delegate that agent's full capability, and any restriction in the delegation will be applied to all recursive delegates downstream, making it very easy to reason about the safety properties of delegating in this kind of [[capability chain]].

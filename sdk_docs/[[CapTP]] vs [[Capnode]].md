@@ -1,0 +1,14 @@
+- A place for evaluating the merits of [[CapTP]] vs [[Capnode]]
+- Capnode benefits
+    - Works with many JS modules out of the box.
+    - Has a more intuitive style for existing [[JavaScript]] developers
+        - No need for special syntax like [[tildot syntax]]
+- CapTP benefits
+    - Constrains usage to safe usage
+    - Promise pipelining support
+    - Things I learned from [[Mark Miller]] once getting to discuss the distinction with him
+        - All references passed over [[CapTP]] are either [[record]]s or [[interface]]s.
+        - Laziest possible responses with built in caching using [[Eventual Send]]
+        - The [[hilbert hotel]] for encoding
+        - The goal of [[[[presence]] handoffs]] 
+        - [[.there()]] as an alternative to pipelining

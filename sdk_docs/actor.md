@@ -1,0 +1,3 @@
+- Same as [[agent]]
+- Used in some specific contexts
+    - In programming distributed concurrent systems, like [[The Actor Model]].

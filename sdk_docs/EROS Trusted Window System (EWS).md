@@ -1,0 +1,8 @@
+- [Design of the EROS Trusted Window System](https://www.usenix.org/legacy/publications/library/proceedings/sec04/tech/full_papers/shapiro/shapiro.pdf)
+    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FUuvpqsE04u.pdf?alt=media&token=f153649c-4e93-44d9-b769-46dc104f2792}}
+- Quotes
+    - Most window systems today, including [[X11]] and [[Microsoft Windows]],have carried forward the presumptive [[trust]] assumptions of the [[Xerox Alto]] from which they were conceptually derived. These assumptions are inappropriate for modern computing environments.
+- Notes by [[Dan Finlay]]
+    - How does a user know when entering a [[password]] that it is only received by the intended recipient?
+    - [[cut and paste]] as a universally expected [[inter-process communication]] system.
+    - 

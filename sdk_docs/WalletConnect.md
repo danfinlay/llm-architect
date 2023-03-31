@@ -1,0 +1,4 @@
+- A way of connecting to Dapps via a QR code initiation + relay over a centralized server.
+- Has had some reliability issues due to the central server relay:
+    - https://twitter.com/Trip_0d/status/1459361057789648898?s=20
+- Has announced it plans to decentralize its relay.

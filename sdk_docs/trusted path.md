@@ -1,0 +1,15 @@
+- A concept in [[Secure UI]] that relates to how a user retains a notion of trust in an otherwise untrustworthy interface.
+- [On Wikipedia](https://en.wikipedia.org/wiki/Trusted_path?wprov=sfti1)
+- Two possibly conflicting definitions
+    - The idea that a user interface element indicates what is being trusted to render this portion of UI.
+        - A conceptual equivalent to quoting someone, indicating who you are quoting and what you are claiming they are saying.
+    - The ability to escape a computer layer to get to one of greater authority.
+- Examples
+    - [[line of death]]
+        - Browser URL bar
+    - [[security tartan]]
+- Citations
+    - [[User Interaction Design for Secure Systems]]
+    - [[An Introduction to [[pet name]] Systems]]
+    - [[Trusted Computer System Evaluation Criteria (Orange Book)]]
+    - [Interesting thread](https://groups.google.com/g/cap-talk/c/E-z6LBrg0Ow/m/elcw1PqPAAAJ) on [[cap-talk]] forum about [[Secure UI]]

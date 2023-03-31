@@ -1,0 +1,79 @@
+- [[[[endo]] [[LavaMoat]] Call]]
+    - Attendees
+    - Notes
+        - The [[[[endo]] pet daemon]]
+            - To follow along, Check out https://github.com/endojs/endo/pull/1427 and use packages/cli/bin/endo
+            - defining endo:
+                - like docker but acutally confined.
+                - [[web of bots (wob)]]!
+                    - "is it wob scale?" ([reference](https://www.youtube.com/watch?v=b2F-DItXtZs))
+            - Lets you manage a daemon in a similar way to how you might manage a bot.
+            - Major use cases
+                - A bridge to allow [[[[MetaMask]] Snaps]] to run outside of the browser.
+                - A way to run [[LavaMoat]] isolated modules for any JS application.
+                - Allow bridging to the [[Agoric]] chain via an "unsafe service".
+            - panes
+                - top left
+                    - where the state of the endo directory will be persisted
+                - bottom right
+                - bottom left: Logging the output of the daemon
+            - commands
+                - `endo where` to find all your state directories. Allows the various processes to find the other relevant parts of the endo pet daemon.
+                    - `endo where state` shows where state is
+                    - `endo where log`, `endo where cache`, `endo where sock`
+            - Daemon is running on v0 of [[@agoric/capTp]]
+            - when storing a file, you add a [[pet name]] for it
+                - `endo store ~/endo/README.md -n endoReadme`
+                    - -n flag is required for the pet name.
+            - Then `find Endo` shows the hashes in the store.
+                - also includes a petname endoReadme.json file in `Endo/pet-name`
+            - `endo spawn worker`
+                - creates a new worker and captures its log
+                - allows you to eval things like `endo eval worker 42 -n fortyTwo`
+                - This creates a pet name of `fortyTwo` for the evaluated result (`42`).
+            - `endo restart`
+            - `endo show fortyTwo`
+                - > `42`
+                - The result here can be an arbitrary e-ref (capability, that can extend outside of the system)
+            - You can also pass endowments to workers!
+                - `endo eval worker 'fortyTwo * 2' fortyTwo -n eightyFour`
+                    - so after the evaluated string, you can pass pet names for values to evaluate.
+            - service.js
+                - an unconfined service that exports a `main0` that has a powerBox.
+                - Like an admin.
+                - The user is given the opportunity to consent to any request that is passed to the powerBox.
+                    - These requests are scoped to the lifetime of the worker (no persistent state)
+                - You'll use requests to establish communication channels to the things you need, so an endo agent doesn't need to re-interrogate things for its previously granted capabilities.
+                - usage
+                    - `endo import-unsafe0 worker service.js -n service`
+                    - `endo show service`
+                    - `endo restart`
+                        - like a reboot
+                    - `endo show service`
+                    - `endo eval worker 'E(service).answer()' -n answer`
+                        - failed, must need service as an endowment to this eval!
+                    - `endo eval worker 'E(service).answer()' service -n answer`
+                    - `endo inbox`
+                        - shows request `0` having queued up the answer? Should it maybe just show the request instead, in case the evaluation has side effects?
+                    - `endo resolve 0 fortyTwo`
+                    - `endo show answer` 
+                        - Correctly returns `42`
+                        - works without an endowment because the worker was already returned this pet name, so that's new.
+                    - 
+    - Questions
+        - Can you have multiple workers & name them differently?
+        - Can you show how the `service` source code defines the function description?
+        - What kinds of indication can we give for the source of a request? Ideally external connections also have pet names?
+            - There are a few concerns
+                - It's possible to have multiple inboxes
+                - This is currently minimal
+                - the requests are attributed to the originating worker in this demo, and so should be revealed by your pet-name for the worker.
+                - 
+        - I guess a next demo that would be valuable would be: Create a new endo daemon that connects to this one, ideally over the network, and then connect to it via a growing number of environments. Is this CapTP over UDP? Websockets? Anything in particular?
+            - Currently it's a custom unix socket protocol.
+        - 
+    - Action Items
+- Ocaps would make the best [[[[torrent]] tracker]] alternative. [[endo]] or [[Spritely]] could both probably be used to make a system where you make friends, and can thus offer to share access to X files with your friends, transitively.
+    - Would this make a good [[[[MetaMask]] Snaps]]?
+- [[personal_sign]] prefix trivia
+    - https://twitter.com/elyx0/status/1610588969514721282

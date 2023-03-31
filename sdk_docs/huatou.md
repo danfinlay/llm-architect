@@ -1,0 +1,2 @@
+- The turning point in a [[koan]], meant to be a focal point for a meditation, intended to build up [[yiqing]], or “doubt sensation”.
+- Literally means “that which lies before words”

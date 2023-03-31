@@ -1,0 +1,2 @@
+- [[Cover (DeFi Project)]] was hacked then the funds were returned
+    - https://twitter.com/underthebreach/status/1343564269221195777?s=21

@@ -1,0 +1,58 @@
+- [[[[Spritely]] Brainy]] [[Talks at [[MetaMask]]]]
+    - Notes
+        - [[propagator]]s
+            - constraint based systems
+            - massively parallel
+            - friendly to [[partial information]]
+            - A subset is guaranteed to converge
+            - [[Gerrald "Jerry" Sussman]]
+                - [[We Don't Know How to Compute ([[Gerrald "Jerry" Sussman]])]]
+                    - When you say something that doesn't make sense to me, I don't crash, I chuckle.
+                - [[strangeloop conference]] Sept 19-20 2011
+                    - Observing how modeling a circuit diagram in computers is weirdly hard, and should be bidirectional.
+            - Friendly to [[CapTP]]
+            - Components
+                - Cells
+                    - information or partial information
+                    - Pushes information to propagators
+                - Propagators
+                    - Gathers information from cells, and spits out to cells.
+            - [[Alexey Radul]] wrote on [[propagator]]s, emphasizing how partial information can be accumulated towards 
+                - https://dspace.mit.edu/handle/1721.1/49525
+            - [[Software Design for Flexibility]]
+            - Building height problem
+                - Compared to shadow of a barometer
+                - Compared to barometric pressure
+                - Measured against fall time
+                    - Increased precision propagates precision to the barometer, helping calibrate it.
+            - [[Leilani Gilpin]]
+        - Solving problems
+            - Narrowing down a crime: 
+        - Examples that could apply to MetaMask
+            - names for things
+            - whether something is a phisher
+            - what is true?
+                - who is claiming what?
+        - {{[[TODO]]}} [[Mark Miller]] "Auditors" [[to read]] 
+    - Links
+        - From Christine to Everyone 10:58 AM
+        - https://dspace.mit.edu/handle/1721.1/49525
+        - From Christine to Everyone 11:04 AM
+        - https://gitlab.com/spritely/brainy 
+        - https://gitlab.com/spritely/brainy/-/blob/master/brainy.scm#L137
+        - https://gitlab.com/spritely/brainy/-/blob/master/brainy.scm#L240
+        - https://gitlab.com/spritely/brainy/-/blob/master/brainy.scm#L415
+        - https://fosdem.org/2022/schedule/event/spritelygoblins/
+        - From Christine to Everyone 11:05 AM
+        - https://fosdem.org/2022/schedule/event/lispforeveryone/
+        - From Christine to Everyone 11:10 AM
+        - https://www.youtube.com/watch?v=VVpulhO3jyc
+        - From Christine to Everyone 11:11 AM
+        - https://www.youtube.com/watch?v=KNiePoNiyvE
+        - http://www.erights.org/
+        - http://mumble.net/~jar/pubs/secureos/secureos.html
+        - https://dustycloud.org/blog/goblins-time-travel-micropreview/
+    - Questions
+        - What is this presentation tool?
+- [[[[Pico VR]] g24k]] for building cognitive resilience?
+    - https://twitter.com/SterlingCooley/status/1497411622096158721

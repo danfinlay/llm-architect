@@ -1,0 +1,8 @@
+- [[[[CAIP]] 211: Handshake]] proposes changes to [[CAIP-25: Handshake]]
+- [[Uber]] [[rewrite]]
+    - https://twitter.com/GergelyOrosz/status/1626503640293773318?s=20
+    - https://blog.pragmaticengineer.com/uber-app-rewrite-yolo/
+- [[Nikolai Mushegian]] [[principles]] [[decentralized]]
+    - https://twitter.com/brianmcmichael/status/1626625748952928256?s=46&t=zO-BpFGFwh-jvCkaVzoEjA
+    - This content is also pinned on IPFS at 
+        - QmaajdgTSJMKYSNmM8zhzXpFSsAjj1qQY8HsJeK8cfCk3S

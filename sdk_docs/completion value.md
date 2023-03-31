@@ -1,0 +1,1 @@
+- When you evaluate a program in [[JavaScript]] (according to some obscure rules), the last expression evaluated when evaluating the program becomes "the completion value", which is the value that an [[eval]] returns.

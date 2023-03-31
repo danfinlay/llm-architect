@@ -1,0 +1,3 @@
+- [[kyc]] as a slippery slope to corruption
+    - https://twitter.com/bezzenberger/status/1611698735461052416?s=46&t=
+    - 

@@ -1,0 +1,13 @@
+- https://github.com/ethereum/EIPs/blob/9a9c5d0abdaf5ce5c5dd6dc88c6d8db1b130e95b/EIPS/eip-4361.md#informal-message-template
+- Designed to authenticate a backend using a [[web3]] wallet.
+- https://login.xyz/
+- Fields
+    - issuedAt
+    - notBefore
+    - expiry
+    - URLs
+- Intended to be extended later on, to have additional meaningful fields added.
+- Uses [[personal_sign]] to make its signatures human-readable
+    - Fixed in one language
+    - Not [[contract account]] friendly
+        - Contract accounts may try to be compatible via [[[[contract account]] challenge signature]], with the issues listed there.

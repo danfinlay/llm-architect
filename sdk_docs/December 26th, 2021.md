@@ -1,0 +1,2 @@
+- [[hdevalence]] points out [[Anoma Network]] as a digital [[barter]] system to [[Venkatesh "vgr" Rao]]. May work as a form of [[digital [[social collateral]]]].
+    - https://twitter.com/hdevalence/status/1475207076884279297?s=20

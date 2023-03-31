@@ -1,0 +1,2 @@
+- Containers for code and data that belongs to a particular origin.
+- Resides in a single process that can have multiple threads.

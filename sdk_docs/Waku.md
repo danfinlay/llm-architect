@@ -1,0 +1,2 @@
+- [[Waku]] is a privacy-preserving peer-to-peer messaging protocol for resource restricted devices. It implements PubSub over libp2p and adds [[capability]] on top of it.
+- [Capability implementation](https://rfc.vac.dev/spec/20/)

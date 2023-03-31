@@ -1,0 +1,2 @@
+- https://www.canr.msu.edu/news/bridge_grafting_girdled_fruit_tree_trunks
+- for girdled trees

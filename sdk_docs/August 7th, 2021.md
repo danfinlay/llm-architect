@@ -1,0 +1,2 @@
+- [[DAO]][[delegation]] thread
+    - https://twitter.com/monetsupply/status/1424163343430991876?s=21

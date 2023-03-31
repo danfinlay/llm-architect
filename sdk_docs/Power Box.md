@@ -1,0 +1,1 @@
+- A portion of a computer system's UI reserved for allowing a user to review their current [[power/capability]], use them, or even share or revoke them.

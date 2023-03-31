@@ -1,0 +1,3 @@
+- https://gnosis-safe.io/
+- https://github.com/gnosis/safe-contracts
+- An [[Ethereum]] [[smart contract]] account system by [[Gnosis]] with support for extensions via [[[[[[Gnosis]] SAFE]] module]]s.

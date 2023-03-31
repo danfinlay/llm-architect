@@ -1,0 +1,26 @@
+- A local name for another [[agent]]/entity.
+- Examples
+    - Address book
+    - browser bookmarks
+- By having a user add labels for other entities, the computer system can present that user with that name whenever that entity is encountered, making it a valuable security tool in a [[permissionless]] security context, where external entities can be created and may need to be interacted with faster than any central name registry can be updated.
+- Can include the ability to share these names, and subscribe to others' declarations of these names, forming a sort of [[web of [[trust]]]].
+- A solution to [[zooko's triangle]]
+- Described in
+    - [[An Introduction to [[pet name]] Systems]]
+    - [[zooko's pet names]]
+    - [[pet name]]
+    - [[[[Secure UI]] with Dan]] episode 3
+- In the wild
+    - [[secure scuttlebutt (SSB)]]
+    - [[Waterken]]
+- Doesn't need to be confined to names. Pretty much any attestation can follow this pattern.
+    - profile pictures
+    - descriptions of something
+    - phishing warnings
+    - blocklists
+- The user interface should make a distinction between
+    - A user's own name for an entity (a pet name, the most trusted kind of name)
+    - An entity's name for itself ([[self [[proposed name]]]])
+        - Must be shown with additional suspicion.
+    - An entity's proposed name for a third party ([[proposed name]])
+        - Can be shown as a sort of attribution, especially if the proposer is someone the user has a concrete name for.

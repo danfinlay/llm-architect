@@ -1,0 +1,1 @@
+- The phenomenon of fundraising not from major institutions, but from individuals who are either close to the borrower or to the problem that the borrower is addressing.

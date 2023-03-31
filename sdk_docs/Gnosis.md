@@ -1,0 +1,4 @@
+- an [[Ethereum]] [[Prediction Markets]] company
+- Has built many tools
+    - [[[[Gnosis]] SAFE]]
+    - [[CowSwap]]

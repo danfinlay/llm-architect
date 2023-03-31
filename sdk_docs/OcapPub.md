@@ -1,0 +1,2 @@
+- [Original proposal article](https://gitlab.com/spritely/ocappub/blob/master/README.org)
+- Bringing [[object capability (ocap)]] to [[ActivityPub]]

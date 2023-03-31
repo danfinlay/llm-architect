@@ -1,0 +1,13 @@
+- A [[[[social collateral]] dance]] protocol by [[Mark Miller]]
+- http://www.erights.org/elib/capability/horton/
+    - https://twitter.com/marksammiller/status/1447032308779794436?s=20
+- High-level summary by [[Dan Finlay]]
+    - Horton is a protocol for capability transfer in which a grantor of a capability is notified when a capability is being delegated, with a [[proposed name]] for that new delegate by the delegator. #[[delegation]]
+    - Since Horton involves someone already granted a capability providing extra insight into how they are internally operating, it has a few peculiar characteristics.
+        - It relies on a delegate expressing some of its internal operation, and invites the grantor to express preferences for or against individual approaches.
+        - Since the delegator is claiming their own delegation, it could just as well be a [[scapegoat]], and actually reflect poorly on the delegator themselves.
+    - Examples
+        - "I'm taking your car to Al's car shop, let me know if you're ever unhappy with their service."
+        - "The food tonight was provided by Mimi's catering services." (the host still chose the caterer)
+- [Full text](https://www.usenix.org/legacy/event/hotsec07/tech/full_papers/miller/miller.pdf)
+    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2F9Fhgm5azXP.pdf?alt=media&token=0127612b-818a-4830-950f-4ef44ca6b43e}}

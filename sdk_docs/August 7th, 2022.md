@@ -1,0 +1,14 @@
+- [[extensible [[chess]]]] [[Delegatable Eth]] crossover brainstorming
+    - So I was starting to goof around and write some setup code for [[extensible [[chess]]]], and while coding a rook as an exercise in defining a good piece interface, quickly through a natural laziness thought to myself "I shouldn't even need to code a single piece to be able to kickoff a community driven open chess project", which is both true in that a properly extensible chess engine should allow anyone to add pieces, but also leaves open a question about how one might administrate the landing page and set of default recommended pieces and game configurations.
+    - Naturally, this could either be done by committee (as is popular in [[DAO]]s today) or could be done by a highly empowered network of people (as enabled by [[delegation]]), and since I was just thinking about ways to potentially convey the benefits of a delegation framework just yesterday, I thought it might be a fun crossover.
+    - The mashup would basically be you get a p2p [[WebRTC]] based chess game going, but you also have a landing page that stores default suggested pieces and configurations as defined by a smart contract "on chain", per the delegatable framework.
+    - Possible benefits
+        - This creates a path for both free experimentation but also a community-driven structure for new members. Is that useful? Eh, you could also just share github admin access, I suppose, but inviting people to admin is A Whole Thing, where either you can invite or you invite them to invite, and if they can invite, then they can invite more people than you might trust, and cleaning up afterwards can be difficult.
+            - Not sure that's a good enough reason to explore it for this use case.
+        - Updates to the game kernel need some governance
+            - Some new piece ideas required new game paradigms, like an after-being-taken hook that could modify the game state. This requires a system for not just adding new pieces but modifying core game rules
+- [[DAO]]
+    - https://twitter.com/0xkydo/status/1556382628655382530?
+- [[August 7th, 2022]] at 08:15
+    - One issue with [[Horton’s Who Done It?]] is a person can always claim to have dealt with someone else who they no longer trust, as a way of sybil attacking your trust in them.
+        - https://twitter.com/0xfoobar/status/1556272138125983744

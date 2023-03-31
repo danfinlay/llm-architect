@@ -1,0 +1,11 @@
+- [[It is value that brings universes into being]] [[David Graeber]] on [[Promises]] and [[value]]. [[to read]]
+    - https://twitter.com/julio_linares_/status/1559522503143342081?s
+- [[lexical scope]] [[VSCode]] extension
+    - https://twitter.com/chrisbiscardi/status/1559318638338850816
+- [[Martin Koeppelmann]] highlights [[Shutterized Beacon Chain]]: a strategy for [[[[censorship]] resistance]] for [[evm]] [[blockchain]]s
+    - https://twitter.com/koeppelmann/status/1559146260413677570
+- [[Kevin Marks]] thinks [[privacy]] is only for illegal purposes. [[Tornado Cash]]
+    - https://twitter.com/kevinmarks/status/1559451449486188545
+- [[August 16th, 2022]] at 20:57
+    - [[Vitalik Buterin]] on [[RAI]]
+        - https://twitter.com/ameensol/status/1559713867780931589?s=21&t=

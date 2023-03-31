@@ -1,0 +1,2 @@
+- https://frame.work/
+- A modular and repairable laptop.

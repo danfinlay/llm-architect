@@ -1,0 +1,2 @@
+- A [[JavaScript]] bundling alternative to [[browserify]] or [[webpack]].
+- Seems to have issues with older versions of node.js `readable-stream` like `mississippi`.

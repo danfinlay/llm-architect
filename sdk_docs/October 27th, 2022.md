@@ -1,0 +1,4 @@
+- [[Candy Digital]] may explore [[MATT: An [[NFT]] Auction Concept]]
+- [[[[MetaMask]] Grants [[DAO]]]] premieres!
+- [[October 27th, 2022]] at 20:58
+    - [[Ethereum Package Manager (epm) 2: [[EIP 2535 Diamond Standard]]]] https://paragraph.xyz/@ken/ethereum-package-manager

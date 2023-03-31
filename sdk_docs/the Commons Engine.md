@@ -1,0 +1,2 @@
+- Sister organization of [[Holochain]] and [[Holo]]
+- Founded by [[Ferananda Ibarra]] to help apply all these technologies towards commons-oriented projects.

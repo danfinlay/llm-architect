@@ -1,0 +1,8 @@
+- The process of analyzing what went wrong with a given invocation in a distributed system.
+- Properties
+    - Associating uncorrelated causes with a given eventual result (what triggered this counter before this?)
+    - [[user mode queueing problem]]
+- Approaches
+    - [[Causeway]]
+    - [[[[JSON-RPC API]] [[distributed [[debugger]]]]]]
+    - [[[[CapTP]] [[debugger]]]]

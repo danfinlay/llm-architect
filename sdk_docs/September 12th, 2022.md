@@ -1,0 +1,8 @@
+- [[[[Delegatable Eth]] universal interface]]
+    - {{figma: https://www.figma.com/file/jQCSC17iuuv4APJ1o6EF8I/Delegatable-Universal-Interface?node-id=0%3A1}}
+- [[September 12th, 2022]] at 16:59
+    - [[Facebook]] [[Jedi Blue]] [[Google]]
+        - https://twitter.com/jason_kint/status/1569452866603188224?s=46&t=g_q0J_
+- [[September 12th, 2022]] at 21:36
+    - [[Sui]]
+        - https://twitter.com/evanweb3/status/1569414553322274818?s=46&t=

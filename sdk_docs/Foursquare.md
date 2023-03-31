@@ -1,0 +1,1 @@
+- A small business centric social media app that allowed “checking in” to a location (using phone location), to become “mayor” and get discounts (at participating places).

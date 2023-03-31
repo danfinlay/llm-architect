@@ -1,0 +1,1 @@
+- [[Social Terminal]] first release as [[[[Discord]] [[Secure EcmaScript (SES)]] bot]]

@@ -1,0 +1,2 @@
+- Conceived as inevitable by [[Tim May]]
+- A dream for a decentralized, anonymous, uncensorable marketplace.

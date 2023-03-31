@@ -1,0 +1,6 @@
+- [[[[Gnosis]] chain]] is adopting [[eth2]] [[proof of stake]]
+    - https://beacon.gnosischain.com/
+- [[November 28th, 2022]] at 14:04
+    - [[Plan 9]] for plan9, this is how you get the vibe today: https://github.com/9fans/plan9port
+- [[[[Twitter]] verification]]
+    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FtvJ_SJ76l8.png?alt=media&token=e4b611f0-e7c2-4d1d-ac56-60c50f4c27a0)

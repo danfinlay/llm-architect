@@ -1,0 +1,5 @@
+- [[Inspirational Quotes]]
+    - "We can't solve problems by using the same kind of thinking we used when we created them." - [[Albert Einstein]]
+    - “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.” ― [[Buckminster Fuller]]
+    - "Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations." — [[Melvin Conway]]
+    - "A complex system that works is invariably found to have evolved from a simple system that worked. The inverse proposition also appears to be true: A complex system designed from scratch never works and cannot be made to work. You have to start over, beginning with a working simple system." -- [[John Gall]]

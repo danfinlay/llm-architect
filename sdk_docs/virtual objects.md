@@ -1,0 +1,6 @@
+- Within a [[vat]], someone else's purse is a virtual object, it doesn't need to be in RAM.
+- [[vref]] to [[cref]]
+- If an object is generic enough that it can be reconstructed on demand, we don't need to keep it in RAM all the time, we can just drop it to disk and rebuild it whenever a new reference is built.
+- Funcs
+    - Whenever I need to make a new "representative" of this object, here's the JS for reconstructing it.
+    - So the vat gets some syscalls for storing things to disk.

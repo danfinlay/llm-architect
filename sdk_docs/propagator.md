@@ -1,0 +1,6 @@
+- https://dspace.mit.edu/bitstream/handle/1721.1/49525/MIT-CSAIL-TR-2009-053.pdf?sequence=1&isAllowed=y
+- Introduction by [[George Wilson]]
+    - {{youtube: https://youtu.be/nY1BCv3xn24}}
+- https://twitter.com/dustyweb/status/1466638600150286340?s=21
+- with [[CapTP]]
+    - https://twitter.com/dustyweb/status/1466638885635571713?s=21

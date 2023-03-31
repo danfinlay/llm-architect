@@ -1,0 +1,1 @@
+- [[OpenZeppelin]] [[token]] generator: https://twitter.com/openzeppelin/status/1379182053682466819?s=21

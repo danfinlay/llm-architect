@@ -1,0 +1,5 @@
+- a suite of [[[[[[Gnosis]] SAFE]] module]]s for making [[DAO]]s
+- https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started/
+- Modules
+    - bridge
+        - https://twitter.com/gnosisguild/status/1475499147348295680?s=21

@@ -1,0 +1,3 @@
+- By [[Norman Feske]] and [[Christian Helmuth]] of [[Genode Labs]] describing their [[Genode's nitpicker]]
+- Full text
+    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2F-33xZwosA1.pdf?alt=media&token=91befcff-8e28-4406-afb1-a1cff9af8c26}}

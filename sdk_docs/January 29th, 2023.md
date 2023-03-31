@@ -1,0 +1,1081 @@
+- [[Ivan Illovich]] [[Simple Peers]]
+    - https://www.kernel.community/en/learn/module-metta/build-native-altars/#simple-peers
+- [[Web3 Security Radio]] Episode 29 featuring [[Dan Finlay]]
+    - https://twitter.com/i/spaces/1YqJDoDyMkkGV
+    - Audio rip
+        - {{[[audio]]: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FtWzjoxk4Zr.mp3?alt=media&token=2719b869-9a7e-4eb4-be4d-85c3997b8cca}}
+        - Transcriptions by [[whisper]]
+            - [webvtt](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FtDXeUIe1n2.mp3.vtt?alt=media&token=d35f1a63-6007-42b0-a13c-48522829e346)
+            - [raw txt](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FSrIyejVFrh.mp3.txt?alt=media&token=43fb7b80-7f06-4370-a914-b967587149d0)
+                - We can't.
+                - All right, while we're waiting for everybody to get in the room, please go ahead and like
+                - and retweet just to make sure we get some more people in here.
+                - Sammy, if you prefer, maybe you can like play us in while we're waiting for some people
+                - to get into the room.
+                - Hey guys, what's going on?
+                - I'm about to get to my apartment, so I'd love to do that in like five minutes.
+                - That's perfectly fine.
+                - Where are you?
+                - All right, we'll just give it another couple minutes here while we wait for some more people
+                - to load in, and then we'll get started with some intros, and we'll go from there.
+                - All right. Maybe we can go ahead and get started here. So my name is Om, one of the co-founders
+                - of WalletGuard. I'll hand it off to Michael, Martin, and then Dan to introduce themselves.
+                - Good morning, everybody. My name is Michael Kay, WalletGuard partnership director. Really
+                - excited to have Dan here with us, and yeah, I'll pass it off to Mar.
+                - Hey, everyone. Thanks for joining in on this Sunday afternoon. I'm the other co-founder
+                - of WalletGuard. Hey, there. My name is Dan Finlay. I'm one
+                - of the co-founders of MetaMask, and yeah, I don't join a lot of Twitter spaces very
+                - often, so I'm excited to get to talk security with a bunch of people who have been helping
+                - communicate so well with the community. Yeah, we're extremely excited to have you
+                - here today, and we also have Sami up here, who's going to be playing some lovely music
+                - to break up some of the serious talk that we have. So, Sami, if you want to say hi.
+                - What's going on, guys? Honored to be on stage with everybody. I'm excited to learn a little
+                - bit more today about security and going to be singing some songs today as well for you
+                - guys, so thanks for having me. Thanks for coming.
+                - Awesome, awesome. So one of the first topics that we had, it's a little bit of a broader
+                - one, so I'm hoping to open up the discussion a little bit.
+                - Before we get started, could I just mention, if you just jumped into the space, we're
+                - going to try to keep this cognizant of people's time. We do want to obviously get through
+                - a bunch of questions. We've had a lot of questions that have come through throughout
+                - the past week and a half, and we're really excited to talk about them, but make sure
+                - you hit that little text box at the bottom right of the Twitter space, like and retweet
+                - the room, drop a comment if you'd like, and let's get some engagement going. Let's
+                - get some people in here because security is super important to stay on top of, and thankfully
+                - we're in the right place and making sure that everybody gets educated about it. So
+                - sorry about that, Om, go right ahead.
+                - Yeah, absolutely. So I kind of wanted to kick it off on the topic, which is pretty broad,
+                - so security hygiene and what that means in Web3. So a couple of sub points that we can
+                - also kind of go into is maybe like what wallet strategies look like and revoking hygiene.
+                - So just to kick it off in simplistic terms, what security hygiene means to me is let's
+                - say you're an active trader in the space. Things like simply going to revoke cash once
+                - a week to revoke any approvals you don't need, especially on OpenSea. A lot of people
+                - still have allowances for tokens that they listed a while ago, maybe never sold them
+                - or anything along those lines. So a very simple thing is to just make sure that you're revoking
+                - your assets as often as possible. Another thing, which is a little bit more Web2 security,
+                - but it's still important, is to use things like password managers, making sure you're
+                - keeping track of your credentials properly, using unique passwords, and so on. So Dan,
+                - I'm curious to hear your thoughts on what you see security hygiene as.
+                - Sure, yeah. So those are great examples. I kind of think that a lot of the risk that
+                - we end up exposing ourselves. You could just put stuff in cold storage and be kind of trade
+                - off of how safe you have to be versus how active you want to be with the things you're
+                - trying to keep safe. So MetaMask is a tool for kind of doing weird stuff with things
+                - that you might want to keep safe. So it's it lives in this kind of spicy middle ground
+                - where it's not in cold storage. At best, you're probably using a hardware wallet. And so staying
+                - safe in that environment where you're kind of actively interacting with new things that
+                - might not be trustworthy, that is like a very high bar for safety. And so I think that if
+                - you're relying entirely on revocations to keep you safe, it's like you're leaving this
+                - big opportunity where things it's probably too late by the time you've granted an allowance
+                - to something that's malicious. So I think that the best thing you can do for yourself
+                - is do some basic things so you don't get into that kind of situation in the first place.
+                - So I see like two major vectors that are hitting a lot of people right now. If you're looking
+                - for support, don't go on social media, don't search Telegram, just basically where any
+                - rando can present themselves as official and then just lure you in and fish you, right?
+                - That's the first thing. If you need support, seek it from the product itself that you're
+                - looking for support from. And then the second thing is, just like when you're looking at
+                - new opportunities, right, I think a lot of people today are getting scams because they
+                - will they think there's a big giveaway, you know, there's a new NFT, you have to prove
+                - that you have it. And and this is like, it's a combination thing, because there's kind
+                - of a norm getting established that you should be taking your most valuable thing, and then
+                - like waving your key to it around the web, you know, proving your ownership. Every time
+                - you do that, now there are safe signatures, but being mindful when you're interacting
+                - with some new random website, like and looking at that confirmation, if you don't understand
+                - it, it is you should basically assume it's not safe. And you should ask like, is this
+                - new random and NFT like actually worth playing with if you don't understand it, if you if
+                - you just learn how to like look a little closer at the confirmation, you can you can get yourself
+                - further. And and then we'll talk later about how much safer can wallets make that confirmation
+                - process. But yeah, so so I guess my two big tips are get support from official channels,
+                - and be skeptical about big promises.
+                - Dan, great tips, you mentioned going to the directly to the support themselves. So I think
+                - that's super important to mention, because it also goes hand in hand with bookmarking
+                - links, so that you make sure you're not accidentally typing the wrong link or hitting an ad when
+                - you're doing a search on on Google or Bing. So bookmarking links, I think goes goes very
+                - well with making sure you're going to the right place. So you never have to double check
+                - or question it, considering it's something that you have saved, just like if you're following
+                - the right Twitter profile for the project that you're interested in. If another scam
+                - Twitter profile with the same name pops up, you know, if you're not following it, you
+                - know, it's automatically suspect. So there are a lot of vectors that can be associated.
+                - So that's definitely great tips there.
+                - Yeah, just to add on to that, while we're on the topic of hygiene, we've seen some uptick
+                - in scams around like when you're doing Google searches, and you don't have an ad blocker.
+                - So highly recommend looking into adblock plus or you block origin, both are completely free,
+                - and can help you stay safe from like those different promoted ad scams. Like for example,
+                - there was an incident where someone in the community went in searched OBS, and the first
+                - link was a scam site, and they ended up downloading it and end up being malware, which is one
+                - of the worst forms of compromise, especially in web three. So it's really important that
+                - we use things to our advantage. So like adblock plus, you block origin, or even using things
+                - like brave, which has some native ad blocking built into it. But these are all like simple
+                - things that people can do to really help and improve their hygiene. Another thing is also
+                - keep your wallets up to date, you know, people tend to forget that extensions have like an
+                - update cycle, and they don't necessarily update on release, like when there's a new security
+                - update, or it doesn't matter what it is. But you know, making sure that you keep your browser
+                - up to date, every time there's an update, don't wait on it, don't delay. And then another
+                - thing, you know, wallet guard helps you check when your extensions might be out of date.
+                - But it's also really simple to do on your own. So just make sure always to go to that
+                - little puzzle looking icon, click manage extensions, you do have to like, it's weird in Chrome,
+                - but you do have to toggle dev mode on for a moment to hit the update button. And then
+                - I recommend turning it off right after but this is something you can do just make sure
+                - that you're up your extensions are up to date as well.
+                - Yeah, just wanted to add to that, like the search engine.
+                - What's up? Oh, yeah. So just on the search engine thing, one of the terrible things also,
+                - it's not just the ads on search engines that can fish you, you know, search optimization
+                - is a whole game, right? It's a cat and mouse game. And so I think that this is actually
+                - I think crypto is kind of an environment where we are, since we're under such high security
+                - constraints, we suddenly have to like put in high contrast, like how unsafe search engines
+                - kind of fundamentally are like, we always knew like, oh, yeah, I kind of promoted ads
+                - and like that first link might just be whoever like paid the most for search engine optimization
+                - or whatever. And that doesn't seem like a big deal when you're buying a pair of pants
+                - or something. But but when you're when you're looking for support from your wallet, or something
+                - where like the answer can actually be the difference between losing your money or not,
+                - suddenly it actually matters. And I think it's interesting that that problem actually
+                - applies to all the other uses of search engines too. So yeah, if you want to support from
+                - meta mass, like I don't recommend Google searching for meta mass, I think Google's gotten pretty
+                - good at protecting our particular brand, like they put in some flag or something, but but
+                - by default, I would not say with confidence, the first result on Google, even even taking
+                - out ads is going to be the site by the person that you you know, is making the product you're
+                - thinking of when you say that word. So I really recommend like, look in the product itself
+                - for its links, right? Like, just like bookmarks, right? What are the connections that you have
+                - to get a safe answer?
+                - Yeah, that's an excellent point. I mean, it sucks. Like even with Twitter now, like we're
+                - seeing a lot of promoted scams. I know you posted something about this recently as well.
+                - But Twitter just, I've seen so many promoted scams of like new, like old NFT projects,
+                - and even some newer projects, like, now they're just promoting their tweets and trying to
+                - get it out that way, too. So it's interesting, like, and I hope that people don't trust promoted
+                - tweets. But it's something to be cognizant of at the minimum that, you know, promoted
+                - tweets doesn't necessarily mean like it's good or it's been vetted. Another thing with
+                - the gold checkmarks on Twitter, we've been seeing some more account compromises in Twitter
+                - specifically. And even when they have a gold checkmark, it actually becomes that much harder
+                - to get back access to that account. So we've noticed that it becomes very difficult. And
+                - even if they have a gold checkmark, or even if they're verified, you can't trust everything,
+                - right? In Web3, it's better to be more paranoid than not, mainly because you should treat
+                - everything as suspicious until it's proven otherwise. So never take something at face
+                - value. Always try to be cognizant of these types of things. Like when we saw the Azuki
+                - Twitter got hacked, we saw the kid called Beast get hacked. So and when these happen,
+                - you know, these attackers are ready for it, right? They're deploying different domains,
+                - they have them on the ready. So, you know, these are definitely, you know, well thought
+                - out plans typically when these account compromises happen. So you have to be cognizant. They're
+                - going to try to sound as much as they can, like the official project, especially if they've
+                - done some research.
+                - Yeah, one of the recent things that we've also been seeing is they're setting up multiple
+                - domains, because if the first one gets taken down, they're able to quickly switch it to
+                - a secondary one that they have registered. So checking the domain registration date is
+                - super important whenever you're, you are investigating something new that claims they've been around
+                - for a long time or claims they've been building for months, if their domain was registered
+                - that day, that's a big red flag. And yeah, that's that's another metric that wallet guard
+                - is looking out for. So manually, you can do it yourself. If you check public who is information,
+                - who is information is domain registration info on dot coms dot nets, whatever TLDs there
+                - are out there. And you can see when exactly a domain was registered. Mar, sorry about
+                - that.
+                - No, no, that's a great point. And, you know, just just a little story about like, you know,
+                - Google search engines being, you know, untrustworthy, I guess, in web three, I've actually almost
+                - fallen victim to that myself, I would consider myself pretty technical. But what they do
+                - is that they will use FOMO and use you to get like a sense of urgency on the site to
+                - get you to put your guard down, right, all of a sudden, if there's a really good deal,
+                - there's only 100 NFTs left, that needs to be a warning flag to everyone when you're
+                - on a site, because that is how hackers will try to manipulate you into letting your guard
+                - down. And that's all it takes is one lapse of judgment and your NFTs or your assets can
+                - be drained. Unfortunately, that's the way it is. I've seen this happen. You know, my
+                - own experience when I when I was on Google one time, I was looking for a project that
+                - one of my friends was starting up. And it was a pretty hot project. And there was already
+                - an impersonation attempt. And I was literally like a click away from draining like from
+                - sending ETH to the strainer. And it was Yeah, I mean, it really can't happen to anyone.
+                - Yeah, it's super important to consider like all these different factors that go into it.
+                - And there can be a lot and it's overwhelming at times. And like, you know, these, these
+                - attackers are, it's like hard to even call them hackers, because a lot of what they're
+                - doing is like social engineering. And it's really just scamming people, right? Like,
+                - the whole, the whole tendency nowadays, is over 90% of attacks start with some form of
+                - phishing, right? So it's, it's really about social engineering and human psychology. At
+                - the end of the day, it's about how someone can game another person into doing something,
+                - or even just compromising their opposite for one moment, because all it takes is one lapse
+                - in judgment, one, you know, drunken mistake or one D Gen by, and, you know, next thing
+                - you know, you're drained. So it's really important to remember these types of things. And, you
+                - know, we have to as a community be more cognizant, we have to be on top of it, just reporting
+                - it when we see it. And like, at the moment, like I like to say that web three is fairly
+                - bare metal, like it's rough around the edges, people are going to get hurt. And we just,
+                - we have to do our best to like improve it through tooling, improve it through security,
+                - improve it through UI, UX, all these different factors make a huge impact on, I think, adoption
+                - overall.
+                - Yeah, definitely UI and UX, which is, which we'll be getting into shortly. And yeah, these
+                - are these have been great tips so far. Um, if you want to move on to metamask and metamask
+                - snaps.
+                - Yeah, yeah, absolutely. So Dan, I had a question for you.
+                - Yeah, you want me to just start going off about metamask snaps? Or is there a specific
+                - question?
+                - Um, yeah, I was kind of asking, how, how do you think it's going to impact security?
+                - I think, I think probably in the context of security, let's, let's maybe give a brief
+                - overview before we get into that.
+                - I'm going to try leaving in. But first, I'll just like say a few things about what we're
+                - doing with metamask snaps. So so snaps is this extension framework for metamask. It
+                - doesn't all apply specifically to security enhancements. But we do have one API in particular,
+                - that's been like, very popular among those security community, which is, we call it the
+                - transaction insights API. And it lets anyone build a snap that can basically give users
+                - extra information when they're performing a transaction. And so, like the simplest case
+                - of this would be like, you know, if you've got a list of scams, you know, then if it's
+                - on the list, then you would warn the user. And then, you know, you could make one you
+                - just listed a domain registration date. That's the kind of thing like, what is everybody
+                - going to check the main registration every time they do a transaction? Probably not.
+                - But you can make a snap, or we automate it, we start to, it'll let the wallet basically
+                - stack together a lot more and more different kind of community source, you know, security
+                - indications, and kind of sum those up to the user. And, you know, some of those I know,
+                - another thing that's really popular right now is transaction simulation, this can be
+                - really nice way to get like, a very comprehensible view of what is likely to happen. I some some
+                - people are kind of going all in on it, like this is going to solve security. I think it's
+                - not quite a panacea, because it is, it does depend on the blockchain, which is stateful.
+                - And so things can change. So it doesn't really give safety guarantees. But it is another
+                - nice layer of kind of representation of what you're doing. So So yes, NASA is going to
+                - make it so lots of people can build different things that can potentially keep users safer.
+                - And if just one of them is successful warning you before you're getting fished systems working.
+                - So that's, that's the Swiss cheese model of security, right, as we've kind of learned
+                - from COVID, right, the more layers of safety you've got, the more opportunities you've
+                - got to keep yourself safe. So so snaps, it's it's a kind of extension framework. It's not
+                - just like web extensions, these these things can be even more tightly confined. So like,
+                - by default, a snap doesn't even get network access, which means you could make a wallet
+                - extension that gives you warnings without even being able to beam anything home. So
+                - you could like have a privacy preserving security indication. Another kind of uses like having
+                - a team that is building a product use, they could make a transaction inside snap. So like,
+                - if you installed an official security provider from OpenSea, they would be able to tell you
+                - exactly what any OpenSea transaction is doing with very high confidence. So as long as you
+                - load up your wallet with a bunch of trustworthy, kind of like sources of information, they
+                - should be able to keep you a lot safer. So if you're on some other site, and suddenly
+                - it's asking for a big OpenSea offer, that's a very bad deal for you. Now we've got more
+                - people kind of helping keep you safe.
+                - Yeah, so another question I had is, I was looking more into snaps and like,
+                - let me see, can I hear people? Yeah. Are you able to hear me right now? Dan? Dan, can you
+                - hear him talking? Oh no. Okay. I'm going to, I'm going to leave and come back in. Cause
+                - I can't hear right now. Sounds good. Yeah. While he's, while he's leaving and coming
+                - back in, I think, I think snaps is definitely like another, you know, the next building
+                - block on top of he's requesting home. If you want to let him up the next building block
+                - on top of what MetaMask is supposed to be. And it really makes sense on a level of being
+                - able to interact and build on top of MetaMask and the features that it already has. So hopefully
+                - that would increase the interface, the UI, the UX, and make these interactions a little
+                - more readable and a little more user-friendly.
+                - Yeah. And something I was really interested in when I was reading through some of the
+                - snaps documentation, like how it works is it was really interesting that like everything
+                - runs in like a sandboxed environment. So maybe Dan, if you want to speak a little bit more
+                - to that. Yeah, sure. So it's, it's kind of a funny
+                - thing because you know, most people that use MetaMask are using the extension. And so these
+                - are like kind of extensions on extensions. Like I think in a perfect world, you just
+                - install software and it would talk to each other. It'd be a little more peer to peer,
+                - but yeah, that's what it is. And that's partly because we had even tighter security guarantees
+                - we wanted than the browser offered. So like, like being able to restrict disk and network
+                - usage is like really important for some of the use cases. Like if we can't stay with
+                - confidence installing the script, won't let it talk to the internet, then we could never
+                - make one that's like a signer snap and say, it's not going to steal your keys. And yeah,
+                - we are also using the snaps framework to explore additional account types. So we have like
+                - really, really happy security guarantees that we want from the system. So it's built on
+                - a build on a few technologies. It's it's going to be each snap is running in an iframe, which
+                - is a separate process from the rest of the wallet. And then it's also getting its API
+                - actually access restricted by something called JST or sometimes secure ECMAScript by a goric.
+                - It's this subset of JavaScript. So you write the snaps in JavaScript, but it's technically
+                - not full JavaScript. There's some things you just can't do things that are dangerous, like
+                - mutating the global state that would let you like, reach out and manipulate the rest of
+                - the program. And basically, I think I think we increasingly think that any secure programming
+                - environment in the future probably should have those same kinds of security guarantees.
+                - And it's really weird how common it is that every piece of software you install can do
+                - the nefarious stuff. So the same way you should be able to interact with a website or a contract
+                - and be safe from it. You should also be able to install software on your computer and be
+                - safe from it. And it's frankly bizarre that that's not a norm today. And so we're kind
+                - of chipping forward on both of those things.
+                - Yeah, that makes a lot of sense. And then while we have everybody together enjoying
+                - the conversation, please do us a favor and go to the bottom right click that little comment
+                - looking icon like and retweet the space. Let's get some more people in here. And if you guys
+                - have questions while Dan's up here talking, please go ahead and reply. And then we'll
+                - try to get to those questions towards the end here too. So really excited to keep talking
+                - here. So Dan, on my next topic I had here was around MPC wallets. And I wanted to hear
+                - more on your thoughts of how MPC wallets work and what your overall view on them are.
+                - All right, well, skipping the math of them, because I don't, I'm not the cryptographer
+                - of that site type. I'm applied cryptography. MPC, it's a type of technology that lets multiple
+                - parties combine to perform signatures. So MPC signers are becoming popular because they
+                - let you make signatures on basically any protocol for any signature scheme with a multi party
+                - policy. So you can say two or three or four or seven or whatever scheme you want, which
+                - is really cool. And it is a wonderful ingredient to have in a security landscape. When compared
+                - to contract accounts, I think it has some trade offs, like you lose auditability on
+                - these things. So like if one of the keys is compromised, or if two of them you're enough
+                - to sign signatures, and you start seeing signatures, you don't know which keys got compromised.
+                - So you know, a lot of times security will have like trade offs like, well, we gained
+                - flexibility, but we lost auditability. So, so that's a trade off. Also, a lot of there
+                - are a number of kind of noting themselves as MPC wallets. And sometimes this will involve
+                - like them holding one of the keys for you or maybe two of the keys for you. And so there's
+                - just a really, really wide range of policies possible in those wallets. And so I would
+                - love to encourage an ecosystem where people are kind of opting into the security preferences
+                - that they, you know, are comfortable with. If you're going to explore one of these solutions
+                - where there's like a key kind of held by somebody else, hopefully you are kind of comfortable
+                - with what the recovery policy is if you lose your key. But again, through metamask snaps,
+                - we're going to enable plugging new account types into metamask. And we do have a prototype
+                - for a snap that uses MPC signing. So I think the hope is that within metamask, you'll be
+                - able to combine any number of kind of security schemes you want. So you could do an MPC to
+                - like multi factor your watch with your phone, while you sign on a multisig for a contract
+                - account that is voting in a DAO that is like sending some funds or something. And all that
+                - composition should basically fall in the background, you should see what it is that you're kind
+                - of consenting to the same way you do with any transaction. And you should just be like,
+                - basically enjoying the security schemes that you like chose, because they suit you. Because
+                - I really don't believe in like one size fits all.
+                - Real quick wanted to ask. So as far as the snaps and the ability to access them, is there
+                - going to be like a direct repository or something metamask is providing in order to point people
+                - to the right ones and you know, not anything that can interact in the wrong way or something
+                - that's copied from another creator? Is there like a repository that people are going to
+                - be able to go to to grab these snaps?
+                - So for the first version, all the snaps that are approved are going to be by like, signed
+                - authors. And so at the very least, the source of them is going to be you're going to have
+                - like pedigree. And for later production, we do aspire to it being a permissionless system.
+                - Because how are you going to keep up with a permissionless blockchain like Ethereum,
+                - if you can't add, let's say security indications that are as dynamic as the contracts users
+                - are interacting with. But even in that case, we think you should be able to have basically
+                - the same security guarantees. So you should be able to see like, well, who made that?
+                - And why do I think that that's who made it? So if metamask signed a particular author,
+                - maybe they they vouched for their friend who authored it, and for the very least, we're
+                - going to preserve auditability and and the ability to like quickly revoke flag scams
+                - and things like that, we will definitely have like lists of like, no, like, credibly good
+                - snaps. And, you know, every once in a while, you know, there's definitely talk about snap
+                - stores or something. I'm sure there will be many different lists of them, we're definitely
+                - going to do everything we can to help people choose the best ones. Eventually, we'll probably
+                - even recommend someone onboarding, right? Like, if we're getting you set up with an
+                - account, and you say, there's no way in hell, I'm going to use a seed praise, well, then
+                - we need to help you get set up with accounts that do make sense for you.
+                - Yeah, that makes a lot of sense. And then I'll hand it over to Martin, because I know
+                - he had his hand up in a second here too. But Dan, just in case if you're using some headphones
+                - or whatever you're using for audio, just some people in the audience have been saying the
+                - audio is a little bit hard to hear on your side.
+                - Sorry, sorry, that's what I get for taking a walk on a windy day. I'll go somewhere more
+                - sheltered.
+                - Appreciate that. Martin, I know you had your hand up as well.
+                - Yeah, I was actually hoping to get a bit more of the background about snaps. They're quite
+                - a novel concept, especially for Chrome extensions, at least I'm not aware of any extensions within
+                - extensions types of models. I think it's a fantastic bit for MetaMask and what you guys
+                - are trying to do. I was just curious kind of where the idea came from, how you guys
+                - kind of thought about it and iterated up on it and kind of where you see the future. I
+                - mean, you just kind of touched on the future part, but yeah.
+                - Yeah, the story, I think you could probably get the best version of that. I think it was
+                - like the DevCon 3 talk. It was the Osaka DevCon. We kind of told a bit about the background,
+                - but it was like, we're getting pressed between a few different goals. We're trying to keep
+                - users safe, let them do risky things, but we also want them to know what they're doing
+                - more and more safely. Then meanwhile, we've got an ecosystem that's just booming, coming
+                - up with new features all the time. So we're trying to keep people safer while they do
+                - more new things. So we're trying to build safety infrastructure at the rate of one team
+                - while we're trying to keep people safe versus a community that is building crazy, dangerous,
+                - but exciting stuff at a rate a thousand times faster than us or many more than that.
+                - So there was just kind of this realization. It was like a humbling realization where we
+                - can't keep up with this. That's a good thing. We're building for an ecosystem that is bigger
+                - than any one team. So we were in this state of, for a while, just being overworked. How
+                - are we going to keep people safe if we can't even keep up with it all? Around that time
+                - was when the BitPay wallet hack happened. That was a wallet that got hacked with the
+                - wallet itself, installed a malicious dependency. So a lot of their users all got their funds
+                - stolen and we were looking at how it happened. And it was just like, well, cause the language
+                - was not safe and pretty much all software is written in a way like this where it's like,
+                - it's just way too, way too scary. And so then we were researching solutions to that. And
+                - a friend of ours, Dominic Tarr, pointed us to the work of Agoric and said, Hey, they've
+                - got a solution that looks like it can work. And it was about confining JavaScript. And
+                - we looked at closer and closer at it. And we were like, Oh yeah, yeah. If we had a safe
+                - way where you could add tiny little pieces and take the smallest possible risk at a time,
+                - you might actually be able to build up something that assembles to a safer hole without having
+                - to like centrally maintain it. And, and it doesn't just apply to external contributions.
+                - You know, like every time we add code, like we want to have as high of confidence as possible
+                - too. And so one way to do that is like make contributions of code where we have a very
+                - high guarantee that, Oh, this code at the worst can only affect these things, right?
+                - Like if this is your token tracker, the worst thing that should be able to do is misrepresent
+                - which tokens you have. It should be able to steal your money, for example. So we started
+                - just adopting this software architecture called the principle of least authority. And so we
+                - built like a dependency sandboxing system called lava note. That's open source. Anybody
+                - can use that. I'd love them to your projects and you will be safer from your dependencies.
+                - Yeah. So, so that was kind of how it started. We started kind of, we were like, Oh wow,
+                - we can invite more people to help us build out the wallet. And then you were saying,
+                - Oh, where's it going to go eventually? Well, if we achieve the goal of snaps, we achieve
+                - a goal of kind of permissionless computing. And obviously we don't want to bloat the wallet.
+                - So there becomes this like challenge of how do you ship like the smallest wallet that
+                - lets somebody kind of get started with whatever they're trying to get into and can onboard
+                - them and kind of grow to fit them. And so I think longterm, you know, you should be
+                - able to have a wallet. It kind of just has what you're into in it. You can invite a friend
+                - and it will, it'll get them onboarded just enough to like interact with you and choose
+                - their own security policy and stuff like that. So I think we see it as becoming a very like
+                - kind of user personally tailored wallet experience where it's, it's very lean and simple by default,
+                - but it's also very versatile in terms of what ledgers it connects to and what security policies
+                - you you rely on. Yeah. Dan definitely wanted to stay, you know,
+                - MetaMask being open source and also the founders and the team having the mentality of, Hey,
+                - we can't do this all of all ourselves. Let's create this platform for people to be able
+                - to build on top of. It gives me a really you know, optimistic view of the direction that
+                - MetaMask is going and how MetaMask snaps are going to make a big difference not only in
+                - just security, but also hopefully the UI, the UX. Go ahead, Martin.
+                - Yeah. I remember seeing a tweet from you when Apple was looking at doing a 30% charge on
+                - all App Store purchases regarding crypto. How are you guys thinking about that in relation
+                - to the Google store with extensions and just maybe crypto in general with the influence
+                - of, of big tech and, and the sort of fees that go along with those platforms?
+                - Yeah. Every platform is itself like a scary thing to reckon with. Like it's an absolute
+                - existential risk for the entire permissionless ecosystem when we build on platforms where,
+                - you know, somebody out there can just say, Oh, actually I don't like crypto anymore.
+                - I think crypto has some like crowd power right now. Like if Apple alone suddenly was like
+                - crypto is banned, I think it would be significant enough outcry that they would hurt. And I
+                - think that that credible threat is actually a defense mechanism that we have. I think
+                - it's a little similar for the other platforms we rely on. So how do we, how do we like minimize
+                - the threat of that? I mean, one of the ways we do it is by having a really cross platform
+                - wallet so that if one platform does pull the rug that we could rally everybody to run for
+                - the other one, right? We've got this, this credible exit is like a negotiation tactic.
+                - It means like as a community, we can like exercise kind of consumer, you know, cooperative
+                - power against those kinds of courses. But at the end of the day, if they, if they do
+                - the same, if they, you know, make some anti anti-competitive thing and all try to block
+                - crypto at once it's going to be on us to kind of hack together our way around it. I think,
+                - I think the web browser is kind of a big kind of, you know, portal we have to each other
+                - that is not currently get kept very heavily, but yeah, it would be a big downgrade if we
+                - started just using web wallets. That's for sure.
+                - That's awesome. So we'll go ahead and move into the next question. So first I'd like
+                - you to introduce what Moby mask is and what your vision with Moby mask is.
+                - Yeah, Moby mask is kind of a couple of things. The most essential thing, it's a attempt to
+                - flag Fisher's more reliably. So it's like a website and you can go to it and you can
+                - check if someone's a Fisher and it records it on chain. And then the kind of novel thing
+                - that it does is it's not just like, Oh, there's an admin who can register. There, there is
+                - an admin who can register, but they can also invite other admins and all those admins can
+                - invite other admins recursively. And so it's this invitation tree for sourcing reputable
+                - kind of informants. And so the hope is we make the biggest possible trustworthy tree
+                - of reputable reporters and it preserves accountability. So every single report has the full kind of
+                - invitation tree associated and it supports revocation. So if you invite somebody who
+                - starts flagging good people as scammers or it starts flagging scammers as good people,
+                - you can get your invitation polls or the person who invited you might get their invitation
+                - poll. And that would break the invitations of everyone downstream of them. So this is
+                - a, it's kind of a, I don't think there's a lot of like invite tree stuff in Ethereum
+                - today but I think it's a really cool kind of design principle. So actually I'd wanted
+                - to see it for so long that I built a solidity framework for building apps like that and
+                - that's called Delegatable. It's currently Delegatable.org and there's a couple of kind
+                - of breaking changes we have probably in the pipes for it as soon as it's going to work
+                - with contract accounts. But yeah, so if you want to basically take, if you have an application
+                - where you're like, Oh, this would be better if everyone could invite and share everything
+                - they could do and attenuate and revoke, then you know, check it out. We've got a small
+                - but passionate community building on it. And so our hope with Mobymask though is to make
+                - this truly scalable phishing report thing. And so it's really the first proof of the
+                - overall concept. So we're working with a couple groups on making it better right now. It's
+                - kind of a proof of concept right now. We're working with Laconic who does this kind of
+                - user local data caching. So we're going to basically it makes it so you don't have to
+                - run a full blockchain node to cache some information. And then they're going even further, they're
+                - making it so that their node doesn't even need, you'll be you'll be able to share the
+                - reports without submitting to them to the chain. The reports themselves are basically
+                - proofs of the report. And so it's gonna get a lot cheaper to use the system. So it's gonna
+                - be rooted in the blockchain, but it's gonna be like virtually free to use. And so that's
+                - really cool. And then we've got a DAO that's contributing some UI improvements right now.
+                - So shout out to LXDAO. They're they're gonna make the kind of the revocation UI so you
+                - can see if somebody is making bad reports and revoke people and a few other big improvements.
+                - Awesome. So before we get into the next topic, which is going to be about UI and UX, Sammy
+                - do you want to kick us off with a quick song?
+                - Yeah, absolutely, guys. Again, thanks for having me. This is all incredible information,
+                - especially, you know, me becoming a founder for the first time last year of any tech related
+                - project. And so all of this is really healthy. It's it's always good to always look over
+                - your passwords and your you know, your security measures. And yeah, thanks for taking the
+                - time to put a space together like this. But uh, let's serenade the room a little bit for
+                - a couple minutes. My name is Sammy Arriaga. For those of you who have not met me, it's
+                - nice to meet you guys. Hope you're having a lovely Sunday. This is my song pixelated.
+                - And you guys can find it on open sea. If you guys want to hear it some more.
+                - Three, two, we live in the universe. We never coming back down to the earth. We were in
+                - a video game. Give me my last life. No, I'm never looking away from you. One design. Ooh,
+                - let's take a spin around the black chain. Fire up a new flame. Ooh, take it to a new
+                - domain. Three, two, we live in the universe. We never coming back down to the earth. There's
+                - no way that we can fake it. Even if it's pixelated. It's so hard to touch in the end of the day.
+                - But that'll never change what it do to me. I can feel the love from making. Even if it's
+                - pixelated. Baby, it's a picture you face when the lights go out. I always put you on the
+                - display when we're hanging around some wallet guard crowd. Ooh, let's make a name around
+                - the black chain showing what we made. Ooh, pull me into a brand new place. Three, two,
+                - we live in the universe. We never coming back down to the earth. There's no way that we
+                - can fake it. Even if it's pixelated. It's so hard to touch in the end of the day. But
+                - that'll never change what it do to me. I can feel the love from making. Even if it's pixelated.
+                - Yeah, yeah, yeah. Yeah, yeah, yeah. I can feel the love from making. Even if it's pixelated.
+                - Thanks, guys.
+                - That was awesome, Sammy. Thank you so much. You always lighten up the mood. I know security
+                - can be a doom and gloom topic for a lot, but you definitely help make it a lot more digestible
+                - by helping us out here. So appreciate you, Sammy.
+                - My pleasure, guys. Thanks again.
+                - You're the man, Sammy.
+                - If you guys like that, check him out on OpenSea. He's got his own music collection. I think
+                - it's awesome. I think music can definitely have a really, really nice spot in NFTs. So
+                - definitely check out Sammy.
+                - So to get into the next topic, which is a pretty big one to unpack, it's going to be
+                - about UI and UX and Web3. So I think right now as it stands, at least in my own personal
+                - opinion, I think UI and UX is a massive hurdle to adoption. So Dan, I wanted to hear your
+                - thoughts on how UI and UX impact Web3, and even that a mask.
+                - Yeah, yeah. I think Web3 UI sucks is a common refrain around the web these days. And I think
+                - that it's maybe worth picking out a part. UI and UX, there's kind of two big things
+                - going on. One is it's hard to use it, but also at the same time, what it is is what
+                - is bringing all this attention already, right? So it's like the reason that it's hard to
+                - use is because it's so different. It's like we're using this new alien technology. And
+                - yeah, it's hard to use. And we're kind of learning how to make this stuff usable. So
+                - it's like the user experience of owning things that you couldn't own before. Well, for one
+                - thing, it's revolutionary because you couldn't do it at all before. But then at the same
+                - time, yeah, yeah, there's a lot of problems that make it hard to use, especially for lots
+                - of people that might not be, you know, technically inclined and stuff. I personally am of the
+                - camp that [[good simplicity is like hard earned]]. It's not something you can just like say,
+                - Oh, well, you know, that's that transaction is kind of confusing. Why don't you just show
+                - what it does or something, right? And we could, we could make a thing, we we fix that one
+                - transaction. But if we're not fixing the kind of root causes of like, why, why is it that
+                - it's hard to understand what you're doing? When you're interacting with strangers, then
+                - it's easy to turn out to just be making monkey patches that are maybe just like superficial
+                - changes. So, so yeah, I guess, I think when people say UI sucks in, in web three, what
+                - they're what they're saying is, it's got a long way to go. And I completely agree with
+                - that. And there's, there's just like so many countless ways that you can point out that
+                - it's almost hard to narrow it down. It's like the account management is hard, the transaction
+                - confirmation things hard. Just the very notion that you've got sensitive things on your computer
+                - to protect is like, kind of hazardous and needs to be rethought also. Yeah, I mean,
+                - I don't I almost don't know where to start, because we could we could dive into like the
+                - UX of each one of those things, then and there's just such a long way to go on each one of
+                - them, despite each one kind of being the thing that's offering us like so many new opportunities
+                - today.
+                - Yeah, that's a very fair point. I mean, like with the whole like ETH signs, and when those
+                - types of transactions comes up, MetaMask definitely pops up with the big glaring red screen warning,
+                - letting you know the types of things you're doing. So how does MetaMask approach like UI
+                - for security features, like for example, kind of notifying a user of a set approval for
+                - all or a each sign or some of those other dangerous signatures?
+                - Yeah, I think I think a lot of our UI is security UI these days. But but yeah, like speaking
+                - specifically about transaction confirmations. I'm excited that we finally have a team that's
+                - actually just dedicated full time on the security of confirmations. And they're they're doing
+                - exciting work. There's there's a lot of work to do, you know, so I think that one thing
+                - that we have to do is first like kind of systematically eliminate or like, as many ways that people
+                - just accidentally think something is safe when it's not just first like lock those things
+                - down as much as possible. So a person like has to be very, very intentional if they're
+                - doing something sensitive. But one of the challenges is that as soon as we add some
+                - UI that makes something easier to understand, like, you know, we add the token approval
+                - confirmation. So it's really easy to tell when you're giving an allowance for an ERC
+                - 20 token, right, but but then, you know, now there's a new, then permit to comes out, there's
+                - now a second way to grant an allowance. And, you know, so then, okay, then we've got NFTs,
+                - okay, you've got set approval, we put in the time to make sure that that confirmation is
+                - as readable as possible. Yeah, there's little ways that can improve. But then, if you grant
+                - that allowance to a contract that allows a more opaque signature to give away your transaction
+                - to give away your NFTs, then you're in trouble again. And that's kind of what's happening
+                - with open sea today, right is people do the set approval, at least it's clear there. And
+                - you're like, I don't, you know, open seas not trying to steal my NFTs. But as soon as
+                - you grant that allowance to open sea, now anything that will permit open sea to give
+                - away your NFTs is also a security sensitive thing. So that includes their bid signatures.
+                - So So now we're looking, okay, how do we make the bid signatures more readable, and we don't
+                - want to just do that in a way that only improves their signature, although, you know, it's
+                - it's a big target. And so we've got some incentive to do that, too. But how do we make it so
+                - that applications made with signatures in general are safe? So yeah, we're hitting it
+                - on a couple different levels. Obviously, the snap security provider is going to be a wonderful
+                - ingredient in this because it's going to let us just invite community engagement on this
+                - instead of trying to like mastermind every solution ourselves. But yeah, I think I think
+                - that we still are doing some important work towards making these transactions more readable.
+                - Like, recently, we improved it. So like when you see an address on any confirmation, if
+                - it's in your address book, it will show up as that. So if you are good about updating your
+                - address book, we can keep you safer because if some new strange site is asking you to do
+                - something that, you know, involves something you care about, it'll be more obvious at the
+                - very least. So yeah, that's that's another example. But But yeah, how do we address it,
+                - we do user research, we, we do these, you know, we'll interview somebody, we'll watch them
+                - go through it, we'll watch dozens of people go through the interface that we're proposing,
+                - we'll find where they get snagged. We'll iterate. We read, we read some UI security papers,
+                - have a UI security reading group every once in a while. I recorded a couple of those readings
+                - on a podcast you can read if you're interested. But yeah, yeah, security is a, it's every
+                - part of a wallet and and pretty much every part of any web three project, I'd say. So
+                - yeah, you can't just read it like one part. It's kind of the whole practice. I think,
+                - Dan, it's also another thing to consider when when you are deploying changes to the UI,
+                - or, you know, how how the entire user base would react to it, right. So I can only imagine
+                - the amount of testing and, you know, making sure that people don't, you know, think it's
+                - a completely different app with with such small iterations of updates and changes that
+                - that's super important. Yeah, one time we changed the color of the login button. And
+                - there was like a serious freak out that like, a lot of people thought they got hacked. And
+                - it was just like we it was the reason was, is like the design team was like, Oh, this
+                - is an inconsistency in our buttons. Let's make it consistent. But it's like, no, there's
+                - there's an inconsistency with user expectations. And that's actually turns out to be perhaps
+                - even more important. Yeah, so So yeah, 100% you have to be really careful about. It's
+                - really about what the users expect.
+                - Yeah, definitely. And, you know, that's why it to me, sometimes it's like mind blowing
+                - because people are like, Well, why haven't they done this yet? Why haven't they done
+                - this? And it is a growing pain. But it's also like, you know, you don't want to piss millions
+                - of people off or get millions of people confused by not pushing it out the right way. So shout
+                - outs to the meta mask team for being able to do that over time. And again, I'm super
+                - excited about masks, meta mask snaps, which I think are going to be awesome. So real quick,
+                - everybody, just to recap, we are web three security radio, you're here with wallet guard
+                - and Dan Finley, one of the co founders of meta mask, this is Episode 29. If you haven't
+                - yet, please click the little text box at the bottom right of the screen, hit that like
+                - button, hit that retweet button, share your questions. We're up here, we're trying to
+                - get this done in a in a very time efficient manner. There's there's a lot of questions
+                - we've ran through already. And I think alms got another one lined up for us. Go ahead
+                - on.
+                - Yeah. So, Dan, this is a broader question. But how do you see attackers evolving with
+                - the growing landscape of like security tooling? So at the moment, we see a lot of scammers
+                - just taking advantage of different tactics, like social engineering, taking over people's
+                - Twitter accounts posting links. But how do you see the landscape of threats and web three
+                - changing?
+                - I mean, they've been getting more sophisticated lately, like, like, every time a scammer is
+                - successful, like they now have more money. And, and they like scamming. So we're, you
+                - know, basically, it's basically open knowledge now that like, you know, North Korea has got
+                - this Lazarus group in there. You know, they seem to be a very well organized force that
+                - checks in every day, and goes to work trying to scam people. So, you know, it's, it's a
+                - cat and mouse game every single time that we ship a feature. There are very powerful
+                - forces that are taking a very systematic approach to trying to undermine those features. And
+                - so yeah, I think I think the bar is just kind of getting higher. And so like, every little
+                - loose thread is kind of getting exploited. So I think that I think kind of tightening
+                - up the game and, and not just saying like, Oh, yeah, we've got some, it's kind of hard
+                - to read transactions is like, no longer acceptable, it has to be like, look, if we're not certain
+                - that people are safe, like we have to like do everything we can to keep them safe. And
+                - so I think there's kind of going to be this, I think there's a lot of incentive for us
+                - to like actually kind of define safety. And you can't really define user safety because
+                - people are so different. You know, anything that you say like, Oh, well, as long as you
+                - tell them that they are informed, like, well, no, like people have a million ways of interpreting
+                - every information. But but getting really rigorous about what, what criteria we have
+                - for like treating something as safe and helping keep users informed about what they're getting
+                - held to what expectations are getting held to. And if they can't trust themselves with
+                - the security expectations of like holding a crypto asset, making tools to break up your
+                - authority between devices, I think is a big, increasingly popular drive. So you can kind
+                - of have more things that are cold, that you can maybe still selectively use in a hot way.
+                - I think that these are going to be helpful tools. But yeah, the fishers are only getting
+                - stronger right now. And unfortunately, yeah, we kind of just need to be taking them increasingly
+                - seriously. Yeah, yeah. Sorry, go ahead. Yeah, I was just gonna say that I totally agree.
+                - I think you know, these attackers like security is an ever evolving game, right? It's always
+                - a cat and mouse, like one side gets better, the other side gets better. And you know,
+                - there will always be scammers, there will always be people trying to take advantage
+                - of the beauty of self custody, as it is a very beautiful thing. It is also dangerous
+                - if we don't have proper operational security. So mentioning even like a tip like this, where
+                - if you're minting anything, or going to any new website, something you haven't done before,
+                - and it's like a potentially suspicious interaction, which is how you should be approaching anything
+                - new. You should be using things like burner wallets, it's very simple to do, you just
+                - click on your meta mask, click on the little account icon up in the top right, click Create
+                - account. And then you'll have a new Ethereum address loaded up with a little bit of assets
+                - and go and mint whatever you wanted to mint. And having different things in place, it's
+                - really important because all it's going to do is mitigate potential risk, right? So even
+                - if one of those accounts get compromised to like a set approval for all scam or something
+                - along those lines, you're mitigating risk to the rest of your wallet. So doing whatever
+                - you can to layer your security is really the best thing possible. Like don't even keep
+                - like if you're safeguarding a lot of assets, it's not, I don't think it'd be the best
+                - thing to just store all of those assets on one device, one hardware device, I think maybe
+                - splitting up amongst a few hardware devices might be one of the better things. Just mitigating
+                - risk as much as possible is one of the biggest things that need to be stressed, I think in
+                - web3. But go ahead, Michael.
+                - Yeah, I was just gonna say something relative to you just mentioned seed phrases, and we
+                - see a lot of people get affected by this a lot, is when your seed phrase is compromised,
+                - keep in mind that every single wallet that you've created underneath that seed phrase
+                - is also compromised. So when you are creating that new wallet, when you're clicking that
+                - profile and creating another wallet like Om was talking about, that's creating a separate
+                - wallet with a different private key. But if you compromise the seed phrase, if you give
+                - the seed phrase out from that original wallet that it was created from, you are compromising
+                - every wallet underneath it. So when people say create a new wallet, you lost your seed,
+                - that doesn't mean go into the existing metamask instance and with the same seed phrase,
+                - create another wallet. That means install a fresh instance of metamask maybe in a new
+                - browser profile and create a new seed phrase, and this way you know it's not associated
+                - with the original that's been compromised.
+                - And just to hammer home that point with one more thing, I think at the crux of everything
+                - we're saying here can be summed up with one common security saying, which is that the
+                - problem with security is that it's usually user error. Users are almost always the source
+                - of exploits, and I think what we're trying to say here is protecting you from yourself
+                - from being able to even sign away something valuable by splitting up assets or at least
+                - having some kind of strategy is really important.
+                - Martin, I would say it's hard for, like for me, the sentiment of newer people coming in
+                - and the masses coming in is kind of hard to believe that with what's currently here,
+                - they'd be able to interface with it properly or understand it. And the only reason I'm
+                - saying that is because people in Web 2.0, they don't care about their security or
+                - their credentials or their data. They're already hitting yes and I accept to everything
+                - that's popping up on any device, and they're not understanding the concept of what they're
+                - hitting except to. So eventually they're just getting a bunch of nonsense going on
+                - that they never thought they agreed to, which they did, you know, it's happening because
+                - they chose yes. So like you're saying, it is definitely the user error, but it's also
+                - like, you know, the education around your data and your credentials and managing your
+                - own information should be a lot more relayed in the education system to begin with, I think.
+                - I think it's super important for kids to learn about credential management and cryptography,
+                - let alone just like managing their assets, which is going to be something they're going
+                - to have to do down the line. And we could get into a large conversation about what should
+                - be taught and, you know, taxes and how to manage, you know, your debt and stuff like
+                - that. But, you know, there's a layer that's missing that I think we are all trying to
+                - account for by being here, having spaces like this and being able to really like pass this
+                - education around. I think this is like essential.
+                - Couldn't have said it better myself, Michael. So, Dan, I've seen some new tools in the space.
+                - I'm sure you've heard of them as well, like delegate dot cash and warm X, Y, Z. I know
+                - on the recent you go labs meant that they were allowing this type of technology to be
+                - utilized. I was just curious what your opinions and thoughts on that type of technology are.
+                - Yeah. So, so they're kind of orthogonally similar to the delegatable thing that I mentioned
+                - around Moby Mask. Those tools are both specifically useful for delegating your right to prove
+                - that you have an NFT for the purposes of things like NFT minting or like getting access to
+                - a chat server. I think that's great. You should absolutely not need to like have a hot, you
+                - know, if you've got like some some NFTs that like represent like a significant amount of
+                - your assets, you should not just like be throwing those around at every website you go to. So
+                - I applaud any any pattern that lets people achieve their goals without having to take
+                - as big of risks. So the way they work is like, you've got like a cold wallet that has your
+                - NFT in it. And then you sign one signature that is like this type that's very safe, you
+                - know, you know, as long as you use the safe site to do it, but it's basically it just
+                - says, hey, that that other account, there is my delegate, right? And, and so this delegate
+                - is just kind of a claim, you're just saying that's my other account. And so then sites
+                - can just say, I respect it, if you say that that's your other account, I will let you
+                - sign with that account instead. So that's really cool. I think that delegation in general,
+                - just the pattern of don't make you keep your whole assets hot, is a incredible security
+                - tool. So this is all for proving you have an NFT. My library delegatable is a little
+                - bit more action centric. So it's like if you want to do something with an asset, like,
+                - okay, maybe you've got a bunch of DAO voting tokens, and it's too many to keep hot, but
+                - you still want to vote, right? So you would be able to delegate like the ability to vote
+                - to a hotkey. And so you could actually do on chain stuff with the main account, though
+                - without keeping like the ability to transfer those assets hot. So So yeah, I think that
+                - I, you know, I'm going to start meaning it into existence 2023, the year of delegation,
+                - stop keeping all your assets hot, put your stuff into cold stuff and, and minimize the
+                - risks you take when you're going around the web.
+                - Yeah, I think at a bare minimum for anyone safeguarding assets, like you should really
+                - be thinking about how you plan on treating these accounts, right? As Dan had just mentioned
+                - you, you like for delegation purposes, like for delegate cash, or warm XYZ, you would
+                - have to sign some sort of a signature in order to allow for another wallet to be a delegate
+                - of that other cold wallet. However, it is important to remember that like, you should
+                - have a long term like holdings wallets, like even if you have one ledger, you can create
+                - multiple accounts on that ledger or Trezor, whatever device you're using. But what's really
+                - important is that you have one of those accounts where you're only sending assets in and out,
+                - you're not interacting with any smart contracts, you're not interacting with anything. This
+                - is like a long term holdings, almost like think of it like a savings account that you're
+                - just holding, you're not, you're not transacting from it, you're not doing anything. So you
+                - just want to treat it as straight transfer in, transfer out, never like sign any approvals,
+                - never interact with any straight staking contracts, and just try to keep that wallet as isolated
+                - as possible. And like your quote unquote, safest wallet. So it's just an important concept
+                - and around like wallet strategies as a whole, it's important that we have understanding
+                - of how certain wallets should be used. Like, you know, when everybody creates their metamask
+                - for the first time or a wallet for the first time, they tend to use that wallet for a couple
+                - of weeks before they start maybe learning about some security practices or maybe even
+                - a couple months. So you probably accrued like a quite a bit of assets in that account. So
+                - that's something like I would call like a hot wallet, right? You don't necessarily want
+                - to use that as your minting wallet because you have a lot of other assets in there. So
+                - creating certain things like burner wallets, which is very simple to do again, like you
+                - just click on the metamask icon, click on the profile icon, click create account, that's
+                - going to give you a new Ethereum address that you can load up with some ETH and it'll have
+                - its own private key associated with it. So there are different things you can do to mitigate
+                - risk and, you know, treating your wallets as such is definitely one of the biggest things
+                - you can do, especially around the whole idea of mitigating risk.
+                - So another question that we had, Dan, this is the last question that we actually have
+                - on this list and we'll go for community questions after. The last question was, are there any
+                - plans to introduce any sort of clear signing to match functionality similar to Ledger Connect?
+                - Clear signing being like you're able to sign a text challenge or can you give an example
+                - of it?
+                - Yeah, I believe it was more in reference to like, what is going to happen when I use this
+                - transaction? So almost similar to transaction simulation, or even the idea of like, including
+                - like code snippets to be viewable to the person when they are signing something?
+                - Yeah, yeah, I think, yeah, of course, we're doing everything we can to make transactions
+                - as readable as possible. Like I kind of mentioned before, when we were talking about the transaction
+                - insight snaps, like, there are a lot of strategies you can take to this. And, you know, like,
+                - we're, we're working with people that are working on a lot of them, you know, just curating
+                - descriptions is one that we, you know, can do a lot better at. And that honestly would
+                - benefit from a web of trust to probably, but each one of these strategies and wallet simulation,
+                - that's another one where I kind of mentioned, it's, it's very cool and neat, but if you
+                - lean on it too hard, you could potentially be surprised because a contract could, you
+                - know, do what you expect under one condition, but then somebody can front run, you flip
+                - a bit and make it do something else. So, so a lot of these approaches, you know, whether
+                - it's a central list, or simulation, they can have holes in them, right, the central list
+                - doesn't cover everything, the simulation is just an estimate of what's going to happen.
+                - And that's why we're taking the kind of layered approach to this, you know, we could rush
+                - out simulation integration, then what that would do is it would just tell North Korea
+                - you need to make, you know, simulation rugged contracts. So we're not going to just like
+                - roll something out promoted as a security feature, if we know that there are like major
+                - issues with it that are kind of easy to game. But yeah, yeah, the goal is to make things
+                - as clear as possible. I don't think that anybody has a just general purpose, like clear text
+                - across the board thing. We have a data tab today that does like, show the D structured
+                - parameters pretty good on verified contracts on ether scan. But yeah, it's it's a long
+                - way to go making things readable for everybody of every language of every level of
+                - technological and financial literacy is a long road. And that's really why we're trying
+                - to make it a community driven effort.
+                - Yeah, that makes perfect sense. So one of the audience asked this question, is there
+                - a resource for the messages that pop up to sign on metamask? Some are confusing and scary,
+                - but apparently, okay, like the first time you try to list a piece in a collection on
+                - open sea. So essentially, just asking for an area they can go and visit to see a bunch
+                - of different types of signature examples and understanding what each type of signature
+                - does. That's a really great idea. We I recently did a little update to our docs on
+                - signing methods. So I that might be my closest answer that we probably have something in
+                - our support knowledge base that's good on that too. I'm gonna so so you could check
+                - our metamask docs, you can check our knowledge base. I'm not sure any of those have exactly
+                - what you're asking for. But that, that sounds like a really timely thing. I think I think
+                - that there is a lot of kind of apprehension about signatures right now. And and it is
+                - true, there are things you can do that are like, actually relatively safe. But so many
+                - people are getting fished today that I think that there is like, you know, you can get
+                - like over cautious and then assume that all signatures are bad. And then that could just
+                - make you get used to signing things you don't understand. So it can backfire on you, if
+                - you accept that you can't understand anything. So yeah, so for one thing, if you can read
+                - it, and you can understand what it says, you're, then you're probably good. If you understand
+                - what it says, and it says what you're trying to do, you're probably fine. So like all the
+                - sign in with Ethereum stuff, that's all human readable text, it's very much designed to
+                - not be able to impersonate a transaction like those are those are generally safe challenges
+                - to sign. When you start getting weird is when you start seeing. So if you can't read it
+                - at all, because it's like, either it's each sign, or because it's the old open C contracts,
+                - which used the readable method, but to sign hex, if you can't read it at all, assume it's
+                - readable. So that I think those are two good starting points. If you can read it. Good.
+                - If you can't bad, then if it's kind of like it's structured, and you're like, Oh, it looks
+                - like it's doing something, but I'm not sure. You can try to read it closer. You know, we
+                - are showing you as much information as we can have available. If you're not confident
+                - about what it's saying, then you really are kind of leaning on how much you trust that
+                - site. And if this is a link you just got off Twitter, or have a search result, you probably
+                - shouldn't be clicking something that you don't understand.
+                - Yeah, that makes perfect sense. Another question someone had was with the snaps, are they going
+                - to be curated somewhat like the App Store? And how does metamask plan on ensuring safety
+                - for the snaps listed on the snap marketplace? Yeah, we probably will have a listing at some
+                - point. But our long term goal is for it to be a permissionless ecosystem. So I would
+                - say not curated like the App Store, right? Because the App Store can rug you that store
+                - can say, actually, we don't like your type of business anymore. It's over, go lay off
+                - everybody or something, right? So we don't want to do that. But yeah, how can we keep
+                - safe people safe instead? And there's basically three tools that we're employing. One is by
+                - allow listing developers. So So initially, it's approved developers are publishing. So
+                - that is gatekeeping. But then the second phase of that is we start just kind of annotating,
+                - attributing, and maybe making it hard to install from totally unknown developers. So for normal
+                - users, if you can install a snap, it's because someone that you trust or someone in your
+                - web of trust, effectively vouched for it, and you should be able to easily see who in
+                - your network trusts this snap and who uses it. And so we should be able to provide some
+                - degree of positive reputation is signal about snap. So that's that's an approach to permission
+                - lists, positive signaling. The second one is the confinement we're using means that
+                - the permissions that you grant to a snap are very, very tightly controlled. And so if you
+                - install a snap, and it only has permission to, I don't know, like, you know, warn you
+                - about a transaction, and it can't even hit the network, then the worst thing it could
+                - ever do is tell you transaction safe, that's not right. So So even if you don't know a
+                - developer of a snap, because we're confining snaps so tightly, an informed user can make
+                - calculated risk decisions and say, Oh, well, this is actually like really trivial. And
+                - it's likely that for really, really low security permissions, we can lower the friction to
+                - installing it. It's like, look, this one literally can't do anything. It's a local script. It
+                - provides a couple of UI enhancements. And then the third one is, you know, through like
+                - phishing warning stuff like Moby mask, having as responsive systems as possible for spreading
+                - the word when something is corrupted, whether it was because it was always a hack, or because
+                - you know, somebody got compromised in some way. So I think those are the three tools.
+                - It's like strong endorsement systems, strong confinement and strong warning systems. And
+                - with those combined, my hope is that we can make secure extensible permissionless computing,
+                - which I think we have not hit that kind of combination of three yet.
+                - Dan, it's very interesting to hear you talk on all three of those points to continue with
+                - this sort of decentralized nature to, you know, this this product, right, this open
+                - source product. So one thing that it reminded me of, which is the exact opposite. There
+                - was recently a situation where the ledger app on the Microsoft Store was being pushed
+                - by a fake developer. So it was it wasn't the real ledger app, but it was appearing in search
+                - results when people were getting their ledger and attempting to install the software through
+                - the Microsoft Store. Now, the Microsoft Store is a centralized service that's
+                - pretty much managed by their internal team. So in your scenario, it sounds like
+                - it's kind of like a combination of everybody on chain that's
+                - confirming and attributing to whether a snap is worthy
+                - or not and also should be deployed to end users.
+                - Yeah, like like if we imagine that that we had let's say we just have those first two like ignore confinement.
+                - But if we have like every snap that you install has to have like everyone
+                - in your people in your social network all vouch for it and none of them say anything bad about it.
+                - Then we've just got ourselves like a really wide cast net for any signals that
+                - that might be to the contrary. Right. As soon as something like that's bad on the Microsoft Store,
+                - you're like hoping they get to it. You're like submitting a ticket and you're hoping their staff is working
+                - on the weekend and stuff when like meanwhile, it's like look literally if anyone that I know
+                - would would flag this I would stop using that software instantly. Right. And if we can make that like
+                - hair trigger kind of social network enabled security
+                - responsiveness like I think we will be I think we can make something safer than these kind of
+                - curated walled gardens. Love it. And that's so different from what
+                - we've been used to using these centralized app stores and you know
+                - basically moving in the whims of these massive corporations that don't
+                - really allow us to be a part of their system. They're just serving the content to us and also
+                - naming the price. So yeah, very very bullish and excited on the snaps
+                - and being able to interface with those features. And Dan, for people interested
+                - in getting involved with snaps or wanting to learn more about how to develop snaps, where can they
+                - go? They can go to metamask.io slash snaps. Right now
+                - the system is available on our kind of forward developer beta called
+                - metamask flask which you can get at metamask.io slash flask.
+                - We're working as hard as we can to get it production grade. But yeah, we've got we've got some features
+                - we want to get in the can before we kind of feature freeze and answer the audit phase and get it all to
+                - production. So but you can start making your snaps today at metamask.io
+                - slash snaps. Awesome. And then what we'll
+                - do here is Sammy if you want to play us another song while he's playing a song if you guys have
+                - questions please go ahead to the little bottom section in the bottom right with the little comment box
+                - click on that and reply and ask your questions and we'll ask Dan. All right. Thank you Sammy.
+                - Absolutely. All right. I'm going to get I'm going to sing a
+                - song that got me going in Web 3 and a lot of you have probably heard it before. I see
+                - broke down in the audience. He's always requesting this one. I love you Brooke. This is dedicated to
+                - all the meta girls in Web 3. Here we go.
+                - All right.
+                - Yeah I love a meta girl inside the metaverse She pulled me out of
+                - earth like this She got me spinning on my
+                - ethereum I made her my 101 real quick My digital heart yeah she got it
+                - in a while It's been going up a while I hope it keeps falling
+                - I love a meta girl I love a meta girl
+                - Yeah my escape from reality Her virtual fantasy The prettiest image I've ever seen
+                - She's burning my battery Love what she'll do to me Got this man
+                - stuck behind a screen Had to stay around the blockchain Can't believe that she's my baby
+                - Everybody thinks I'm crazy Cause I don't wanna go back
+                - Don't wanna go back I love a meta girl inside the metaverse She pulled me out of
+                - earth like this She got me spinning on my ethereum I made her my 101 real quick
+                - She got me spinning on my ethereum I made her my 101 real quick
+                - My digital heart yeah she got it in a while It's been going up a while I hope it keeps falling
+                - I love a meta girl I love a meta girl
+                - We tell each other GM heavy morning I've never felt like this
+                - No derivative Bullish all this love and how it's going
+                - I bet that I'm gonna shill the hottest thing around the blockchain
+                - Can't believe that she's my baby Got me giving up my seed phrase
+                - No I ain't gonna go back Don't wanna go back
+                - I love a meta girl inside the metaverse She pulled me out of earth like this
+                - She got me spinning on my ethereum I made her my 101 real quick
+                - My digital heart yeah she got it in a while It's been going up a while I hope it keeps falling
+                - I love a meta girl I love a meta girl
+                - I love a meta girl
+                - I love a meta girl
+                - I love a meta girl
+                - Don't give up your seed phrase ladies and gentlemen
+                - Let's go
+                - Love that tip at the end
+                - Thank you, I should have put that in the actual song
+                - Appreciate you Sammy
+                - Are you Rogan bro?
+                - No no I'm sorry I was just looking through the replies and trying to find some questions here
+                - So someone asked this question I'm not sure how this would be implemented
+                - But this is pretty interesting So somebody asked is there a way to use 2FA keys
+                - As a barrier to sign a transaction Be it with the smart contract or the release of tokens
+                - I personally use YubiKey a lot in web 2 and would love to have a biometric 2FA barrier for signing transactions
+                - Yeah so those tools are great
+                - And they're designed for logging into traditional web 2 sites
+                - So they are capable of proving that you have that device
+                - To some computer server So that means that the computer they're talking to
+                - Has to have the ability to do what you're asking it to do
+                - Today Metamask is built so the keys are just in it
+                - Unless you're using a hardware wallet in which case the keys are in that
+                - To use a YubiKey you would need to have the keys on some additional server that is holding those keys
+                - We today don't do anything like that
+                - It's partly like a legal liability thing Like if we were holding your keys now suddenly
+                - We're creating a giant honeypot We could collect everybody's keys onto one server
+                - You can use your Fido but now anybody who can hack that one server gets everybody's account
+                - So that's like the basic reason why we don't usually use 2Factor
+                - In the traditional web 2 sense of it But because we're building on programmable blockchains
+                - With cryptography we have lots of other things that are kind of similar user experiences
+                - That we can offer people So like we were talking before about MPC wallets
+                - And contract accounts And these are ways where we can have keys required from multiple devices
+                - For you to perform an action And that's basically the kind of crypto native equivalent
+                - Where we don't have to create a central honeypot In order to let you do that
+                - That said you could do like a self hosted key manager or something
+                - Somebody could make a snap that says hey look maybe you want to keep your key on a server
+                - And you want a 2FA into it That's totally fine It's just a different security thing
+                - If you're comfortable having a server that holds your keys on it Or you know somebody who you are happy with
+                - How they hold keys on a server And what their signing policy is
+                - Try it We need as many different things that might work as possible
+                - To keep people safe
+                - Awesome point Another question somebody asked is do you see a future where snaps go beyond
+                - MetaMask and are used by other wallets Similar to extensions working across chrome and hedge
+                - I think that that would be a good sign that they were a successful project
+                - It's just a format of forming some JavaScript right now
+                - So if you write a snap it's just some code So anybody could write
+                - Into their wallet like yeah we will also confine extensions or something
+                - We've been talking about it for like 3 years or something And I haven't seen any other wallets
+                - Be like oh yeah we want to do that too yet So it might be the kind of thing where we have to prove it
+                - And if we can make it work then others will follow on
+                - And implement it too
+                - Excellent point And then the last question I see here is
+                - Would love to know what the scope for MetaMask in regards to security is
+                - As I'm sure there are boundaries for how far a wallet would go to prevent an action
+                - Oh there's no limit we would not go to to prevent
+                - Well I'm not completely sure the questions are like what are the extensive
+                - Like we want to do whatever we can I guess the extent today is like as a
+                - Browser extension we're beholden to the browser so we could go native to the
+                - Desktop then we're only beholden to the operating system But if your operating system gets
+                - Hacked you'd still be in trouble So like you know if MetaMask is still a
+                - Fruitful and popular brand in 20 years or something we probably better be
+                - Making hardware at that point Or hardware manufacturers need to
+                - Integrate their own permissionless signers into the bios of computers or something
+                - I think it's kind of the general direction is we want secure distributed
+                - Permissionless computing and whatever it takes to get that is what is going to get built
+                - In my opinion and so if MetaMask is going to blaze the trail and nobody else is going to do it then
+                - Yeah maybe we're going to go all the way But you know hopefully people build other layers
+                - Of it along the way because we're not experts in that stuff so hopefully people make secure hardware and secure operating
+                - Systems and so we can just like integrate with those things and just kind of specialize in connecting to blockchains
+                - And stuff Yeah that's an awesome point and then I think what maybe
+                - They were looking for more clarification on is that in the extension itself like how far would MetaMask
+                - Go like as in like even blocking a transaction or something along those lines
+                - Like hey saying that this is definitely dangerous we don't want you to do this
+                - I think that's what's possible Yeah right right like would we ever just be like our users can't do that
+                - Like you can't do that with MetaMask I think that we're in the midst of
+                - Introducing some of the most friction we've ever introduced for a user action
+                - So ethsign is still getting used to phish people and so we're
+                - Going to we're going to start like pulling it away from the things that are obviously easy to do
+                - This may qualify as a breaking API change but it would at least initially be
+                - Something where if you go into settings and you like you know jump through some hoops
+                - And prove you really really mean it then I guess we'll let you do it you know we have been
+                - Built on letting people do what they want but yeah when you find that
+                - There are particular things where that action a lot of people just don't know
+                - How to do it safely and it's getting used abusively I think I think we're at least
+                - Willing to introduce a lot of friction to keep people safer we have not yet I think taken
+                - The leap where we say like just like if you want to do that kind of thing just go to another wallet or something
+                - So we haven't yet gotten to that point
+                - Awesome and then I know that when I was talking with Harry there was like some
+                - Pull request or some something that you guys were talking about in regards to
+                - Disabling ethsign by default and then like I think you said introducing some friction to where they
+                - Would have to go in the settings and re-enable that could you talk a little bit more about that
+                - Yeah that's I mean that's basically what it sounds like so ethsign is a method that lets you sign a
+                - Hash and just a plain raw hash and the problem with that
+                - Is that the way you sign a transaction is you sign the hash of the transaction so if you're signing
+                - A hash you first of all you can't tell what you're signing and it could be a transaction
+                - So it's like this type of signature that is unreadable and definitely suspicious
+                - Every time you use it at the same time but because it's a low level it's
+                - Very very easy and versatile so devs love it devs are like oh you know if they're
+                - Feeling lazy they don't want to implement we've got a more structured sign type data it's
+                - Much harder to implement if you just want to hack something together real fast you might do the easiest
+                - Thing possible and you know a dev trusts their own code so they don't mind that it's unreadable
+                - Right they're going to load their page locally they're comfortable with it so this is this weird
+                - Contentious very sensitive method and we've supported
+                - It because there have been applications using it in production you know but
+                - We have finally got some nice data instrumented around so that we know exactly who's
+                - Using it or what sites are using it rather and so we're reaching out to them trying to work with
+                - Developers who are using this kind of sensitive thing trying to get them off of it and
+                - Yeah basically making it so it's not part of the default user set
+                - And you know eventually hopefully nobody ever
+                - Has to use it
+                - Awesome and then I think these are the two final questions we have so what are your thoughts
+                - Damn I'm only racking up the questions with the finales Dan we're trying to get as much as we can out of you bro I'm sorry
+                - Yeah yeah that's what I get for coming out so infrequently let's get them out
+                - Really appreciate your time then
+                - Like Michael said I definitely appreciate this so there are two questions
+                - What are your thoughts on account abstraction and its implications for security and then I'll present the next question after
+                - That's such a loaded question its implication that I know that
+                - Oh is it loaded do you want to just tell me what it's loaded with in this context because like
+                - I mean abstraction it just refers to like you're tracking something
+                - These days
+                - Yeah
+                - Yeah right
+                - Sorry I'm not sure is it me racking or
+                - No I think Dan is either muted or his mic is
+                - Oh no you're right I was muted hey sorry so what are the
+                - What are the implications of account abstraction
+                - The implications of account abstraction and it's in regards to security
+                - Why this is a loaded question account abstraction just lets it's just the idea
+                - That you should be able to use accounts of many types on the blockchain the popular
+                - Abstraction proposals today are about abstracting gas payment primarily and then
+                - Kind of pushing everybody to use contract accounts by default I also wrote an
+                - EIP 5003 that would give people a way to migrate
+                - Traditional like seed phrase accounts into contract accounts and if you combine it with
+                - EIP 3074 you wouldn't even need ether in that account to do it
+                - But yeah so it's just like a cool general purpose
+                - Popular rallying cry to like get people to have more advanced
+                - Types of accounts and to have metatransactions so you don't have to have ether in every account to pay for
+                - Transactions so I think the implications from a security perspective is
+                - It is like this huge wide open design space for us to make safer accounts
+                - And I kind of talked about that before where I'm saying like I think people should be able to
+                - Compose their security preferences in a way that makes sense for them so like you probably will
+                - Have an account that's like your deepest safest vault account and you make it
+                - Really really hard to move funds in there maybe you need three of your closest friends to sign off
+                - But then you use it to maybe grant delegations to your heart your hot wallet so you can still
+                - Vote and you can have some daily spending cash and you can do the things that
+                - Matter to you on a day to day basis and then you might even then again delegate to
+                - Smaller devices and websites so they can do allowances and you know do cool stuff on your behalf
+                - So yeah account abstractions is just like the
+                - Ever present invitation to do things in more ways
+                - That's really exciting and then I think the last question
+                - So why is the current implementation of transaction simulation flawed in your opinion I think you
+                - Already addressed this but maybe just to address it one more time
+                - If you simulate a transaction what you're doing is you're just running it against the current blockchain
+                - State and then what would happen right now if you were the first transaction in the block
+                - You're not thinking I don't believe there's any transaction simulation today that
+                - Adversarily says okay once your transactions in the men pool is there anything
+                - Else that somebody could do right beforehand to change the expected outcome on you
+                - And the answer is they're usually or there certainly are
+                - Situations where that can happen so modern simulation is like an optimistic
+                - Simulation and so when we're talking about making tools that give users confidence that they're safe
+                - We want to be able to say that like if we say you're safe you're actually safe we're not we're not introducing
+                - A method where we call something safe where attackers can play a little game and then get
+                - Us to false verify something so like making a little trapdoor
+                - Bit so I could make a nft claiming site where if you grant me an allowance
+                - To your board ape you will get this new nft and I don't take that ape or anything I
+                - Totally promise and you simulate it and you're like it doesn't take the ape but but there's a little switch in
+                - There that says if I turn this switch beforehand then it does take your ape and that
+                - Would be an example of a transaction I could front run that violates your expectations
+                - Set by the simulation
+                - That makes a lot of sense and I do appreciate that I think that's all we
+                - Had in terms of questions but this has been a fantastic space and just to be cognizant of your time as well
+                - It's been a fantastic space and it's been great having sammy up here as well to
+                - Sing along some songs help us lighten the mood up and dan I do want to just thank you for
+                - Your time and coming out of out of your way to help us and kind of talk a little bit more about security I think
+                - You know it's not talked about enough and I hope that people have a lot of takeaways from this conversation
+                - And it's been a pleasure chatting with you michael marr dan if you have any thoughts
+                - Yeah I just wanted to echo real quick what om was stating dan really appreciate your time
+                - It's I can only imagine what your calendar looks like and the amount
+                - Of things that are on your plate so shout out to you shout out to the metamask team and thank you for
+                - Continuing to build an application that is really onboarding
+                - A ton of people and really bringing people into the space so thanks again dan
+                - Yeah I would echo that as well like dan wanted to
+                - Shout out the all the work that the snaps team is doing
+                - We see montoya also in the audience you guys are doing very
+                - Impactful and important work on security I don't think you guys get enough credit
+                - For how far security has come within metamask all the updates as someone
+                - Who like follows the snaps repo and metamask repo there's
+                - PRs in there all the time on improving things like that and
+                - Just wanted to shout out because I think dan is too humble to acknowledge it but
+                - Yeah I just need to give a huge shout out to the metamask team for all the work you guys are doing
+                - Yeah hey thanks thanks so much for making the space like this and for hosting
+                - Spaces like this on a regular basis you're completely right this stuff doesn't get talked about enough but
+                - You guys are talking about it so thanks thanks for having me
+                - Awesome well everybody thank you for tuning in to episode 29 of web 3 security radio
+                - We'll see you again next week sunday at 3 pm eastern
+                - Thank you take care everybody
+                - Let's go
+                - Happy sunday
+                - Happy sunday
+            - [srt](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2F0ObE_KhDBm.mp3.srt?alt=media&token=5367193c-fb21-4d28-8401-69447fb4ad59)

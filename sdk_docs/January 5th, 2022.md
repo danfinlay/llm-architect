@@ -1,0 +1,1 @@
+- [[Aaron Swartz]] wrote about [[zooko's triangle]] and [suggested something like](http://www.aaronsw.com/weblog/squarezooko) [[ENS]]

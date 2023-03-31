@@ -1,0 +1,2 @@
+- [[standards process]] as [[coordinated decentralization]]
+    - https://twitter.com/danfinlay/status/1593800092058030080

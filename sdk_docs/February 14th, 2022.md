@@ -1,0 +1,2 @@
+- [[suzha]] on [[Cory Doctorow]] [[blockchain]] thread
+    - https://twitter.com/dystopiabreaker/status/1493292339028127744?s=20&t=xzzohmrkVqcRGfGhXE93Ig

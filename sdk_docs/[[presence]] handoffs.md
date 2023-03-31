@@ -1,0 +1,7 @@
+- When there are more than two environments communicating over a [[membrane]], the optimization that allows each environment to reduce a reference it is passed to a more direct reference.
+- Example
+    - Alice passes a reference of `A` to Bob.
+    - Bob passes a reference of `A` to Carol.
+    - Alice passes a reference of `A` to Carol by the name `B`.
+    - Carol now has two references, `A` and `B`.
+    - A [[membrane]] environment supports [[[[presence]] handoffs]] if Carol would evaluate `A` and `B` to be the same object, and if Bob could go offline without interrupting Carol's ability to interact with this object via Alice.

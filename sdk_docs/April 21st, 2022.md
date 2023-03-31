@@ -1,0 +1,2 @@
+- [[April 21st, 2022]] at 22:53
+    - [[CyperPower]] [[UPS power supply]] manual: https://www.cyberpowersystems.com/product/ups/avr/cp900avr/

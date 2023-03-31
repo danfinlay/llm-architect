@@ -1,0 +1,2 @@
+- optimized solidity snippets
+- https://github.com/Vectorized/solady

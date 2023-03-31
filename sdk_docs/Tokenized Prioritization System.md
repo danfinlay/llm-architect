@@ -1,0 +1,101 @@
+- A concept of a system for managing large complex projects with
+    - lots of potential paths of improvement with intermixed dependencies
+    - many stakeholders interested in different paths of improvement
+    - an amount of team parallelization
+    - high stakes
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FJNPLQY259v.png?alt=media&token=4a9227f0-e635-4f6c-b1ec-cffe34f34317)
+- Project requirements
+    - Project maintainers are able to declare the state of their project. 
+        - a [[directed acyclic graph]] representing their available work, and the other work it enables.
+            - The size of the **effort**
+            - What other work it depends on
+            - Whether it is a user-facing improvement (a "deliverable"), and if so, a description for the user-facing change log.
+        - The number of **tracks** of work the team is able to do in parallel.
+        - The amount of velocity that the team has averaged per release in the past (for the purposes of anticipating releases).
+    - Token holders are able to apply **prioritization weight** to the deliverables on the graph.
+    - The system is then able to propose paths of work that maximize the amount of prioritization weight it is able to satisfy for the required amount of **effort**.
+        - There can be competing paths with the same payout.
+        - The best paths can vary depending on the target time horizon.
+        - A path consists of an array of no more **tracks** than the team has specified.
+            - tracks: track[]
+                - track: issue[]
+        - Each track has a sequence of issues that when done in order contributes to the overall weight completion in the given timeframe.
+- Open questions
+    - Could we build this on a decentralized issue tracking tool like [[radicle]]?
+    - How to resolve multiple proposed paths?
+        - Proposals
+            - Token holders vote on a target time horizon, and the team breaks the tie between equal options within that horizon.
+    - How is prioritization weight used?
+        - a signal, based on a user's holdings
+            - pros
+                - Don't punish users for helping prioritize issues.
+            - cons
+                - Establishes an upper bound on the signal of an issue's value
+        - spent to create the weight
+            - pros
+                - allows boundless contribution to signal value around a milestone
+                - Can still use non-linear weighting, like [[quadratic voting]].
+            - cons
+                - May bias in favor of [[plutocracy]]
+        - A hybrid approach: Signal tokens supplemented by bounty signal
+            - Requires tuning the algorithm for how much it values signal token, vs how much bounty pursuit is prioritized.
+            - pros
+                - Gives the team dynamic control over how much external influence there is.
+                - Can be adopted from either other model as an initial starting point.
+                - Signal tokens can still be sold in whatever quantity is acceptable, but they represent a perpetual weight over prioritization, so should maybe be reserved for high-trust situations.
+                    - Examples of high trust token recipients
+                        - team members
+                        - investors
+                        - community contributors
+                        - maintainers of collaborative projects
+                        - supportive community members.
+                - cons
+                    - means at least some degree of prioritization is shared with token holders
+                        - Can be mitigated with deliberate token distribution
+    - To be integrated in open source software, these issues are probably on GitHub. What is the ideal way to add the required metadata to GitHub issues?
+        - Issue dependencies
+            - **Issue body text format** ex: `Blocked by #152, #153`.
+                - pros
+                    - Requires no special software.
+                    - Can be made human-readable by anyone
+                        - ex: `Blocked by #152, #153`.
+                        - ex: `Enables #253, #673`
+                    - The complementary side could be auto-completed by a bot..?
+                    - A simple version could just involve the `Blocked by` for simplicity.
+                - cons
+            - ZenHub dependencies
+                - pros
+                    - existing tooling
+                - cons
+                    - Requires a browser extension
+                    - Requires paid service
+            - Avion dependencies
+                - pros
+                - cons
+                    - Another platform to integrate
+                    - Closed by default
+            - Comment body text format
+                - pros
+                - cons
+                    - Hard to keep track of what the latest state is at a glance.
+        - Issue size (options)
+            - **Github Tags**
+            - ZenHub size
+            - Custom DB
+        - Token voting
+            - Via a supplemental UI for voters
+            - Via comment
+                - pros
+                    - Keeps it in the GH experience
+                    - Minimal extra tooling
+                - cons
+                    - Requires participants memorize voting text schema.
+                    - Would still need a login system for proving a github handle controls an account.
+                        - Could allow a single GitHub account to vote on behalf of many accounts.
+            - Via UI added by a [[WebExtension]]
+        - Roadmap visualization (optional enhancement)
+            - Just an additional tool (optional)
+- Implementations
+    - [[TokenLog]]
+    - https://github.com/Borgroom/token-prioritizer
+    - Maybe could be built up from the [[YIP]] process

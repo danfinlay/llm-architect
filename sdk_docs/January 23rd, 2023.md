@@ -1,0 +1,8 @@
+- [[Solidity]] learning resources
+    - https://twitter.com/_franzihei/status/1617479375229800450?s=46&t=
+- [[permit2 for [[ERC-20]]]] security concerns
+    - https://medium.com/@romanrakhlin/the-dark-side-of-permits-eip2612-c66ff71bf635
+- [[Advogato]] for [[sybil resistance]] says [[Dan Connolly]]
+    - https://twitter.com/dckc/status/1617673176028418048?s=20
+- [[Roam to Slides]] could be upgraded with [[web3]] capacities via [[TurboEth]] by [[Kames Geraghty]]
+    - https://twitter.com/KamesGeraghty/status/1617518091612848132?s=20

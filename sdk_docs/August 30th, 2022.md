@@ -1,0 +1,4 @@
+- [[patterns]]
+    - https://twitter.com/slava__bobrov/status/1563877416291942400?s=21&
+- [[Compound]] [[DAO]] [[time lock]]
+    - https://twitter.com/mudit__gupta/status/1564794780869046272

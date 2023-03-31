@@ -1,0 +1,3 @@
+- An [[EIP]] 3040 by [[axic]]
+    - https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3540.md
+- involves something like an [[IDL]] for describing a contract, as well as a verification method that it implements? My rough retelling based on a description by [[Matt Garnett (lightclient)]]

@@ -1,0 +1,11 @@
+- [[stateless]] [[Ethereum]] [[witness]]
+    - https://hackmd.io/@jldunne/Hkl39vHOF
+- Rebrand [[Delegatable Eth]] as [[SuperPermit]]?
+    - Eth community has already learned [[EIP 2612: DAI_v2 style permit()]] as a counterfactual delegation.
+    - EIP 4494 is a permit extension for NFTs
+    - [EIP4494](https://github.com/ethereum/EIPs/blob/6669f57178dc3d56036a37f08e135306a360524d/EIPS/eip-4494.md)
+- [[Sourcify]] (source code verification) supports [Optimism](https://twitter.com/sourcifyeth/status/1463875221375623171) & [Boba Network](https://twitter.com/sourcifyeth/status/1464172996625633280)
+- art [[comission]]
+    - https://twitter.com/spacetwinks/status/1464635992623702020?s=21
+- [[Tesla]] [[subsidies]]
+    - https://twitter.com/existentialcoms/status/1464686515653541892?s=21

@@ -1,0 +1,9 @@
+- Terms
+    - a withered log sprouting new leaves
+        - Awakening inspired by an old text
+    - meditation
+        - a transliteration of the sanskrit words
+            - dhyana
+            - chan’na
+                - Shortened in Chinese to [[Chan (Buddhism)]]
+    - [[huatou]]

@@ -1,0 +1,8 @@
+- A distributed [[debugger]] by [[Tyler Close]] for [[Waterken]]
+- Related readings
+    - https://research.google/pubs/pub35127/
+    - https://github.com/cocoonfx/causeway
+    - http://www.erights.org/elang/tools/causeway/index.html
+    - https://web.archive.org/web/20080725054505/http://www.eros-os.org/pipermail/e-lang/2002-November/007811.html
+    - [[HP Labs]] tech report: https://research.google/pubs/pub35127/
+- {{youtube: https://www.youtube.com/watch?v=QeqcGa7HlBk&list=PL35C4E5A0FC5008FB&index=9&t=0s}}

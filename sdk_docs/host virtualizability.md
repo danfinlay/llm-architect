@@ -1,0 +1,6 @@
+- [[TC-39]] [proposal](https://github.com/Agoric/proposal-preserve-virtualizability)
+- by
+    - [[Mark Miller]]
+    - [[J.F. Paradis]]
+    - [[Caridy Patino]]
+    - [[Alan Schmitt]]

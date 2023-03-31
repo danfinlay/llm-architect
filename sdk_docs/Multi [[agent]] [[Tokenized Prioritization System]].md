@@ -1,0 +1,43 @@
+- Premise
+    - If multiple [[agent]]s had a [[Tokenized Prioritization System]], there may be some situations where new opportunities for collaboration are made visible, and an additional system could help them commit to mutually addressing those challenges.
+        - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FJNPLQY259v.png?alt=media&token=4a9227f0-e635-4f6c-b1ec-cffe34f34317)
+    - Two obstacle/tasks may exist in both organizations' available work graph, blocking some possible change they each want for their own reasons.
+    - Those obstacles might be prohibitively expensive to bother developing for any one of the organizations, but if the cost of resolving them was shared, could have strategic implications for both organizations.
+    - This would imply an opportunity for helping organizations recognize opportunities for collaboration.
+    - By sharing the cost of a shared obstacle to a better total outcome, we find ourselves at a pareto improvement, similar to the one suggested by [[Mark Miller]] in his talk [[Visualizing Voluntary Cooperation]] here:
+        - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FJu8I9930yt.png?alt=media&token=d80826ba-153f-4736-93ed-ae8719f24bd4)
+- Requirements
+    - The ability to propose committing split resources to addressing issues, to help overcome high cost issues that unlock new feature paths for both groups.
+- Basic workflow
+    - Multiple organizations are using a [[Tokenized Prioritization System]]
+    - A member of one organization is able to propose duplicate "issues" across the organizations, in the form of a [[cooperation proposal]].
+    - The proposal can invite others to provide their own alternative offer of divided responsibility
+    - At some point, someone accepts the proposed terms of an outstanding offer of divided responsibility, which will trigger its contribution commitments.
+- Glossary
+    - [[cooperation proposal]]
+        - The proposal can include an offer of divided responsibility for overcoming the obstacle.
+        - The proposal can invite others to provide their own alternative offer of divided responsibility
+    - offer of resources
+    - offer of divided responsibility
+        - Includes an offer of resources, given some expected conditions in return.
+        - Could be contractually binding, but may simply hinge on inter-organization reputation.
+        - A division of responsibility can take many forms
+            - One pays the other to build
+            - Each contributes effort
+            - Hybrid of the above
+        - Generally an offer will involve creating an option for another party to "accept" terms.
+        - Examples
+            - I will pledge $10 to ordering pizza, as long as I get two slices.
+                - Someone can accept by saying "Alright, I will get the pizza, I am now collecting the $10!"
+                    - payment could be made available in advance or upon receipt, depending on the trust distribution at play.
+                        - If payment is taken in advance, then the offer might be restricted to a trusted set of offer-takers.
+                        - If the payment is only given on delivery, then the offer-taker might be selective about whose requests they commit to.
+                        - If there is partial trust, or law enforcement (but it is obnoxious or expensive), then a partial "deposit" type payment might suffice.
+                - A pizza may cost many amounts of money, and any number of people could pledge funds towards such a cause, but only once a "buyer" "accepts" the offers are all of the offers ratified into action.
+            - I propose we develop a new SQL interface for Rust, and would pledge $500 towards it should it be built.
+- Side tangent: Relationship to [[offer safety]]
+    - What is an offer of divided responsibility but an offer of resources in exchange for the end result?
+        - Could this system be built partly on [[offer safety]] contracts?
+    - The tricky part is "what is received?": The proposal is that a new thing is created, and this new thing is what the person wishes to receive. In a way, that itself invites the proposer to think deeply about the governance of what is created: What is the condition of completion for this offer? If we declare we want some new token that represents the completion of this project, then what events trigger that new token's issuance? The proposer could nominate some distribution of "jurors/[[oracle]]s" between the two groups, and then other parties could make their own complementary offers for that token, thus acknowledging the proposed terms of completion recognition, or they could make a similar offer, but in exchange for a different token, with a different issuance policy, inviting the original proposer to make a revised offer, potentially accepting the newly proposed alternative currency as well.
+        - The tokens could also be used to imbue the winners with some legal authority over the new project, maybe being shareholders in a new company.
+    - Part of the appeal of this approach is that it is so incredibly open-ended. The ideal version of this system after all would simply facilitate identifying shared challenges, resources, and eventually committing to a solution. By making "the solution" totally user-defined, we allow people to organically explore and discover what terms can be most agreeable or credible to the whole group.

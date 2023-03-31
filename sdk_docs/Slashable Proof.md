@@ -1,0 +1,4 @@
+- Could just be a message signed by the Bidder saying “I trust you”.
+- Could also be a pointer to a dispute resolution system that the bidder trusts.
+    - A centralized court system.
+    - A chain of [[social collateral]]

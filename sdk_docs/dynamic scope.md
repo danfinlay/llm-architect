@@ -1,0 +1,2 @@
+- https://stackoverflow.com/questions/22394089/static-lexical-scoping-vs-dynamic-scoping-pseudocode/22395580#22395580
+- As opposed to [[lexical scope]]

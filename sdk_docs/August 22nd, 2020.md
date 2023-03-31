@@ -1,0 +1,3 @@
+- #[[Quick Capture]]
+    - How [[E (Language)]] got its name by [[Douglas Crockford]] https://web.archive.org/web/20030905010338/http://www.eros-os.org/pipermail/e-lang/2001-September/005704.html
+    - [[Mark Miller]] on the future of cryptographic protocol design in response to [[Balaji]] https://twitter.com/marksammiller/status/1297333143993630721?s=21

@@ -1,0 +1,11 @@
+- A concept by [[Caridy Patino]]
+- [Documented further here](https://github.com/codehag/documenting-invariants/blob/master/known_invariants.md) as one of the [[[[JavaScript]] [[invariants]]]].
+- A [[[[JavaScript]] [[membrane]]]] that makes objects on the other side of the membrane seem like ordinary objects within this [[Realm]].
+- This is a different form of transparency than the classic form of membrane transparency that [[Mark Miller]] has advocated over the years. He thought this type of membrane was impossible.
+- Example `Date`:
+    - When a property is applied to a proxy for `Date`, the `Proxy` itself has no target for that slot, even if the target may have it. The proxy therefore fails to act like a "near" object. This breaks the illusion.
+- A proper near membrane would be able to assign this value to the target instead of the proxy.
+- This is complicated, and every time you introduce an internal slot, you can only introduce near membrane transparency through monkeypatching.
+- Using `Symbol` name properties, you don't have such a problem.
+- Usually a [[Proxy]] does not break practical transparency, but in this case they do for near membranes. Data should go through membranes without modification.
+- "A value that you can get a handle on that can access exotic internal slots is a super power" - [[Richard Gibson]]

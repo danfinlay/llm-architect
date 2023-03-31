@@ -1,0 +1,23 @@
+- A visual security mechanism, for establishing familiarity, and ideally helping users identify appropriate concerns.
+- Properties
+    - consistent (whenever it is seen, it appears the same)
+    - visually distinct (it appears distinct to other things)
+    - personally distinct (a user recognizes their unique holding from someone else’s representation of that token)
+    - impactfully memorable (when it varies, it ideally raises alarm).
+- Most often seen as [[identicons]], but there are other variations:
+    - [[security images]]
+    - [[Mark Miller]] suggests [[security tartan]] for backgrounds.
+    - [[jazzicon]]
+- Effectiveness?
+    - A [[Carnegie Mellon]] study found 75% of users would still enter a password even if the security image changed.
+        - https://www.marketwatch.com/story/banks-find-online-security-images-offer-little-protection-2015-11-05
+        - https://users.ece.cmu.edu/~lbauer/papers/2014/w2sp2014-securityimages.pdf
+    - Maybe this is one of those times where [[only good design can test this theory]].
+        - Requirements
+            - Designer must be able to procedurally generate their design: Given a very large number (like a UUID), they should be able to produce a visual artifact matching the Properties.
+        - Unique open-endedness
+            - This visual element may be useful in a wide variety of contexts:
+                - The background of a page
+                - An icon representing an item
+                - A frame surrounding a view
+                - A pattern of unique capitalization in [a word](https://github.com/ethereum/EIPs/issues/55)

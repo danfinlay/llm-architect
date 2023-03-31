@@ -1,0 +1,4 @@
+- Problems
+    - the name
+    - so many ways to represent it, but it exists for performance reasons
+    - Led languages like [[JavaScript]] to introduce equivalence operators that are not equality tests.

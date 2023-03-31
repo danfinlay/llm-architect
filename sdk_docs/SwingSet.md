@@ -1,0 +1,9 @@
+- The [[SwingSet]] project is the creation of a [[JavaScript]] runtime that is __resumable__, achieving [[orthogonal persistence]].
+    - Unlike [[Node.js]] or a browser session, which resets all of its local variables on reload, a [[SwingSet]] can retain its local variables, and by “re-playing” past messages, or check-pointing its state to disk, and so is able to even restore functions that were formerly constructed, and even reconstruct the same method identifiers, so that remote references to its functions (or even runtime generated lambdas) can remain valid and useful, which combined with [[CapTP]] facilitates the creation of a distributed object graph.
+    - This unit of resumable computing is sometimes referred to as [[vat]].
+    - This allows for the construction of types of programs that do not need to rely on system APIs to access storage for persistence.
+    - On the surface level, this can mean that many simple but persistent programs will be further simplified to develop, increasing security.
+        - Not needing storage or lookup APIs beyond the language’s own can speed up development.
+        - Using native language features for storage increases legibility for an external auditor.
+        - Together, these mean that simplicity, and so in turn likely security are increased, along with speed of development.
+        - Since passing a function can now be a persistent operation, the entire premise of an access control list can be replaced by the language-level reference graph, effectively enabling a distributed [[object capability (ocap)]] environment.

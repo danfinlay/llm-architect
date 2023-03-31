@@ -1,0 +1,2 @@
+- [Full text](https://dl.acm.org/doi/10.1145/504704.504705)
+    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FoWu6ZsuIlv.pdf?alt=media&token=4c86a5d1-25d1-4652-9186-2328a5770054}}

@@ -1,0 +1,1 @@
+- [[Minimum Viable Consensus Algorithm]] https://twitter.com/isosteph/status/1369773683783258115?s=21

@@ -1,0 +1,4 @@
+- https://github.com/endojs/endo/tree/master/packages/static-module-record
+- has
+    - imports
+    - exports

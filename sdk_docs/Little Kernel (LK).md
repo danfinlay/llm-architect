@@ -1,0 +1,1 @@
+- a  real-time kernel for embedded devices, aimed for low resource  consumption, to be used on a wide variety of devices.[[27]](https://en.wikipedia.org/wiki/Google_Fuchsia#cite_note-27) Little Kernel was developed by [[Travis Geiselbrecht]], who had also coauthored the NewOS kernel used by [Haiku](https://en.wikipedia.org/wiki/Haiku_%28operating_system%29).

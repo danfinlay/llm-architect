@@ -1,0 +1,8 @@
+- [[Roam Research]] import database feature
+    - I did some experiments to see how the @RoamResearch database import feature works, inspired by this "Roam book" which encourages you to import it into your own database. https://twitter.com/dellannaluca/status/1324053703981207552?s=21
+    - Importing a database into another will create any missing pages in the receiving db, and will append blocks from the imported database to the end of any pages that already exist.
+    - If even one of those blocks was imported previously, the entire import will fail. This ensures that regular "syncing" will not work. You get one shot to import a database into another.
+        - I'd love to have a way to make one database "a subset" or "a child" of another
+            - My three databases are: personal, team-private, and public, which are each strictly less confidential than the previous, and I'd love to have the more public blocks available within each more private database.
+- [[Jamie Burke]] interviewed [[Mark Miller]]
+    - https://twitter.com/jamie247/status/1324407495515869184?s=20

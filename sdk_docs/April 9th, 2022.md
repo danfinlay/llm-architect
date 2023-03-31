@@ -1,0 +1,5 @@
+- [[Blenster]] speaking some reasonable words in defense of [[Naomi Wu]]
+    - https://twitter.com/blenster/status/1512485514229780486
+- [[April 9th, 2022]] at 00:29
+    - [[DSProxy]] is a type of [[contract account]]
+        - https://twitter.com/definikola/status/1512100163527090193

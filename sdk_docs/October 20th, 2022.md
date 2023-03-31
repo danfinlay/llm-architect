@@ -1,0 +1,12 @@
+- 
+- [[urbit]] dedicated hardware [[Native Planet]]
+    - https://twitter.com/sicdev_pilnup/status/1583118133501784064?s=46&t=
+- [[Jae Kwon]] antisemitism
+    - https://twitter.com/mikegushansky/status/1583079174691909632?s=20&t
+    - https://github.com/faddat/gno/tree/master/docs/files
+- [[October 20th, 2022]] at 10:31
+    - [[[[EIP]] 4337: [[account abstraction (AA)]] via Entry Point Contract]] https://m.youtube.com/watch?v=xHWlJiL_iZA [[Yoav Weiss (yoavw)]]
+- [[October 20th, 2022]] at 18:16
+    - [[Mark Miller]] on [[AI]] https://foresight.org/wp-content/uploads/2018/11/Cyber-Nano-and-AGI-Risks-Decentralized-Approaches-to-Reducing-Risks.pdf
+- [[October 20th, 2022]] at 23:01
+    - [[Penumbra Zone]] talk https://m.youtube.com/watch?v=32P4LtNl0oM

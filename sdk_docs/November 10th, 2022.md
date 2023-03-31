@@ -1,0 +1,4 @@
+- [[Mastodon]] [[Twitter]]
+    - [migration script](https://fedifinder.glitch.me)
+    - [[[[Fediverse]].info]]
+- [[[[Alan Kay]]'s tribute to [[Ted Nelson]] at [[Intertwingled]]]]

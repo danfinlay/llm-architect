@@ -1,0 +1,3 @@
+- [[Christine Lemmer Webber]] on [[Dr. Shriram Krishnamurthi]]’s criticism of [[object capability (ocap)]] auditability and [[[[Spritely]] Brainy]]
+    - https://twitter.com/dustyweb/status/1499414229245440008?s=21
+- [[[[EIP]] 3074: Delegated Invocation Contracts]]

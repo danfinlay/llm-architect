@@ -1,0 +1,7 @@
+- An extension to [[CapTP]]
+    - trap guest
+    - trap host
+- Example requirements
+    - Swingset wants to have a synchronous storage API, but this API could be remote, or provided by an asynchronous host API.
+    - A bunch of workers that want to access mongoDB each, but can be slept/woke at any time, but you want to be able to adapt them to a more advanced state storage.
+- Enables a sort of synchronous method on a guest for an asynchronous host operation.

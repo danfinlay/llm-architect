@@ -1,0 +1,1 @@
+- A machine with a 3-stage floating-point pipeline

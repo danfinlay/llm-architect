@@ -1,0 +1,4 @@
+- [[Tokenized Prioritization System]] was the original purpose of [[curation market]]s with [[bonding curve]]s
+    - https://twitter.com/simondlr/status/1426872592275738630?s=21
+- [[EthBlockArt]] is a [[procedurally generated]] art platform partly inspired by [[jazzicon]]
+    - https://twitter.com/ethblockart/status/1346881475707285504?s=21

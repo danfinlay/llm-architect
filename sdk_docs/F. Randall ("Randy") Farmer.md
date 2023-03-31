@@ -1,0 +1,2 @@
+- Co created [[LucasFilm's Habitat]] along with [[Chip Morningstar]].
+- https://en.wikipedia.org/wiki/Randy_Farmer

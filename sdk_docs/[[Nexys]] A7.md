@@ -1,0 +1,1 @@
+- https://digilent.com/shop/nexys-a7-fpga-trainer-board-recommended-for-ece-curriculum/

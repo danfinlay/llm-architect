@@ -1,0 +1,11 @@
+- https://www.oreilly.com/library/view/getting-started-with/9781449379896/ch01.html
+- Built by [[Lars Ramussen]] and [[Jens Ramussen]]
+    - The same pair of brothers that built the original [[[[Google]] Maps]]
+- Notes on architecture
+    - a conversation object is a tree of message nodes
+    - any person in a wave can reply to a message, even inline to it.
+        - an author of a reply can restrict its access to any subset 
+    - new messages are shown live to other participants by default
+    - v1 built in 1.5 years
+    - Had a plugin system
+        - plugins seemed to get some flat/universal access, no permissions system

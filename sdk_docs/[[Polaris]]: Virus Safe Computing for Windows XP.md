@@ -1,0 +1,21 @@
+- By [[Mark Miller]] [[Alan Karp]] [[Ka-Ping Yee]] [[Marc Stiegler]] 
+- [Full text](http://www.hpl.hp.com/techreports/2004/HPL-2004-221.html)
+    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMetaMask%2FjEgN8KuLAH.pdf?alt=media&token=15e0efed-3778-4452-a334-1f25c28436c2}}
+- Notes
+    - Runs [[Microsoft Windows]] applications in a separate user account, where they only have access to copies of the files they are granted Authority over.
+        - Uses the [[Power Box]] to control and regulate access to the files that an application may be granted access to.
+    - Has some anachronisms
+        - Needing to run excel with macros turned off
+        - Being advised to turn off scripts when browsing to websites (this is still sometimes advised, but I don't think is widely respected).
+    - Is combating misconceptions
+        - [[The 10 Immutable Laws of Computer Security]]
+        - Fine-grained security is unusable
+        - Only coarse-grained security is usable
+    - Describes launching an application with only the minimal required authority, not even needing a popup, citing [[CapDesk]] as an example of how this can be achieved.
+        - This seems to refer to things like "dragging a file from one window to another implies the desire to designate authority to operate on that file to the second window"
+    - Uses pet names to help indicate that a given application has been "Polarized".
+        - The pet name can help distinguish different "Pets" (differently endowed versions of the same application).
+        - This seems like an atypical use of pet names, since the system applications already have local names, so the pet names really are only there for distinguishing the differently confined instances of each application.
+    - They installed this software on an HP executive's computer without their knowledge, which has another security lesson in it somewhere :)
+    - Shortcomings
+        - Due to a fundamental design flaw in Windows, any application can read GUI events sent to any window on the screen. This flaw is exploited by keyboard sniffers, for example. Any application can send GUI events to any window on the screen. That means that a virus could send requests for additional authorities to the [[Power Box]], and select any file on the system.

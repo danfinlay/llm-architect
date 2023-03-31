@@ -1,0 +1,1 @@
+- Buit-in javascript objects such as `String`, `Number`, `Array`, `Function`, `Object`, `RegExp` and so forth.

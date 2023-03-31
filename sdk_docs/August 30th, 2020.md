@@ -1,0 +1,2 @@
+- [[Gratitude for [[Agoric]]]]
+- Continued reading [[Towards a Unified Approach to Access and Concurrency Control]]

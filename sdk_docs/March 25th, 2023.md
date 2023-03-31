@@ -1,0 +1,4 @@
+- [[Nocturne]]
+    - https://twitter.com/luketchang/status/1639516551903870981?s=46&t=
+- [[AI]] [[GPT4]]
+    - https://twitter.com/danfinlay/status/1639760092286574593?s=20

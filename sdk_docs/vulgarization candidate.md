@@ -1,0 +1,1 @@
+- Topics that [[Dan Finlay]] might try digesting and helping to explain in plain terms.

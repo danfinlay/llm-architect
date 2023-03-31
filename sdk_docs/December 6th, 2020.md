@@ -1,0 +1,2 @@
+- In [[Lodge 49]] s1e10 42:00, Ernie gives Dudley the [[power/capability]] to find him once each week.
+- [[Modern Monetary Theory (MMT)]] [[Kirk Dameron]] [[economics]] https://twitter.com/emergencekirk/status/1335770992107540482?s=21

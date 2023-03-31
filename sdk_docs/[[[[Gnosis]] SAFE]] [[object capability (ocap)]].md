@@ -1,0 +1,21 @@
+- This is an approach to [Ethereum object capabilities]([[[[Ethereum]] [[object capability]]]]) that can be built entirely with [[[[Gnosis]] SAFE]] and its [[[[[[Gnosis]] SAFE]] module]]s.
+- Design goals
+    - Allow the [[delegation]] of any [[power/capability]] to any signer or collection of signers, and allow that delegation recursively.
+- Since a [[[[[[Gnosis]] SAFE]] module]] is authorized to invoke any function on behalf of its parent [[[[Gnosis]] SAFE]] contract, a module is an ideal place to implement [[attenuation]] of the module's otherwise unlimited [[delegation]] to call any method.
+    - A [[gnosis safe attenuator]] would be a contract that
+        - Is able to be assigned as a [[[[[[Gnosis]] SAFE]] module]]
+        - Enforces some restriction on the methods that can be called, for example it may
+            - Specify the terms that will trigger it to send a message as the parent contract.
+                - A single external account may be assigned as the delegate.
+                    - Maybe via [[EIP 173: Ownable Interface]] to assign the delegate.
+                - A signature or collection of signatures may be specified as the delegate, allowing a second collection of signers to collect signatures and then invoke the method as a [[MetaTransaction]].
+            - Limit the valid recipients of its messages
+            - Limit the valid functions that it may invoke
+            - Limit the vaild parameters on the functions it may invoke
+            - Enforce stateful limits on the parameters that are sent.
+                - A spending limit requires tracking the quantity sent, and ensuring the sum of tokens sent never exceeds that quantity.
+    - If the [assigned owner](((bnUHoedty))) of a [[gnosis safe attenuator]] is itself a [[[[Gnosis]] SAFE]], then the pattern of delegation can be recursive, allowing a [[rich sharing]] pattern.
+- Drawbacks
+    - Because the [[gnosis safe attenuator]] is a separate contract from its assigned [[contract owner]], this pattern is a bit heavier-weight on-chain than it needs to be.
+        - Possible more optimized approaches
+            - [[Counterfactual WebCap Wallet]]

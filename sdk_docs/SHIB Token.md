@@ -1,0 +1,8 @@
+- A meme coin.
+- Half minted were sent to [[Vitalik Buterin]]
+- Half minted were put for sale on [[Uniswap]]
+- Built up to a $15 billion market cap within a day
+- Vitalik sold several tranches, then donated a large portion, keeping about 45% of his portion.
+- https://twitter.com/livelyrevenant/status/1394050695586791426?s=21
+- Tweet thread on the topic
+    - https://twitter.com/danfinlay/status/1392558866592768000?s=21

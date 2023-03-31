@@ -1,0 +1,9 @@
+- [[Venkatesh "vgr" Rao]] on [[Alexis Ohanian]] and [[Play to Earn]]. [[Ivan Illovich]]
+    - https://twitter.com/vgr/status/1483124807054938112?s=20
+    - https://twitter.com/LMSacasas/status/1483103416436117504
+    - https://twitter.com/LMSacasas/status/1471502591053889544?s=20
+        - In the latter part of his career, Ivan Illich spent a lot of time arguing for just this: the preservation of vernacular spheres of life. Vernacular was his word for non-commercialized, non-market oriented practices and activities.
+        - The term, as he meant to use it, “denotes autonomous, non-market related actions through which people satisfy everyday needs—the actions that by their own true nature escape bureaucratic control, satisfying needs to which, in the very process, they give specific shape.”
+- [[Venkatesh "vgr" Rao]] [[global warming]] [[crypto]]
+    - https://twitter.com/vgr/status/1483221419366354944?s=21
+    - https://climatecrypto.xyz/

@@ -1,0 +1,2 @@
+- https://twitter.com/seedclubhq?s=20
+- https://www.joinseed.club/

@@ -1,0 +1,63 @@
+- A recurrent architectural proposal in [[Ethereum]] that I think is fundamentally flawed.
+- Examples
+    - [[[[EIP]] 1654: Off-chain dapp-wallet authentication process with contract wallets support]]
+    - [[[[EIP]] 1271: Standard Signature Validation Method for Contracts]]
+- Reason for the recurring pattern
+    - Traditional web 2.0 [[authentication]] flows often rely on some kind of challenge to verify a user is who they say they are. There has in turn been an early pattern in [[dapp]] development of treating [[web3]] accounts as logically equivalent to traditional web 2.0-style accounts.
+        - Often times this signature challenge has been meaningless
+            - [[Cryptokitties]] uses a signature challenge for a login-like experience, yet does not hold any sensitive information, and all operations still require transaction approval through the user's [[web3]] wallet, and so it is dubious why a signature challenge is needed at all.
+                - Correction: This challenge is used to decide who is allowed to nickname the cats, but it's still a low-security example.
+        - Sometimes it can seem more worthwhile
+            - If a server is holding some sensitive information on a user's behalf, a signature challenge can prove a user is holding a key associated with an account.
+    - Many users want the security benefits that come from a [[contract account]].
+        - Multi-factor authentication can improve security, by requiring multiple signatures from each user.
+        - [[DAO]]s mean that a [[contract account]] can have arbitrarily complicated internal logic to control the logic that issues its internal transactions, and all of those types of account want to be able to participate in the rich diversity of the [[web3]] ecosystem.
+    - Dapp developers want a way to conveniently integrate the familiar [[authentication]] of [[web 2.0]] with the increasingly popular security benefits of [[smart contract]]s.
+    - As a result, there have been several Examples of [[EIP]]s where signature challenges are "made possible" for [[contract account]]s simply by having the contract account specify a signer for its authorization. 
+- Different approaches
+    - The contract account specifies signature verification strategy
+        - The contract account specifies its own authorization function.
+            - Examples
+                - [[[[EIP]] 1271: Standard Signature Validation Method for Contracts]]
+                - [[[[EIP]] 2126: Signature Type Recognition]]
+                    -  https://twitter.com/PhABCD/status/1215321445263466497?s=20
+            - pros
+                - highly flexible for smart contract account authors.
+                - little extra effort for dapp developers to adopt
+            - cons
+                - Since these signature challenges can each have different levels of sensitivity, assigning a single key as delegate for all of the above acts makes for a coarse security model, ripe for over-delegation.
+                    - Compare the security requirements of:
+                        - Signing into cryptokitties
+                        - Agreeing to a transfer from the main account.
+                        - Updating a state channel balance.
+                        - Offering a trade on an already unlocked token.
+                        - Viewing a sensitive document
+                    - A [[contract account]] might initially assign a delegate for a less-sensitive website's purpose, but not be aware that this assignment also has implications for another contract that is managing their assets.
+        - The contract account specifies a single key as its delegate signer for all uses
+            - Examples
+                - [[[[EIP]] 1654: Off-chain dapp-wallet authentication process with contract wallets support]]
+            - pros
+                - The simplest approach to implement
+            - cons
+                - By specifying a single key to authenticate a [[contract account]], any system that relies on this single-key authentication strategy does not benefit from that contract account's otherwise sophisticated authorization logic.
+                - Because most Examples of this pattern are where The contract account specifies a single key as its delegate signer for all uses, the potential security sensitivity of this [[delegation]] act is unbounded.
+                    - The more contracts that came to rely on this authorization, the more dangerous assigning such a delegate becomes. This violates the property of [[informed consent]].  
+                - often used for access control with a meaningless signature.
+                    - p2p access control is well defined by keys, so if you want the account to assign a decryption key, ask them to!
+    - The recipient [[smart contract]] allows an account to specify a delegate signer.
+- Alternative approaches
+    - Rather than trying to emulate [[web 2.0]] style [[authentication]], I recommend that [[web3]] applications think instead in terms of required [[power/capability]], and structure their interactions around well justified interactions with those powers, like [[Delegatable Eth]], but would need contract account support, so a [[Delegatable 4337]]
+        - Over time wallets should make it easier to approve multiple delegations with a single connection, and this will likely feel a lot like a [[permission]] prompt.
+            - A [[justification]] can neatly be integrated into a [[permission]] request, rather than normalizing every application priming the user for the permissions prompt first, although that flow is proven effective.
+        - Examples
+            - An exchange typically requires a [[ERC-20 Token Allowance]], and this can be granted from any type of account, regardless of signature.
+                - An allowance can be assigned in many ways.
+                    - An on-chain transaction
+                    - a [[EIP 2612: DAI_v2 style permit()]] type message
+                    - Any other meta-transaction message that can be submitted out of order (which can support any contract account format).
+            - An auction site only needs access to the asset being auctioned, regardless of __how__ access to that asset is granted.
+            - A private message typically should have an explicit specific set of recipients (who has decryption keys?). For example, it is nonsensical to try to emulate "who is allowed to read" on behalf of a democracy in terms of a single key.
+            - A state channel may in fact need a designated signer (unless the channel supports account abstraction), and I would suggest that this signer should be defined on a per-channel basis, to avoid [over-delegation](((ip00S1cf0))).
+            - A delivery person just needs the package to deliver
+            - A house keeper needs house access
+            - An application using a key to authenticate you would need you to sign a challenge message, like [[EIP-4361: Sign in with Ethereum (SiWE)]], but the signature along only proves holding one key, and requires the application to effectively build its own permissions layer on top, for example to manage its backend policies.

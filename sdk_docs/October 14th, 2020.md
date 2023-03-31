@@ -1,0 +1,4 @@
+- [[K. Eric Drexler]] has a response to [[The Fermi Paradox]]
+    - https://twitter.com/qiaochuyuan/status/1316194941530378241?s=21
+    - https://arxiv.org/abs/1806.02404
+- [[DAO]] https://twitter.com/metafam/status/1316123066037080065?s=21

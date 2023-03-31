@@ -1,0 +1,21 @@
+- [Tweet thread](https://twitter.com/danfinlay/status/1285733115936333826?s=20)
+- A form of token-based democracy in which the winners of a vote pay the losers what the losers bid.
+    - Similar to a [[Vickrey auction]]
+- Process
+    - Tokens are distributed among community members
+    - Proposals are submitted to the group
+        - Proposals have a voting period
+        - Any user can vote for or against a proposal by locking tokens for or against that proposal.
+        - When the voting period ends, the proposal is adopted or rejected according to which side locked the most tokens.
+            - Of the funds locked for the winning side, the losing voters are all paid the amount they locked.
+            - The remaining funds locked for the winning side are distributed proportionately to the accounts that had locked for the winning side.
+- Properties
+    - If all users bid the amount that they truly value the passing of this proposal, then they should always be happy
+        - If they win, they will pay no more than the amount they value this proposal.
+        - If they lose, they will be fully compensated for not getting their desired outcome.
+    - Easily private
+        - Since there is a voting period, it can incorporate a commit-reveal scheme.
+            - Users can lock more than they are voting at any time, since only the amount __actually__ committed is potentially spent in the end.
+            - Multiple votes can rely on the same pool of actually-locked funds.
+                - Upon each reveal, the remaining locked funds are accounted for.
+                - Any funds that are not available at the time of tallying are not counted towards that side's vote.

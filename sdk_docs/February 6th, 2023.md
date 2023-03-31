@@ -1,0 +1,4 @@
+- [[Yubikey]]
+    - maybe it could sign a [[contract account]] challenge and be an extra factor?
+    - Maybe similar to this [[Ethstonia]] [[Estonian e-Residency ID Card]] to sign
+        - https://twitter.com/ljxie/status/1038891309044584448

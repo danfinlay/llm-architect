@@ -1,0 +1,13 @@
+- many different goods
+- many bidders, each bidding different blocks of offers for different combinations of goods.
+- [[Norm Hardy]] [[Dean Tribble]] [[Mark Miller]] reinvented and patented this type of auction, formerly [[generalized Vickery auction]] at [[Agorics]]
+- An auction for selling bandwidth on a circuit, broken into bandwidth over links of a network.
+- Algorithm
+    - Search over all feasible allocations
+    - Treat bid price as utility, for the sake of discussing.
+    - Find the allocation with the maximum total utility, by adding the maximum (first) bid prices.
+    - For each bidder in the winning allocation: How much do you charge each of them?
+        - Remove them from the search problem, ask "what would the ideal allocation have been in the absence of this bidder?"
+        - Compute the difference in total utility (proposed) from the total utility (in their absence).
+- Like in a [[Vickrey auction]], the amount you bid doesn't affect what you pay, it only affects whether you win or not. It incentivizes
+- Proven to incentivize honest bids by [[Hal Varian(sp?)]]

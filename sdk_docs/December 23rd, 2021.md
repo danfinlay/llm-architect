@@ -1,0 +1,3 @@
+- [[DAO]] trends with [[nnnnicholas]]
+    - https://twitter.com/0xJim/status/1473747418923642882?s=20
+- [[Dean Eigenman]] [keeps a blog on papers he reads](https://distsys.substack.com/)

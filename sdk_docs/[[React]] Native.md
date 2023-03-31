@@ -1,0 +1,3 @@
+- https://reactnative.dev/docs/javascript-environment
+- “In most cases, React Native will use [[JavaScriptCore]], the [[JavaScript]] engine that powers Safari.”
+- In some cases, React Native can use the [[Hermes Engine]]

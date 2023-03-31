@@ -1,0 +1,17 @@
+- [[punk6529]] [[Bankless]] [[podcast]]
+    - [[NFT]] as sybil resistant identity
+    - freedom to transact as first principle
+    - why nfts are essential
+        - they move the conversation up the tech stack to the app layer
+        - they allow major brands to get involved in obvious ways
+        - describes using nfts as infinitely expressive
+            - company access control
+                - I’d argue access control is better satisfied by [[object capability (ocap)]]
+        - fungible tokens have had plenty of time to take off
+        - twitter was laughable early on too
+        - nft is easier to frame as art, and so legally defend on grounds of free speech against securities regulation.
+            - Like a legal trojan horse
+- [[Scott Alexander]] on niceness and cooperation
+    - https://twitter.com/goblinodds/status/1627165760476020736?s=46&t=
+    - https://slatestarcodex.com/2014/02/23/in-favor-of-niceness-community-and-civilization/
+    - 

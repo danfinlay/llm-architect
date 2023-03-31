@@ -1,0 +1,7 @@
+- Possible new term by [[Mark Miller]]
+    - May later change `exotic` to something else, per some criticism.
+- [[JavaScript]] objects have "[[slots]]".
+- There is a set of slots that the spec defines as being carried by normal objects.
+    - Any slot that is not part of that set will be defined as an "exotic slot".
+- [[J.F. Paradis]] has a related idea for a [[near [[membrane]]]]
+- If a property is configurable, and the slot is not exotic, you should be able to delete it.

@@ -1,0 +1,7 @@
+- [[Venkatesh "vgr" Rao]] liked [one article](https://thebaffler.com/salvos/whats-the-point-if-we-cant-have-fun) by [[David Graeber]]
+- wanted to make a general purpose [[[[Batch Transactions]] [[[[EIP 2535 Diamond Standard]] facet]]]], but found that for a facet to invoke arbitrary functions that already exist would require a [[DELEGATE_CALL]], which is much more gas expensive than a jump.
+    - [[evm]]: [[DELEGATE_CALL]] is much more expensive than JUMP (currently 700 gas vs 10 gas).
+    - with [[[[EIP]] 2930: Optional Access Lists]], SLOAD and EXT* opcodes would only cost 100 gas
+        - ACCESS_LIST_ADDRESS_COST (up front cost): 2400
+        - So as long as you’re calling to the same contract at least 3 times, this type of tx would be cheaper. still not JUMP cheap, but approaching 7x cheaper.
+        - https://twitter.com/maurelian_/status/1476793440042168337?s=21

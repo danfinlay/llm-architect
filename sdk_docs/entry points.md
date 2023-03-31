@@ -1,0 +1,26 @@
+- I believe
+    - the general tool of [[digital [[social collateral]]]] can be applied to a wide variety of problems, and unite them in an elegant way.
+    - each person has their own biggest problems, and their own causes that most compels them.
+- Therefore
+    - Rather than provide a single narrative for introducing these concepts, this page aims to be a list of different ways to begin thinking about these ideas.
+- Entry points
+    - The problems with insurance
+        - https://medium.com/capabul/grassroots-insurance-8b353a1670f6
+        - [[perfect insurance]]
+    - The problems with voting based systems
+        - [[Arrow's Theorem]]
+        - [[tyranny of the majority]]
+        - electoral democracy
+        - Direct democracy
+        - liquid democracy
+    - The problems with lending
+        - [[social collateral]]
+    - The problems with sourcing trustworthy information
+        - [[Building Trust Over Distance]]
+    - The problems with funding causes that are not profitable
+        - [[it’s all subjective valuation]]
+    - The problems with modern computer security
+        - [[confused deputy]]
+        - [[[[Access Control List (ACL)]]s Don't]]
+    - the [[principal agent problem]]
+    - [[prisoner's dilemna]]

@@ -1,0 +1,14 @@
+- [[EIP 2612: DAI_v2 style permit()]] and [[Secure UI]]
+    - https://twitter.com/danfinlay/status/1560451059734065153?s=21&t=
+- [[August 19th, 2022]] at 06:18
+    - [[OrbisClub]] [[Ceramic]] [[Kames Geraghty]]
+        - https://twitter.com/kamesgeraghty/status/1560593167040229377?s=21&t=-_
+- [[August 19th, 2022]] at 06:29
+    - [[Odsy]] network announces [[dWallets]]
+        - https://twitter.com/odsyxyz/status/1560615635180306433?s=21&t=-_
+- [[August 19th, 2022]] at 11:33
+    - [[SoulBound Tokens (SBT)]] [[account abstraction (AA)]] [[[[EIP]] 3074: Delegated Invocation Contracts]] [[[[EIP]] 5003: AUTH_USURP]] thread
+        - https://twitter.com/danfinlay/status/1560696207856394240?s=21&t=c-
+- [[August 19th, 2022]] at 17:53
+    - [[project idea]]: [[CapTP]] for [[Firebase]]
+        - https://twitter.com/w1nt3r_eth/status/1560779219923537921?s=21&t=X0-_

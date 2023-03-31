@@ -1,0 +1,53 @@
+- [[proof of humanity]] congested due to an appeal of [[Kevin Owocki]] membership.
+    - https://twitter.com/santisiri/status/1377166905463562258?s=21
+- [[Spritely]] [[CapTP]] tour by [[Christine Lemmer Webber]]
+    - Notes
+        - Chris was there when [[Mark Miller]] first saw [[MetaMask]] at [[Rebooting Web of Trust]]
+            - Discussing the pet names paper
+            - Someone showed the MetaMask interface
+            - Mark's eyes bugged out of his head and he said "this is too good, I HAVE to attack this!"
+        - Where does [[MetaMask]] intersect with [[Agoric]] and [[Spritely]]?
+            - [[What is a [[wallet]]?]]
+            - Non-blockchain cryptocurrency use-case
+                - e-mint: Allow trading carbon credits
+        - The spectrum of consensus from single node machines to full public blockchains.
+            - What will most people eventually be satisfied by?
+                - [[E (Language)]] [[CapTP]]
+                    - Had a `mint()` function on live servers.
+            - Time travel in [[[[Spritely]] Goblins]] [[Terminal Phase]]
+                - https://dustycloud.org/blog/goblins-time-travel-micropreview/
+                - Fighting game over network disagreement
+                    - Japan
+                        - Agree on every frame, add lag for consistency
+                    - US style
+                        - Sacrifice consensus for performance, and then replay the behaviors to conclude eventual state.
+                    - What happens under a conflict?
+                        - Agree on a turn order, so the replay is deterministic on both sides.
+                - "If you have 5 machines validating txs for a bank, but users want lower latency, the same logic can apply."
+                - ## If you're snapshotting after every turn, you can extend this machine to have an arbitrary consensus protocol.
+                    - require m of n confirmations to acknowledge each next message on the queue.
+                - You can take an E-style vat, and simply layer these and get a quorum for free.
+                    - A global consensus is just 
+        - [[Joule (language)]]
+        - [[Social Terminal]]
+        - Creating digital money with just [[CapTP]]
+            - [[[[object capability (ocap)]] security in virtual environments]] 
+                - [[rights amplification]] is what you do with [[sealers and unsealers]]
+            - Agoric vs Spritely
+                - Agoric needs to clean up JS
+                - Spritely gets a clean slate
+            - [[The Train & Hotel Problem]]
+        - [[CapTP]] specifics
+            - Unwrapping
+            - Serialization of references
+                - Do they depend on authenticated connections (like [[@agoric/capTp]]), or are they cryptographically strong (like [[ocap-ld]])?
+            - Circular objects?
+            - Pipelining
+            - Handoffs
+        - The challenges of socializing these ideas
+            - The shouting match between environmentalists and cryptocurrency enthusiasts.
+            - [[You Can't Tell People Anything]]
+        - [[programming with [[object capability (ocap)]] style]]
+        - [[OpenGameArt]]
+    - Action items
+        - {{[[TODO]]}} Figure out a medium for us to try to express our wonderful shared visions with the world :)

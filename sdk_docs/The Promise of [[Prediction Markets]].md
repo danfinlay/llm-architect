@@ -1,0 +1,2 @@
+- https://mason.gmu.edu/~rhanson/PromisePredMkt.pdf
+- by [[Robin Hanson]][[Kenneth Arrow]]

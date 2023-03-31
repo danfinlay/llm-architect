@@ -1,0 +1,3 @@
+- [8 page overview](https://www.cell.com/trends/microbiology/pdf/S0966-842X%2817%2930212-3.pdf) of the state of the art from [[cell.com]]
+- https://www.cell.com/trends/microbiology/pdf/S0966-842X%2817%2930212-3.pdf
+- https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002015

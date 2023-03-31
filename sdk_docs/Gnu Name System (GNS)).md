@@ -1,0 +1,4 @@
+- https://www.gnunet.org/en/gns.html
+- Implementations
+    - https://github.com/cjdelisle/cjdns/
+    - https://yggdrasil-network.github.io/

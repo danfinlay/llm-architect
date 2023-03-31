@@ -1,0 +1,4 @@
+- [[Matt Cutler]] published some visual [[[[EIP]] 4337: [[account abstraction (AA)]] via Entry Point Contract]] tweets
+    - https://twitter.com/mcutler/status/1638267953874616320?s=20
+- [[Foundation App]] writes that [[good simplicity is like hard earned]]
+    - https://foundation.app/blog/crypto-wants-to-be-seen

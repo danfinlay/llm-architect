@@ -1,0 +1,2 @@
+- The [[[[Secure EcmaScript (SES)]] Compartment]] used to instantiate each individual 3rd party package contained in `node_modules`. One package = one package compartment. All are nested inside the [[rootPackageCompartment]].
+- The [[endowments]] object is created for each package based on its policy. All properties are then copied onto the package compartment [[globalThis]].

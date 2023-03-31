@@ -1,0 +1,1 @@
+- [[post modernism]] https://twitter.com/andrulus/status/1340865461018308608?s=21

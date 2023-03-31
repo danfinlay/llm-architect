@@ -1,0 +1,2 @@
+- A frame (maybe utilizing a [[security pattern]]) around a piece of user interface, indicating that it is coming from a specific source, potentially allowing [[trusted-in-untrusted [[Secure UI]]]].
+- Related to a [[line of death]], which is a line under which the content comes from an untrusted source, like in the case of a [[browser]].

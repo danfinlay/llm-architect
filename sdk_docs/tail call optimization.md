@@ -1,0 +1,1 @@
+- A characteristic of some [[programming language]]s like [[Scheme]] wherein a [recursive]([[recursion]]) function that does not need to wait for its recursive result (as in [[iteration]]) is simply de-duplicated from the call stack, making limitless recursion a reasonable technique.

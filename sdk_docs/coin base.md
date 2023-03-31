@@ -1,0 +1,1 @@
+- In [[Ethereum]], [this opcode](https://ethervm.io/#41) allows accessing the address of the current block's miner/validator.

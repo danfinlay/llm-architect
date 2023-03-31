@@ -1,0 +1,1 @@
+- https://medium.com/capabul/its-all-subjective-valuation-577fb5ad067f

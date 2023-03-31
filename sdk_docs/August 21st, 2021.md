@@ -1,0 +1,4 @@
+- [[Vitalik Buterin]] proposes [[proof of humanity]] as a form of [[NFT]] [[auction]] constraint.
+    - https://twitter.com/vitalikbuterin/status/1429272304530313218?s=21
+    - I point out how a [[MATT: An [[NFT]] Auction Concept]] might achieve the same goals but with fewer contingencies.
+        - https://twitter.com/danfinlay/status/1429273994251825159?s=21

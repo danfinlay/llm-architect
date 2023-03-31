@@ -1,0 +1,2 @@
+- [[Vitalik Buterin]] on [[zk [[evm]]]]s
+    - https://vitalik.ca/general/2022/08/04/zkevm.html

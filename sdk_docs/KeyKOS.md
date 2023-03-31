@@ -1,0 +1,3 @@
+- An operating system developed at [[Key Logic Corporation]] by [[Norm Hardy]] that implemented an early version of [[power/capability]] security.
+- Invented concepts
+    - [[membrane]]

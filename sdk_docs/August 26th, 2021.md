@@ -1,0 +1,7 @@
+- [[Nudges for Privacy and Security]]
+- [[Tokenized Prioritization System]] [[Discourse]] [[plugin]]
+    - https://twitter.com/danfinlay/status/1430891122440642567?s=21
+- [[[[EIP]] 1559]] gas input idea
+    - Extending [[Jake Haugen]]’s latest graph-visualizing design, showing the base fee over time.
+    - When the `max_fee` is adjusted, a horizontal line cuts across the graph representing that base fee. Only the graph under the line stays green/colored, and out of the range becomes red or drab.
+    - When the `max_priority_fee_per_gas` is adjusted, the graph’s curve’s line thickness is adjusted upwards, representing the “tip” as the thickness of the line on top of the real graph. This line is then cut off and stops at the `max_fee` horizontal line.

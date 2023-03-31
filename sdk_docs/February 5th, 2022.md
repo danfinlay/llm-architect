@@ -1,0 +1,4 @@
+- [[Venkatesh "vgr" Rao]][[Yak Collective]] [[Colony]] [[DAO]]
+    - https://twitter.com/vgr/status/1490033723017859077?s=21
+- [[Cory Doctorow]] on [[Apple]]and [[right to repair]]
+    - https://twitter.com/doctorow/status/1490034487635464196?s=21

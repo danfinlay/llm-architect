@@ -1,0 +1,24 @@
+- [[Alex Stamos]] [[Hierarchy of Bad Things That Actually Happen Online]]
+- Thinking about [[endo]] scaling infrastructure.
+    - Thinking also of [[locks]] vs immutable data types like described in [[Are We There Yet?]]
+    - The maximum that any one [[endo]] [[caplet]] could ever scale to be is one process, and so either a given task will require multiple such processes running in parallel, or a [[caplet]] will take less than a full processor. If it takes less than a full processor, it will probably be initialized on its host, with the simplest base authority possible, each bit delegated directly from the user executing the script.
+    - Once a user decides they want a [[caplet]] running constantly, they can "move to the cloud"
+        - moving a caplet to the cloud can either be converting your local (logged, deterministic) process
+            -  into a multi-computer consensus system and adding the cloud device to the (now 2 of 2) consensus algorithm.
+            - to the cloud computer to be replayed and continued hosting.
+            - onto an already-running consensus system?
+                - This is an interesting thought. Would it eventually be possible to move an [[endo]] [[caplet]] from one deterministic machine to another? Like moving a local dev script onto a blockchain, with all of its state and everything.
+        - Needs some method of notifying any holders of references to the original process to now direct their queries to the new one. Since some of them may be offline, the host should run such a relayer, and should update any "public"/shared relayers as well. 
+- Imagining a [[[[social collateral]] animation]]
+    - To help communicate the concept
+    - Imagining showing a capability graph growing, evolving, and gradually scaling up as the concepts are described. at one point, showing how a whole branch could be revoked at once as soon as it began violating the graph trust.
+    - Script draft 1
+        - There are things in life that are scarce. Things that we're afraid to lose. Shelter. Care when we're in need. Food, and water... and on up the hierarchy of needs, until finally the things we lack can only be found in ourselves.
+        - For those things that are scarce, we have a lot of trouble sharing them fairly.
+        - What's something you have trouble sharing in your life? Seriously, edit this below!:
+            - water
+        - Let's say you're in a place without a lot of water. Maybe you and a few others in your neighborhood come upon a small bug significant amount of water.
+        - You agree that you want to use it as responsibly and fairly as possible, and you come up with an initial set of rules for sharing it.
+        - You find yourselves in a situation where each of you wants to use your water access in a different way. Some people want to 
+- This might be the talk where Mark Miller best describes the thesis that has led to [[Secure EcmaScript (SES)]], [[endo]], and [[The Agoric Blockchain]]:
+    - {{youtube: https://www.youtube.com/watch?v=w9hHHvhZ_HY}}

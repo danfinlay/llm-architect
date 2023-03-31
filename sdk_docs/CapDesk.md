@@ -1,0 +1,3 @@
+- A desktop operating system written in [[E (Language)]]
+- [Description](http://www.combex.com/tech/edesk.html)
+- ![](http://www.combex.com/edesk/images/eDeskWin-Linux.gif)

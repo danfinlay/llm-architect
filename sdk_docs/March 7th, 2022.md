@@ -1,0 +1,2 @@
+- [[Granovetter diagram]] by [[Christine Lemmer Webber]]
+    - https://dustycloud.org/gfx/goodies/granovetter-intro-v1.webm

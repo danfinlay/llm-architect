@@ -1,0 +1,1 @@
+- The Nexys 4 has been retired and is no longer for sale in our store. We recommend migration to the [[[[Nexys]] A7]].

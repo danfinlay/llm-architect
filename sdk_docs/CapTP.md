@@ -1,0 +1,20 @@
+- Description
+    - CapTP, or [Capability]([[object capability (ocap)]]) Transport Protocol is a pattern for sharing resources across process boundaries.
+    - In the [[object capability (ocap)]] security model, an object reference is not just a form of code organization, but is also used to encapsulate [[authority]], and so any [[agent]] that is passed an object also has the [[power/capability]] to view and interact with that object.
+    - When using this style of programming with another process that isn't synchronously available (but may live in another computer, another data center, or another planet) you need a way of sharing a remote reference to an object over an asynchronous boundary, and that's what [[CapTP]] is for.
+    - An implementation of [[CapTP]] should allow two processes to share [interfaces]([[interface]]) and [records]([[record]]) in a way that is as much like sharing objects locally as possible, but usually with some limitations to ensure asynchronous safety, like ensuring all functions are asynchronous and return [[Promises]].
+    - A [[CapTP]] implementation can optionally implement a variety of optimizations.
+        - [[unwrapping]]
+        - [[Promise Pipelining]]
+        - [[[[presence]] handoffs]]
+- Implementations
+    - Cross-language
+        - [[Cap'n Proto]]
+    - [[JavaScript]]
+        - [@agoric/capTp](https://github.com/Agoric/agoric-sdk/tree/master/packages/captp)
+            - [[captp-stream]]: Produces [[Agoric]] style [[CapTP]] from a [[node.js stream]]
+            - [[node-ws-captp]]: Quickly deploy an [[Agoric]] style [[CapTP]] over a [[websocket]] interface.
+        - [[Capnode]]: [[Dan Finlay]] writing his own version before he knew the term [[CapTP]], and was basing it more on features he wanted from [[dnode]].
+        - [[dnode]]: Not explicitly an implementation of [[CapTP]], but serves a virtually identical purpose, but using callbacks instead of Promises.
+    - [[Spritely]]
+- See [[programming with [[object capability (ocap)]] style]]s

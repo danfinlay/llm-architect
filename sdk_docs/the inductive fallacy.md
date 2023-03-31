@@ -1,0 +1,10 @@
+- Just because something has always been one way, does not mean it will always be that way.
+- Examples:
+    - Sleeper agents
+        - Just because a person has always appeared friendly to you does not mean their allegiance is to you.
+    - [[The Truman Show]]
+        - Just because your world seems to be one way does not mean that is its real limits.
+    - [[The Matrix]]
+        - Just because your world seems real does not mean it is not a simulation.
+    - [[social echo chambers]]
+        - Just because everyone appears to think one thing does not mean that everyone thinks that thing.

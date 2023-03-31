@@ -1,0 +1,4 @@
+- More people seem to be having doubts about [[decentralized [[identity]]]]. Part thanks to [[Soulbinding Like a State]]
+    - https://twitter.com/frankieislost/status/1605450380162510848?s=46&t=
+- [[deck function]] is a new type of [[hash function]] primitive
+    - https://keccak.team/2022/refactoring_with_deck_functions.html

@@ -1,0 +1,42 @@
+- [Original article](https://moxie.org/2022/01/07/web3-first-impressions.html) by [[Moxie Marlinspike]]
+- Community replies
+    - Support
+        - By [[Benedict Evans]]
+            - https://twitter.com/benedictevans/status/1479806249021714438?s=20
+    - Dispute
+        - By [[Vitalik Buterin]]
+            - https://twitter.com/VitalikButerin/status/1479815125955715072?s=20
+        - By [[dystopiabreaker]]
+            - https://twitter.com/dystopiabreaker/status/1480048149603373059?s=21
+- Notes
+    - Props to actually trying it out
+    - Uses [[Chris Dixon]]'s [[Why Web3 Matters]] as its foil.
+    - On servers
+        - People don't want to run them
+    - Protocols move slower than platforms
+        - This is why WhatsApp beats IRC to features
+        - This is because getting many people on the same page is hard work! [[convergent decentralization]]
+    - Making [[dapp]]s
+        - A pyramid scheme for NFTs
+        - the poop emoji one, per [[NFT]] non-static hashing.
+- Thoughts
+    - Note the irony that he wrote this from a self-hosted blog, and I am replying from centrally hosted sites.
+    - Things he got right
+        - Ethereum full clients can't run on mobile devices, and this __feels__ short of the original promise.
+        - NFTs should be static more, and [[dystopiabreaker]] is right that wallets should help indicate when they are not.
+        - Auto display of NFTs via [[OpenSea]] is mediocre behavior.
+    - Things he is missing
+        - [[MetaMask]] allows selecting alternative providers to [[Infura]], which provides a [[right of exit]].
+            - The space where clients can increasingly become part of protocols.
+                - MetaMask's own work on [[Mustekala]]
+                - Topic also explored by [[dystopiabreaker]] and [[Vitalik Buterin]]'s replies.
+                - [[MetaMask]] is working to help more rapidly explore the space inbetween by making the data connection layer permissionlessly extensible via our [[[[MetaMask]] Snaps]] system, for which we have more coming soon, but for now suffice to say I do not think "using Infura, exclusively, by default" accurately describes our current or eventual state.
+            - We are falling short of this today, some services can't be opted out of, but I generally think "with an option to self host via open source software" is a strong resilience guarantee, whether or not users choose to use it. This isn't mandatory for us as a product, but I think it's a different strategy than is described by Moxie's cycle of decentralization and re-centralization.
+        - Auto display of NFTs via [[OpenSea]] is a mistake
+            - [[[[airdrop]] scams]]
+            - and can and should be replaced by a client consent centric approach like [[[[EIP]] 747: wallet_watchAsset]] or [[token list]]s. These eliminate or reduce the need to reliance on a central aggregator respectively.
+        - We haven't had as long to get this right as you might think.
+            - I think we all under-estimated the size of a wallet, much as you do when you say "MetaMask doesn't do much". There are dozens of teams who have come to this conclusion, tried to copy our efforts for years, only to give up. I am not going to try bothering to detail the years of reasons beyond that for now.
+        - MetaMask as cryptographic consent manager. [[What is a [[wallet]]?]]
+            - We also provide cryptographic challenges for authentication.
+            - We connect to many blockchains, and allow users to connect to new ones on the fly, not just hosted by Infura, via [[EIP 3085: addEthereumChain custom network API]]

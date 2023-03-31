@@ -1,0 +1,3 @@
+- [[Kris Kowal]] hit when developing [[Q (Promise library)]]
+- When you have a [[user-mode queue]], the queue is advanced on each tick.
+- When using [[event loops]], a [[debugger]] can lose context, where all causes appear to trigger the queue, and all effects come from it.

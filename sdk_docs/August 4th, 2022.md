@@ -1,0 +1,10 @@
+- [[extensible [[chess]]]] with [[Venkatesh "vgr" Rao]]
+    - https://twitter.com/vgr/status/1555363799581921281?s
+    - 
+- [[Flipper Zero]] [[Boston Dynamics]] [[hack]]
+    - https://twitter.com/d0tslash/status/1555326302462394370?s=21&t=
+    - https://github.com/flipperdevices/flipperzero-firmware/blob/dev/lib/subghz/protocols/princeton.c
+    - https://twitter.com/d0tslash/status/1555328544796024833?s=21&t=CQlPZ
+    - https://github.com/BitcoinRaven/CAMEbruteforcer/issues/2
+- [[rollup]]
+    - https://twitter.com/jon_charb/status/1555403452485861377?s=21&

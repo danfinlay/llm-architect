@@ -1,0 +1,7 @@
+- Could be similar to any of the [[[[Ethereum]] [[object capability (ocap)]]]] 
+    - Possible approaches
+        - [[Delegatable Eth]]
+        - [[counterfactual social collateral cash]] (Token-only, early design)
+        - [[[[[[Gnosis]] SAFE]] [[object capability (ocap)]]]] (Rudimentary but composible from available components)
+        - [[Stateless SAFE Cap]]
+        - [[Counterfactual WebCap Wallet]]

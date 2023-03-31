@@ -1,0 +1,6 @@
+- object that does not have the default behaviour for one or more of the essential internal methods that must be supported by all objects
+- An object in [[JavaScript]] that has some properties that have magical/special behavior.
+- Example
+    - an array's `.length` property makes it exotic.
+    - [[Proxy]]s are exotic and can emulate just about any exotic behavior.
+- There is deliberately no way to detect an exotic object.

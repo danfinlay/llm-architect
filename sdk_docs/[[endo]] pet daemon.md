@@ -1,0 +1,2 @@
+- {{youtube: https://www.youtube.com/watch?v=sXHPOZb8qxs}}
+- [this is the branch](https://github.com/endojs/endo/tree/kris-stack-endo) to work off of for now

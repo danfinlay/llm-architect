@@ -1,0 +1,5 @@
+- A protocol for [[PGP]] and [[GPG]] encryption that would allow users to sign each others' keys, and then [[trust]] the veracity of keys from strangers according to a user-configured number of network hops.
+- Criticisms
+    - Trust is not something that concretely or decisively diminishes after any number of hops.
+    - Since the number of hops is arbitrary, the configuration is confusing and not user-friendly.
+- 

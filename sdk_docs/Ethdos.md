@@ -1,0 +1,3 @@
+- A [[zero-knowledge proofs]] system for measuring [[three and a half degrees of separation]]
+- https://ethdos.xyz/
+- Maybe could be a good foundation for a zk-[[Delegatable Eth]]?

@@ -1,0 +1,3 @@
+- A [[package manager]] based on [[IPFS]] by [[muji]] as part of the [[LavaMoat]] org.
+- > was inspired by your comments about the Tornado Cash/Github censoring
+- https://github.com/LavaMoat/ipfs-registry

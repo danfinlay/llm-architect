@@ -1,0 +1,3 @@
+- There may be room for something [[beyond [[zooko's triangle]]]]
+    - https://twitter.com/danfinlay/status/1478905965206380547?s=20
+- [[CharaChorder]]

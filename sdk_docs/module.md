@@ -1,0 +1,6 @@
+- A self contained segment of code.
+- May export any number of objects or functions.
+- In different languages
+    - [[JavaScript]]
+        - [[esm]]
+        - [[CommonJS]]

@@ -1,0 +1,5 @@
+- [[360 degree feedback]]
+    - https://twitter.com/humanworkplace/status/1561001269765890050
+- [[August 20th, 2022]] at 22:22
+    - [[FOAM protocol]] [[validator]]
+        - https://twitter.com/afdudley0/status/1560933458188304384?s=2

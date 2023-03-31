@@ -1,0 +1,2 @@
+- The [[[[Secure EcmaScript (SES)]] Compartment]] used to instantiate the "root" package of a project - all non-dependency code. This includes all code contained within the entry file given to lavamoat and all modules brought in that aren't from `node_modules`.
+- All property descriptors from the [[Root Context]] [[globalThis]] and it's prototype chain (excluding `Object.prototype`) are copied to the root package compartment's [[globalThis]].

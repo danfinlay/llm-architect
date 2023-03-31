@@ -1,0 +1,7 @@
+- [[Capyloon]]
+- [[Delegatable 4337]]
+- [[Delegate.cash]]
+    - https://twitter.com/0xfoobar/status/1575290861570740226?s=46&t=
+- [[September 28th, 2022]] at 21:27
+    - [[Facebook]]
+        - https://twitter.com/riovictoire/status/1575339725333975040?s=46&t=

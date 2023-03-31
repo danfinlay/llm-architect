@@ -1,0 +1,3 @@
+- A book by [[Malcolmn Gladwell]] that focuses on the important role of [[connectors]] in social networks as people who bring new ideas, introduce new people, and distribute awareness of new products.
+    - Reminiscent to the importance of cross-community bonds in banking and [[social collateral]].
+    - Reminiscent to the information flow in [[The Strength of Weak Ties]]

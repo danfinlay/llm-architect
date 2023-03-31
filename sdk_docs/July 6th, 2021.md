@@ -1,0 +1,2 @@
+- Ask [[Kris Kowal]] about [[vnums]]
+- [[NaN]] was invented by [[Conrad Zeus]] while building the [[Z3 machine]]

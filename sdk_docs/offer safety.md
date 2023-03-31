@@ -1,0 +1,7 @@
+- A [[smart contract]] security property often associated with [[Zoe]] from [[Agoric]]
+    - [offer safety documentation from Agoric](https://docs.agoric.com/zoe/guide/)
+- Implies the ability to concretely say "I offer X in exchange for Y", with the guarantee that if you give up X you will receive at least Y, and if you receive Y you will pay no more than X.
+- A relatively very simple smart contract guarantee, but [[Agoric]] aspires to make this a first-class standard for their contracts.
+- [[Dean Tribble]] has talked about this as a more sane alternative to the [[ERC-20 Token Allowance]], since it comes with a guarantee of reciprocity.
+    - [[Dan Finlay]] criticism of this criticism is that even the offer-safety contract requires trust in the offer safety contract itself, and in some ways "offer safety" has been created in the form of other order-book type [[Ethereum]] protocols, like [[0x Protocol]].
+        - One key difference is that an offer safety contract could be a singleton on the whole chain, could be audited well, and so any wallet could provide great confidence in offers extended via it.

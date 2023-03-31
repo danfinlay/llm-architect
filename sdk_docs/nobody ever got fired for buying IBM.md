@@ -1,0 +1,1 @@
+- A saying that is used for justifying the safe status quo in computing.

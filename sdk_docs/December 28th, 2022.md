@@ -1,0 +1,4 @@
+- [[pbkdf2]] [[LastPass]]
+    - https://twitter.com/seanodiggity/status/1608194856844943360?s=46&t=
+- [[SecureRender]] [[chess]]
+    - https://twitter.com/aethiop_io/status/1608295853449437184?s=46&t=

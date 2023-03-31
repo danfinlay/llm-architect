@@ -1,0 +1,11 @@
+- [[endo]] call
+    - Attendees
+        - [[Kris Kowal]]
+        - [[Kumavis]]
+        - [[Dan Finlay]]
+        - [[Etienne Dusseault]]
+    -  [[xsnap]] repl
+        - Questions
+            - I notice the execute command's Compartment has no endowments. Why is that?
+    - [[Greater Theory of Reactivity (GTOR)]] and [[AsyncIterator]]
+        - [[Kris Kowal]] has [a gist](https://gist.github.com/kriskowal/abcba770b5dba526a1af801d692fd94e) full of more modern [[JavaScript]] examples.

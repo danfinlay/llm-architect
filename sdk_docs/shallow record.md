@@ -1,0 +1,1 @@
+- An object who has only [[primitives]] as properties.

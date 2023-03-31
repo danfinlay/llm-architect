@@ -1,0 +1,8 @@
+- [[only good design can test this theory]]
+    - https://twitter.com/gordonbrander/status/1558467541718032385?
+- [[Ethan Buchman]] [[Modern Monetary Theory (MMT)]] [[social collateral]] [[financial graph cycles]]
+    - https://twitter.com/buchmanster/status/1558642981518942209?s=
+        - [[obligation clearing]]
+            - https://www.mdpi.com/1911-8074/13/12/295
+        - [[Anoma Network]] [[to read]]
+            - https://twitter.com/awasunyin/status/1558736043515543554?s=

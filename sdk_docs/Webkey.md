@@ -1,0 +1,1 @@
+- Similar to a [[macaroon]] except simpler: Simply a [[swiss number]] used to authenticate rights to an object/function.

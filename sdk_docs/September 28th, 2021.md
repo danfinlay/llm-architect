@@ -1,0 +1,3 @@
+- [[Vlad Zamfir]] on [[ENS]]
+    - https://twitter.com/VladZamfir/status/1442861473995231233?s=20
+- Some ex-googlers decided to re-implement [[ProtoBuf]] with more features and called it [[Thrift]], but it ended up not being as good.

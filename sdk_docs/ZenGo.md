@@ -1,0 +1,5 @@
+- An [[Multi-Party Computation (MPC)]] wallet for [[Ethereum]]
+- [key distribution](https://zengo.com/security)
+    - on device in secure enclave (standard first share)
+    - a backup file (can be an SRP or upload to a cloud service, similar to Web3Auth)
+    - available via email recovery through their server.

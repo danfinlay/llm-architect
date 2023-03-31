@@ -1,0 +1,1 @@
+- When you directly modify an object's prototype such as `String.prototype.slice = function() {...}`. This is not considered good practice because it mutates the object that other objects in the same environment inherit from.

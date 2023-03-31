@@ -1,0 +1,13 @@
+- A model of security where the system hosting access to a [[power/capability]] regulates access by maintaining a list of who has [[authority]] to do what.
+- Example [[Access Control List (ACL)]] usage
+    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2F6FA_vfeaxW.png?alt=media&token=9faf17e3-56be-40b7-a00e-b9aad8f87709)
+    - a message consists of an identification of the sending process followed by an arbitrary amount of data.
+    - User invokes a call on the compiler script, passing it path strings to the input file and the desired output location.
+        - The system checks that the user has permission to call the compiler.
+        - Checks down the A© of the access matrix, finding A(U, c, call), and so the access check passes.
+    - The compiler sends the system a read message for the requested input file path.
+        - The system checks if the sender (compiler) has permission to read the requested file.
+        - The system fonds A(C, m, read) and it succeeds, so the file contents are returned.
+    - The compiler sends a log entry to the log file.
+        - The system verifies A(c,l,write) before proceeding, and permitting the log file addition.
+    - Sounds like a setup for the [[confused deputy]] problem.

@@ -1,0 +1,2 @@
+- Coined by [[Ray Oldenburg]]
+- A place other than home or work

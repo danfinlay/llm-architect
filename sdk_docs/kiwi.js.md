@@ -1,0 +1,2 @@
+- [GitHub](https://github.com/IjzerenHein/kiwi.js)
+- [Docs](https://github.com/IjzerenHein/kiwi.js/blob/master/docs/Kiwi.md)

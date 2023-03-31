@@ -1,0 +1,1 @@
+- [[The Economist]] [article comparing CO2 output of different foods and energy sources](https://www.economist.com/graphic-detail/2021/10/02/treating-beef-like-coal-would-make-a-big-dent-in-greenhouse-gas-emissions)

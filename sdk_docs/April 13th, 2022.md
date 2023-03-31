@@ -1,0 +1,8 @@
+- [[EIP 712: signTypedData]] nested type example by [[Don Moisetes]] from [[AirSwap]]
+    - https://twitter.com/dmosites/status/1514144416449114117
+- [[[[Gnosis]] SAFE]] [[revenue split [[smart contract]]]]
+    - https://twitter.com/0xSplits/status/1514291422618214403
+- [[Modern Monetary Theory (MMT)]] critique by [[Ethan Buchman]]
+    - https://twitter.com/buchmanster/status/1514463145124937729
+- [[DAO]]s for [[nonprofit corporation]]s
+    - https://twitter.com/helenamerk/status/1514270412925931524

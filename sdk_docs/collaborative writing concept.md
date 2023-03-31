@@ -1,0 +1,42 @@
+- I wish [[Cellarius]] had been successful.
+    - Part of how it failed (in my opinion) is that it kept promising to decentralize the canon-expansion later into the future, and failed to articulate how it would work, when that aspect  of the project was always one of its biggest draws.
+    - As it was, it was a good sci-fi collective. It produced good stories, and good content. But it could've been something much more, and those of us who wanted it to succeed wanted to see a community owned Star Wars franchise.
+- The [[Loot Project]] shows there is appetite for minimal, collaborative, community-driven world building.
+    - This is extremely decentralized, (as nobody gets to say what is a valid contribution to this project, making it a form of [[loosely-coupled decentralization]]), I would expect it will evolve somewhat slowly/chaotically, since there is no process for ratifying official meaning into the canon. It depends entirely on multiple projects embracing the loot into their own canons in their own ways, but evolving them independently.
+    - Being build on a blockchain, there are naturally people who are pushing the project to adopt [[coordinated decentralization]] like token voting, but it seems at least some people oppose that.
+        - https://twitter.com/nnnnicholas/status/1435474560376360962?s=21
+- I think there's also a place for collaborative, single threaded [[coordinated decentralization]] world-building, and I'd love to see that happen, out of curiosity. I'm sure there's space for many such experiments to exist.
+- It would use decisive decision making from the beginning (like I wish Cellarius had), but would start with as little defined as possible (like Loot did).
+- A concept for how it could work.
+    - Process
+        - A person starts a new Canon, starting with an initial token allocation.
+        - Forever
+            - Anyone can then propose the next Chapter in the Canon.
+            - The token holders vote on the next contribution.
+                - Ways this could work
+                    - [[token-weighted vote]]
+                        - The option with the most token-weight behind it at the end of a target voting time period is ratified. (Simple, probably a good MVP target)
+                            - Example: Once a week, the next chapter with the most voting weight behind it becomes canon.
+                    - Bigger votes settle faster
+                        - A 51% vote should be able to settle instantly, as a 0% vote cannot finalize.
+                        - What is the in-between tradeoff?
+                        - Could this tradeoff itself be voted to change, or could that fundamentally warp the community later?
+                        - Maybe it's good if a community has a consistent cadence; Users could know if they were able to make time once a week to read up, they could continue participating.
+                    - More contentious votes settle slower
+                        - If two options are very close, then the time to vote might automatically stretch, to help decisive swing voters or the process of convincing to take place.
+                    - Heaviest preferred path
+                        - The option with the most token-weight behind it at any moment is considered valid.
+                        - Maybe there is a finalization period behind the story, needed for awarding payouts for new chapters.
+                    - Betting on the preferred path (prediction market style)
+                        - The tokens are __spent__ to express preference for one story path, and the winning path (by weight) is awarded back their tokens, along with the tokens of the losing paths.
+                            - Seems likely vulnerable to weird cruel gaming.
+            - The winning Author is rewarded some amount of tokens.
+    - Glossary
+        - Canon
+        - Author
+        - Chapter
+            - A segment of a Canon. Can be in any form (text, image, audio, video, interactive). Represented by an object.
+            - Type
+                - Previous Chapter? (if any)
+                - Author address (for reward)
+                - Pointer to chapter contents

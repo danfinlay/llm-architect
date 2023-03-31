@@ -1,0 +1,122 @@
+- A type of [[Ethereum]] [[contract account]] that allows for [[rich sharing]] with minimal on-chain transactions. That means infinite recursive delegation of any permission, all without the need for on-chain transactions until a permission is redeemed or revoked.
+- This is a concept, and has yet to be built, but it can nearly be assembled from existing contracts. At this point, it seems we simply need [[[[Gnosis]] SAFE]] to integrate [[multi-nonce]] for a fully working basic version to be built.
+- Description
+    - The goal of this [[contract account]] is to allow [[rich sharing]] on the [[Ethereum]] platform in a way that minimizes on-chain transactions. Since [[delegation]] can be fully off-chain or [[counterfactual]] and only [[revocation]] needs to be on-chain, this wallet makes some simple changes to the [[[[Gnosis]] SAFE]] contract account to allow the account owner to delegate any function or permission to any limited extent to any other account, all without any on-chain transaction until that permission is either used by the receiving party or revoked by the grantor.
+    - To allow all of these operations to be totally counterfactual, the operator of the account needs to be able to sign any number of [[MetaTransaction]] messages that can be submitted to it in any order, which means they need a method of [[replay protection]] that is not serial like a nonce, perhaps a [[multi-nonce]].
+    - The [[[[Gnosis]] SAFE]] allows a [[[[[[Gnosis]] SAFE]] module]] to be published and designated the authority to send transactions on behalf of the delegating account. Since the SAFE is able to use the [[[[EIP]] 1014: CREATE2]] opcode, it can sign a message that allows the publication of a specified contract at a pre-determined address. This allows sharing the ability to publish a [[delegation]] contract in advance.
+    - The operator is then able to sign messages that will allow anyone to perform the following steps in any order at a later time (no initial transaction).
+        - Publish to a contract (henceforth "delegation contract") that allows another predetermined account to initiate transactions of any restricted form that will be forwarded to the parent contract. (Henceforth "delegation messages")
+        - Assign the delegation contract as a [[[[[[Gnosis]] SAFE]] module]] of the parent contract.
+        - Publish a new [[Counterfactual WebCap Wallet]] on behalf of the other user (in case they don't have an account yet), assigning a temporary key as its owner, which would be sent alongside these messages to the recipient ("delegate").
+            - This optional step allows the recipient to then continue to sign their own messages of these type, delegating their own delegation, all without an on-chain transaction.
+    - Combined with a meta-transaction service, redeeming these capabilities could eventually not even require holding ether, since a delegation message could include a permission to refund transaction costs. That feature would not need to be part of the initial implementation, but should be an achievable feature that could be added to the delegation contracts later on.
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fdanfinlay%2FuSy-tCjon9?alt=media&token=9a7e0948-853e-44d0-b0c1-71a06d0018f7)
+- Older documentation
+    - Axioms / Dependencies / Prior Art / Prerequisites & Tools
+        - Modules, like [[[[[[Gnosis]] SAFE]] module]]s
+            - Each "module" is an external contract that has permission to call any function on the parent contract.
+                - The following modules could be combined into a single one to make this pattern possible:
+                    - [[MetaTransaction]]
+                    - [[[[EIP]] 1014: CREATE2]] deterministic contract creation (possibly could be a module?)
+        - [[recursion]]
+            - Delegating to an unpublished [[Counterfactual WebCap Wallet]] also allows the creation of unpublished delegations from that contract, through the creation of contract-creation metaTransactions to that unpublished contract.
+                - For this reason, arbitrarily long chains of delegation to unpublished delegates can happen entirely off-chain, while retaining their full meaning.
+        - [[Sub-classing]]
+            - Each [[Counterfactual WebCap Wallet]] can have arbitrary constraints they enforce: [[attenuation]].
+            - This allows the growth of arbitrarily nuanced authorization logic based on off-chain delegation and the power of the [[evm]].
+        - Optional extensions
+            - Adjustments to integrate [[The Actor Model]].
+            - A message queue for these invocation messages to help minimize [[reentrancy vulnerabilities]].
+            - Error messages, per [[Fission]]
+            - [[Will-o-wisps]]
+                - Maybe not actually adding efficiency, but may if [[state rent]] is adopted.
+                - Stateless delegations can clean themselves up, leaving no state-bloat on-chain.
+            - auto eth wrapping
+                - when destructing, eth must be sent away. one workaround: auto wrap all eth upon deposit!
+    - High-level spec
+        - Code reuse opportunities
+            - [[[[Gnosis]] SAFE]]: A list of owner addresses who can invoke the contract to emit an arbitrary message, known as the [[[[[[Gnosis]] SAFE]] module]].
+            - Support for [[MetaTransaction]] via [[the _msgSender() trick]]
+        - Needs custom
+            - A method to generate contracts with deterministic addresses that cannot be prevented except by the same authority that granted it.
+            - A method to allow blocking the future delegation to a particular address. (Could also block publication, just needs to cover revocation use case).
+        - Optional customization for [[Sub-classing]]
+            - Custom [[attenuation]]/disruption logic
+                - For limiting the set of possible messages that will be forwarded by this contract.
+                - Enables the composition of contracts that adhere to the [[principle of least authority (POLA)]].
+    - As a [[Mushroom]] lifecycle metaphor
+        - Apologies to [[Nick Johnson]] and his hate of architectural metaphor, but I'll be using the metaphor of a mushroom's lifecycle to describe this architecture, so let's take some time to learn it.
+        - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fdanfinlay%2FdCUxDtmYtC?alt=media&token=0a379881-0cad-4db4-a71a-b45d00a179d4)
+        - Summary in metaphor
+            - This document is a spore: the kernel of potential hoping to gain a seat in a new person's mind.
+            - A [[Counterfactual WebCap Wallet]] inoculation occurs as the initial contract is published to the chain.
+            - The base contract allows the user to share messages of delegation off-chain, which can grow to arbitrary length and only to increasing exclusivity, never to privilege escalation. This invisible network of capability resembles the mycelial growth of a fungal colony.
+            - Some of these messages are stateful bool, and so require a new contract to be published that can also receive the same sorts of [[MetaTransaction]]. This is like a fruiting body: A visible extension of the mass, necessary to overcome the limits of off-chain/underground growth.
+            - The fruitbody is a published gnostic cap in the hands of an agent who knows how to spread their spores.
+            - The initiated agent IS the [[Counterfactual WebCap Wallet]], spreading their own spores where needed to [[facilitate]] the risks they choose to take for growth.
+    - Architecture Notes
+        - Properties
+            - owners
+            - Set<address>
+                - A set of [[ethereum addresses]] that are permitted to call functions on this hyphae.
+            - revoked
+                - A set of [[ethereum addresses]] that will never again be permitted to call functions from this hyphae.
+        - Functions
+            - execute(message bytes)
+                - Depending on the Varieties & Subclasses, custom logic may be added to the execute(message bytes) function to limit the messages that it may relay, or even enforce some manipulation of the message. This reflects the terms of the The Body's original formation.
+            - delegate(newOwner address, authProof)
+            - private authorize(authProof)
+                - adds newOwner to the owner list
+            - revoke(address)
+                - if in owner list, removes from the owner list.
+            - Adds to the revoked list.
+            - redeemAndExecute(Mycelial cell packet (binary data), tx)
+                - if (private authorize(authProof bytes) === true)
+                    - Publish Mycelial cell packet (binary data).
+                    - Assert primordiaAddress is not in revoked list.
+                    - Store resulting contract address in owner list.
+                    - execute tx on the newly published primordia
+                    - if spore.stateless
+                        - spore.selfdestruct()
+                        - remove primordiaAddress from owner list.
+            - private authorize
+                - Since a Varieties & Subclasses is an expansion of the base safe, it can have different authority delegated to it. This can mean that a particular key is in control of these particular
+                - Variations
+                    - A signature verifier
+                        - a personal_sign one
+                        - a signTypedData one
+                    - a 2-factor one
+                    - a token-weighted vote one
+                    - an m-of-n one
+        - Varieties & Subclasses
+            - While a capwisp fundamentally __could__ do anything if allowed to, in practice sub-classing is likely to be a field for standardization around well audited constraints on what a new delegate can do.
+            - Each of the type may have its own limitations: spending limit, contract whitelist, for security, it is advisable to confine this to the narrowest scope its author prefers, per the [[principle of least authority (POLA)]]). It is only those initial capabilities that the capwisp can build on, then, ensuring that no additional authority can ever be derived from its delegation to new owners.
+            - Capabilities and Limitations
+                - What they have in common
+                    - They all support forwarding a message, or broadcasting it as self.
+                    - They may enforce some validation or mutation on messages they forward.
+                - Ways they can vary
+        - Mycelial cell packet (binary data)
+            - The signed  message of arbitrary delegation, the technical component that delegates authority.
+            - types
+                - parent: address
+                - bytesToPublish: bytes
+                - stateful: boolean
+                - authProof: bytes
+            - an off-chain message.
+            - Must have a deterministic address regardless of publication order, to enable:
+                - being assigned commitments/permissions without being published.
+                - revocation of those outstanding capabilities by the parent.
+            - properties
+                - parent address?
+                    - If there is no parent, then this is the root, and the bytesToPublish are executed as a transaction from this contract.
+                    - The address of the contract that granted this message, so that approved messages can be forwarded to it.
+                - stateful bool
+                    - if false, this spore will self destruct after each usage and self revoke from storage, to avoid chain bloat.
+                - authProof bytes
+                    - A blob of data that proves authorization of this message to the cell's authorization logic.
+            - signed properties
+                - message bytes
+                    - The payload being published as a new contract, or sent as a transaction.
+                    - can be submitted to its parent The Body.redeemAndExecute(Mycelial cell packet (binary data), tx) to be published to the chain.
+                    - Could possibly include a gas limit for pre-enabling a user's gas without spending ether.

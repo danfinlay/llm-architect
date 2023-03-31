@@ -1,0 +1,12 @@
+- [[Agoric]] Pillar series [[live stream]]
+    - How we arrived at Agoric's work
+        - We pioneered how interactive a cryptocurrency wallet should be with the outside world: Not just sending and receiving funds, but now arbitrary interactions
+    - Outline from semino
+        - Just some high-level notes on topics we can discuss for the call. Feel free to make edits as necessary: 
+        - 1. Discuss SES and how it provides the sandboxing of 3rd party packages. 
+        - 2. Agoric builds the infrastructure primitive, MetaMask has built LavaMoat on top of that. Dan and Mark can then talk about their roles / collaborative work. 
+        - 3. Dan can go more into LavaMoat which provides protection against supply-chain injection attacks while embracing largely the existing body of common JS modules and npm. Mark can comment on the JS modules + expand from LavaMoat specifically. 
+        - 4. Mark discuss some of the standards Agoric wants to bring to JavaScript - Dan discuss MetaMask and its vision to expand the conversation.
+    - [[Gratitude for [[Agoric]]]]
+- [[Google]] [plans to ban non standard browsers](https://developers.googleblog.com/2020/08/guidance-for-our-effort-to-block-less-secure-browser-and-apps.html) on [[Android]]
+- Was recommended [[James Mickens]] on [[Building a Better Web Browser]] by [[Gudahtt]]

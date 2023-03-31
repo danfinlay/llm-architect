@@ -1,0 +1,4 @@
+- A type of [[token]] that is launched before its host knows exactly what it's for, but has a general sense of the opportunity of one.
+- Many [[personal token]]s and [[social token]]s and [[community token]]s are examples of this.
+- Prominent examples
+    - [[Status]] [[SNT]]

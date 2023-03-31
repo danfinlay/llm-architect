@@ -1,0 +1,1 @@
+- [[Kate Sills]] on [[The Agoric Blockchain]] [[Zoe]] https://cosmos.network/series/code-with-us/building-a-composable-defi-contract 

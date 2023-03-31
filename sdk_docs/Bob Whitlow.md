@@ -1,0 +1,3 @@
+- Founder of the [[Charquin Parent Teacher Cooperative]]
+    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FZYqzl_iQNJ.png?alt=media&token=111b938c-673b-434d-bd14-befe435c22bf)
+- 

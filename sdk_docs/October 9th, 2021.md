@@ -1,0 +1,76 @@
+- [[[[Spritely]] Institute]]
+    - [[context collapse]] is one problem being tackled by [[[[Spritely]] Institute]]
+    - Prior [[object capability (ocap)]] work, for the sake of lessons learned (to do, to avoid)
+        - Implementations & related projects
+            - [[Fuchsia OS]]
+            - [[eSpeak]]
+            - [[Midori]]
+            - [[seL4]]
+            - [[EROS]]
+            - [[E Language]]
+            - [[Joule (language)]]
+            - [[User Management Access (UMA)]]
+            - [[ScoopFS]]
+            - [[CapDesk]]
+            - [[[[DARPA]] Browser]]
+            - [[Waterken]]
+            - [[zcap-ld]]
+            - [[Electric Communities]]
+            - [[Agoric]]
+            - [[Agorics]]
+            - [[[[Spritely]] Goblins]]
+            - [[macaroon]]
+            - [[LucasFilm's Habitat]]
+            - [[Genode Labs]]
+            - [[Capsicum]]
+            - [[User Controlled Authorization Network (UCAN)]]
+            - Other examples visible at [awesome-ocap](https://github.com/dckc/awesome-ocap) by [[Dan Connolly]]
+            - [List of Object capability systems](http://wiki.erights.org/wiki/Object-capability_systems) by [[Mark Miller]]
+    - [[terms of entry]]
+    - [[vat]] evolution
+        - [[lambda calculus]] + state, combined with [[The Actor Model]] leads to [[vat]]s
+        - Two dimensions to a [[vat]]
+            - The message queue (from [[The Actor Model]])
+            - the async injection stack
+        - [[Dean Tribble]] combined these
+            - Messages can be directed to different objects.
+        - object vs actor
+            - object within a vat give you the model for changing state within the vat
+        - Don't use "Actor" to refer to what we're making, because it lacks a stack.
+    - [[Facebook]] at congress
+        - Seem to be pursuing some form of sanctioned censorship.
+    - [[ScoopFS]] was sold as [[two click sharing]]
+    - Selling Ocaps
+        - easy sharing for the end user
+            - [[Alan Karp]] prefers to advocate sharing over [[delegation]], since many people perceive delegation as a negative!
+                - I tend to perceive delegation as a fundamental right of having any power, and would like to believe this is a winnable debate.
+        - local sensibility: be yourself in your own contexts
+        - [[Mark Miller]]
+            - "If you lower the cost of cooperation, you get a more cooperative world"
+        - Responsibility tracking for enterprise
+        - Portability
+            - no lock-in
+            - For the anyone who has been disenchanted
+            - Lower the cost to compete against entrenched monopolies.
+        - Composability
+        - Privacy
+            - Allow users to manage their own policy
+        - Why do you need [[EQ]]
+        - Breaking people out of what they think is possible today
+            - No need for passwords
+            - "Don't prohibit what you can't prevent": We do not claim to prevent what we cannot.
+                - [[Mastodon]] repeatedly told users they could keep some things safe & private that were later proven not to be.
+        - Help avoid accidental authority mistakes, like via [[admonition system]] or [[voluntary oblivious compliance]].
+        - Actually realizing the truly decentralized web potential (some thoughts by [[Dan Finlay]])
+            - Users as the source of all of their data, but with the ability to freely replicate and rebroadcast anything they have access to.
+            - No need for any central authority: Neither name system nor administrator; each user the source of authority for all of their own resources.
+            - Handoffs: Despite computation being rooted on each user's computer, handoffs under the hood allow resilient networking that allows users to operate at the intuitive layer while benefiting from resilient networking.
+            - The interface and programming model both maintains a maximally simple conceptual model, which allows easy sharing and portable composition.
+            - A caution by Mark Miller
+                - The way we program here may be similar to [[object oriented programming]], but it is different. [[programming with [[object capability (ocap)]] style]]
+    - [[(Internet Identity Workshop) IIW]] meetings
+        - Is popular to say "own your data"
+    - [[admonition system]]
+- [[graph viz]]
+- [[c2]]
+- [[[[Dr. Shriram Krishnamurthi]]'s criticisms of [[object capability (ocap)]]]]

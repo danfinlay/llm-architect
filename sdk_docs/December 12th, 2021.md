@@ -1,0 +1,8 @@
+- [[Manifest V3]] https://m.slashdot.org/story/393689
+- [[Sarah Jamie Lewis]] on [[identityless]] [[blockchain]] https://twitter.com/sarahjamielewis/status/1469070763755851776?s=21
+- [[anti [[blockchain]]]] been getting strong
+    - https://twitter.com/alexstamos/status/1470583102699307008?s=21
+    - https://twitter.com/pixelatedboat/status/1469843820531658753?s=21
+    - https://twitter.com/smdiehl/status/1469610662196350978?s=21 [[Stephen Diehl]]
+        - https://twitter.com/dystopiabreaker/status/1470128106207809536?s=21
+    - https://twitter.com/jeeyonshim/status/1468697130046943235?s=21

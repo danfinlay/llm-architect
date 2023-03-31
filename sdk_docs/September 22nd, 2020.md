@@ -1,0 +1,2 @@
+- [[Seed Club]] is a [[social token]] incubator
+- [[object oriented programming]] [[Alan Kay]] https://twitter.com/Conaw/status/1206055077305208832?s=20

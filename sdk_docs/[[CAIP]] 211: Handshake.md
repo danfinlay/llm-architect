@@ -1,0 +1,14 @@
+- https://github.com/ChainAgnostic/CAIPs/pull/211/files
+- An addition/change to [[CAIP-25: Handshake]]
+- Uses scopes
+    - each scope is a chain
+    - has parameters
+        - chains
+            - But do users care which chains they're approving? Or is this just for making sure they're available? If just making sure they're available, we want to be able to provide fallback provider/snaps.
+        - methods
+            - I would recommend making this an optional param, maybe not part of v1, which could allow adding safety.
+        - notifications
+- CAIP 211 issues I'm aware of
+    - Undefined behavior:
+        - If multiple scope providers are returned, how does the consumer refer to one specifically?
+    - chainId is not a universal parameter for all possible scoped services (but maybe this parameter is only used on network requests, so this could just be an opinionated scope feature. Can we generalize that? Should opinionated parameters be in a special options field?)

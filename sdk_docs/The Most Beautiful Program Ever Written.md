@@ -1,0 +1,2 @@
+- A talk by [[William Byrd]] that talks about writing a self-contained evaluator.
+- {{youtube: https://www.youtube.com/watch?v=OyfBQmvr2Hc}}

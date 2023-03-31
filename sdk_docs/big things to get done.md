@@ -1,0 +1,9 @@
+- [[eip712-codegen]] => [[readable [[Delegatable Eth]] caveats]] => streaming delegated funding system => liquid credit union
+- {{[[TODO]]}} [[OCapN]]: Bridge [[Spritely]] and [[Agoric]] [[CapTP]]
+    - Support [[[[presence]] handoffs]] in the [[@agoric/capTp]]
+- {{[[TODO]]}} Create a [[trusted-in-untrusted [[Secure UI]]]] rendering engine using [[programming with [[object capability (ocap)]] style]].
+    - like a [[pet name]] capable extensible UI
+- {{[[TODO]]}} Create a [[secure extensible permission system]].
+    - [[[[endo]] pet daemon]] may already include this
+    - may be like a [[service tag based discovery]] thing
+- {{[[TODO]]}} Create a mechanism for [[compensating dependencies]]

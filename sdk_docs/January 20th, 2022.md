@@ -1,0 +1,2 @@
+- [[[[EIP]] 3074: Delegated Invocation Contracts]] could eliminate the need for [[Wrapped [[Ether]] (WETH)]]
+    - https://twitter.com/alexberegszaszi/status/1483935883376082944?s=20

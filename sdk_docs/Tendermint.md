@@ -1,0 +1,1 @@
+- A classical style byzantine resistant consensus algorithm designed for public blockchains by [[Jae Kwon]].

@@ -1,0 +1,2 @@
+- Zarutian on github
+- [[Baldur/Zarutian]] implemented [[[[Spritely]] Goblins]] [[CapTP]] in a fork of [[@agoric/capTp]] https://github.com/zarutian/agoric-sdk/blob/zarutian/captp_variant/packages/captp/lib/captp_goblins.js

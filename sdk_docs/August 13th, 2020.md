@@ -1,0 +1,36 @@
+- [[[[Secure EcmaScript (SES)]] strategy call]]
+    - Discussing [[Records and Tuples as objects without identity]]
+        - notes
+            - [[Mark Miller]] property tree
+                - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FBXZSHtwK5v.png?alt=media&token=d66b21b4-743d-4513-84de-9212ce396506)
+            - if I do a [[shallow record.isRecord()]]
+            - the notion of [[box?(sp)]]
+            - Key terms
+                - [[shallow immutability]]
+                - [[shallow record]]
+                - [[identityless]]
+                - [[record]]
+                - [[shadow target]]
+                - [[deep frozen]]
+            - If we want to pursue [[shallow immutability]] [[identityless]] objects, we should not allow records and tuples to be primitives.
+            - Currently [[tuples in JS]] are proposed to be mutable
+                - Nobody here wants shallowly immutable prototypes
+                - For tuples, you have different integrity guarantees than records.
+                    - records
+                        - string-keys guarantee integrity
+                    - tuples
+                        - we only have index properties, which we do not want people to be able to put these properties on a prototype.
+                        - [[Bradley Farias]] thinks this does not need to be a special case.
+            - MarkM: If you have [[shallow immutability]], do you need to be so up the prototype chain?
+            - Deeply identityless
+                - The only leaves are primitives
+    - Decorators and annotations by [[Daniel Ehrenberg]]
+        - https://gist.github.com/littledan/c10bf2a0309a02330cb4ef931daef103
+        - Decorators allow easily adding wrappers around any [[JavaScript]] class function or property. Like an easy class-based [[attenuation]]
+        - Objections
+            - Affecting the shape of class instances.
+            - engines have to interpret decorators before the JIT.
+                - 5-10 yrs ago, people thought JITs would become hyper efficient.
+                    - It turns out there are penalties to optimize, which moves burden up-front.
+                - Much JS code only runs once, like a class definition.
+                    - makes it better to use 

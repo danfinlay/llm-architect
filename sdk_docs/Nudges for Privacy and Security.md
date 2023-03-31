@@ -1,0 +1,102 @@
+- [Nudges for Privacy and Security](https://dl.acm.org/doi/pdf/10.1145/3054926)
+- Also see: [[nudge]]
+- 31 pages of paper (rest is references)
+    - 2-3 = Introduction to get context
+    - 3-10 = Can skip. Heuristics and biases (if you’ve done some reading on this in the past, this is basic and can be just browsed through). Theme is: Incomplete information, heuristics, and cognitive or behavioral biases can lead users to make decisions that result in undesirable outcomes
+    - 10-24 = “3. Assisting Privacy and Security choices” = main thing to read. Theme is: If the decisions involve privacy or security, then biases cause people to have decision outcomes that may include security breaches, privacy invasions, and regrettable disclosures.
+    - 27-28 = “5.1. Every Design Choice Is a Nudge” worth a read
+- Notes
+    - Limitations of human reasoning
+        - Asymmetric information
+            - The user may not have all information relevant to making their decision.
+        - [[bounded rationality]]
+            - The user may be pressured to make the decision with limited time or information, insufficient to fully reason through the decision, requiring relying on [[heuristic]]s
+        - [[cognitive biases]]
+    - Paternalistic? Why not maternalistic.
+    - [[bounded rationality]]
+    - types of privacy and security interventions
+        - strategy
+            - education and transparency
+                - may address incomplete information
+            - usable privacy and security tools
+                - for [[bounded rationality]]
+            - nudging interterventions
+                - help with biases
+        - philosophy
+            - strong paternalism / regulation
+                - Creating limitations on user action.
+                - Disabling some dangerous features.
+            - soft paternalism
+                - Soft paternalism applies lessons from behavioral research to design policies, systems, and architectures of choice intended to nudge users toward better decisions without restricting their options.
+                    - informing and guiding users’ decisions toward safer, better choices, without imposing a particular decision.
+                - Making options that are obviously safe more salient or prominent.
+                - Making actions that cannot be proven safe more difficult or involved.
+            - libertarian
+                - Expecting natural incentives to incline users towards best behavior.
+                - Placing no restrictions on behavior and providing no recommendations.
+        - Every design choice is a nudge
+            - Reminds me of the phrase [[everything is political]]: Every button implies some kind of recommendation to the user, and every absence is something withheld due to the designer’s opinion of what the user should be doing.
+    - [[nudge]]
+    - Types of bias that users are prone to
+        - Overconfidence
+        - Loss aversion
+            - Users are more inclined to avoid loss than seek gains.
+    - When you have a multi-step process, 
+    - [[MetaMask]] related topics
+        - Auto-completion to nudge people to correct behavior
+            - We have an [[address book]], and we auto-complete [[pet name]]s from that book when a user is sending, but we do not make any distinction (today) of whether the recipient address has been associated with the sender before. This can have privacy implications, even when sending between a user’s own accounts: Helping users identify when accounts appear to be well-isolated, and when that apparent isolation is going to be violated could be useful for anyone who cares about privacy.
+        - Confirmation friction
+            - Let users set the level of friction they prefer to confirm
+                - Just a click
+                - A pin number
+                - A password
+                - A count-down take-back period
+                - A puzzle
+            - Let users set special hours where elevated friction may be applied (Passing the current friction threshold would be required to change the friction threshold, too).
+                - Late/irresponsible hours
+        - Timing nudges
+            - > Egelman et al. [2009] investigated whether participants in a lab study were more likely to pay a premium for websites with good privacy practices. They found that the timing of the privacy notice was important; viewing privacy indicators before visiting the website had a greater impact than seeing the indicators once the users already arrived at the website.
+                - If a Ðapp/snap gets permissions at install time, we can still ask a user later “this is using this sensitive permission, do you mean to leave it enabled?”.
+                    - Similar to how iOS started doing a “this app has been using your location in the background”. It’s ok for a permission to not be “absolute”; for even the permission you can grant to be attenuated with some gentle oversight, some reminders or check-ins to make sure it was deliberate and is [revoked]([[revocation]]) if not.
+            - Suggesting reviewing outstanding permissions/connections after a user has done another security-act, like disconnected an account or revoked a permission.
+            - Suggesting a lower gas price during a price surge.
+        - Hard paternalism
+            - derivation path limitations
+        - [[eth_sign]] method
+            - strong paternalism vs soft paternalism.
+            - asymmetric information
+        - Combat overconfidence
+            - [[red team]] your own users
+            - Showing statistics of dangers can reinforce them (Pennsylvannia Transportation stats) what if we showed loss stats?
+            - Blog posts/notifications that discuss more types of phishing & security.
+        - During onboarding
+            - is metrics enabled by default?
+        - Homoglyph vulnerability
+        - Add network API method
+        - Allowance/approve API method
+            - The user's default is "whatever the dapp said"
+        - Action items
+            - red team your own users
+            - Show statistics of loss on screens that require user diligence.
+            - "take back" period for transactions? by default?
+                - send token as allowance + withdraw?
+            - Transaction puzzles for the drunks
+                - Enforcing challenges during weird hours
+            - After a user has created their vault, we can remind them to check if they can still access it.
+            - Provide justifications for requested permissions
+            - Socially suggested defaults: Goldstein et al. [2008] distinguish between [[mass defaults]], in which everyone gets the same default, and [[personalized defaults]] tuned to the user’s needs.
+            - Connect screen could possibly list more of the implications of sharing address. 
+            - Warn a user if we notice they copy their seed phrase, remind them how to use it responsibly.
+- Texts to follow up on:
+    - Usability research has attempted
+    - to help users by making security and privacy interfaces more usable [Sasse et al.
+    - 2001; Cranor and Garfinkel 2005; Garfinkel and Lipford 2014]
+    - (see Bishop
+    - [2000], Langheinrich [2002], and Cranor and Garfinkel [2005],
+    - Tan et al. [2014] studied the effects of developer-specified explanations in apps’ permission requests on iOS. [[justification]]
+    - Groom and Calo
+        - [2011] investigated how visceral notices impacted privacy concerns and disclosure. The
+        - study included several notices designed to increase privacy concern (anthropomorphic
+        - agents; personalized information based on IP or history), and one that was designed
+        - to weaken concern, informality. They found that a notice that appealed to users’ social
+        - responses could elicit more privacy-protective behavior than traditional notices.

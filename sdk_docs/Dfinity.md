@@ -1,0 +1,6 @@
+- A blockchain company led by [[Dominic Williams]].
+- Combines a variety of novel technologies.
+    - BLS signatures for consensus.
+- Has designed many different products
+    - [[[[Dfinity]] Phi]]
+    - [[Internet Computer]]

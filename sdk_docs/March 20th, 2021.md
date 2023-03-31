@@ -1,0 +1,2 @@
+- [[RumplePay (formerly Ripplepay)]] seems to maybe have been the early pre-[[Ripple]] work based on [[The Original Ripple Whitepaper]]
+- [[Solidity]] learning https://twitter.com/smpalladino/status/1373322364285558787?s=21

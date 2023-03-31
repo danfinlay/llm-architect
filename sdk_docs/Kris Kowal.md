@@ -1,0 +1,8 @@
+- A software engineer interested in enjoyably collaborative and performant distributed programming.
+- Works at [[Agoric]]
+- Some works
+    - [[endo]]
+    - [[Greater Theory of Reactivity (GTOR)]]
+- Prior employers
+    - [[Apple]]
+    - [[Uber]]

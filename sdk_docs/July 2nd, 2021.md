@@ -1,0 +1,2 @@
+- [[Sari Azout]] on [[ghost knowledge]] as a way to [[crowdfund]] experts to write on topics they haven't written about yet.
+    - https://twitter.com/sariazout/status/1405143593183072267?s=20

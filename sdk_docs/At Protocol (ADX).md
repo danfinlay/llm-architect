@@ -1,0 +1,12 @@
+- [Hacker news post](https://news.ycombinator.com/item?id=33252108#33264860)
+- [Main site](https://atproto.com/)
+- notes
+    - [[federation]]
+    - uses [[DNS]]for [[DID]] resolution
+        - this stacks two security paradigms, inheriting the attack surface and maintenance of each.
+    - has key rotation, but doesn’t seem to have other custom policy methods.
+    - uses [[DID]]
+        - > At present, none of the DID methods meet our standards fully. Many existing DID networks are permissionless blockchains which achieve the above goals but with relatively poor latency ([ION](https://identity.foundation/ion/)takes roughly 20 minutes for commitment finality). Therefore we have chosen to support [did-web](https://w3c-ccg.github.io/did-method-web/) and a temporary method we've created called [did-placeholder](https://atproto.com/specs/did-plc). We expect this situation to evolve as new solutions emerge.
+    - eschewed existing rpc standards
+        - https://twitter.com/pfrazee/status/1582475766289567745
+    - 

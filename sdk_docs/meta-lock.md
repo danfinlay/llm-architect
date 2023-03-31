@@ -1,0 +1,28 @@
+- A protocol intended for a subjective and massively concurrent network of independent consensus systems to dynamically assign atomic operations throughout their fabric through a bidding process, as the ultimate evolution of my [[Caputi]] and in turn [[Caputo (concurrency)]] concept.
+- Protocol
+    - ThereMessage Alice.sign
+        - message type: “[[.there()]]”
+        - Max price offered: [[gas price]]
+        - method identifier
+        - redemptionMethod: pointer to how to redeem a successful Executor.completedBid for payment.
+        - parameters[ [[record]] | [[interface]] ]
+            - record
+            - interface:
+                - object-identifier [[macaroon]]
+                - Basically an [[ocap-ld]] capability object.
+                - How to connect to the host & acquire locks (url, other network identifier, etc...)
+    - Executor.receives ThereMessage Alice.sign. If executor recognizes the protocols for How to connect to the host & acquire locks (url, other network identifier, etc...) and is confident it can obtain locks, etc, then returns a bid object.
+    - Executor.signBid
+        - Reference to: ThereMessage Alice.sign
+        - [[Slashable Proof]]
+        - Price offered to do
+        - Claimed time to do it by
+            - Yes this will have to be subjective, but it will be enforced by whatever policy is defined in [[Slashable Proof]].
+        - Offer good until (approx time, may return rejection, also subject to [[Slashable Proof]])
+    - Alice.acceptBid
+        - reference to: Executor.signBid
+    - Either:
+        - Executor.rejectBid(((jpWgFJw6L)))
+        - Executor.completedBid
+            - Reference to: Alice.acceptBid
+            - CompletionProof

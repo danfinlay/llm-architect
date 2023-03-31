@@ -1,0 +1,2 @@
+- [[idea markets]] is using a [[bonding curve]] for content curation. By [[Mike Elias]]
+    - https://twitter.com/harmonylion1/status/1348419518872182784?s=21

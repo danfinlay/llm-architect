@@ -1,0 +1,5 @@
+- https://eips.ethereum.org/EIPS/eip-173
+- Authors
+    - [[Dan Finlay]]
+    - [[Nick Mudge]]
+- A simple pattern for declaring and enforcing a single assigned owner to a smart contract. This owner can be assigned to another smart contract that enforces its own arbitrary policies.

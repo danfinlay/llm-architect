@@ -1,0 +1,1 @@
+- In [[CapTP]], the bootstrap parameter is an initial [[interface]] that is provided to be exposed to a connecting peer.

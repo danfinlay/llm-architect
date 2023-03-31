@@ -1,0 +1,2 @@
+- [[constraint solver]] https://developers.google.com/optimization/cp/cp_solver
+    - https://twitter.com/alexandrosm/status/1314383329894912000?s=21

@@ -1,0 +1,6 @@
+- Known plants that are nitrogen fixing
+- We should move off petroleum based fertilizers
+    - It’s a finite resource 
+    - Production releases tons of greenhouse gas
+    - https://twitter.com/gilesedoldroyd/status/1501618506978238471?s=46&t=
+    - 

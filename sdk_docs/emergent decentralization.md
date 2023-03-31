@@ -1,0 +1,3 @@
+- https://fieldnotes.resistant.tech/defensive-decentralization/
+    - There is a principle of [[Defensive Decentralization]]: when besieged, a well constructed decentralized system will further decentralize.
+    - The corollary of which is: A well constructed decentralized system will identify & attack emergent centralization.

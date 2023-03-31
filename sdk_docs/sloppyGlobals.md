@@ -1,0 +1,2 @@
+- Avoids the JS spec behavior of "failing to assign to an non extant property" by making a trap on the proxy handler for catching the assignment, and turning it into a creation & assignment.
+- Normally, in [[strict mode]], any assignment to a property that does not exist will throw an error `${varname} is not defined`.

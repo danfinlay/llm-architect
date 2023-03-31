@@ -1,0 +1,5 @@
+- A [[JavaScript]] API for creating a wrapper around a reference that can implement custom behavior.
+- Built of two parts
+    - [[scope target]]
+    - handler object
+- Has some non-spec-conformant traps, so those have to be handled to achieve [[host virtualizability]]

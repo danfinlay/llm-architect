@@ -1,0 +1,3 @@
+- A [[JavaScript]] proposal at [[TC-39]] to allow simpler [[Promise Pipelining]] using the `~.` (tildot, or wavy-dot) operator.
+- Example
+    - `directory.getPizzerias('best')~.selectPizza('large')~.order()`

@@ -1,0 +1,14 @@
+- This might be the talk where Mark Miller best describes the thesis that has led to [[Secure EcmaScript (SES)]], [[endo]], and [[The Agoric Blockchain]]:
+    - {{youtube: https://www.youtube.com/watch?v=w9hHHvhZ_HY}}
+- Includes a nice (very biased ;)  telling of the history of [[Access Control List]] vs [[object capability (ocap)]] history.
+- Does maybe my favorite of his visual sequential riffs up the stack (watching the graph on screen increase simplicity with each step up the ocap hierarchy)
+    - Starts with a great thrashing of the [[same origin policy]]
+- Quotes
+    - Security as Extreme Modularity
+        - Modularity: Avoid needless dependencies
+        - Security: Avoid needless vulnerabilities
+        - vulnerability is a form of [[dependency]]
+        - [[modularity]]
+            - Principle of information hiding: [[need to know]]
+        - [[security]]
+            - [[principle of least authority (POLA)]]: need to __do__.

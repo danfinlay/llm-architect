@@ -1,0 +1,3 @@
+- Joey is to [[Java (language)]] what [[Secure EcmaScript (SES)]] is to [[JavaScript]]
+- A safe [[object capability (ocap)]] subset of [[Java (language)]]
+- Long deprecated.

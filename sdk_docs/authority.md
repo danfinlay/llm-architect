@@ -1,0 +1,2 @@
+- The [[power/capability]] to do something.
+- In [[object capability (ocap)]], any reference is equivalent to the authority to interact with that reference.

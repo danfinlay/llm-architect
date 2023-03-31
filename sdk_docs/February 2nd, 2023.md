@@ -1,0 +1,8 @@
+- [[How Polymorphic Warnings Reduce Habituation in the Brain: Insights from an fMRI Study]]
+- [[Nostr]] client now on app store [[Damus]]
+    - https://www.coindesk.com/tech/2023/02/01/decentralized-social-media-project-nostrs-damus-gets-listed-on-apple-app-store/
+    - [[Dan Finlay]] at npub1460xse3camz7rv5ts9r58czhz66h2fs2upw46r5akxzzm6wvx3tsynhsn9
+- [[Halmos]] [[formal verification]] [[Solidity]]
+    - https://twitter.com/daejunpark/status/1621256461233049600?s=46&t=
+- [[VSCode]]
+    - https://twitter.com/zkproofs/status/1621365350402228224?s=46&t=m2s2xsHVJHBbm_pptDc8yQ

@@ -1,0 +1,7 @@
+- A foundational pioneer of the [[object capability (ocap)]] security approach.
+- {{youtube: https://youtu.be/hEDCXTpx0R8}}
+- mentor to
+    - [[Mark Miller]]
+- [[object capability (ocap)]] pioneer
+- 1933-2018
+    - https://www.forevermissed.com/normhardy/about

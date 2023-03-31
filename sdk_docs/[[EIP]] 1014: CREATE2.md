@@ -1,0 +1,12 @@
+- https://eips.ethereum.org/EIPS/eip-1014
+-  By [[Vitalik Buterin]]
+- Adds a new opcode (CREATE2) at 0xf5, which takes 4 stack arguments:
+    - endowment
+    - memory_start
+    - memory_length
+    - salt
+- Behaves identically to CREATE (0xf0), except using keccak256( 0xff ++ address ++ salt ++ keccak256(init_code))[12:]
+    - address
+    - salt
+    - init_code
+        - the code that, when executed, produces the runtime bytecode that will be placed into the state, and which typically is used by high level languages to implement a ‘constructor’.

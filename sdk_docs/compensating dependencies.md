@@ -1,0 +1,7 @@
+- Stub
+- Someone needs to solve the problem of compensating your [[dependency]]s.
+- Could be voluntary! Could be opt in! Could involve issuing equity or tokens, anything is fair, it just needs to let the dependencies thrive when the dependent thrives.
+- Maybe ideas? I don't know! Do these apply to the problem?
+    - [[Kickstarter]]
+    - [[reverse [[crowdfund]]]]
+    - [[tea.xyz]]

@@ -1,0 +1,2 @@
+- [[Sarah Jamie Lewis]] on [[blockchain]] based [[voting]] https://twitter.com/sarahjamielewis/status/1324212739242250245?s=21
+- [[Barnabe Marnot]] on [[CBC Casper]] https://link.medium.com/KMAGY2uoabb

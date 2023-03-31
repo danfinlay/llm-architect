@@ -1,0 +1,2 @@
+- A [[wasm]] [[object capability (ocap)]][[The Actor Model]] [[server side framework]] using [[wasi]] and inspired by [[Erlang]]
+- https://lunatic.solutions/

@@ -1,0 +1,4 @@
+- Remembered [[Herddit]]/[[aurigami]], imagining as [[[[Greater Theory of Reactivity (GTOR)]] [[aurigami]]]]
+    - https://twitter.com/danfinlay/status/1351952852168568833?s=20
+    - Was thinking it could be redone quite elegantly using entirely client-side browser tech using the [[Greater Theory of Reactivity (GTOR)]] principles.
+    - [Blog post on web audio API + webrtc](https://medium.com/@c.anders.christenson/establishing-a-p2p-connection-with-webrtc-and-web-audio-api-cf3328a18585)

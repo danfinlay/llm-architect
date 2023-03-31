@@ -1,0 +1,2 @@
+- [[[[Gnosis]] SAFE]] can now be deployed as an [[Limited Liability Corporation (LLC)]] via [[OtoCo]]
+    - https://twitter.com/otoco_io/status/1491060230628724739?s=20&t=usg2C0hRhRoMwyviIdH3NQ

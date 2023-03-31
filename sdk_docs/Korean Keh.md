@@ -1,0 +1,2 @@
+- https://www.washingtonpost.com/archive/local/1991/11/03/for-koreans-keh-is-key-to-success/f729bffa-04f2-4c35-af88-f6914e21f5c9/
+- a type of [[Rotating Savings and Credit Association (ROSCA)]]

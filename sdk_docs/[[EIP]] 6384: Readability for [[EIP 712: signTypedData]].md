@@ -1,0 +1,2 @@
+- Reminiscent of [[[[EIP]] 719: Contract-provided transaction comprehension]]
+- 

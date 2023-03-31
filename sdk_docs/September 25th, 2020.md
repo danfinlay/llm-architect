@@ -1,0 +1,5 @@
+- Began watching [[Are We There Yet?]]
+    - Inspired new articles: [[promise]]
+    - Inspired new ideas: [[Caputo (concurrency)]] [[meta-lock]]
+    - Resurrected ideas: [[MaccawTP]]
+- [[Nick Szabo]] on [[Proplets]] https://twitter.com/lex_node/status/1309644240729837569?s=20 

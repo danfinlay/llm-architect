@@ -1,0 +1,107 @@
+- A talk by [[Rich Hickey]]
+- https://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey/
+- Notes
+    - Does [[object oriented programming]] serve us properly?
+    - Is this the best way to write software?
+    - [[incidental complexity]] vs the complexity of the actual problem at hand.
+        - C++ introduces manual memory management, which is a heavy load of incidental complexity.
+        - Java (and any mutable object language) introduces automatic memory management, but has the incidental complexity of whether objects are mutable or not.
+            - If I hand off an object, can I trust that it won’t be mutated?
+    - How to solve this? we need better Time Management
+    - The goals of [[object oriented programming]]: abstraction of responsibilities
+        - If I’m a brick layer, I don’t care how bricks work, just that they work the way they do.
+    - [[pure functions]]
+        - A beautiful and useful thing
+        - Has no notion of time
+        - All of its scope is local
+        - Easy to understand, easy to change
+        - If we change the inside, consumers on the outside don’t need to know.
+        - However: our programs are not [[pure functions]]
+            - Long running
+            - Evolving processes
+                - Google needs to improve all the time!
+    - Beware of simplicity!
+        - Is the tool too simple for the job at hand?
+    - [[object oriented programming]]
+        - Has gotten time wrong
+            - we’ve made objects that can change in place, and that we can see change in place.
+            - Has no concrete notion of time
+            - Has no concrete values
+                - Sure, you can make an object with only concrete values
+            - We’ve made a mistake to conflate the idea you attach to a thing that lasts over time is the same as the thing lasting over time.
+            - Our ability to perceive is fragile.
+            - Author of [[Principia Mathematica]] [[North Whitehead]] trying to identify how the world really works, in terms of quantum mechanics & relativity. Found:
+                - “no man can cross the same river twice”: Each reference to an object is temporary, needs to be transient.
+                - Time must be atomic. It is not something you can touch but something you can derive
+                - There are no changing values, there are only values at a point in time, and values don’t change.
+                - There is no such thing as an immutable object, and we must uninvent them.
+                - There is an immutable thing, a process in the universe that acts on these things.
+                - When you see a cloud moving, you don’t have a cloud moving, or a series of clouds, you are superimposing the concept of “cloud” on a series of values you are perceiving.
+                - A useful historical reference.
+                - Time is just derivative of a series of events.
+                - “There is a becoming of continuity: A process that is creating a series of successive values, and that allows us to say ‘continuity, great!’, it’s not the other way around”
+    - Value
+        - It is immutable.
+        - It represents a point in time.
+        - Perhaps equivalent to [[record]]
+        - What good?
+            - Storing memories & perceptions.
+            - They’re stable
+            - Never need synchronization
+            - Next version shares much in common with last version, making them more efficient.
+            - Never need to tell anyone when we want to destroy our copy.
+                - “If you’ve ever used something that uses data structures like this, your life will just be better”.
+        - [[tries]] make this easy to implement
+        - He wishes there was a language where persistent data structures were the default data structure.
+        - He says this immutability only matters for copies of an object passed out of a function, nobody cares what the function does on the inside.
+        - Sounds like you could have a lint rule to ensure every function’s results are [[deep frozen]] before return, and achieve what he is advocating.
+    - Identity
+        - the psychological construct that comes from a series of Value.
+        - A notion derived from a series of Value.
+    - You can’t have logic based on values that can change.
+    - Reminding me of the goals of [[Caputi]]
+        - Using [[.there()]] to allow specifying a synchronous batch of logic.
+        - My favorite part of [[Caputi]] is probably its [long term vision](https://github.com/danfinlay/caputi#long-term-vision): The idea that object references could be casually requested locked in a synchronous location for comparison and final logic execution.
+            - Big outstanding problem: If operating on references from multiple hosts, how to automatically negotiate the location of the `there()` call. (“Where will we do [[the swap]]?”)
+            - Funny how managing access rights flies so directly in the face of [[Are We There Yet?]]’s main thesis that we can’t actually ever operate on locked values. Here, in the case of currencies and other things, there is an understanding that these always represent an external [[promise]], an uncertainty, but it is one that we agree to pretend will persist, for the sake of making __agreements__, like money.
+        - Has now started me writing [[Caputo (concurrency)]]
+    - In the real world, what do we get to do?
+        - Stop/wait the world.
+        - Concurrency requires more logic that accepts the continuation of the external world.
+        - There is no “message passing” - ??? (what is a perception then?)
+        - We are always observing the past: speed of light, nervous system, etc.
+        - Oriented around discrete events
+        - “Making things happen and perceiving things are totally different, they shouldn’t be connected at all!” - [[Rich Hickey]]
+            - This reminds me of how 
+                - All references passed over [[CapTP]] are either [[record]]s or [[interface]]s.
+            - Action and perception are sequential, and distinct.
+        - “Observers are not in the timeline”
+            - Why is this important?
+        - You can’t stop all things like you are god, things will always just keep going on. And this is good, we want parallelism, we want things to independently make decisions.
+    - Objects are
+        - have their own timelines
+        - asynchronous
+        - [[STM]] helps you coordinate timelines.
+            - Maybe there can be new constructs built around [[locks]]
+            - STM has “[[arbitrary regions]]” instead of [[fixed regions]]
+            - STM could be rivaled by any other system that can orchestrate dynamic lock acquisition order.
+            - This is really sounding like the [[Caputi]] thing where Big outstanding problem: If operating on references from multiple hosts, how to automatically negotiate the location of the `there()` call. (“Where will we do [[the swap]]?”)
+        - [[CAS (sp?)]]
+            - call the function on the current state, and it becomes the next value.
+            - time is derived from it, identity is derived from it.
+    - [[agent]] is a lot like a [[CAS (sp?)]]
+        - A timeline per identity
+        - They provide a value in time perception.
+        - There is “the caller”, and the host “meet” at the point of swap.
+        - In an actor/agent system they don’t swap, you just throw out the result, etc, with asynchrony between agents.
+    - What about coordinating 2+ things?
+        - [[STM]]
+            - Allows coordinating multiple timelines.
+            - “This action is going to interact with 3 things”
+            - Ok coining new internal term: [[Caputo (concurrency)]] 
+    - Time Management
+        - A timeline represents a single identity
+    - Q&A
+        - [[Time clocks ([[Lamport]])]]
+            - Communication oriented
+            - time advances when one entity communicates with another

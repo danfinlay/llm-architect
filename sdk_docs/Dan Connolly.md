@@ -1,0 +1,5 @@
+- Member of [[Agoric]]. Long time member of [[w3c]]. 
+- Blogs at https://www.madmode.com
+- On Twitter https://twitter.com/dckc
+- Game Host: [[prisoner's dilemna]] https://gist.github.com/dckc/b785e96b1de43b3990a9781e3fd7a782
+- [[Dan Connolly]] [was first directed](https://lists.w3.org/Archives/Public/public-webhistory/2021Jan/0002.html) to the work of [[Mark Miller]] on [[object capability (ocap)]]s by [[Aaron Swartz]]. #ocap-intro

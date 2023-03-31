@@ -1,0 +1,1 @@
+- Types of cryptography where multiple processes cooperate to create a result, usually where authority or data is kept more restricted in some way.

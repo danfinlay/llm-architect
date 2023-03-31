@@ -1,0 +1,28 @@
+- you don't know anything for sure
+    - {{youtube: https://www.youtube.com/watch?v=5HtUnubXAO4}}
+    - The Tao that can be told is not the eternal Tao.
+- Everything you think you know is actually just a [[leap of faith]].
+    - Most things you treat like truth are just patterns you've recognized, prone to [[the inductive fallacy]].
+- There is an underlying reality that we share.
+- Our brains are designed to help us form a consistent view of reality.
+- People are good at building trust with one another, at least at some scale.
+    - This allows us to socially form larger views of reality.
+    - There is no formal logic that a person can follow to build trust.
+    - Trusting a person is another type of [[leap of faith]]
+- You can safely trust a person with as much as that person values your relationship ([[social collateral]])
+- [[power/capability]] can always be [delegated]([[delegation]])
+- Because [[power/capability]] can always be [delegated]([[delegation]]), trust and risks are inherently transitive.
+    - You can step on a steel slab on a concrete block but if it's falling from an airplane you're still going to fall.
+    - You could invest in the best mathematician in the world, but if they are overly trusting, they might still get conned.
+- Like any other type of power, [[social collateral]] is transitive (can be delegated): Your trust in another person implicitly includes all the things they trust.
+- The fundamentals of trust delegation apply not just between people, but also between animals, computers, and anything else that can be modeled as an [[agent]].
+- Because [[social collateral]] models trust and risk only, it does not require consideration of "group membership", identity, [[proof of humanity]], or any other subjective form. It is a model for cooperation of any sort between any otherwise seemingly separate agents that choose to share a risk together.
+- The more things that are reliably delegated, the more agency is multiplied.
+    - Shared resources
+        - As long as no one gorges when they don't need it, a supply pool should remain.
+    - Partially backed currency
+        - As long as there is no mass run on the bank, each person is able to behave as if they hold more money (in total) than they in fact do.
+            - Often in crypto this method of "fiat" is seen as a bad thing, as if sharing risk is fundamentally bad. Instead, we should consider whether the bad part was really who the risk was being shared with. Maybe risks shared with people you trust aren't so bad. [[Bailey Bonds]]
+    - Issuing loans
+    - Printing money
+- Through digital facilitation, networks of delegated trust could enable larger graphs of [[digital [[social collateral]]]] than could ever be possible through organic/physical social networks.

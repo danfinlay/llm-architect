@@ -1,0 +1,1 @@
+- A term for using [[Delegatable Eth]] coined by [[Kames Geraghty]]

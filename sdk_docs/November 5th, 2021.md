@@ -1,0 +1,72 @@
+- [[Electronic Frontier Foundation (EFF)]]
+    - [[Millicent]]
+    - Why to care about [[surveillance]], per the [[Electronic Frontier Foundation (EFF)]]
+        - Computing may not be keeping up with [[Moore's Law]], but storage costs are dropping fast. Therefore, it is plausible that even if data isn't being abused today, it will be abused in unexpected ways in the future.
+    - [[predictive policing]]
+    - [[Section 230]] is good!
+    - [[WhatsApp]] is running on [[The [[Signal]] Protocol]]
+        - I wonder if we could build a distributed [[CapTP]] network on [[The [[Signal]] Protocol]], like [[[[Discord]] [[Secure EcmaScript (SES)]] bot]]
+            - Could running your own [[endo]] type environment on a phone enable receiving and responding to incoming messages (on a [[turn (message loop cycle)]]) without requiring user interaction?
+- [[Smithy Butler]] & related
+    - A 5 star general asked to help overthrow [[FDR]]
+        - [[American Legion]]
+        - [[American Liberty League]]
+    - [[John Birch Society]]
+        - Similar goals to the [[Smithy Butler]] plot, largely about the gold standard.
+    - [[Council for National Policy (1981)]]
+        - People from [[John Birch Society]], capitalizing on [[Ronald Reagan]] presidency to revisit these ideas.
+    - [[[[January 6th, 2021]] Riot]]
+        - Also seemingly facilitated by some of the [[Council for National Policy (1981)]]
+    - [[Wizard of Oz]]
+        - metaphor
+            - Wizard as [[William James Bryant]]
+            - Yellow brick road as gold standard
+            - Scarecrow as American farmer
+            - Witches as bankers (east and west)
+            - Water on witch as drought-ending rain that saves the farmers.
+            - Emerald city as dollar
+    - [[cult]]
+        - [[Theosophy]] "I AM" 
+            - Gold-obsessed
+            - Chicago & LA
+            - [[Saint Germaine]] as their main dude
+    - [[International Tribunal for National Justice]]
+        - Pushing fears
+            - [[5G]]
+            - [[covid-19]]
+        - Founded by [[Sasha Stone]]
+    - [[Cicada 3301]]
+    - [[Project 89]]
+        - promotes [[apophenia]]
+        - [[Jekyll Island]] is where [[The Federal Reserve]] was founded
+        - [[Moscow]] as [[The Third Rome]]
+            - Fulfilling a prophecy
+            - [[Steve Bannon]] is also into this now.
+    - Books related
+        - [[The Sovereign Individual]]
+            - shopping for jurisdiction.
+            - enabled with cash, to get away from "dirty central bankers"...
+            - Promoted by [[Peter Thiel]]
+        - [[The Fourth Turning]]
+        - [[Democracy in Chains]]
+            - How the [[Koch]] family pushed forward a [[libertarian]] agenda that spanned decades in a stealthy way.
+    - Effects
+        - Divides us into in and out groups.
+        - Hardens boundaries between groups.
+        - Induces excess social capital within groups
+        - Causes cognitive errors in group thinking
+        - Turns groups into more insular, subjective thinking.
+        - The social capital is what connects us, but is being burned out by social media.
+        - Adding truth isn't as effective anymore, because people don't trust the sources of truth from outside.
+    - Crypto being used to attack the banking system
+        - If we default on our debt ceiling soon, the US defaults, our national credit is damaged, and the relationship to crypto may become weirder.
+        - These people seem to think it's worth trying to make us default.
+    - Decentralized social media? Will that help?
+        - Depends on how we build it! How do we facilitate the growth of social capital?
+    - [[Panquake]]: Not a good thing.
+        - A project out of [[Moscow]] by [[Suzie Dawson]]
+        - Building a decentralized, censorship-proof social media.
+        - Chief architected by [[Yale]] professor
+    - [[carbon footprint]] was coined by the oil industry?
+        - These dying industries are surviving by their ability to purchase influence.
+        - Is promotion of cryptocurrency being used to disempower governments that might otherwise be able to regulate those industries?

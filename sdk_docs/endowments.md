@@ -1,0 +1,4 @@
+- The [[power/capability]] that is granted to an [[agent]].
+- In [[LavaMoat]]:
+- Platform APIs / global variables allowed to be used by packages. Can be readonly or writable.
+- Example: `process` in NodeJS or `fetch` in the browser.

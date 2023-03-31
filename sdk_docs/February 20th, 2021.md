@@ -1,0 +1,3 @@
+- [[Arrow's Theorem]] https://twitter.com/lucasvb/status/1363057030219628545?s=21
+- [[InstaDapp]] has a [[[[DeFi]] Smart Layer]] contract account with a dynamic [[authority]] system
+- [[EIP-2711: Sponsored, expiring and batch transactions]] maybe improved by [[[[EIP]] 3074: Delegated Invocation Contracts]] or maybe [[Ethereum Transaction Batching EIP by Nick Johnson]]

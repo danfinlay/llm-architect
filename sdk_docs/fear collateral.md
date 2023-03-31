@@ -1,0 +1,4 @@
+- A form of bond creation by intimidation.
+- You can trust a person with as much as you believe they would be too afraid to betray you over.
+- Can be chained together into a transitive trust graph with other forms of collateral, including [[social collateral]]
+    - A person can be intimidated enough that they ask for favors from people who trust them, potentially burning those bridges if they’re more intimidated than they are afraid of damaging their relationship.

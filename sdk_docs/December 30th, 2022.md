@@ -1,0 +1,12 @@
+- [[December 30th, 2022]] at 12:37
+    - [[Penumbra Zone]]
+        - https://twitter.com/penumbrazone/status/1606401569435848704?s=12&t=-g  
+- [[Yoav Weiss (yoavw)]] on [[[[EIP]] 4337: [[account abstraction (AA)]] via Entry Point Contract]]
+    - https://twitter.com/yoavw/status/1608637726026498048?s=20&t=lWmp-
+- [[Aragon]] is orienting their strategy around [[permission]] systems for [[DAO]]s.
+    - https://blog.aragon.org/building-the-hyperstructure-of-governance-aragons-new-strategy/
+    - questions
+        - are the permissions transitive?
+        - how easy is it to add new permissions?
+        - can you easily combine/[[attenuation]] of permissions?
+        - How does it compare to [[Delegatable Eth]]?

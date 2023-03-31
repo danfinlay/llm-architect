@@ -1,0 +1,4 @@
+- A notification upon someone making a withdraw.
+    - Could be only over a certain limit, or can be intelligently enhanced like a fraud prevention service.
+- Gives a [[creditor]] an opportunity to withdraw a line of trust.
+- Is not needed when [[social collateral]]

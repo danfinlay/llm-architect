@@ -1,0 +1,2 @@
+- An [[Ethereum]] [[NFT]] project.
+- Each NFT represents a unique noun.

@@ -1,0 +1,1 @@
+- A type of subscription-based farm that partially blurs the line between owner and customer.

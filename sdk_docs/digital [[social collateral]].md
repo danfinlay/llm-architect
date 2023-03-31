@@ -1,0 +1,46 @@
+- The idea that with digital assistance, people can use computers to offer, or [delegate]([[delegation]]) any [[power/capability]] to anyone (or any __thing__) they trust in ways that can build up large webs of trust/support and facilitate solving needs/haves highly efficiently, even to the subjective perspective of the individual actors.
+- This pattern resembles the economic concept of [[social collateral]], but
+    - in a more general way that can represent any digital good
+    - in a way that benefits from the automation of being digital.
+- To fully comprehend the implications of this idea, it is valuable to first understand [[social collateral]], and possibly then also its similarities to [[object capability (ocap)]] security.
+- Examples
+    - Projects that are building systems that could enable this
+        - [[Delegatable Eth]]
+        - [[MetaMask]]
+            - [[[[MetaMask]] Snaps]]
+        - [[Agoric]]
+        - [[[[Spritely]] Institute]]
+        - [[endo]]/[[exo]]
+    - Projects that are building towards ends similar to this
+        - [[Trustlines]]
+        - [[Circles UBI]]
+        - [[Interledger]]
+    - Designs and specifications that could enable this in other ways
+        - [[[[Ethereum]] [[object capability (ocap)]]]]
+        - [[[[[[Gnosis]] SAFE]] [[object capability (ocap)]]]]
+        - [[[[[[EIP]] 3074: Delegated Invocation Contracts]] Transitive Delegation Pattern]]
+- There are also organic ways that this kind of system can naturally emerge.
+    - Any “anyone with this link may X” permission on the web today, which itself allows re-inviting, resembles this model.
+        - These systems could be enhanced with [[principle of visibility]] enhancements, like [[Horton’s Who Done It?]]
+    - The [[ERC-20 Token Allowance]] or the [[EIP 2612: DAI_v2 style permit()]] method is a way of assigning permission to withdraw [[token]]s from an account, and a network of such permissions could be used to share withdraw permissions between any agents.
+    - Any [[buy order]] for another currency is an offer that “anyone who holds that may redeem this from me”.
+        - A simple [[buy order]] like on can act in a similar way to a fractional reserve currency: Anyone with the requested token can redeem it at any time for up to the offered rate.
+        - Creating [[personal token]] and opening up exchange rates between them.
+            - Anyone who holds a personal token thus has the [[power/capability]] to redeem any underlying asset.
+        - This [[buy order]] can be flat or algorithmic, like in the case of a [[bonding curve]] or [[Automated Market Maker (AMM)]].
+            - This approach has the benefit of ensuring that trusted agents get the most value if they redeem the least.
+            - Ensures the delegated pool of funds cannot be suddenly depleted, and at least will hold some diminishing value for late-redeeming trusted accounts.
+            - Examples
+                - [[SHIB Token]]
+        - The exposure can be percentage-based, like in [[Circles UBI]], such that “I will accept up to x% of my tokens to be exchanged 1-for-1 for a trusted token”.
+            - [[Dan Finlay]] is critical of this approach, because your token value can fluctuate and change, assigning trust as a percentage makes it difficult to estimate the maximum that is safe to expose yourself to, per [[the [[social collateral]] principle]].
+                - The safest approach in this case is to assume the maximum value that your account will ever hold, and assign a percentage based on that, but this leads to a hyper-conservative strategy which isn’t very viral or fun.
+- There are many possible implementations of such a scheme
+    - Possible approaches
+        - [[Delegatable Eth]]
+        - [[counterfactual social collateral cash]] (Token-only, early design)
+        - [[[[[[Gnosis]] SAFE]] [[object capability (ocap)]]]] (Rudimentary but composible from available components)
+        - [[Stateless SAFE Cap]]
+        - [[Counterfactual WebCap Wallet]]
+    - [[[[Ethereum]] [[object capability (ocap)]]]]
+- If this digital network is not just about exchanging tokens but also other functions, this becomes something arguably different, which I am collecting notes to at [[Web of Risk]].

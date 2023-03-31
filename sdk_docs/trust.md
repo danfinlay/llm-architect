@@ -1,0 +1,2 @@
+- An ephemeral feeling between individuals.
+- A quality that makes one person more likely to “entrust” sensitive/valuable things to an other.

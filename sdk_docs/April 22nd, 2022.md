@@ -1,0 +1,73 @@
+- [[April 22nd, 2022]] at 07:34
+    - [[Vinay Gupta]] and [[Venkatesh "vgr" Rao]] on [[global warming]]
+        - https://twitter.com/vgr/status/1517686438078210048?s=21&t=-3g0hA
+    - [[infohazard]]
+        - https://twitter.com/visakanv/status/1517386406653349888?s=21&t=F4NhiR
+- Debugging [[[[EIP 712: signTypedData]] v4]] for [[Delegatable Eth]]
+    - Encoding inconsistency for encoding of `Delegation`
+        - What it should be
+            - keccak256(abi.encode(
+                - TYPEHASH
+                    - `409f5114779a253e700d775d7845e6efc1e83685ac59868d2df3d4de51c7d621`
+                - delegate: 'address',
+                    - `00000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c8``
+                - authority: 'bytes32',
+                    - `0x0000000000000000000000000000000000000000000000000000000000000000`
+                - caveats: 'Caveat[]',
+                    - `0x0000000000000000000000000000000000000000000000000000000000000000`
+            - )),
+        - Part 1
+            - Typehash: consistent
+            - body: inconsistent
+                - solidity
+                    - `0x409f5114779a253e700d775d7845e6efc1e83685ac59868d2df3d4de51c7d62100000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000`
+                - js
+                    - `409f5114779a253e700d775d7845e6efc1e83685ac59868d2df3d4de51c7d62100000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`
+                - Not only is solidity longer, it has an `8` before the longer segment.
+                - Ahh! Was not using 712-array encoding for the Delegation's caveats.
+        - Part 2
+            - solidity: 
+            - `409f5114779a253e700d775d7845e6efc1e83685ac59868d2df3d4de51c7d62100000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`
+            - js: 
+            - `409f5114779a253e700d775d7845e6efc1e83685ac59868d2df3d4de51c7d62100000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`
+            - Aha! In solidity I was hashing the empty array of caveats, but we don't hash the empty array, we only hash the constituent members, as the whole of a struct.
+        - Part 3
+            - js (256 chars)
+                - `409f5114779a253e700d775d7845e6efc1e83685ac59868d2df3d4de51c7d62100000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`
+                - encoded type Delegation as Delegation(address delegate,bytes32 authority,Caveat[] caveats)Caveat(address enforcer,bytes terms)
+                - Hashed as 409f5114779a253e700d775d7845e6efc1e83685ac59868d2df3d4de51c7d621
+                - encodeField for delegate with type address and value `0x70997970C51812dc3A010C7d01b50e0d17dc79C8`
+                - encodeField for authority with type bytes32 and value `0x0000000000000000000000000000000000000000000000000000000000000000`
+                - encodeField for caveats with type Caveat[] and value []
+            - sol (320 chars)
+                - `409f5114779a253e700d775d7845e6efc1e83685ac59868d2df3d4de51c7d62100000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000`
+            - For some reason, when adding `0x` bytes to the data to encode, solidity is adding 64 bytes of zeroes!
+            - If I try to return an explicit 32 bytes of zeroes, like `abi.encodePacked(bytes32(0))`, then it gets a stray 2 in there:
+                - `0x409f5114779a253e700d775d7845e6efc1e83685ac59868d2df3d4de51c7d62100000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000`
+                - Oh it has that random [eight like before, too](((0YwMjSFtV)))
+            - 
+    - Recovery of Invocation signature
+        - Should be Invocations
+            - keccak256(
+                -  'Invocation[]',
+                    - replayProtection: 'ReplayProtection',
+                    - authority: 'SignedDelegation[]',
+                - transaction: 'Transaction',
+            - )
+        - Solidity
+            - Invoke called with 1 invocations
+                - Invocations type hash:
+                - 0x7dfd7e3a443ca4857a78c14a00d84b14b67c67b8c7c23e920d7e60ae534c8b72
+                - Invocation 0
+                - Invocation type hash:
+                - 0xbddb895b71418561c41195a1ff5a5d54ad5d5526d4fc8634d3aff3da7aa1b61d
+                - Invocation packet hash:
+                - Invocation packet hash:
+                - 0x34ebe7b0120094e0a016e2433c91ed21cc57ea07ce3895c07f0c424c863eea18
+                - 0x34ebe7b0120094e0a016e2433c91ed21cc57ea07ce3895c07f0c424c863eea18
+                - Invocation packet hash:
+                - 0x34ebe7b0120094e0a016e2433c91ed21cc57ea07ce3895c07f0c424c863eea18
+                - Encoded:
+                - 0x7dfd7e3a443ca4857a78c14a00d84b14b67c67b8c7c23e920d7e60ae534c8b72061fb9be23f0940621be4b790357caccc0bb6c782b8b9b228d4dfa3915a3f16b
+                - Hashed:
+                - 0x8ef1ddb8368bc85ca9ec2ffcfe847df3d2f7b9f95d3e8df14c51a09518916401

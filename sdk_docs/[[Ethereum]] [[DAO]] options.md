@@ -1,0 +1,7 @@
+- [[Aragon]]
+- [[Colony]]
+- [[Moloch DAO]]
+- [[Governor Bravo]]
+- [[SafeSnap]]
+- [[FeiRari]]
+    - https://tribe.fei.money/t/fip-82-governance-enhancements/3945

@@ -1,0 +1,30 @@
+- [[[[JSON-RPC API]] [[distributed [[debugger]]]]]]
+- [[[[endo]] [[LavaMoat]] Call]]
+    - Agenda
+        - Product definition for [[endo]]
+            - Must be able to
+                - [[CapTP]] between mutually suspicious machines.
+            - Up for reorganization
+                - orthagonal persistence
+                - cryptographic identities between vats
+            - What might be useful to MetaMask?
+                - Probably less than [[endo]]
+                - Don't really need sturdy references for our MVP, we're currently keeping a permissions table ourselves.
+                - Process
+                    - same
+                    - sub-process
+                    - remote?
+                        - distributed apps.
+                - Persistence
+                    - transient
+                    - transient with storage APIs
+                        - [[C List]]
+                    - [[swiss number]]
+                    - orthogonal
+                    - [[sturdy references]]
+                - Define Snaps for Kris
+                    - Currently is a method of defining portions of the wallet that can be "hooked into" by newly added script.
+        - Any Lava Moat issues
+        - [[enhanced error reporting under the [[ses-shim]]]] cont'd?
+            - [[Jaeger]] was the [[distributed [[debugger]]]] at [[Uber]] built in part by [[Kris Kowal]]
+        - Pet names of custom networks?

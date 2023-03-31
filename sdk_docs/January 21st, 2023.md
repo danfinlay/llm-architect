@@ -1,0 +1,4 @@
+- [[readable transaction]] [[EIP 712: signTypedData]]
+    - https://twitter.com/danfinlay/status/1616662058984181766?s=46&t=
+    - [[Lore.so]] for [[readable transaction]]s
+        - https://twitter.com/ryanmyher/status/1616872292226662407?s=46&t=

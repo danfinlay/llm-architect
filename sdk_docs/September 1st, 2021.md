@@ -1,0 +1,1 @@
+- [[XMTP]] [raises $20 million](https://blog.xmtp.com/series-a/)

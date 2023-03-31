@@ -1,0 +1,1 @@
+- [Full text](Trust and social collateral: 2009 (Karlan, Mobias, Rosenblat, Szeidl)) at [[The National Bureau of Economic Research]]

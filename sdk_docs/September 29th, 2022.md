@@ -1,0 +1,9 @@
+- [[Game B]]
+- [[Noosphere]]
+- An early alternative to [[css]] prioritized user enforced styles and used [[Scheme]]. Seems great for [[Secure UI]]
+    - https://www.w3.org/Style/CSS20/history.html
+    - Other good reads in this series, recommended by [[Christine Lemmer Webber]]
+        - https://www.more-magic.net/posts/lispy-dsl-scss.html is an interesting read, as are the 4 other posts in that series
+- [[Lark Davis]] preyed on his followers [[dependent investing]]
+    - https://twitter.com/zachxbt/status/1575494380072611847?s=46&t=
+- [[a taxonomy of [[delegation]] systems]]

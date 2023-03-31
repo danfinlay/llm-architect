@@ -1,0 +1,43 @@
+- The process of [[arbitration]] reacting to misuse of some [[power/capability]] in a situation where the power misused was delegated based on the [[collateral]] of the issuer's relationship with the receiver, in which there may be compensation, resent, or forgiveness.
+- Real world equivalents
+    - Chapter 7 vs Chapter 11 - [[Zainan Victor Zhou]]
+- Is easy to describe for smaller scenarios, but can actually be performed by connecting graph of arbitrary size and complexity, and this is increasingly feasible due to digital technology. (See [[digital [[social collateral]]]])
+- In practice, all people are connected by [[three and a half degrees of separation]], and so there is probably a practical upper bound on the size that this dance would ever need to grow to.
+- There are actually many variations of protocols for resolving disputes in such a system. Some variations includw
+    - Pre approval per expense or not
+    - Retroactive review of usage or not
+        - Retroactive approval/forgiveness can refresh a line of credit.
+    - Negotiating new terms/expectations upon disappointment.
+        - Can include instructions to reduce allocations to a given delegate. Per [[Horton’s Who Done It?]]
+- Examples
+    - Two person example
+        - {{mermaid}}
+            - graph TD;
+                - Alice -- Car --> Bob
+        - Alice lends Bob her car
+        - Bob gets in a car wreck
+        - Alice can either
+            - Forgive: Accept that the accident was not Bob's fault, and take the loss.
+            - Resent: Blame Bob for the accident, and be less willing to risk things with him again.
+            - A hybrid of the above
+    - Three person example
+        - {{mermaid}}
+            - graph TD;
+                - Alice -- Car --> Bob
+                - Bob -- Car --> Carol
+        - Alice lends Bob her car
+        - Bob lends Alice's car to Carol
+        - Carol gets the car in a wreck
+        - Bob can either
+            - Forgive and accept loss: Accept that the accident was not Carol's fault, and take the loss by replacing Alice's car. This leaves Alice content.
+            - Forgive and forward loss: Insist that the accident was not Carol's fault, and explain this situation to Alice, for her consideration.
+                - Alice can either
+                    - Forgive: Accept that the accident was not Bob's fault, and take the loss.
+                    - Resent: Blame Bob for the accident, and be less willing to risk things with him again.
+                    - A hybrid of the above
+            - Resent and accept loss: Blame Carol for the accident, but replace Alice's car to avoid being subject to judgment.
+            - Resent and forward loss: Blame Carol for the accident (being less likely to lend her things in the future), but apologize to Alice for the loss.
+                - Alice can either
+                    - Forgive: Accept that the accident was not Bob's fault, and take the loss.
+                    - Resent: Blame Bob for the accident, and be less willing to risk things with him again.
+                    - A hybrid of the above

@@ -1,0 +1,2 @@
+- I haven't written much publicly in a while on secure UI in web3, and have instead focused on talking longer term secure UI principles, like in my short podcast reading group [[[[Secure UI]] with Dan]], but given an uptick in phishing events, especially ones that employ signatures like [[EIP 712: signTypedData]], and even ones targeting the latest contracts by [[OpenSea]] ([[SeaPort]]). I think it's overdue for me to write a bit on how we should be comprehensively addressing these issues.
+- 

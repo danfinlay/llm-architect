@@ -1,0 +1,9 @@
+- [[open ended role]]
+    - https://twitter.com/vaughn_tan/status/1567146076875931648?s
+- [[Gerrald "Jerry" Sussman]] [[We Really Don't Know How to Compute]]
+- [[[[[[Delegatable Eth]] [[[[EIP 2535 Diamond Standard]] facet]]]] [[JuiceBox]] hackathon]]
+    - https://twitter.com/nnnnicholas/status/1566942616914169856
+    - Best example of a delegatation being used on a diamond contract.
+    - Example
+        - A script that sets msgSender to the delegation module so any msgSender using facet would benefit from its features being delegatable.
+    - Bounty: 5 eth

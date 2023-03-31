@@ -1,0 +1,2 @@
+- A proposed [[browser]] standard for enabling [[trusted-in-untrusted [[Secure UI]]]]
+- https://twitter.com/marknadal/status/1459587401232240643?s=21

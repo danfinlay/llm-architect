@@ -1,0 +1,4 @@
+- https://github.com/ethereum/EIPs/blob/a12d2155f51319461b6a18ff9fc924c5d7e29c71/EIPS/eip-4488.md
+- Reduces [[calldata]] cost to 3 per byte
+- formerly **68 gas for each non-zero byte and 4 gas for each zero byte**
+    - https://www.google.com/search?q=what+is+the+ethereum+gas+cost+per+byte+of+calldata%3F&ie=UTF-8&oe=UTF-8&hl=en&client=safari

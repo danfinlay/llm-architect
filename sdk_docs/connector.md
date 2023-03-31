@@ -1,0 +1,2 @@
+- A type of connection in a graph network that joins two disparate but dense networks.
+- Popularized as a term in [[The Tipping Point]].

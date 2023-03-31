@@ -1,0 +1,7 @@
+- Runs on [[Holochain]]
+- A tool for building mutual credit currencies.
+- You get your own [[DHT]]/ledger.
+- A hosting service that allows you to pay for their hosting.
+    - Like [[Airbnb]] for your computer.
+    - Designed for very small micro-transactions.
+    - Similar to [[FileCoin]] in value proposition?

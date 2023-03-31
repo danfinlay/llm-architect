@@ -1,0 +1,1 @@
+- A [[JavaScript]] language feature that allows observing and responding to garbage collection events, which is useful when cleaning up distributed references like when using [[CapTP]].

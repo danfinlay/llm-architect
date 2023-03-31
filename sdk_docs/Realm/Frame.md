@@ -1,0 +1,1 @@
+- A javascript execution environment with its own distinct set of [[Intrinsics]] and [[globalThis]], such as an `iframe` in the browser and `vm.createContext()` in node.

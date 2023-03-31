@@ -1,0 +1,5 @@
+- [[AI]] teleprompter
+    - https://twitter.com/danielgross/status/1604991443747352576?s=46&t=
+    - https://github.com/danielgross/teleprompter
+- Blog post on [[identity]] and [[SoulBound Tokens (SBT)]] [[Soulbinding Like a State]]
+    - https://twitter.com/kanzure/status/1605256677015560214

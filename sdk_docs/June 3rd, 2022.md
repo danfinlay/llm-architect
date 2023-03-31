@@ -1,0 +1,2 @@
+- [[[[oracle]] extractible value]] like [[dependent investing]]
+    - https://twitter.com/joranhonig/status/1532691203271049216?s=21&t=NvWDM_rK7__Zg

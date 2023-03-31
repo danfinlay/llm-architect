@@ -1,0 +1,75 @@
+- Could be described as bringing [[Delegatable Eth]] to all [[externally owned account (EOA)]]s.
+- Background
+    - [[[[EIP]] 3074: Delegated Invocation Contracts]] allows [[Ethereum]] [[externally owned account (EOA)]]s to delegate their ability to send messages to a smart contract of their choice.
+    - In this document, I'll lay out a design for leveraging this pattern to enable [[rich sharing]], in the style of a long-standing goal I've called [[[[Ethereum]] [[object capability (ocap)]]]].
+    - This could be a simpler path to this long standing goal than my previous passes at this (in chronological order):
+        - [[counterfactual social collateral cash]]
+        - [[Stateless SAFE Cap]]
+        - [[[[[[Gnosis]] SAFE]] [[object capability (ocap)]]]]
+        - [[Counterfactual WebCap Wallet]]
+    - This design appears to achieve my earlier most ambitious goal for an Ethereum based capability chain: The capability chains can be entirely counterfactual (only submitted to the chain at time of invocation or [[revocation]]).
+    - Additionally, it appears to make it possible to delegate the permission to pay for gas, transitively, potentially overcoming one of the greatest barriers to new user adoption of the blockchain.
+        - By necessity of [[[[EIP]] 3074: Delegated Invocation Contracts]], this repayment would need to be made in the form of a new token, since 3074 does not allow the `AUTH` call to send ether on the sender's behalf.
+- `TransitivelyDelegatableInvoker`
+    - Assume each of these contracts is a `RevocableInvoker` 
+    - Recursive signature type complements of [signTypedData_v4](https://github.com/MetaMask/eth-sig-util])
+    - Delegate to another key the ability to send transactions to a specific contract on your behalf
+        - DelegationMessage
+            - 3
+            - invoker_address
+            - hash_of_struct
+                - recipient
+                - target_contract?: (if root)
+                - DelegationMessage?: (to signer, if not root)
+                - caveat_enforcer?: address
+                - caveat?: bytes
+                - `gas_allowance?: uint256`
+                    - Assuming the signer has granted the `gasPaymentToken` to this contract, the signer's tokens will be used to repay the submitter of this message for relaying this to the invoker.
+                    - This makes simple sense if the root delegation message has a `gas_allowance`. I'm not completely sure what it would mean to have this on intermediate delegations. Maybe delegators can "top off" the gas_allowance for a chain of messages, as to not weigh heavier on the initial delegator? Totally optional bonus feature. Maybe leave it open to be added.
+        - InvocationMessage
+            - 3
+            - invoker_address
+            - hash_of_struct
+                - DelegationMessage
+                - txParams
+                - `permitted_validators?: address[]`
+                    - Could specify valid miners for these transactions.
+                    - Could allow flashbots-free [[Miner Extractible Value (MEV)]] protection
+                - `validatorEnforcer?: address`
+                    - As alternative parameter to the `permitted_validators?: address[]` field, would allow an invocation to delegate its MEV-enforcement to an on-chain contract.
+                    - This enforcer contract would implement a simple check against the current block's [[coin base]] (miner address). Like `isMinerTrusted(miner: address): bool`
+        - TransitiveDelegationMessage
+            - 3
+            - invoker_address
+            - hash_of_struct
+                - DelegationMessage (if second generation)
+                - TransitiveDelegationMessage (if over second generation)
+                - target_contract?: (if root)
+                - recipient
+    - Transitively delegate to another key your own delegation that you received.
+        - Message
+            - 3
+            - invoker_address
+            - hash_of_struct
+                - recipient
+                - target_contract
+    - Transitively delegate to another key your own delegation that you received, through an additional attenuation contract.
+        - TransitiveDelegationMessage
+            - 3
+            - invoker_address
+            - hash_of_struct
+                - DelegationMessage (if second generation)
+                - TransitiveDelegationMessage (if over second generation)
+                - target_contract?: (if root)
+                - recipient
+                - caveat_enforcer?: address
+                - caveat?: bytes
+        - When processing an invocation that relies on a delegation message with a `caveat_enforcer` specified, pass the proposed tx params and delegation message to its `validateCaveat` method of that specified contract.
+        - When recursively iterating through a chain of delegation messages, the `TransitivelyDelegatableInvoker` should continuously update the intended txParams with the latest output from the most recent `caveat_enforcer`.
+        - CaveatEnforcer
+            - validateCaveat(txParams, delegationMessage): txParams
+                - May return attenuated txParams or throw a validation error.
+    - Delegate a right to have gas refunded for this operation also
+        - DelegationMessage
+    - Delegate to a contract the ability to send transactions to a specific contract on your behalf
+    - Transitively delegate to a contract your own delegation that you received.

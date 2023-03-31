@@ -1,0 +1,2 @@
+- [[Alex Russell]] claims [[object capability (ocap)]] fails in a [[Spectre]]/[[Meltdown]] world
+    - https://twitter.com/slightlylate/status/1463755615134633988?s=21

@@ -1,0 +1,3 @@
+- An ideal to strive for when a person is issuing a given [[authority]] to an [[agent]] on their behalf.
+- It may be impossible to fully express to a person all the possible risks of a given act, but we can strive for the closest that we are able to.
+- A balancing act between overwhelming a user with too much information and under-informing the user with too little.

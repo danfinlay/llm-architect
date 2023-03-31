@@ -1,0 +1,2 @@
+- [[EIP 2535 Diamond Standard]] explanation
+    - https://twitter.com/0xhank/status/1508191204198039552

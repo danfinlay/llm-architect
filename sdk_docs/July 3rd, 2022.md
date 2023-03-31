@@ -1,0 +1,6 @@
+- [[Cory Doctorow]] [[bullwhip effect]] [[planned economy]] [[Friedrich Hayek]]
+    -  https://twitter.com/doctorow/status/1542915540271898626?s=21&t=_-0-E5g
+- [[Yul (language)]]
+    - https://twitter.com/jtriley_eth/status/1543601755799396354?s
+- [[rust (language)]] [[Foundry ([[evm]] toolchain)]]
+    - https://twitter.com/brockjelmore/status/1543733339642703872?s=21&t=_-0-E5g

@@ -1,0 +1,4 @@
+- An approach to exposing a [[service tag based discovery]] framework
+- Let components of the system register a namespace to handle
+- Forward any requests with that namespace prefix to that given subcomponent
+- 

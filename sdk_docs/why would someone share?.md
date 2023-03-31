@@ -1,0 +1,8 @@
+- A question I often get when explaining [[social collateral]], making it useful although seemingly absurd to collect examples.
+- Examples
+    - Because you care about their well being
+    - Because you believe in the long run that they also have your best interests at heart to some degree.
+    - Because the other person is trying to help you, but they need access to a resource to do it.
+        - moderation
+        - delivering a package needs access to that package
+    - Religious reasons

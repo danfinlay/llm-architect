@@ -1,0 +1,4 @@
+- A statement on [[cloud]] services encouraging the use of open and portable data services.
+- https://web.archive.org/web/20090218125143/http://autonomo.us/2008/07/franklin-street-statement/
+- https://www.franklinstreetstatement.org/
+    - Maintained by [[Danny O’Brien]]

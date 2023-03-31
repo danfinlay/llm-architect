@@ -1,0 +1,2 @@
+- https://blog.instadapp.io/introducing-defi-smart-layer
+- Is this an instance of [[[[Ethereum]] [[object capability (ocap)]]]]?

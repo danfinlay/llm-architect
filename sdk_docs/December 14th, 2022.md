@@ -1,0 +1,11 @@
+- [[December 14th, 2022]] at 05:52
+    - [[Twitter]] [[Nostr]] [[Jack]]
+        - https://twitter.com/jack/status/1602853632512516096?s=46&t
+- [[TokenLog]] had some updates, is being used by [[Giveth]]
+    - https://twitter.com/wslyvh/status/1603054539166437377
+- [[December 14th, 2022]] at 05:52
+    - [[proof of humanity]] protocol
+        - https://twitter.com/santisiri/status/1603040260828663814?s=46&t=-Yvg
+- [[December 23rd, 2022]] at 04:03
+    - https://twitter.com/fleekxyz/status/1605991662538305536?s=12&t=RGwLTBrRWDWfL42TqS0uVQ [[Fleek]]
+    - 

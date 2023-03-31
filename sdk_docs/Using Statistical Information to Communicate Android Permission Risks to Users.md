@@ -1,0 +1,5 @@
+- [Original text](http://www.qu.tu-berlin.de/fileadmin/fg41/publications/kraus_2014_using-statistical-information-to-communicate-android-permission-risks-to-users.pdf)
+    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FhO4eJehQp-.pdf?alt=media&token=e92daae5-f393-4aba-8e3d-d2982735cbb2}}
+- An article by [[Lydia Kraus]] [[Ina Wechsung]], [[Sebastian Moller]]
+- Studies the [[Android]] [[permission]] system. [[secure extensible permission system]]
+- Finds that users often ignore text descriptions of permissions, but are statistically responsive to other visual indicators of danger.

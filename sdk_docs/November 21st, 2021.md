@@ -1,0 +1,6 @@
+- [[Paul Frazee]] on [[smart contract]]s without a [[blockchain]]
+    - https://twitter.com/pfrazee/status/1462489933734723595?s=20
+- [[evmos]] on [[Celestia]]
+    - https://twitter.com/kreuzuquer/status/1461673973314473984?s=21
+- [[yield farming]] by [[kainye]]
+    - https://twitter.com/kaiynne/status/1462549593455878146?s=20

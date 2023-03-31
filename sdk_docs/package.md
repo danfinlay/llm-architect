@@ -1,0 +1,2 @@
+- A chunk of software designed for broader distribution and use as a [[dependency]]
+- Contains many [[module]]s.

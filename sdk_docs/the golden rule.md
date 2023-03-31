@@ -1,0 +1,3 @@
+- Do unto others as you would have them do to you.
+- Criticism
+    - Others may not want to be treated the same way as you want to be treated. Addressed in [[the platinum rule]].

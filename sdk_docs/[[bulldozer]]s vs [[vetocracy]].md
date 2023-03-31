@@ -1,0 +1,2 @@
+- A distinction by [[Vitalik Buterin]]
+- https://twitter.com/kevin_weaver/status/1472615190361522176?s=21

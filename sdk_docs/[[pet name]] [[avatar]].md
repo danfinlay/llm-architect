@@ -1,0 +1,17 @@
+- What would be the synthesis between a [[pet name]] system, and a [[[[metaverse]] [[avatar]]]]?
+    - Pet names imply preserving the sanctity of the user's perspective, and strongly differentiating between [[proposed name]]s and a user-assigned [[pet name]].
+        - Names are often one-dimensional, but in some systems like [[secure scuttlebutt (SSB)]], a graphical avatar is included alongside the [[pet name]].
+    - An [[avatar]] is generally self-assigned. It's a visual version of a [[self [[proposed name]]]].
+        - On most social media, an avatar is always self-assigned, and it imbues no security properties whatsoever, but users still instinctively use avatars to recognize accounts, and so impersonated avatars basically always accompany phishing.
+        - [[[[iOS]] Messages]] in the last couple years introduced proposing your picture to people you send messages to.
+            - What is the experience of receiving these? If I remember right, it's still very "proposed"; it asks if you want to accept their picture over your own for them, and it never tells them what you chose.
+        - a [[[[metaverse]] [[avatar]]]] could be composed of many unique items, assembled to display a rich history.
+            - It's already popular for [[NFT]] holders to assign an NFT they value as their [[Twitter]] [[avatar]].
+                - It's a running joke that anyone can download such an avatar and make it their own. This seems to invite space for some kind of certified avatar.
+            - Today, it's becoming increasingly popular for [[NFT]] collectors to suggest that their new collectibles are building up their [[[[metaverse]] [[avatar]]]].
+                - [[Loot Project]] is an example where collecting mere words is seen as an opportunity, as long as those words are later expanded into a rich game.
+            - Where is the line between embracing the legitimacy of an item and merely accepting its visual appearance?
+                - Proposed synthesis:
+                    - Accepting viewing a person's self-assigned avatar is one act, and the user should then be able to inspect (and even ignore/delete!) any item they see.
+                        - You were always able to reject a person's avatar (and assign your own), after all. Customizing how others appear to you is basically an inherent right of running your own software.
+                        - You could propose changes to a user's avatar to your contacts, as well. A truly decentralized pet name avatar 

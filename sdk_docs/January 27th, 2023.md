@@ -1,0 +1,2 @@
+- [[AI]]music
+    - https://twitter.com/jacquesthibs/status/1618839343661203456?s=46&t=

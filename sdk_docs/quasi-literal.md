@@ -1,0 +1,4 @@
+- An [[E (Language)]] name
+- Known as [[template literals]] in [[JavaScript]]
+- Inspired by [[quasi-quote]]s from [[Lisp]] type languages. `,...`
+    - Comes from a mathematician of lambda 

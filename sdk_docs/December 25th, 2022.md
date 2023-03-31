@@ -1,0 +1,3 @@
+- [[December 25th, 2022]] at 08:24
+    - [[Noir (language)]] by [[Aztec Protocol]] looks nice!
+        - https://twitter.com/zmanian/status/1607046048027148288?s=46&t=fi_NR39_

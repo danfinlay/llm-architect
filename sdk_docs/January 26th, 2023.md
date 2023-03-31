@@ -1,0 +1,7 @@
+- [[sybil attack]]
+    - defined in [[The Sybil Attack]] [this paper](https://twitter.com/zooko/status/1618852882253762560?s=20) by [[John Doceur]]
+        - https://twitter.com/zooko/status/1618852882253762560?s=20
+- [[Tahoe LAFS]] being resurrected as [[Private Storage]]
+    - https://twitter.com/zooko/status/1618659362511396864?s=20
+- [[web3]] [[calendly]] [[Timely]]
+    - https://twitter.com/cz_zhan/status/1618834469179498501?s=46&t=

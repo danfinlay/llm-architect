@@ -1,0 +1,8 @@
+- A request for consent that is not actually being used in a meaningful way.
+- Can be asking permission for something that has already been been assumed, like a formality.
+    - Ex: (With stuffed mouth) “Mind if I eat this sandwich?” 
+- Could be asking the user for a permission that the user doesn’t actually have to offer.
+    - Ex: “Do you want to give me mars?”
+- Examples
+    - “Hey kid, you want a candy bar? Yeah, me too!”  - [[Empire of the Sun]]
+    - “If you believe that, I’ve got a bridge to sell ya!”

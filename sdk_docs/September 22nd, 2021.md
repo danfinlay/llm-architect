@@ -1,0 +1,7 @@
+- [[Starkware]] [[StarkNet]] now running [[Solidity]]
+    - https://twitter.com/0xgreg_/status/1440340076030881792?s=21
+- [[Cory Doctorow]] [praises ](https://doctorow.medium.com/the-framework-is-the-most-exciting-laptop-ive-ever-used-5415da0a46e5)[[The Framework Computer]] laptop
+- [[Grassroots Economics]] recommended by [[Omna Toshniwal]]
+- [[What's in Your Wallet? Privacy and Security Issues in Web 3.0]]
+- [[Matt Blaze]] on [[election security]]
+    - https://twitter.com/mattblaze/status/1440902027983392769?s=21

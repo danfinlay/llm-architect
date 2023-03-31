@@ -1,0 +1,10 @@
+- [[[[Roam Research]] talk]]
+- [[Diaspora]] is closing down.
+    - https://twitter.com/deadsuperhero/status/1499900424588906496?s=21
+- [[[[[[EIP]] 3074: Delegated Invocation Contracts]] talk]]
+    - Could 3074 and maybe [[[[[[EIP]] 3074: Delegated Invocation Contracts]] Transitive Delegation Pattern]] help with [[Miner Extractible Value (MEV)]]?
+        - I think there actually __is__ a scenario where it can: If more sell-offers are __not available to the public__ but are signed messages that are redeemable by __some limited set of recipients__, then there could be infrastructure developed that makes some trades immune to sandwich attacks, for example.0xProtocol v3 had introduced one layer of seller-delegation, but my proposal would allow arbitrary delegation. Theirs is:
+            - An offer poster, who assigns a market to be able to claim its referral fee.
+            - The market would be able to also delegate a commission to a market aggregator.
+            - Their problem was that the final sale was always open, so individuals had every incentive to redeem the earliest message that was public, and cut out any middle-men commissions.
+        - If each offer to buy was exclusive, but could be delegated, you could have [[incentive trees]], which is a really cool mechanism as well.

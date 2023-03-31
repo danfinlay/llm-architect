@@ -1,0 +1,3 @@
+- [[Christopher Allen]] shares on [[Linked Local Name]]s
+    - https://twitter.com/christophera/status/1478614047096389634?s=21
+    - TIL [[Nick Szabo]] claims to have solved [[zooko's triangle]] in this paper: https://web.archive.org/web/20160331174414/http://szabo.best.vwh.net/securetitle.html

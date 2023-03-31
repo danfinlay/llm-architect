@@ -1,0 +1,5 @@
+- A concept by [[Brian Warner]]
+- Like an [[object capability (ocap)]], but the item handed off isn't just the permission to access an extant object, it is also a sort of [[counterfactual]] ability to assemble the object in case it doesn't exist yet, potentially lazily deploying a whole application.
+- References
+    - http://www.lothar.com/blog/58-The-Spellserver/
+    - On [[cap-talk]] while discussing [[Mark Burgess]]'s [[Promise Theory]]: https://groups.google.com/g/cap-talk/c/8QRixUhzcyM/m/3tyC4eQSCwAJ

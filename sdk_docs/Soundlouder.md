@@ -1,0 +1,4 @@
+- https://soundlouder.com/
+- A [[blockchain]] [[music rights]] management platform.
+- by [[Joe Benso]]
+- Might be a good use case for [[MATT: An [[NFT]] Auction Concept]]

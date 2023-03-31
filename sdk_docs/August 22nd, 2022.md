@@ -1,0 +1,9 @@
+- [[no code]] [[inspiration]]
+    - https://twitter.com/grantcuster/status/1561383978854240257?
+- [[eth2]] is coming!
+    - https://twitter.com/0xSimulant/status/1561754142195847173
+- [[compost]]
+    - https://twitter.com/buildsoil/status/1561769428789841920?s=21&
+- [[August 22nd, 2022]] at 20:46
+    - [[Lobste.rs]] is some kind of [[web of [[trust]]]] forum
+        - https://twitter.com/theyisiliu/status/1561905832413270016?s=21&t

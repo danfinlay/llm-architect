@@ -1,0 +1,1 @@
+- An [[agent]] that is assigned unjust blame for a given failure.

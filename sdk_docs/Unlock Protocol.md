@@ -1,0 +1,6 @@
+- A way to use [[NFT]]s to gate access to online content.
+- Can use a signature challenge to validate ownership.
+- Has many compatible contracts
+- Terms
+    - Lock: The contract that gates access
+    - Key: The NFT used to represent access

@@ -1,0 +1,11 @@
+- [[Ethdos]]
+    - https://twitter.com/binji_x/status/1592971996693811200
+- Anti [[phishing]] [[[[MetaMask]] Snaps]]: [[reporter-snap]] uses [[Cheshire ([[proof of humanity]])]]
+- [[Distributed Computing Manifesto]]
+    - https://twitter.com/Werner/status/1592911264870957056?s=20&t=
+- [[affinity fraud]] [[hipsters, mops, and sociopaths]]
+    - https://twitter.com/plagueofcustom/status/1593067502422339590?s=46&t=
+    - https://twitter.com/danfinlay/status/1593101663208103936?s=46&t=
+- [[separate books]] [[confused deputy]] [[FTX]]
+    - https://twitter.com/s_r_constantin/status/1593035699816923136?s=
+    - 

@@ -1,0 +1,8 @@
+- [[November 17th, 2022]] at 02:06
+    - [[Vickrey auction]] [[Ethereum]]
+        - https://twitter.com/yush_g/status/1593009419637649408?s=46&t=
+        - https://blog.aayushg.com/posts/vickrey
+    - [[zk snarks]] [[zk STARKs]] recursive circuit https://github.com/VictorColomb/stark-snark-recursive-proofs
+- [[Uniswap]] premieres [[permit2 for [[ERC-20]]]]
+    - https://uniswap.org/blog/permit2-and-universal-router
+- [[LXDAO]] is researching and intending to contribute to [[MobyMask]]

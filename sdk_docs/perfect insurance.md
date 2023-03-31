@@ -1,0 +1,7 @@
+- An insurance ideal wherein all parties in a dispute are guaranteed that they will be compensated if they feel that they should be.
+- There may be external side effects or penalties for invoking this insurance, but a perfect insurance would represent the present [promise]([[Promise Theory]]) of compensation.
+- Coined in
+    - [[The Simplest Trustworthy Oracle]]
+- Explored in
+    - [Grassroots insurance](https://medium.com/capabul/grassroots-insurance-8b353a1670f6)
+- Not sure it’s related, but a stray lawyer comment by [[Steven Palley]] that might apply here: https://twitter.com/stephendpalley/status/1393196098978787331?s=21

@@ -1,0 +1,10 @@
+- A style of key generation first used by [[3box]]
+    - Also used by [[Loopring]]
+- The technique of asking a user to sign a message and using the resulting signature as a private key for a cryptographic protocol.
+- Example signature challenge:
+    - `Do you trust this site to update and decrypt your 3box profile?` 
+    - As long as a portion of the message is coherent and readable, even with a nonce appended, 
+- Security properties
+    - Lets the application implement its own crypto, allowing alternative cryptography.
+    - Can be restored with the user's pre-existing recovery method.
+    - Is not as easy to "roll-forward"?

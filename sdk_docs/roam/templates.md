@@ -1,0 +1,8 @@
+- decision
+    - pros
+    - cons
+- Meeting
+    - Attendees
+    - Notes
+    - Questions
+    - Action Items

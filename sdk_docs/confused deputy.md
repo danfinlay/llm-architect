@@ -1,0 +1,14 @@
+- From Wikipedia
+    - In [information security](https://en.wikipedia.org/wiki/Information_security), the **confused deputy problem** is often cited as an example of why [[object capability (ocap)]] based security is important. A **confused deputy** is a legitimate, more privileged [computer program](https://en.wikipedia.org/wiki/Computer_program) that is tricked by another program into misusing its authority on the system.  It is a specific type of [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) [[vulnerability]].
+    - [[object capability (ocap)]] based systems protect against the confused deputy problem, whereas [[Access Control List (ACL)]]-based systems [do not]([[[[Access Control List (ACL)]]s Don't]]).
+    - ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Don_Knotts_Barney_and_the_bullet_Andy_Griffith_Show.jpg/220px-Don_Knotts_Barney_and_the_bullet_Andy_Griffith_Show.jpg)
+- References
+    - [[The [[confused deputy]]
+(or why capabilities might have been invented)]]
+    - [[[[Access Control List (ACL)]]s Don't]]
+- Examples
+    - [The classic compiler example](((AugK9SQeJ)))
+    - A [[Cross-Site Request Forgery (CSRF)]]
+        - [[[[Access Control List (ACL)]]s Don't]] describes a page making a POST message to a sensitive endpoint from another page, just because the user is logged into it.
+    - [[clickjacking]]
+        - 

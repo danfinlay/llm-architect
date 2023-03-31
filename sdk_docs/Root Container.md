@@ -1,0 +1,1 @@
+- The Javascript execution environment which spawns [[SES Container]]s. Child [[SES Containers]] are in the same [[Realm//Frame]], which means they have the same set of [[Intrinsics]].

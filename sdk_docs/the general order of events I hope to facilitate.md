@@ -1,0 +1,12 @@
+- A simple goal: Let people use computers safely but in an open-ended way. Represent authority as a kind of [divisible]([[principle of appropriate boundaries]]) and [attenuable]([[attenuation]]) object that can be created, transmitted and shared freely.
+    - I believe this is an important goal to enabling society to evolve more seamlessly, per [[digital [[social collateral]]]].
+- Longest term: A user's primary computer (used for managing their authority) should be architected in a way that is optimized for [[rich sharing]].
+- Today, we have many architectures, mostly [[Access Control List (ACL)]]s. They are not very flexible, and most computers grant excess authority to every application/site visited.
+- Challenges
+    - People have things they need done today, nobody has the patience to start from zero for a new project.
+    - Different layers of the stack have different costs to innovate at (hardware is more expensive than software, custom silicon is maybe the most expensive).
+- Therefore
+    - We need solutions that can be iteratively rolled out, demonstrated, and provide value at each phase.
+        - Phases I have in mind
+            - [[[[MetaMask]] Snaps]]
+                - 

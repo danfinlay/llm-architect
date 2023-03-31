@@ -1,0 +1,8 @@
+- http://fudco.com/chip/
+- Projects
+    - [[AMiX: The American Information Exchange]]
+    - [[LucasFilm's Habitat]]
+    - [[Agoric]]
+- Articles
+    - [[The Lessons From [[LucasFilm's Habitat]]]]
+    - [[You Can't Tell People Anything]]

@@ -1,0 +1,27 @@
+- [[Lane Rettig]] declares [[proof of humanity]] is impossible without violating one of (scalable, permissionless, decentralized)
+    - [the tweet](https://twitter.com/lrettig/status/1607253618327195648?s=20&t=mj67kvDWuAzgfT55lDm2hA)
+    - My take
+        - [[decentralized [[identity]]]] and [[proof of humanity]] are indeed often solutions being pursued because other solutions require them as axioms, like [[quadratic voting]].
+        - There are indeed hard constraints around any identity system which makes me pretty reflexively avoid them, because I see that systems like [[digital [[social collateral]]]] satisfy the goals of such systems but while avoiding the pitfalls.
+        - I'm not sure the three characteristics I would name are decentralized, scalable, and permissionless. In part because I'm not sure decentralized or scalable are adequately defined in Lane's tweet.
+        - Let me list some of the pitfalls of decentralized identity systems, I'll even lump them into those three categories as proposed definitions when it makes sense:
+            - Decentralized
+                - A single consistent view of the group's membership is neither desirable nor possible
+                    - Nazis would declare Jews to not be human, and other racists might also draw the line in ways one might disagree with.
+                    - We may someday want to incorporate additional sentient beings into our society. Is humanity really even the right bar to hold things to?
+                        - Apes
+                        - Dolphins
+                        - Octopi
+                        - Crows
+                        - artifical intelligences
+                        - Aliens
+                    - A single entity should not just mean a single agent, but even in the [[convergent decentralization]] sense of the term: A single dispute resolution process like is used in [[Proof of Humanity Protocol (PoHP)]] would still mean that a single definition must be globally agreed to.
+                - Scalable
+                    - For purposes of scalability, it must be possible for people to participate in proposed social systems even if they are not connected to the network
+                        - Over great distances (like where light becomes an obstacle)
+                        - Over limited network connectivity
+                        - With other individuals who mutually acknowledge each others' value, but who are socially disconnected from previous assemblages of agents.
+                - Permissionless
+                    - People should be able to begin to participate even without a single person vouching for them. This can include by them vouching for others.
+- [[The Default Framework]] vs [[EIP 2535 Diamond Standard]]
+    - https://twitter.com/norswap/status/1607425088491753472

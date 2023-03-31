@@ -1,0 +1,4 @@
+- [Article](https://research.fb.com/blog/2016/02/three-and-a-half-degrees-of-separation/) by [[Facebook]] research about how tightly connected people are.
+- Updates the common wisdom of "six degrees of separation" for our digitally connected world.
+- While formerly it was speculated that everyone was connected by six degrees, since social networks are able to actually have surprisingly comprehensive views of the social network, they were able to find the average hops to be closer to 3.5.
+    - Since their view is incomplete, it's plausible that the real number of hops is even lower.

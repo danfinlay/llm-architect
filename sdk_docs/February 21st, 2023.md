@@ -1,0 +1,2 @@
+- [[should [[evm]] delegations exist at the app layer or the account layer?]]
+- [[general purpose delegation framework for [[evm]]]]
