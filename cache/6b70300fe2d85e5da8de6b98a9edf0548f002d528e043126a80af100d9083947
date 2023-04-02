@@ -1,0 +1,57 @@
+Component 1: Chess Game Board
+interface ChessBoard {
+  squares: Array<Array<ChessPiece>>;
+  movePiece(from: ChessSquare, to: ChessSquare): void;
+  getPiece(square: ChessSquare): ChessPiece | null;
+  getValidMoves(square: ChessSquare): Array<ChessSquare>;
+  isCheckmate(): boolean;
+  isStalemate(): boolean;
+}
+
+%BREAK%
+
+Component 2: Chess Piece
+interface ChessPiece {
+  color: 'white' | 'black';
+  type: 'pawn' | 'knight' | 'bishop' | 'rook' | 'queen' | 'king';
+  isValidMove(from: ChessSquare, to: ChessSquare, board: ChessBoard): boolean;
+}
+
+%BREAK%
+
+Component 3: Game Invitation
+interface GameInvitation {
+  link: string;
+  shareLink(): void;
+}
+
+%BREAK%
+
+Component 4: Custom Piece Editor
+interface PieceEditor {
+  piece: ChessPiece;
+  editPiece(): void;
+  savePiece(): void;
+  exportPiece(): void;
+}
+
+%BREAK%
+
+Component 5: Custom Board Builder
+interface BoardBuilder {
+  board: ChessBoard;
+  addPiece(piece: ChessPiece, square: ChessSquare): void;
+  removePiece(square: ChessSquare): void;
+  saveBoard(): void;
+  exportBoard(): void;
+}
+
+%BREAK%
+
+Component 6: Game Proposal
+interface GameProposal {
+  board: ChessBoard;
+  pieces: Array<ChessPiece>;
+  proposeGame(): void;
+  acceptGame(): void;
+}
