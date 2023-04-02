@@ -1,0 +1,5 @@
+class CompilerSubcomponent implements Compiler {
+  compile(code: string): CompiledCode {
+    // implementation code here
+  }
+}
