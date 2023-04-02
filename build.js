@@ -3,6 +3,7 @@ import bodyParser from "body-parser";
 import { OpenAI } from "langchain/llms";
 import { ConversationalRetrievalQAChain } from "langchain/chains";
 import dotenv from "dotenv";
+import { SystemChatMessage, HumanChatMessage } from "langchain/schema";
 import { loadAndProcessDocuments } from "./documentProcessor.js";
 import { ChatOpenAI } from "langchain/chat_models";
 import * as fs from 'fs';
@@ -14,6 +15,11 @@ const internalPrompts = {
   subdivider: fs.readFileSync('./internal_prompts/subdivider.txt', 'utf8'),
   developer: fs.readFileSync('./internal_prompts/developer.txt', 'utf8'),
 }
+console.log("Subdivider:")
+console.log(internalPrompts.subdivider);
+
+dotenv.config();
+
 const CORRECTNESS_CHECK = 'You are a software specification verifier. You review the specification of a component and verify that it is correct.';
 const IMPROVER = 'You are an auto debugger. You take the specification of a component and the implementation of that component, and you make improvements to the implementation until it is correct.'
 
@@ -21,9 +27,8 @@ const specification = fs.readFileSync('./specification/product-goal.md', 'utf8')
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-dotenv.config();
 
-async function setup() {
+async function start () {
 
   const vectorStore = await loadAndProcessDocuments("specification/additional-docs/");
 
@@ -37,20 +42,11 @@ async function setup() {
     vectorStore.asRetriever()
   );
 
-  return chain;
-}
-
-const chainPromise = setup();
-
-async function start () {
-
-  const chain = await chainPromise;
-
-  console.log("Asking the subdivider to break down the product...")
+  console.log("\nAsking the subdivider to break down the product: ", specification)
+  console.log(typeof internalPrompts.subdivider)
+  console.log(typeof specification)
   const response = await chain.call([
-    new SystemChatMessage(
-      internalPrompts.architect
-    ),
+    new SystemChatMessage(internalPrompts.subdivider),
     new HumanChatMessage(specification),
   ]);
   const componentsList = response.response;
@@ -179,3 +175,7 @@ async function start () {
     fs.writeFileSync(`./implementation/${file.name}`, file.implementation);
   }
 }
+
+start()
+.then(() => console.log('Done!'))
+.catch((e) => console.error(e));
