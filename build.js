@@ -5,21 +5,18 @@ import { ConversationalRetrievalQAChain } from "langchain/chains";
 import dotenv from "dotenv";
 import { loadAndProcessDocuments } from "./documentProcessor.js";
 import { ChatOpenAI } from "langchain/chat_models";
-
-import {  
-  SystemMessagePromptTemplate,
-  HumanMessagePromptTemplate,
-  ChatPromptTemplate
-} from "langchain/schema";
 import * as fs from 'fs';
+
 const BREAKPOINT = '%BREAK%';
 
 const internalPrompts = {
-  architect: fs.readFileSync('./internal_prompts/architect.txt', 'utf8'),
   smallnessChecker: fs.readFileSync('./internal_prompts/smallness-checker.txt', 'utf8'),
   subdivider: fs.readFileSync('./internal_prompts/subdivider.txt', 'utf8'),
   developer: fs.readFileSync('./internal_prompts/developer.txt', 'utf8'),
 }
+const CORRECTNESS_CHECK = 'You are a software specification verifier. You review the specification of a component and verify that it is correct.';
+const IMPROVER = 'You are an auto debugger. You take the specification of a component and the implementation of that component, and you make improvements to the implementation until it is correct.'
+
 const specification = fs.readFileSync('./specification/product-goal.md', 'utf8');
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
@@ -49,7 +46,7 @@ async function start () {
 
   const chain = await chainPromise;
 
-  console.log("Asking the architect to design the product...")
+  console.log("Asking the subdivider to break down the product...")
   const response = await chain.call([
     new SystemChatMessage(
       internalPrompts.architect
@@ -60,7 +57,6 @@ async function start () {
   console.log("The architect has designed the product. Evaluating component complexity...")
 
   const components = componentsList.split(BREAKPOINT);
-  com
 
   // Simplify the components
   // Define the async splitIfPossible function
@@ -81,8 +77,6 @@ async function start () {
       return item;
     }
 
-    const subcomponents = [];
-
     console.log('Not simple enough. Splitting into smaller components...');
     const response2 = await chain.call([
       new SystemChatMessage(
@@ -96,7 +90,7 @@ async function start () {
   }
 
   // Initialize the new array to store the split items
-  let newArray = [];
+  let subcomponents = [];
 
   // Define a helper function for handling recursive splitting
   async function processItem(item) {
@@ -110,30 +104,69 @@ async function start () {
         await processItem(newItem);
       }
     } else {
-      // If the result is not an array, push the original item to newArray
-      newArray.push(item);
+      // If the result is not an array, push the original item to subcomponents
+      subcomponents.push(item);
     }
   }
 
-  // Iterate through the input array and process each item
-  for (let item of components) {
-    await processItem(item);
-  }
+  await processItem(specification);
 
+  // The final implemented files
   const files = [];
 
-  // Implement the compoennts
-  for (let component of newArray) {
+  // Implement the components
+  for (let specification of subcomponents) {
     // Get the name of the component:
     const name = await chain.call([
       new SystemChatMessage('You are a file name generator. You take the description of a component and propose a simple file name for it, with no additional text.'),
-      new HumanChatMessage('Please provide a file name for this component.'),
+      new HumanChatMessage('Please provide a file name for this component: '),
+      new HumanChatMessage(specification),
     ]);
 
-    const implementation = await chain.call([
+    console.log(`Implementing ${name}...`);
+    let implementation = await chain.call([
       new SystemChatMessage(internalPrompts.developer),
-      new HumanChatMessage('Please implement this component.'),
+      new HumanChatMessage('Please implement this component:'),
+      new HumanChatMessage(specification),
     ]);
+    console.log(implementation);
+    console.log('Implementation complete. Checking correctness...')
+
+
+    // Check the correctness of the implementation
+    let isCorrectRaw = await chain.call([
+      new SystemChatMessage(CORRECTNESS_CHECK),
+      new HumanChatMessage('SPECIFICATION:'),
+      new HumanChatMessage(specification),
+      new HumanChatMessage('IMPLEMENTATION:'),
+      new HumanChatMessage(implementation),
+    ]);
+    let isCorrect = isCorrectRaw.response.toLowerCase().indexOf('yes') === 0;
+
+    let loopLimit = 5;
+
+    // If the implementation is not correct, ask for improvements
+    while (!isCorrect && loopLimit-- > 0) {
+      console.log(`${name} is not correct. Asking for improvements...`)
+      implementation = await chain.call([
+        new SystemChatMessage(IMPROVER),
+        new HumanChatMessage(specification),
+      ]);
+
+      // Check the correctness of the improved implementation
+      isCorrectRaw = await chain.call([
+        new SystemChatMessage(CORRECTNESS_CHECK),
+        new HumanChatMessage('SPECIFICATION:'),
+        new HumanChatMessage(specification),
+        new HumanChatMessage('IMPLEMENTATION:'),
+        new HumanChatMessage(implementation),
+      ]);
+      isCorrect = isCorrectRaw.response.toLowerCase().indexOf('yes') === 0;
+    }
+
+    if (loopLimit <= 0) {
+      console.log(`Could not improve ${name} after 5 attempts. Resulting file has known flaws.`)
+    }
 
     files.push({
       name,
@@ -146,30 +179,3 @@ async function start () {
     fs.writeFileSync(`./implementation/${file.name}`, file.implementation);
   }
 }
-
-app.post("/ask", async (req, res) => {
-  try {
-    const { question } = req.body;
-
-    if (!question) {
-      return res.status(400).json({ error: "Question is required" });
-    }
-
-    const chain = await chainPromise;
-    const response = await chain.call({ question, chat_history: [] });
-    const answer = response.text.trim();
-
-    res.json({ question, answer });
-  } catch (error) {
-    console.error(error);
-    res
-      .status(500)
-      .json({ error: "An error occurred while processing the question" });
-  }
-});
-
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});

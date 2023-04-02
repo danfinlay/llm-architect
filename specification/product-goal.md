@@ -1,4 +1,4 @@
-This is the specification document for a TypeScript node.js process that takes a software specification document, and passes it to an LLM for implementation.
+This is the specification document for a TypeScript node.js process that takes a software specification document, and passes it to a series of LLMs for implementation over multiple LLM passes.
 
 The process will use the typescript langchain library to make queries. Usage looks like this:
 
@@ -57,4 +57,8 @@ type llmInput = {
 
 You need to create three functions that accept llmInput type as a parameter and then call the langchain library to implement them.
 
-- 
+- One that takes thellmInput and produces a full `text` output, up to a `maximumLength` length of tokens.
+- One that takes an `llmInput` as its first parameter, 
+
+
+How would I create a llmchain function 
