@@ -1,18 +1,17 @@
 import { LLMChain } from "langchain/chains";
 import dotenv from "dotenv";
+import crypto from 'crypto';
 import { SystemChatMessage, HumanChatMessage } from "langchain/schema";
 import { loadAndProcessDocuments } from "./documentProcessor.js";
 import { ChatOpenAI } from "langchain/chat_models";
-import * as fs from 'fs';
+import * as fs from 'fs/promises';
 import { promisify } from 'util';
-import { writeFile } from 'fs/promises';
 import {
   ChatPromptTemplate,
   HumanMessagePromptTemplate,
   PromptTemplate,
   SystemMessagePromptTemplate,
 } from "langchain/prompts";
-const readFileAsync = promisify(fs.readFile);
 
 const BREAKPOINT = '%BREAK%';
 
@@ -20,73 +19,56 @@ const internalPrompts = {};
 
 dotenv.config();
 
-const CORRECTNESS_CHECK = 'You are a software specification verifier. You review the specification of a component and verify that it is correct. The specification is {specification} and the implementation is {implementation}.';
-const IMPROVER = 'You are an auto debugger. You take the specification of a component and the implementation of that component, and you make improvements to the implementation until it is correct.'
-const NAMER = 'You are a file name generator. You take the description of a component and propose a simple file name for it, with no additional text.';
-
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 async function start () {
+  const vectorStore = await loadAndProcessDocuments("specification/additional-docs/");
 
-  internalPrompts.smallnessChecker = await readFileAsync('./internal_prompts/smallness-checker.txt', 'utf8');
-  internalPrompts.subdivider = await readFileAsync('./internal_prompts/subdivider.txt', 'utf8');
-  internalPrompts.developer = await readFileAsync('./internal_prompts/developer.txt', 'utf8');
-  const specification = fs.readFileSync('./specification/product-goal.md', 'utf8');
+  console.log("Loading internal prompts...")
+  internalPrompts.smallnessChecker = await fs.readFile('./internal_prompts/smallness-checker.txt', 'utf8');
+  internalPrompts.subdivider = await fs.readFile('./internal_prompts/subdivider.txt', 'utf8');
+  internalPrompts.developer = await fs.readFile('./internal_prompts/developer.txt', 'utf8');
+  internalPrompts.correctnessChecker = await fs.readFile('./internal_prompts/correctness-checker.txt', 'utf8');
+  internalPrompts.improver = await fs.readFile('./internal_prompts/improver.txt', 'utf8');
+  internalPrompts.namer = await fs.readFile('./internal_prompts/namer.txt', 'utf8');
+  const specification = await fs.readFile('./specification/product-goal.md', 'utf8');
 
   console.log("Subdivider:")
   console.log(internalPrompts.subdivider);
 
-  const vectorStore = await loadAndProcessDocuments("specification/additional-docs/");
-
   const model = new ChatOpenAI({
     temperature: 0,
     openAIApiKey: OPENAI_API_KEY,
+    vectorStore,
   });
-
-
 
   // Simplify the components
   // Define the async splitIfPossible function
   async function splitIfPossible(item) {
-    console.log('checking if item is simple enough...')
+    console.log('checking if item is simple enough...', item)
 
-    const smallnessPrompt = new PromptTemplate({
+    // Check smallness
+    const smallnessRes = await promptWithTemplate(model, {
       template: internalPrompts.smallnessChecker,
-      inputVariables: ["specification"],
+      inputVariables: {
+        specification: item,
+      },
     });
-    const smallnessChain = new LLMChain({
-      prompt: smallnessPrompt,
-      llm: model,
-    });
-    const smallnessRes = await smallnessChain.call({
-      specification: item,
-    });
-
-    const isSimple = smallnessRes.text.toLowerCase().indexOf('yes') === 0;
+    console.log('smallnessRes', smallnessRes)
+    const isSimple = smallnessRes.toLowerCase().indexOf('yes') === 0;
     if (isSimple) {
       console.log('Simple enough!');
       return item;
     }
 
-    const template = internalPrompts.subdivider;
-    const prompt = new PromptTemplate({ template, inputVariables: ["specification"] });
-  
-    const chain = new LLMChain({
-      prompt,
-      llm: model,
-      // vectorStore.asRetriever()
+    // Subdivide if needed
+    const subcomponentsStr = await promptWithTemplate(model, {
+      template: internalPrompts.subdivider,
+      inputVariables: {
+        specification: item,
+      },
     });
-  
-    console.log("\nAsking the subdivider to break down the product: ", specification)
-    console.log(typeof internalPrompts.subdivider)
-    console.log(typeof specification)
-    const response2 = await chain.call({
-      specification,
-    });
-    console.log("The architect has designed the product. Evaluating component complexity...")
-    console.dir(response2);
-  
-    const components = response2.text.join().split(BREAKPOINT);
+    const components = subcomponentsStr.split(BREAKPOINT);
     return components;
   }
 
@@ -112,90 +94,126 @@ async function start () {
 
   await processItem(specification);
 
-  // The final implemented files
-  const files = [];
-
   // Implement the components
   for (let specification of subcomponents) {
 
     // Get the name of the component:
-    const prompt = new PromptTemplate({ template: NAMER, inputVariables: ["specification"] });
-    const nameChain = new LLMChain({
-      prompt,
-      llm: model,
-      // vectorStore.asRetriever()
+    const name = await promptWithTemplate(model, {
+      template: internalPrompts.namer,
+      inputVariables: {
+        specification,
+      }
     });
-    const nameRes = await nameChain.call({
-      specification,
-    });
-    const name = nameRes.text;
 
     // Implement the component:
-    console.log(`Implementing ${name}...`);
-    const devPrompt = new PromptTemplate({ template: internalPrompts.developer, inputVariables: ["specification"] });
-    const devChain = new LLMChain({
-      prompt: devPrompt,
-      llm: model,
-      // vectorStore.asRetriever()
+    let implementation = await promptWithTemplate(model, {
+      template: internalPrompts.developer,
+      inputVariables: {
+        specification,
+      }
     });
-    const devRes= await devChain.call({
-      specification,
-    });
-    const implementation = devRes.text;
     console.log(implementation);
     console.log('Implementation complete. Checking correctness...')
 
     // Check the correctness of the implementation
-    const correctnessPrompt = new PromptTemplate({
+    const isCorrectText = await promptWithTemplate(model, {
       template: internalPrompts.correctnessChecker,
-      inputVariables: ["specification", "implementation"],
-    })
-    const correctnessChain = new LLMChain({
-      prompt: correctnessPrompt,
-      llm: model,
+      inputVariables: {
+        specification,
+        implementation,
+      }
     });
-    let isCorrectRaw = await correctnessChain.call({
-      specification,
-      implementation,
-    });
-    let isCorrect = isCorrectRaw.text.toLowerCase().indexOf('yes') === 0;
+    let isCorrect = isCorrectText.toLowerCase().indexOf('yes') === 0;
 
     let loopLimit = 10;
 
     // If the implementation is not correct, ask for improvements
     while (!isCorrect && loopLimit-- > 0) {
-      console.log(`${name} is not correct. Asking for improvements...`)
-      implementation = await await correctnessChain.call({
-        specification,
-        implementation,
-        text: "Please make the first of your suggested improvements in one pass, with no commentary."
+      implementation = await promptWithTemplate(model, {
+        template: internalPrompts.improver,
+        inputVariables: {
+          specification,
+          implementation,
+        },
       });
 
       // Check the correctness of the improved implementation
-      isCorrectRaw = await chain.call([
-        new SystemChatMessage(CORRECTNESS_CHECK),
-        new HumanChatMessage('SPECIFICATION:'),
-        new HumanChatMessage(specification),
-        new HumanChatMessage('IMPLEMENTATION:'),
-        new HumanChatMessage(implementation),
-      ]);
-      isCorrect = isCorrectRaw.text.toLowerCase().indexOf('yes') === 0;
+      const isCorrectText = await promptWithTemplate(model, {
+        template: internalPrompts.improver,
+        inputVariables: {
+          specification,
+          implementation,
+        }
+      });
+      isCorrect = isCorrectText.toLowerCase().indexOf('yes') === 0;
     }
 
     if (loopLimit <= 0) {
       console.log(`Could not improve ${name} after max attempts. Resulting file has known flaws.`)
     }
 
-    files.push({
-      name,
-      implementation,
-    });
+    console.log(`attempting to write ${name}`)
+    await fs.writeFile(`./implementation/${name}`, implementation);
   }
+  console.log(`Completed creating ${subcomponents.length} subcomponent files.`);
+}
 
-  // Write the files to disk
-  for (let file of files) {
-    await writeFile(`./implementation/${file.name}`, file.implementation);
+/**
+ * Takes a model, template, and input variables and returns a the result of prompting the model with the template and input variables.
+ * Saves the result to a cache folder, and returns the cached result if it exists from a previous equivalent execution.
+ * @param {*} model 
+ * @param {*} template 
+ * @param {*} inputVariables 
+ * @returns 
+ */
+async function promptWithTemplate (model, opts) {
+  return cacheOrExecute(opts, rawPrompt.bind(null, model, opts));
+}
+
+async function cacheOrExecute(jsonArgument, executeFunction) {
+  // Convert the JSON argument to a string
+  const jsonString = JSON.stringify(jsonArgument);
+
+  // Create a hash of the JSON string
+  const hash = crypto.createHash('sha256').update(jsonString).digest('hex');
+
+  // Check if a file with the hash name exists in the './cache' folder
+  const cacheFilePath = `./cache/${hash}`;
+  try {
+    const cachedData = await fs.readFile(cacheFilePath, 'utf8');
+    console.log('Cache hit: returning cached data.');
+    return cachedData;
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      console.log('Cache miss: executing function.');
+
+      // If the file doesn't exist, execute the function as normal
+      const result = await executeFunction();
+
+      // Save the result to the cache folder with the hash as its name
+      await fs.writeFile(cacheFilePath, result, 'utf8');
+      return result;
+    } else {
+      // Rethrow any other errors
+      throw error;
+    }
   }
+}
+
+async function rawPrompt (model, opts) {
+  const prompt = new PromptTemplate({
+    template: opts.template,
+    inputVariables: Object.keys(opts.inputVariables),
+  })
+  const chain = new LLMChain({
+    prompt: prompt,
+    llm: model,
+  });
+  console.dir(opts);
+  let response = await chain.call(opts.inputVariables);
+  console.log('response', response);
+  console.dir({ response })
+  return response.text;
 }
 
 start()
