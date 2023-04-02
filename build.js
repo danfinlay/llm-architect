@@ -46,6 +46,9 @@ async function start () {
   // Define the async splitIfPossible function
   async function splitIfPossible(item) {
     console.log('checking if item is simple enough...', item)
+    if (item === '') {
+      return;
+    }
 
     // Check smallness
     const smallnessRes = await promptWithTemplate(model, {
@@ -87,6 +90,9 @@ async function start () {
         await processItem(newItem);
       }
     } else {
+      if (item === '') {
+        return;
+      }
       // If the result is not an array, push the original item to subcomponents
       subcomponents.push(item);
     }
