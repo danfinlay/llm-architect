@@ -1,4 +1,4 @@
-import { ConversationalRetrievalQAChain } from "langchain/chains";
+import { LLMChain } from "langchain/chains";
 import dotenv from "dotenv";
 import { SystemChatMessage, HumanChatMessage } from "langchain/schema";
 import { loadAndProcessDocuments } from "./documentProcessor.js";
@@ -6,6 +6,12 @@ import { ChatOpenAI } from "langchain/chat_models";
 import * as fs from 'fs';
 import { promisify } from 'util';
 import { writeFile } from 'fs/promises';
+import {
+  ChatPromptTemplate,
+  HumanMessagePromptTemplate,
+  PromptTemplate,
+  SystemMessagePromptTemplate,
+} from "langchain/prompts";
 const readFileAsync = promisify(fs.readFile);
 
 const BREAKPOINT = '%BREAK%';
@@ -14,8 +20,9 @@ const internalPrompts = {};
 
 dotenv.config();
 
-const CORRECTNESS_CHECK = 'You are a software specification verifier. You review the specification of a component and verify that it is correct.';
+const CORRECTNESS_CHECK = 'You are a software specification verifier. You review the specification of a component and verify that it is correct. The specification is {specification} and the implementation is {implementation}.';
 const IMPROVER = 'You are an auto debugger. You take the specification of a component and the implementation of that component, and you make improvements to the implementation until it is correct.'
+const NAMER = 'You are a file name generator. You take the description of a component and propose a simple file name for it, with no additional text.';
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
@@ -36,51 +43,50 @@ async function start () {
     openAIApiKey: OPENAI_API_KEY,
   });
 
-  const chain = ConversationalRetrievalQAChain.fromLLM(
-    model,
-    vectorStore.asRetriever()
-  );
 
-  console.log("\nAsking the subdivider to break down the product: ", specification)
-  console.log(typeof internalPrompts.subdivider)
-  console.log(typeof specification)
-  const response = await chain.call([
-    new SystemChatMessage(internalPrompts.subdivider),
-    new HumanChatMessage(specification),
-  ]);
-  const componentsList = response.response;
-  console.log("The architect has designed the product. Evaluating component complexity...")
-
-  const components = componentsList.split(BREAKPOINT);
 
   // Simplify the components
   // Define the async splitIfPossible function
   async function splitIfPossible(item) {
+    console.log('checking if item is simple enough...')
 
-    console.log('Considering if this component is simple enough:');
-    console.log(item);
-    const response = await chain.call([
-      new SystemChatMessage(
-        internalPrompts.smallnessChecker
-      ),
-      new HumanChatMessage('Is this component simple enough to be implemented by a junior developer in under 500 lines of code? Reply simply "yes" or "no".'),
-    ]);
+    const smallnessPrompt = new PromptTemplate({
+      template: internalPrompts.smallnessChecker,
+      inputVariables: ["specification"],
+    });
+    const smallnessChain = new LLMChain({
+      prompt: smallnessPrompt,
+      llm: model,
+    });
+    const smallnessRes = await smallnessChain.call({
+      specification: item,
+    });
 
-    const isSimple = response.response.toLowerCase().indexOf('yes') === 0;
+    const isSimple = smallnessRes.text.toLowerCase().indexOf('yes') === 0;
     if (isSimple) {
       console.log('Simple enough!');
       return item;
     }
 
-    console.log('Not simple enough. Splitting into smaller components...');
-    const response2 = await chain.call([
-      new SystemChatMessage(
-        internalPrompts.subdivider
-      ),
-      new HumanChatMessage('Please split this component into no more than five smaller components. Separate each component with a new line.'),
-    ]);
-
-    const components = response2.response.split(BREAKPOINT);
+    const template = internalPrompts.subdivider;
+    const prompt = new PromptTemplate({ template, inputVariables: ["specification"] });
+  
+    const chain = new LLMChain({
+      prompt,
+      llm: model,
+      // vectorStore.asRetriever()
+    });
+  
+    console.log("\nAsking the subdivider to break down the product: ", specification)
+    console.log(typeof internalPrompts.subdivider)
+    console.log(typeof specification)
+    const response2 = await chain.call({
+      specification,
+    });
+    console.log("The architect has designed the product. Evaluating component complexity...")
+    console.dir(response2);
+  
+    const components = response2.text.join().split(BREAKPOINT);
     return components;
   }
 
@@ -111,42 +117,59 @@ async function start () {
 
   // Implement the components
   for (let specification of subcomponents) {
-    // Get the name of the component:
-    const name = await chain.call([
-      new SystemChatMessage('You are a file name generator. You take the description of a component and propose a simple file name for it, with no additional text.'),
-      new HumanChatMessage('Please provide a file name for this component: '),
-      new HumanChatMessage(specification),
-    ]);
 
+    // Get the name of the component:
+    const prompt = new PromptTemplate({ template: NAMER, inputVariables: ["specification"] });
+    const nameChain = new LLMChain({
+      prompt,
+      llm: model,
+      // vectorStore.asRetriever()
+    });
+    const nameRes = await nameChain.call({
+      specification,
+    });
+    const name = nameRes.text;
+
+    // Implement the component:
     console.log(`Implementing ${name}...`);
-    let implementation = await chain.call([
-      new SystemChatMessage(internalPrompts.developer),
-      new HumanChatMessage('Please implement this component:'),
-      new HumanChatMessage(specification),
-    ]);
+    const devPrompt = new PromptTemplate({ template: internalPrompts.developer, inputVariables: ["specification"] });
+    const devChain = new LLMChain({
+      prompt: devPrompt,
+      llm: model,
+      // vectorStore.asRetriever()
+    });
+    const devRes= await devChain.call({
+      specification,
+    });
+    const implementation = devRes.text;
     console.log(implementation);
     console.log('Implementation complete. Checking correctness...')
 
-
     // Check the correctness of the implementation
-    let isCorrectRaw = await chain.call([
-      new SystemChatMessage(CORRECTNESS_CHECK),
-      new HumanChatMessage('SPECIFICATION:'),
-      new HumanChatMessage(specification),
-      new HumanChatMessage('IMPLEMENTATION:'),
-      new HumanChatMessage(implementation),
-    ]);
-    let isCorrect = isCorrectRaw.response.toLowerCase().indexOf('yes') === 0;
+    const correctnessPrompt = new PromptTemplate({
+      template: internalPrompts.correctnessChecker,
+      inputVariables: ["specification", "implementation"],
+    })
+    const correctnessChain = new LLMChain({
+      prompt: correctnessPrompt,
+      llm: model,
+    });
+    let isCorrectRaw = await correctnessChain.call({
+      specification,
+      implementation,
+    });
+    let isCorrect = isCorrectRaw.text.toLowerCase().indexOf('yes') === 0;
 
-    let loopLimit = 5;
+    let loopLimit = 10;
 
     // If the implementation is not correct, ask for improvements
     while (!isCorrect && loopLimit-- > 0) {
       console.log(`${name} is not correct. Asking for improvements...`)
-      implementation = await chain.call([
-        new SystemChatMessage(IMPROVER),
-        new HumanChatMessage(specification),
-      ]);
+      implementation = await await correctnessChain.call({
+        specification,
+        implementation,
+        text: "Please make the first of your suggested improvements in one pass, with no commentary."
+      });
 
       // Check the correctness of the improved implementation
       isCorrectRaw = await chain.call([
@@ -156,11 +179,11 @@ async function start () {
         new HumanChatMessage('IMPLEMENTATION:'),
         new HumanChatMessage(implementation),
       ]);
-      isCorrect = isCorrectRaw.response.toLowerCase().indexOf('yes') === 0;
+      isCorrect = isCorrectRaw.text.toLowerCase().indexOf('yes') === 0;
     }
 
     if (loopLimit <= 0) {
-      console.log(`Could not improve ${name} after 5 attempts. Resulting file has known flaws.`)
+      console.log(`Could not improve ${name} after max attempts. Resulting file has known flaws.`)
     }
 
     files.push({
