@@ -7,3 +7,4 @@ There should be a standard interface that each piece implements to be incorporat
 The pieces in this game will each be defined in their own module, and users will be able to add new pieces to the game, which will be sandboxed with the Compartment API from the `@agoric/ses` `Compartment` API.
 There should be a piece editor view that allows customizing a piece's graphic, and the code that represents the piece.
 Users should be able to save and export their custom pieces and boards.
+This game has no need for an AI component at this time.

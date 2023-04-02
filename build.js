@@ -145,7 +145,7 @@ async function start () {
 
       // Check the correctness of the improved implementation
       const isCorrectText = await promptWithTemplate(model, {
-        template: internalPrompts.improver,
+        template: internalPrompts.correctnessChecker,
         inputVariables: {
           specification,
           implementation,
