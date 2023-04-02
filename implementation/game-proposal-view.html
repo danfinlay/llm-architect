@@ -1,0 +1,31 @@
+class GameProposalView {
+  constructor() {
+    this.boardLayout = null;
+    this.pieces = null;
+    this.state = null;
+  }
+
+  initialize(boardLayout, pieces) {
+    this.boardLayout = boardLayout;
+    this.pieces = pieces;
+    this.state = 'initialized';
+  }
+
+  getState() {
+    return this.state;
+  }
+
+  acceptGame() {
+    if (this.state === 'initialized') {
+      this.state = 'accepted';
+    }
+  }
+
+  rejectGame() {
+    if (this.state === 'initialized') {
+      this.state = 'rejected';
+    }
+  }
+}
+
+module.exports = GameProposalView;
