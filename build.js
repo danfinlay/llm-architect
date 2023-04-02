@@ -1,34 +1,33 @@
-import express from "express";
-import bodyParser from "body-parser";
-import { OpenAI } from "langchain/llms";
 import { ConversationalRetrievalQAChain } from "langchain/chains";
 import dotenv from "dotenv";
 import { SystemChatMessage, HumanChatMessage } from "langchain/schema";
 import { loadAndProcessDocuments } from "./documentProcessor.js";
 import { ChatOpenAI } from "langchain/chat_models";
 import * as fs from 'fs';
+import { promisify } from 'util';
+import { writeFile } from 'fs/promises';
+const readFileAsync = promisify(fs.readFile);
 
 const BREAKPOINT = '%BREAK%';
 
-const internalPrompts = {
-  smallnessChecker: fs.readFileSync('./internal_prompts/smallness-checker.txt', 'utf8'),
-  subdivider: fs.readFileSync('./internal_prompts/subdivider.txt', 'utf8'),
-  developer: fs.readFileSync('./internal_prompts/developer.txt', 'utf8'),
-}
-console.log("Subdivider:")
-console.log(internalPrompts.subdivider);
+const internalPrompts = {};
 
 dotenv.config();
 
 const CORRECTNESS_CHECK = 'You are a software specification verifier. You review the specification of a component and verify that it is correct.';
 const IMPROVER = 'You are an auto debugger. You take the specification of a component and the implementation of that component, and you make improvements to the implementation until it is correct.'
 
-const specification = fs.readFileSync('./specification/product-goal.md', 'utf8');
-
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-
 async function start () {
+
+  internalPrompts.smallnessChecker = await readFileAsync('./internal_prompts/smallness-checker.txt', 'utf8');
+  internalPrompts.subdivider = await readFileAsync('./internal_prompts/subdivider.txt', 'utf8');
+  internalPrompts.developer = await readFileAsync('./internal_prompts/developer.txt', 'utf8');
+  const specification = fs.readFileSync('./specification/product-goal.md', 'utf8');
+
+  console.log("Subdivider:")
+  console.log(internalPrompts.subdivider);
 
   const vectorStore = await loadAndProcessDocuments("specification/additional-docs/");
 
@@ -172,7 +171,7 @@ async function start () {
 
   // Write the files to disk
   for (let file of files) {
-    fs.writeFileSync(`./implementation/${file.name}`, file.implementation);
+    await writeFile(`./implementation/${file.name}`, file.implementation);
   }
 }
 
