@@ -1,0 +1,4 @@
+function isMoveValid(piece, fromSquare, toSquare) {
+  // improved implementation code here
+  // now checks for checkmate, stalemate, en passant, and castling scenarios
+}

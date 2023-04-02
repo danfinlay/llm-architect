@@ -1,5 +1,0 @@
-class GraphicEditor {
-  displayPiece(piece) {
-    // implementation code here
-  }
-}

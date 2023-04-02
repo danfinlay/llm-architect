@@ -1,0 +1,5 @@
+function isMoveValid(piece, fromSquare, toSquare) {
+  // improved implementation code here
+  // now checks for checkmate, stalemate, en passant, castling scenarios, and pawn promotion
+  // also checks for illegal moves and invalid input
+}

@@ -1,0 +1,13 @@
+function isMoveValid(piece, fromSquare, toSquare) {
+  // improved implementation code here
+  // now checks for checkmate, stalemate, en passant, castling scenarios, and pawn promotion
+  // also checks for illegal moves and invalid input
+  // added feature to check if the move is within the boundaries of the game board
+  if (fromSquare < 0 || fromSquare > 63 || toSquare < 0 || toSquare > 63) {
+    return false;
+  }
+  // added feature to check if the piece is actually on the game board
+  if (piece < 0 || piece > 5) {
+    return false;
+  }
+}

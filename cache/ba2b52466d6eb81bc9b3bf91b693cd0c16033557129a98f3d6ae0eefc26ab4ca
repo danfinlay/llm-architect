@@ -1,0 +1,44 @@
+<div id="custom-piece-editor">
+  <div class="graphic-editor">
+    <!-- Graphic editing interface -->
+  </div>
+  <div class="code-editor">
+    <!-- Code editing interface -->
+  </div>
+  <button onclick="saveCustomPiece()">Save Custom Piece</button>
+</div>
+
+<script>
+  function communicateWithPieceComponent(pieceData) {
+    // Code to communicate with Piece Component
+  }
+  
+  function saveCustomPiece() {
+    let pieceData = {
+      graphic: getGraphicData(),
+      code: getCodeData()
+    };
+    communicateWithPieceComponent(pieceData);
+    clearCustomPieceEditor();
+  }
+  
+  function getGraphicData() {
+    // Code to get graphic data
+  }
+  
+  function getCodeData() {
+    // Code to get code data
+  }
+  
+  function clearCustomPieceEditor() {
+    // Code to clear the custom piece editor
+    document.querySelector('.graphic-editor').innerHTML = '';
+    document.querySelector('.code-editor').innerHTML = '';
+  }
+</script>
+
+<style>
+  /* CSS styles for the Custom Piece Editor Component */
+</style> 
+
+The improvement made is to add a call to the clearCustomPieceEditor() function after the communicateWithPieceComponent() function is called in the saveCustomPiece() function. This ensures that the custom piece editor is cleared after the custom piece is saved, providing a better user experience.

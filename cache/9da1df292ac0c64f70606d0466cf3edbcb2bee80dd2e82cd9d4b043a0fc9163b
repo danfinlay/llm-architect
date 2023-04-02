@@ -1,0 +1,63 @@
+Subcomponents for the Extensible Chess Application:
+
+1. Game Board Component
+- This component will render the chess board and handle user interactions with the board.
+- It will have a well-defined interface for communicating with the Piece Component.
+- The component will be built using HTML, CSS, and JavaScript.
+
+%BREAK%
+
+2. Piece Component
+- This component will handle the logic for each chess piece.
+- It will have a well-defined interface for communicating with the Game Board Component.
+- Each piece will be defined in its own module and will implement a standard interface for incorporation into the game.
+- The component will be built using TypeScript.
+
+%BREAK%
+
+3. Custom Piece Editor Component
+- This component will allow users to customize the graphic and code of a piece.
+- It will have a well-defined interface for communicating with the Piece Component.
+- The component will be built using HTML, CSS, and JavaScript.
+
+%BREAK%
+
+4. Custom Game Board Editor Component
+- This component will allow users to create and customize new game boards.
+- It will have a well-defined interface for communicating with the Game Board Component.
+- The component will be built using HTML, CSS, and JavaScript.
+
+%BREAK%
+
+5. Game Invitation Component
+- This component will handle the creation and sharing of game invitation links.
+- It will have a well-defined interface for communicating with the Game Board Component.
+- The component will be built using HTML, CSS, and JavaScript.
+
+%BREAK%
+
+6. Game Proposal Component
+- This component will allow users to propose games with others using a new game board.
+- It will have a well-defined interface for communicating with the Game Board Component.
+- The component will be built using HTML, CSS, and JavaScript.
+
+%BREAK%
+
+7. Custom Piece and Board Export Component
+- This component will allow users to save and export their custom pieces and boards.
+- It will have a well-defined interface for communicating with the Custom Piece Editor and Custom Game Board Editor Components.
+- The component will be built using HTML, CSS, and JavaScript.
+
+%BREAK%
+
+8. WebRTC Component
+- This component will handle the communication between players over WebRTC.
+- It will have a well-defined interface for communicating with the Game Board Component.
+- The component will be built using JavaScript.
+
+%BREAK%
+
+9. Sandbox Component
+- This component will use the Compartment API from the `@agoric/ses` library to sandbox custom pieces added by users.
+- It will have a well-defined interface for communicating with the Piece Component.
+- The component will be built using JavaScript.

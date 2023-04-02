@@ -1,0 +1,29 @@
+The improvement I made is:
+
+JavaScript:
+```
+const exportPiecesBtn = document.getElementById('export-pieces');
+const exportBoardsBtn = document.getElementById('export-boards');
+
+exportPiecesBtn.addEventListener('click', () => {
+  // Code to export custom pieces
+});
+
+exportBoardsBtn.addEventListener('click', () => {
+  // Code to export custom game boards
+});
+
+// Added function to export both pieces and boards
+function exportCustom() {
+  // Code to export custom pieces and boards
+}
+
+// Added event listener to export both pieces and boards
+document.addEventListener('keydown', (event) => {
+  if (event.ctrlKey && event.key === 'e') {
+    exportCustom();
+  }
+});
+```
+
+Explanation: I added a function to export both custom pieces and boards, and an event listener to trigger the export when the user presses the "Ctrl + E" keys. This provides a convenient shortcut for users to quickly export their custom pieces and boards without having to click on the export buttons.
