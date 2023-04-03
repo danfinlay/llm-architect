@@ -1,3 +1,0 @@
-- Work by [[saleh]]
-- https://ocapjs.org/t/conceptual-ses-frame-implementation-for-browsers/61
-- https://ocapjs.org/t/containment-via-service-worker/94

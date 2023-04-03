@@ -1,8 +1,0 @@
-- A strategy of transaction [[replay protection]] by [[Pisa Research]] first described [in this article and hackathon entry](https://github.com/PISAresearch/metamask-comp).
-- [An implementation](https://github.com/anydotcrypto/metatransactions/blob/for-audit/src/contracts/account/ReplayProtection.sol) in [[Solidity]]
-- There are two dimensions to a nonce
-    - Row
-    - Transaction Number
-- Each row’s transactions must be executed in order, but there may be an arbitrary number of rows, allowing highly parallelized transaction queues.
-- Would need to be supported at the contract-account level, like in a fork of [[[[Gnosis]] SAFE]], as its strategy for replay protection.
-    - [Opened as an issue](https://github.com/gnosis/safe-contracts/issues/239) there.

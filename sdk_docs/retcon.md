@@ -1,2 +1,0 @@
-- Retroactive continuity
-- A story added after the fact to explain how something happened.

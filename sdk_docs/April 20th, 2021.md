@@ -1,5 +1,0 @@
-- [[roam/js]][[security]][[trust]] https://twitter.com/roamhacker/status/1384526646720569345?s=21
-- [[Secure EcmaScript (SES)]] major version bump is coming
-    - Simplifying API surface, removing the `lockdown()` layer and ejecting the [[Static Module Record]] constructor down to a mere duck-type, so a third-party package can take the hit of incorporating [[babel.js]]
-        - duck-type is json-serializable which helps keep SES light at runtime.
-        - [[Static Module Record]] is only needed at build time, if you need it.

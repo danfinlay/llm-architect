@@ -1,2 +1,0 @@
-- Written by [[Richard "ricmoo" Moore]] and [[Nick Johnson]]
-- https://github.com/ethereum/EIPs/issues/4431

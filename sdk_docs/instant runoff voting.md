@@ -1,2 +1,0 @@
-- A popular algorithm for counting [[ranked choice vote]]s
-- 

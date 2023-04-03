@@ -1,1 +1,0 @@
-- [[JavaScript]] `a~.syntax()` for [[Eventual Send]]

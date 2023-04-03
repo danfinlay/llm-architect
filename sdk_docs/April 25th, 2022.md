@@ -1,6 +1,0 @@
-- [[Gnu Name System (GNS))]] aims to implement an open source [[pet name]] system.
-- [[MetaModernism]] as a form of [[Intelligent Voluntary Cooperation]] says [[Vinay Gupta]]
-    - https://twitter.com/leashless/status/1363669823927046144
-- [[April 25th, 2022]] at 22:54
-    - [[Cashless.social]] as p2p lending platform
-        - https://twitter.com/utunga/status/1518513519406157824?s=21&t=

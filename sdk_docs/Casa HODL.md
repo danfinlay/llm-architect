@@ -1,1 +1,0 @@
-- A [[Bitcoin]] wallet that integrates semi-custodial multi-sig account usage.

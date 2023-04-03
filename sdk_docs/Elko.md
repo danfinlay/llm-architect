@@ -1,3 +1,0 @@
-- https://github.com/FUDCo/Elko
-- A [[Java (language)]] based [[web framework]] by [[Chip Morningstar]]
-- Uses the [[unum]] pattern

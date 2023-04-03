@@ -1,2 +1,0 @@
-- https://www.paradigm.xyz/2022/09/artgobblers
-- https://artgobblers.com/about

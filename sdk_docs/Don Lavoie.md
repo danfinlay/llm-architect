@@ -1,1 +1,0 @@
-- Author of [[Rivalry and Central Planning]] https://twitter.com/jimepstein/status/1314977328754315269?s=21

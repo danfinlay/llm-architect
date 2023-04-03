@@ -1,4 +1,0 @@
-- after many acts, the performer says “I’ll do the last act once this jar reaches ((target amount)”
-- Basis for [[Kickstarter]]
-    - Accepting that you get paid before you do it. accepting some level of fraud, unlocking many things along the way.
-    - [[Indiegogo]]? tried a variation where fundraisers get paid whether or not the target is reached.

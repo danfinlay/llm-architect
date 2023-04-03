@@ -1,6 +1,0 @@
-- [On Google Research](https://research.google/pubs/pub40673/)
-- Authors
-    - [[Mark Miller]]
-    - [[Bill Tulloh]]
-    - [[Tom Van Cutsem]]
-- [Hosted on Google](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40673.pdf)

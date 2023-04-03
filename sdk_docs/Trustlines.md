@@ -1,4 +1,0 @@
-- https://trustlines.network/
-- An implementation of [[trustlines]].
-    - Originally on the [[Ethereum]] blockchain.
-    - I believe it went on to create its on blockchain.

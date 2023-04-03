@@ -1,3 +1,0 @@
-- Abstraction between user action and
-    - gas payment
-    - replay protection

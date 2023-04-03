@@ -1,4 +1,0 @@
-- Genode Labs is an offspring of the OS research group of the Dresden University of Technology. Our mission is to turn our research results into solutions for real-world problems.
-- A [[object capability (ocap)]] [[microkernel]]
-- Ideas
-    - [[Genode's nitpicker]]

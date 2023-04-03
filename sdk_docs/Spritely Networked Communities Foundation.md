@@ -1,1 +1,0 @@
-- [[[[Spritely]] Institute]]

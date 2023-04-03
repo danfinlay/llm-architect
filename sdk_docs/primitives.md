@@ -1,1 +1,0 @@
-- Language values that have only value, no meaningful identity.

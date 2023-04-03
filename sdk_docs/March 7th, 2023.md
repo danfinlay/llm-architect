@@ -1,3 +1,0 @@
-- [[[[Multiple Network Connection]] API]]
-- [[zooko's triangle]]
-    - https://twitter.com/danfinlay/status/1633216272870834176?s=20

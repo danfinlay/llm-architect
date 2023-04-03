@@ -1,4 +1,0 @@
-- Article on [[Agoric]]
-    - https://twitter.com/zooko/status/1342567068349042688?s=21
-- [[Kleros]] having large dispute to dictate the results of a [[Prediction Markets]] for the US election
-    - 

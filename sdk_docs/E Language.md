@@ -1,2 +1,0 @@
-- An [[object capability (ocap)]] language by [[Mark Miller]]
-    - Defined in detail in his doctoral thesis, [[Towards a Unified Approach to Access and Concurrency Control]]

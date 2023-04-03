@@ -1,3 +1,0 @@
-- New lead of security at [[V8 Engine]]
-    - https://twitter.com/_tsuro/status/1504172665258582025?s=21
-    - https://twitter.com/5aelo/status/1504154175613149189?s=21

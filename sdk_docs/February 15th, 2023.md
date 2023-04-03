@@ -1,2 +1,0 @@
-- [[zloroirock]] [[core-js]] [[open source]] maintainer story
-    - https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md

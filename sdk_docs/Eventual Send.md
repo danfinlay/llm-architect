@@ -1,4 +1,0 @@
-- A proposal to allow [[JavaScript]] to support a form of [[Promise Pipelining]].
-- https://github.com/tc39/proposal-eventual-send
-- Syntax improvement opportunities
-    - [[tildot syntax]]

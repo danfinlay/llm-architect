@@ -1,9 +1,0 @@
-- [[incentive tree auction]]
-- [[James Prestwich]] on [[Miner Extractible Value (MEV)]]
-    - https://medium.com/@Prestwich/mev-c417d9a5eb3d
-    - tweet
-        - https://twitter.com/_prestwich/status/1607449732003287041?s=20
-- [[JS Interpreter]] by [[Neil Fraser]]
-    - https://github.com/NeilFraser/JS-Interpreter
-- [[Kevin Rose]] was phished by [[SeaPort]] [[EIP 712: signTypedData]] [[phishing]]
-    - https://twitter.com/zachxbt/status/1618360113190031360?s=20

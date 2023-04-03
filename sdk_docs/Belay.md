@@ -1,4 +1,0 @@
-- https://sites.google.com/site/belayresearchproject/
-- A [[Secure UI]] experiment using drag-and-drop [[capability]].
-- Developed at [[Google]]
-- 

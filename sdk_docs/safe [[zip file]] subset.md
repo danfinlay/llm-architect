@@ -1,2 +1,0 @@
-- Being developed by [[Kris Kowal]]
-- Because zip files can have overlapping memory spaces, and this allows shennanigans.

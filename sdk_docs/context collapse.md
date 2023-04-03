@@ -1,7 +1,0 @@
-- Popularized by [[Dana Boyd]]
-- When all the social circles are collapsed into one.
-- Example
-    - Thanksgiving day is a classic argument day, because everyone talks about everything in one shared context.
-    - Facebook examples
-        - Getting in trouble for drinking at bars from your employer (those pictures weren't for you!)
-        - Facebook actually tried to avoid this, by adding sharing groups, but those only controlled who could see a given post, which was otherwise still global, and those people have no insight into who else might see their own comment on that post.

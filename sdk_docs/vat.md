@@ -1,6 +1,0 @@
-- [[Agoric]] term from "brain in a vat"
-- Equivalent to an actor in [[The Actor Model]]
-- The unit of synchornous calls
-- The unit of vulnerability to resource consumption attacks
-- A unit of shared references
-- A unit of process portability

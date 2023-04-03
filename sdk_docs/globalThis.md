@@ -1,1 +1,0 @@
-- Standardized cross-platform accessor for the `this` value (the global object itself)`window`/`self` in the browser and/or `global` in node.

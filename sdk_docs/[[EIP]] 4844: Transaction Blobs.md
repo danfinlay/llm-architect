@@ -1,6 +1,0 @@
-- Adds new transient storage to the [[evm]].
-- Intended to improve [[optimistic rollup (OR)]] cost
-- ### Manageable Disk Use
-    - Blobs are 4096 field-elements of 32 bytes each, max 16 per block. Max 4096 * 32 * 16 = 2 MiB per block, targeted at 1 MiB.
-- ### Short Lived
-    - Blobs are pruned after ~1 month. Available long enough for all actors of a L2 to retrieve it, short enough to keep disk use manageable.

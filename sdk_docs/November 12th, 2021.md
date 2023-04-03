@@ -1,7 +1,0 @@
-- [[ungovernance]] over [[governance]]
-    - https://twitter.com/ameensol/status/1459213337816756226?s=20
-- [[micro-frontend]]
-- [[React]] currently relies on mutating [[primordial]]s, and [[CapTP]] currently relies on freezing them, and so the two are currently incompatible.
-    - [React mutates the Error primordial](https://github.com/facebook/react/search?q=prepareStackTrace)
-- [[Mark Nadal]] shares a project he calls [[SecureRender]], which he claims achieves [[trusted-in-untrusted [[Secure UI]]]]
-    - https://twitter.com/marknadal/status/1459369619488010243?s=21

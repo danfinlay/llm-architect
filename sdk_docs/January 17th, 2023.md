@@ -1,2 +1,0 @@
-- [[Constitution [[DAO]]]] members release [[DEN]]
-    - https://twitter.com/ittaisvidler/status/1615364681157468163?

@@ -1,5 +1,0 @@
-- Why haven't [[MetaTransaction]]s taken off? [from a tweet](https://twitter.com/0xfoobar/status/1535112344732413953?s=20&t=i0OyD15Ofifi3DbNEZOCaA) by [[0xfoobar]]
-    - They've been hard to use. I think good readable signature recovery via eip712 has been way too hard. I started making that easier with eip712-codegen. https://github.com/danfinlay/eip712-codegen#readme
-    - They were too rigid and hard to integrate into an existing project. I think Delegatable provides a nice interface where you add it to any other contract and you get the benefits "for free" to use as you figure later.
-    - The subsidy/repayment mechanisms kept being overly complicated. Here I propose a simple baseline (anyone can submit a valid invocation, no incentives) on which any additional terms can be added (repayment, referral fees, whatever).
-    - Honestly eip712 signatures are so much more readable than base Ethereum txs I almost think responsible devs should use them for input instead of normal methods just for the security benefits of readability.

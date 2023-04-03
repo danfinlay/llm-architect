@@ -1,1 +1,0 @@
-- [[Mark Miller]] has nearly convinced [[Christine Lemmer Webber]] that [[Scheme]]'s [[hygienic macro]] are not sufficiently hygienic.

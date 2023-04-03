@@ -1,3 +1,0 @@
-- A [[MetaTransaction]] version of the [[ERC-20 Token Allowance]] method that was written by [[Martin Lundfall]] for the [[DAI v2]] [[stable coin]].
-- https://eips.ethereum.org/EIPS/eip-2612
-- https://github.com/makerdao/dss/blob/c8d4c806691dacb903ff281b81f316bea974e4c7/src/dai.sol#L122

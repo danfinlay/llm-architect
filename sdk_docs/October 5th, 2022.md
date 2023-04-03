@@ -1,6 +1,0 @@
-- [[reentrancy vulnerabilities]]
-    - https://twitter.com/GonRMagalhaes/status/1577260921411379201
-- [[SeaPort]]
-    - https://twitter.com/0xQuit/status/1577803696141787137
-- [[Scheme]] [[wasm]][[Christine Lemmer Webber]]
-    - https://twitter.com/dustyweb/status/1577667311053537282?s=46&t=

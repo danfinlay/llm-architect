@@ -1,9 +1,0 @@
-- https://union.finance/
-- claims to be a kind of [[decentralized]][[credit line]] [[dapp]] on [[Arbitrum]]
-- intro: https://medium.com/union-finance/introducing-union-70f58f27ba10
-- Sounds much like
-    -  [[trustlines]]
-    - [[Delegatable Eth]]could bring benefits 
-        - off chain lines of credit
-        - anyone can issue for any token and any permission on any chain.
-- Initially only works for [[DAI]].

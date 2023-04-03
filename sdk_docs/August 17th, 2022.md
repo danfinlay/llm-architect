@@ -1,4 +1,0 @@
-- [[Hole punch]]
-    - Based on [[Hypercore]]
-    - [[keet]]
-- [[[[Twitter]] ratio]]

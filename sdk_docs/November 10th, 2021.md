@@ -1,2 +1,0 @@
-- [[Venkatesh "vgr" Rao]] on [[web3]]
-    - https://twitter.com/vgr/status/1457449043164991488?s=20

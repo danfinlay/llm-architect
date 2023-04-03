@@ -1,1 +1,0 @@
-- [[Why a Wallet Extension Should Get a Private Key]]

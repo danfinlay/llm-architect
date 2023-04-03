@@ -1,7 +1,0 @@
-- Like edges in a graph
-- Things that are like registries or naming authorities.
-- The important thing is not the privilege, but recognizing hubs in the system of naming that multiple parties trust and rely on for many names.
-- A hub is a node in a graph
-    - The named entities are nodes emerging from that hub in the graph.
-    - A user might have a [[pet name]] for the hub
-    - The hub then has an [[edge name]] for a given item.

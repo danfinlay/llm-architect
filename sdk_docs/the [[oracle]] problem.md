@@ -1,1 +1,0 @@
-- The problem with getting real-world information into a blockchain, which has no eyes, and only has its distribution of currency, and accounts holding that currency, writing contracts and making claims.

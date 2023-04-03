@@ -1,3 +1,0 @@
-- [[[[[[EIP]] 3074: Delegated Invocation Contracts]] Transitive Delegation Pattern]]
-- [[Stopify]] is a [[JavaScript]] [[metering]] strategy by [[Dr. Shriram Krishnamurthi]]
-    - https://twitter.com/ShriramKMurthi/status/1400553418238971906?s=20

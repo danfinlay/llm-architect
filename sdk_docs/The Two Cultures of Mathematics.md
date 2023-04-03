@@ -1,1 +1,0 @@
-- [Full text](https://www.dpmms.cam.ac.uk/~wtg10/2cultures.pdf)

@@ -1,8 +1,0 @@
-- [[security]]hardening guides
-    - https://twitter.com/nandanlohitaksh/status/1543122366028398592?s=21&t=
-- [[grokking]]
-    - https://twitter.com/awnihannun/status/1542967463100305408
-- [[July 2nd, 2022]] at 12:21
-    - [[dependent investing]] [[Peter McCormick]] https://twitter.com/0xfoobar/status/1542947085040893953?s=21&t=
-- [[Torries]]
-    - https://twitter.com/cstross/status/1543163654853591040

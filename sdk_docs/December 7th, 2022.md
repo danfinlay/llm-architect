@@ -1,5 +1,0 @@
-- [[do we trust ourselves?]]
-- [[StableDiffusion]] on [[[[Apple]] Silicon]]
-    - https://machinelearning.apple.com/research/stable-diffusion-coreml-apple-silicon
-- [[Nomad.xyz]] relaunching 
-    - https://twitter.com/nomadxyz_/status/1600476119924322305?s=4

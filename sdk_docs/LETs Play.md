@@ -1,4 +1,0 @@
-- A mutual credit game??!
-- Seems to be based on [[LETs]]
-- https://docs.google.com/document/u/0/d/1BCaVgslT7z3mBC4-d4DiH-XM5NOYcYlFdvNomrdk8A0/mobilebasic
-- Suggested on the [[Holochain]] forum https://forum.holochain.org/t/what-is-a-mutual-credit-currency/807/24 by [[mwl]] while discussing [[The Original Ripple Whitepaper]] and [[mutual credit]]

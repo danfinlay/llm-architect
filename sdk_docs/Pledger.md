@@ -1,1 +1,0 @@
-- The name for an extensible [[Secure EcmaScript (SES)]] [[object capability (ocap)]] [[wallet]] by [[Michael Fig]], currently a proof of concept [[Electron]] app.

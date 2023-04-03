@@ -1,2 +1,0 @@
-- @provenauthority on Twitter
-- Works on [[Disco.xyz]]

@@ -1,2 +1,0 @@
-- [[NFT]] [[economics]]
-    - https://twitter.com/benegotherit/status/1494368979279699992?s=21

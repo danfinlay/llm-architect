@@ -1,3 +1,0 @@
-- A [[Kumavis]] term for permitting some global authority within a code module, possibly from a separate policy file.
-- A technique that is required for the [[LavaMoat]] project.
-- Name chosen because of its similarity to [[dependency injection]].

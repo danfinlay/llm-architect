@@ -1,4 +1,0 @@
-- [[Lebowski theorem]]
-    - https://twitter.com/vgr/status/1485021466152169474?s=21
-- [[Matt Blaze]] on [[election security]]
-    - https://twitter.com/mattblaze/status/1485026446192091141?s=21

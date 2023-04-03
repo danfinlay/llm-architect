@@ -1,2 +1,0 @@
-- [[Money and Speech]] article shared by [[Andy Tudhope]]
-    - [[vulgarization candidate]]

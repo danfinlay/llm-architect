@@ -1,8 +1,0 @@
-- Founder of [[280 North]]
-- Creator of [[Objective-J]]
-- Worked at [[Apple]]
-    - Created the dashboard web widget safari views
-    - Created [[Safari]] for the original [[iPhone]] under [[Steve Jobs]]
-- Frequent critic of [[Apple]] today
-    - on [[design consistency]]
-        - https://twitter.com/tolmasky/status/1427708768033378310?s=21

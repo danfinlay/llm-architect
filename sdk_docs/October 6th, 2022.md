@@ -1,3 +1,0 @@
-- [[October 6th, 2022]] at 14:06
-    - [[Dappnet]] for using [[Tornado Cash]]
-        - https://twitter.com/liamzebedee/status/1578128151925833728?s=46&t=

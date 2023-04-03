@@ -1,1 +1,0 @@
-- Also known as a [[focal point]]

@@ -1,3 +1,0 @@
-- A nonprofit 10 week incubator aimed at cultivating civic innovation in young people.
-- Founded
-    - [[Dream[[DAO]]]]

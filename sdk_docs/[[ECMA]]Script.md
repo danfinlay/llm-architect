@@ -1,1 +1,0 @@
-- The proper/correct name for [[JavaScript]]

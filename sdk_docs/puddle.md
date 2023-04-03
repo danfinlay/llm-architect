@@ -1,2 +1,0 @@
-- verb: To drop in a puddle, destroy, and lose forever.
-- Used in the context of device or key loss.

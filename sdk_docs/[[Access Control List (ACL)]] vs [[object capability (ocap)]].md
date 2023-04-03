@@ -1,6 +1,0 @@
-- Texts
-    - [[[[Access Control List (ACL)]]s Don't]]
-- Role-based permissions are confusing
-    - The name of a role does not convey what authority is to be imbued, and so coherent usage of role-based access control requires constantly referencing the current implications, and is likely to imply inadvertent authority creep if new permissions are added to that role.
-- Role based permissions are inadequately expressive
-    - When you delegate someone 

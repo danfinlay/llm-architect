@@ -1,7 +1,0 @@
-- For whatever reason I've repeatedly found myself having ideas that take me a long time to get as simple as they are, but the problem is that once I've honed an idea to elegant simplicity, it can sound so simple that it sounds uncompelling to others.
-- Past examples
-    - [[digital [[social collateral]]]]
-    - [[Share Proposal C (better name pending)]]
-- I'm still trying to figure out how to show people how cool something is despite its simplicity.
-- Strategies
-    - Focus on the things it can do for the listener.

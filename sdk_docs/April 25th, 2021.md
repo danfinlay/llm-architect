@@ -1,2 +1,0 @@
-- [[Kate Sills]] recommends essay on [[Georgism]] https://twitter.com/kate_sills/status/1386449470754197505?s=21
-- [[[[blockchain]] environmental takes]]

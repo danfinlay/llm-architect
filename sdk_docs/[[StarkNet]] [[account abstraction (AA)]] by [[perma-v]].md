@@ -1,5 +1,0 @@
-- https://perama-v.github.io/cairo/account-abstraction/
-- Notes
-    - Cites [[[[[[EIP]] 2938: [[account abstraction (AA)]]]] Why & What]]
-    - > With abstract accounts, it’s the **who** (address) that matters, not the **how** (signature).
-        - This is also true on [[Ethereum]], which generally uses [[msg.sender]] to authorize an operation, which can be a contract.

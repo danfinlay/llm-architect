@@ -1,6 +1,0 @@
-- A valid concern about [[[[EIP]] 3074: Delegated Invocation Contracts]] is the lack of [[revocation]]. It may allow users to [delegate]([[delegation]]) to a [[contract account]], but the originating [[externally owned account (EOA)]] remains, like security toxic waste, just waiting to undermine the otherwise secure guarantees of the new contract.
-- [[[[EIP]] 3074: Delegated Invocation Contracts]] could be extended to support the original signing key revoking its own right to sign transactions, thus providing a migration path from [[externally owned account (EOA)]]s to [[contract account]]s.
-    - This is particularly powerful for an ecosystem full of users who already have assets on [[externally owned account (EOA)]]s, some of which can be non-transferable.
-- Possible approaches
-    - https://twitter.com/_SamWilsn_/status/1482057405219364868?s=20&t=kujuFal9uQa5IiBf36oHjQ
-        - Combined with [[EIP-3607: Reject transactions from senders with deployed code]], could effectively mean self-revocation.

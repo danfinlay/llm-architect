@@ -1,2 +1,0 @@
-- [[Euler Finance]] hack
-    - https://www.hacknote.co/17c261f7d8fWbdml/doc/186daaddc4cl77Dj#186daaddc4cl77Dj

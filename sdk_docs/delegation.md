@@ -1,8 +1,0 @@
-- The act of sharing a [[power/capability]] so that another [[agent]] can exercise some [[authority]] with.
-- Axiom
-    - You can fundamentally share any [[power/capability]] you have.
-        - Alice asks Bob to not tell Carol.
-            - Alice cannot enforce this request.
-            - Alice doesn't believe she can enforce this, either.
-            - Bob may or may not want to comply. If he doesn't want to comply, no computer system can truly impede it. If he does want to comply, the computer system should make it easy for him to.
-- https://twitter.com/danfinlay/status/1395393151683108869?s=20

@@ -1,2 +1,0 @@
-- An identityless superstructure that is immutable
-    - Its leaves are regular values.

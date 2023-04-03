@@ -1,1 +1,0 @@
-- https://thrift.apache.org/docs/idl

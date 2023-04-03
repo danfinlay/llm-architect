@@ -1,2 +1,0 @@
-- #[[Quick Capture]]
-    - [[betrayal]][[trust]] https://twitter.com/arcalinea/status/1345704827909668864?s=21

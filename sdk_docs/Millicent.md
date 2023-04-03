@@ -1,2 +1,0 @@
-- a [[w3c]] proposal to integrate micropayments into web requests, hopefully to provide an ethical business model for the web.
-- https://www.w3.org/Conferences/WWW4/Papers/246/

@@ -1,4 +1,0 @@
-- #[[Quick Capture]]
-    - [[security]] [[podcast]] [[Dr. Shriram Krishnamurthi]] https://twitter.com/ShriramKMurthi/status/1297675782060494855?s=20
-    - [[Satoshi Nakamoto]][[Bitcoin]][[Premine]] https://twitter.com/el33th4xor/status/1297489941761597440?s=21
-    - [[JavaScript]][[esm]][[CommonJS]] https://link.medium.com/XBAyABu5b9

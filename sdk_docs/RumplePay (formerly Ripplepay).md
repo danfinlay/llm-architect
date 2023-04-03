@@ -1,2 +1,0 @@
-- https://rumplepay.com/
-- A [[credit line]] system predating [[Ripple]].

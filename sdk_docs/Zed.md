@@ -1,1 +1,0 @@
-- https://zed.dev/download

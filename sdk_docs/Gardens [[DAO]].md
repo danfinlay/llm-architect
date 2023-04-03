@@ -1,2 +1,0 @@
-- A [[DAO]] that uses [[conviction voting]]
-- https://1hive.gitbook.io/gardens/

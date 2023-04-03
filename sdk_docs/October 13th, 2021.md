@@ -1,4 +1,0 @@
-- [[spoofing]][[forgery]] [[ethereum addresses]]
-    - https://twitter.com/nanexcool/status/1448428217308794890
-- [[Gordon Brander]] recommends [[Seeing Like a State]] for [[DID]] [[decentralized [[identity]]]] people
-    - https://twitter.com/gordonbrander/status/1448136523908407296?s=20

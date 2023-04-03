@@ -1,2 +1,0 @@
-- A general purpose, turing-complete virtual machine built on [[zk STARKs]] by [[Starkware]]
-- https://starkware.co/cairo/

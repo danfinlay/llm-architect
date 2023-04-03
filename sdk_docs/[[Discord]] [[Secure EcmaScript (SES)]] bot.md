@@ -1,2 +1,0 @@
-- A simple [[Discord]] bot that provides a sort of [[Social Terminal]] based on [[xsnap]] and other [[endo]] tools.
-- [on GitHub](https://github.com/danfinlay/discord-ses-bot/)

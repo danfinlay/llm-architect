@@ -1,1 +1,0 @@
-- Co founder of [[Cosmos]]

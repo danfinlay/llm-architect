@@ -1,4 +1,0 @@
-- [EIP PR](https://github.com/ethereum/EIPs/pull/5163)
-- [Discussions to](https://ethereum-magicians.org/t/eip-rich-site-proposed-contract-metadata/9635/1) on [[ethereum magicians]]
-- by [[Dan Finlay]]
-- Intended to improve [[informed consent]] for [[[[Ethereum]] [[confirmation]]s]]

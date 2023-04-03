@@ -1,3 +1,0 @@
-- A replacement [[smart contract]] for [[OpenSea]] to use instead of [[Wyvern Protocol]].
-- Allows listing many [[NFT]]s at once via an "Offer" signature
-    - Has become a favorite method to target for [[phishing]], since it is one method with lots of sensitivity.

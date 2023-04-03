@@ -1,3 +1,0 @@
-- A [[JavaScript]] behavior that violates [[host virtualizability]]
-- [Background on archive.org](https://web.archive.org/web/20141230041441/http://wiki.ecmascript.org/doku.php?id=strawman:fixing_override_mistake)
-- The addition to [[JavaScript]] that [[Mark Miller]] regrets having accepted on [[TC-39]] more than any other change.

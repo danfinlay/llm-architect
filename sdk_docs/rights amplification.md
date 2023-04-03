@@ -1,4 +1,0 @@
-- Sources
-    - [[[[object capability (ocap)]] security in virtual environments]]
-- When you have [[authority]] over something, but you have to combine it with interacting with objects contextually to gain access to those objects.
-- Avoid having to keep an enormous inventory, allows "requesting my edit permissions" from an object.

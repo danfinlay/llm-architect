@@ -1,1 +1,0 @@
-- [[Lunatic]] on [[Hacker News]]

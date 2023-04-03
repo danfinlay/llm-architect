@@ -1,7 +1,0 @@
-- Discussing [[pet name]]s for [[Zcash]] tokens
-    - https://twitter.com/least_nathan/status/1468640260896673793?s=20
-        - For any user who is sophisticated enough to ask that question, it should be obvious: If a wallet/site is indiscriminately presenting you names without giving any indication as to where they're from, and with no way for you to override that suggestion, it's coming from a central registry of some kind (even if its governance is decentralized)
-    - https://twitter.com/least_nathan/status/1468640634504314882?s=20
-        - Arguably ERC-20 did that, and most wallets just show those values by default, which is how we have airdrop scams today for wallets who do overly-optimistic detection, and why art forgery is rampant on OpenSea. Lacking a name system also doesn't force people to adopt pet names, they might just re-invent a name system to use that is intuitive to them.
-    - https://twitter.com/least_nathan/status/1468643690440638468?s=20
-        - A proper pet name system requires a unique name per key, and so this is where I would expect users to adopt a naming pattern like a protocol-prefix on an asset. Wallets can then help users "treat as equivalent" for summary/accounting purposes, but they fundamentally _are_ different.

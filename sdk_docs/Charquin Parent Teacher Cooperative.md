@@ -1,2 +1,0 @@
-- An elementary school based in Hayward, California.
-- Attended by [[Dan Finlay]]

@@ -1,6 +1,0 @@
-- [[NFT]] art
-    - https://twitter.com/reviiser/status/1493081315322871811?s=21
-- [[DAO]] taxonomy
-    - [[Colony]] does not support arbitrary contract interactions.
-    - [[Zodiac]]
-- [[sturdy references]]

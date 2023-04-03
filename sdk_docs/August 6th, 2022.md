@@ -1,8 +1,0 @@
-- [[August 6th, 2022]] at 00:14
-    - [[sooper looper]] [[FPGA]] [[[[Nexys]] 4 DDR]]
-        - https://digilent.com/blog/spotlight-on-nexys-4-ddr-looper/
-        - https://digilent.com/reference/learn/programmable-logic/tutorials/nexys-4-ddr-looper-demo/start
-- [[Delegatable Eth]] [[[[MetaMask]] Snaps]] connection
-    - https://twitter.com/danfinlay/status/1556002541153820672
-- [[Delegatable Eth]] [[n of m multisig]]
-    - https://twitter.com/danfinlay/status/1556004637865480198

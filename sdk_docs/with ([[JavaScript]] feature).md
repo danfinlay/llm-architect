@@ -1,1 +1,0 @@
-- Allows creating a new scope in [[JavaScript]] whose local lexical scope is equivalent to the objectthat is passed to the with parens.

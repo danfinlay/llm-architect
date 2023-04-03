@@ -1,4 +1,0 @@
-- A name for something that is suggested by someone else.
-- Examples
-    - Alice says "Hi Bob, this is Carol."
-        - Bob can now choose to believe this is Carol's name or not, but either way they know that Alice introduced them.

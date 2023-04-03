@@ -1,2 +1,0 @@
-- [[[[MetaMask]] Flask]]
-- [[[[EIP]] 2256: wallet_getOwnedAssets]]

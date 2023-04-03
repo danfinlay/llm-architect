@@ -1,2 +1,0 @@
-- https://web.dev/intersectionobserver-v2/
-- 

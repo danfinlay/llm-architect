@@ -1,1 +1,0 @@
-- Within an environment they're given, able to substitute a different binding for some [[primordial]] behavior.

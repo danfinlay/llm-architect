@@ -1,8 +1,0 @@
-- https://www.cheribsd.org/
-- [[University of Cambridge]] [[[[ARM]] v8]] extension where all pointers are also [[capability]]s
-- [[Morello]] processor is a developer kit for using it.
-- Cambridge and some others got an 80 million pound grant for a massive hardware based capability system!
-- [[Twizzler]]: persistent distributed capabilities rooted in the CHERI processor, like a hardware-rooted [[CapTP]]
-- Department of Computer Science and Technology: Capability Hardware Enhanced RISC Instructions (CHERI)
-- Cambridge has a 1970s capability system in its hall
-- [[George Neville-Neil]]

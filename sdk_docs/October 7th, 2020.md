@@ -1,6 +1,0 @@
-- [[Swiss Cheese Security]] https://twitter.com/jkwan_md/status/1313328317718843394?s=20
-    - [[Mark Miller]] response
-        - Gotta separate [[confidentiality]] vs [[integrity]] vs [[availability]]. Safe language tech can (and often does) provide perfect fine grain integrity boundaries.
-        - Computation on public blockchains is a vivid demonstration that great [[integrity]] plus zero [[confidentiality]] does provide much useful [[security]]!
-        - Then: [[confidentiality]] divides into [[overt channel]] and [[non-overt channel]] (covert and side) channels. Safe language again can provide perfect confidentiality wrt overt channels.
-        - Non-overt channels are mostly enabled by measuring duration. Our demo showed the POLA blockage of the ability to measure duration for libraries that don't need to.

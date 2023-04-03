@@ -1,4 +1,0 @@
-- https://www.superfluid.finance/home
-- [[streaming payment]] on [[Ethereum]], [[Polygon]], and [[xDAI]]
-- does not require capital lock up, so streams can be revoked, making it well suited to streaming donations, and less suited to receiving payment for long term work from an untrusted source (unless regularly triggering withdraws).
-- an [[ERC-20]] standard

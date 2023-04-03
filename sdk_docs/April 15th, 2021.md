@@ -1,1 +1,0 @@
-- [[Christine Lemmer Webber]] [recommends this intro to](https://eighty-twenty.org/2016/10/18/actors-hopl) [[The Actor Model]]

@@ -1,7 +1,0 @@
-- Types of changes that makes things safe.
-- Before the repair process, [[JavaScript]] can be considered as not even approximating [[object capability (ocap)]] security, but with too much security.
-- Generally before [[tame]]ing
-- "Like Linux single-user mode"
-    - You have a kernel, running in system mode, but any code run as root can still corrupt everything.
-- Examples
-    - Replacing the unsafe [[eval]] before the user accesses theirs

@@ -1,4 +1,0 @@
-- The last project at [[HP Labs]] by [[Marc Stiegler]] and [[Alan Karp]]
-- [[HP Labs]] mostly destroyed every bit of it.
-- There is only a 2 minute video of it in existence.
-    - 

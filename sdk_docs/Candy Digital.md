@@ -1,2 +1,0 @@
-- An [[NFT]] marketplace from [[ConsenSys]]
-- https://www.candy.com/

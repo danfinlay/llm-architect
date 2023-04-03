@@ -1,2 +1,0 @@
-- [[[[LavaMoat]] Native]] would be a version of [[LavaMoat]] that is capable of running with [[[[React]] Native]] and confining native dependencies with [[wasm]] when needed.
-- The [[wasm]] bindings on mobile were already made to make it easy to communicate with a [[wasm]] container from the host [[JavaScript]].

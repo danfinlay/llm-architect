@@ -1,2 +1,0 @@
-- [[Baldur/Zarutian]] is converting [[Spritely]] [[CapTP]] to [[@agoric/capTp]]
-    - https://twitter.com/dustyweb/status/1380551028253335552?s=21

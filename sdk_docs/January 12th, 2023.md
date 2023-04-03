@@ -1,1 +1,0 @@
-- Question: Does [[[[EIP]] 4337: [[account abstraction (AA)]] via Entry Point Contract]] account publication use [[[[EIP]] 1014: CREATE2]] for allowing counterfactual contract account publication?

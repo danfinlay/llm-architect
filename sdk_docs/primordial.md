@@ -1,2 +1,0 @@
-- The fundamental components of a given environment.
-- In [[JavaScript]], it refers to globals provided by the ECMAScript engine, and their properties:  Object, Array, Function, String, Date, etc.

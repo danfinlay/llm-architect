@@ -1,8 +1,0 @@
-- A design solution to the [[trusted path]] problem.
-- The [[Secure UI]] pattern of displaying a header or [[security pattern]] around any untrusted UI, to help differentiate the "trusted" from "untrusted" aspects of the application.
-- Examples
-    - The URL bar in a browser is trusted, and anything below a certain point is "the page".
-    - The "Window" in a modern window-based operating system frames the application's view from the rest of the operating system.
-- Problems
-    - If the only way to display [[untrusted UI]] is to show a header above it, then each extended component will always have a header above its own prompts, and so each "layer deeper" of extension becomes worse and worse for the user.
-        - Alternative: [[transparent UI delegation]].

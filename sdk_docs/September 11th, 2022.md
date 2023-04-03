@@ -1,4 +1,0 @@
-- [[September 11th, 2022]] at 10:29
-    - [[financial graph cycles]] as a form of [[autogenic]] life per [[Terrence Deacon]]
-        - https://twitter.com/mattpirkowski/status/1520495669105938437?s=46&t=HGe7-
-        - https://twitter.com/mattpirkowski/status/1520496494872174595?s=46&t=HGe7

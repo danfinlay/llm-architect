@@ -1,2 +1,0 @@
-- [[Ross Ulbricht]] [[NFT]]
-    - https://twitter.com/realrossu/status/1467952634095095810?s=21

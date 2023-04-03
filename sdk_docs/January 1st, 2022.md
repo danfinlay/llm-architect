@@ -1,2 +1,0 @@
-- new [[sharding]] design by [[Dankrad Feist]]
-    - https://twitter.com/dankrad/status/1475995508372131842?s=21

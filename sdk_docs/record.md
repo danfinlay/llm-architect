@@ -1,9 +1,0 @@
-- Objects whose children are either static values or objects, recursively.
-- You're only guaranteed stability of own properties.
-- A [[JavaScript]] object for whom all leaf values are [[primitives]].
-- I believe: these are always [[deep frozen]].
-- “Making things happen and perceiving things are totally different, they shouldn’t be connected at all!” - [[Rich Hickey]]
-    - This reminds me of how 
-        - All references passed over [[CapTP]] are either [[record]]s or [[interface]]s.
-    - Action and perception are sequential, and distinct.
-- The opposite of an [[interface]]

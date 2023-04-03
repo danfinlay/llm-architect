@@ -1,5 +1,0 @@
-- [[[[ActivityPub]] [[personal social media algorithm]]]]
-    - https://twitter.com/danfinlay/status/1590882109467807750
-- [[Franklin Street Statement on Freedom and Network Services]]
-- [[November 13th, 2022]] at 07:35
-    - [[ClimateTrace]] [[climate change ]] tracker https://climatetrace.org/map

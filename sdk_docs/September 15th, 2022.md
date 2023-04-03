@@ -1,8 +1,0 @@
-- [[September 15th, 2022]] at 04:25
-    - [[shaave]] [[shorting]] [[aavee]]
-        - https://twitter.com/sh_aave/status/1569904723972734977?s=46&t=
-- [[F. Randall ("Randy") Farmer]] and [[Chip Morningstar]] on [[metaverse]] history on a [[podcast]]
-    - https://nextbillionseconds.com/2022/09/15/a-brief-history-of-the-metaverse-what-is-the-metaverse/
-- [[September 15th, 2022]] at 04:25
-    - [[Tornado Cash]] compliance
-        - https://twitter.com/benafisch/status/1569833311521865728?s=46&t=

@@ -1,2 +1,0 @@
-- A layer of abstraction above the [[component]], meant for collaboration.
-- Unclear whether it considers security.

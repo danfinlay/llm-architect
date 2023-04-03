@@ -1,3 +1,0 @@
-- The concern that if a user has to approve too many [[permission]]s, they will start blindly approving them.
-- Examples
-    - Website terms of service

@@ -1,9 +1,0 @@
-- {{youtube: https://www.youtube.com/watch?v=n3Q8825onA4}}
-- Types of team
-    - Pioneers
-    - Settlers
-    - Town Planners
-- Process
-    - Pioneers start a new team, validate it
-    - Settlers invade that team, and "take it over"
-    - Then town planners enter and industrialize/formalize it

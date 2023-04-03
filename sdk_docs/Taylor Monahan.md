@@ -1,4 +1,0 @@
-- Founder of
-    - [[MyEtherWallet]]
-    - [[MyCrypto]]
-- Currently a lead at [[MetaMask]]

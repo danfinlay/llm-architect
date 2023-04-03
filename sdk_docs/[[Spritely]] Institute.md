@@ -1,3 +1,0 @@
-- The nonprofit organization that is now building the [[Spritely]] framework.
-- https://spritely.institute/
-- {{youtube: https://www.youtube.com/watch?v=T8uqHCo10I8}}

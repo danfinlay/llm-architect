@@ -1,4 +1,0 @@
-- some people are buying art [[NFT]] with the belief that they include the rights to that art.
-- some people are taking copyright art, and selling it is a NFTs, and those buyers are paying without realizing that this is a plagiarism.
-    - https://twitter.com/textfiles/status/1467229251938226176?s=21
-    - some experts on antiquities theft have made a comparison between these phenomena.

@@ -1,2 +1,0 @@
-- Author of [[ethers.js]]
-- Creator of [[firefly ([[hardware wallet]])]]

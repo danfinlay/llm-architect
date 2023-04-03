@@ -1,1 +1,0 @@
-- a transitively immutable object.

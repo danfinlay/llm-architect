@@ -1,2 +1,0 @@
-- https://som.yale.edu/faculty/alp-simsek
-- 

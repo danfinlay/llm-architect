@@ -1,2 +1,0 @@
-- Brazillean portuguese [[DAO]] making [[Ethereum]] moderation bots for [[Discord]]!
-- https://twitter.com/canu_dao

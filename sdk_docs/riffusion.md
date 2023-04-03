@@ -1,6 +1,0 @@
-- https://www.riffusion.com/about
-- github
-    - [inference server](https://github.com/riffusion/riffusion)
-        - run with
-            - python -m riffusion.server --host 127.0.0.1 --port 3013
-        - [Can run on apple silicon](https://github.com/riffusion/riffusion#mps)

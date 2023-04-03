@@ -1,2 +1,0 @@
-- github.com/qfpl
-- github.com/qfpl/propagator-examples [[propagator]]

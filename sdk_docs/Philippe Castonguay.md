@@ -1,6 +1,0 @@
-- Product director of [[Horizon Games]]
-- https://github.com/PhABC
-- https://twitter.com/phabcd
-- Author of
-    - [[EIP 1155]]
-    - [[[[EIP]] 1271: Standard Signature Validation Method for Contracts]]

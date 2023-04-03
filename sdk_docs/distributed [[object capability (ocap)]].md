@@ -1,9 +1,0 @@
-- A programming environment that is [[object capability (ocap)]] secure, but where object references can be shared across an [[async [[membrane]]]], like between multiple machines or threads.
-- First demonstrated in [[Towards a Unified Approach to Access and Concurrency Control]] in the [[E Language]].
-- This represents a marriage between [[object capability (ocap)]] and [[The Actor Model]] that demonstrates that the object model can be used not only for a secure language but for orchestrating secure distributed systems.
-- Projects pursuing this
-    - [[endo]]
-    - [[Spritely]]
-        - Is very nicely described in [[Heart of [[Spritely]]]]
-- Most examples of this I'm aware of today use [[CapTP]], like [[Spritely]], or [[exo]]. There are probably a few competing terms for this proposed style of composition.
-- [[Dan Finlay]] wrote his own version of this called [[Capnode]] before discovering [[CapTP]].

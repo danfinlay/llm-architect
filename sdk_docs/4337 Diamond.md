@@ -1,6 +1,0 @@
-- A list of [[evm]] [[contract account]]s that are using [[EIP 2535 Diamond Standard]] to support [[[[EIP]] 4337: [[account abstraction (AA)]] via Entry Point Contract]]
-- Examples
-    - https://www.youtube.com/watch?app=desktop&v=kiAcFDuTYw8
-    - https://twitter.com/inplco/status/1637480860281610245?s=46&t=
-    - https://twitter.com/humafinance/status/1635655278707331075?s=46&t=
-    - 

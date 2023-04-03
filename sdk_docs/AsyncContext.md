@@ -1,5 +1,0 @@
-- A proposal for [[JavaScript]] at [[TC-39]]
-- https://github.com/legendecas/proposal-async-context
-- By
-    - [[Chengzhong Wu]]
-    - [[Justin Ridgewell (@jridgewell)]]

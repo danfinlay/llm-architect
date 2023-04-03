@@ -1,7 +1,0 @@
-- [[Roofstock]] is a [[real estate]] company on the [[blockchain]] using [[NFT]]s.
-    - https://twitter.com/Rusty_Bill/status/1582098885933027328?s=20&t
-    - [[bundling garbage]]
-        - https://twitter.com/loopifyyy/status/1582127594098503680?s=46&t=
-- [[Eigenlayer]]
-    - https://twitter.com/apolynya/status/1582205049760976897?s=46&t=
-    - 

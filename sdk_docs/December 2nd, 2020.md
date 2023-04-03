@@ -1,1 +1,0 @@
-- Thread of people trying to describe [[urbit]] sounds a whole lot like the goals of [[endo]] https://twitter.com/cjremus/status/1333957758614376448?s=21

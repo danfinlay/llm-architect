@@ -1,4 +1,0 @@
-- [[Mycelium Mesh Project]] is a [[mesh network]] for deploying during civil unrest
-    - https://twitter.com/greggawatt/status/1477745617002663936?s=21
-- [[Synth [[browser]]]] aims to not sell to [[Google]]
-    - https://twitter.com/pnegahdar/status/1477745773030817802?s=21

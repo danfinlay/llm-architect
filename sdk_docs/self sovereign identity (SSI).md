@@ -1,1 +1,0 @@
-- https://en.wikipedia.org/wiki/Self-sovereign_identity

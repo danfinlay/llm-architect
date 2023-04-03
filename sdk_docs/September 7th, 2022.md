@@ -1,9 +1,0 @@
-- [[September 7th, 2022]] at 18:27
-    - [[urbit]]
-        - https://twitter.com/jmrphy/status/1567646152778219521?s=46&t=
-- [[September 7th, 2022]] at 19:50
-    - [[credit line]] [[identity system]]
-        - https://twitter.com/monetsupply/status/1567695912398454785?s=46&t=-0N0_aw
-- [[September 7th, 2022]] at 23:01
-    - [[TritonVM]] recursive [[zk STARKs]] [[ISA]]
-        - https://twitter.com/bascule/status/1567663921871618048?s=46&t=

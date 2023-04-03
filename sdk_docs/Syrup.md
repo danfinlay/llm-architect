@@ -1,3 +1,0 @@
-- A [[CapTP]] [[marshal]] encoding format by [[Christine Lemmer Webber]]
-- A more compact format than [[JSON]] encoding.
-    - Makes it easier to handle binary efficiently (since JSON would require base64 encoding)

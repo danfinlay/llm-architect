@@ -1,1 +1,0 @@
-- A developer at [[Agoric]]

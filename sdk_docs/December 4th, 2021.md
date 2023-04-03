@@ -1,9 +1,0 @@
-- [[metaphor]]
-    - https://twitter.com/david_perell/status/1378487863596044288?s=21
-    - https://twitter.com/gdeandajauregui/status/1466851676762128387?s=21
-    - https://twitter.com/nbashaw/status/1378490807192219650?s=21
-    - https://twitter.com/jonathanhillis/status/1378570052547584003?s=21
-    - https://twitter.com/backslashx1b/status/1378622025078571009?s=21
-    - https://twitter.com/gdeandajauregui/status/1466851676762128387?s=21
-- [[[[NFT]] community problems]]
-    - https://twitter.com/textfiles/status/1467260392233574401?s=21

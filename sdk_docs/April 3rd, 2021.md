@@ -1,3 +1,0 @@
-- [[questions]] for [[endo]]
-    - What is the `D()` device function for?
-- [[patterns]] https://twitter.com/david_perell/status/1378487863596044288?s=21

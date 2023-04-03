@@ -1,4 +1,0 @@
-- [[Egor Homakov]] is porting [[Extended Lightning Network (XLN)]] to [[Ethereum]] [[xln.sol]]
-    - https://twitter.com/homakov/status/1372909015257251841?s=20
-- [[Roam to Slides]]
-- [[Permission to sign to contract]]

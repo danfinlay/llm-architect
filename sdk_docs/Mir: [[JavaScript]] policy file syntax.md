@@ -1,3 +1,0 @@
-- https://arxiv.org/abs/2011.00253
-- The paper cites [[Mark Miller]]
-- The paper does not introduce any novel confinement strategy, but introduces a unique `rwx` [[posix]]-like permission system per imported value, which could be useful as a syntax for [[LavaMoat]].

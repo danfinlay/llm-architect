@@ -1,7 +1,0 @@
-- An experimental release of [[MetaMask]] that includes features that may not make it to production, but that developers can try out.
-- https://metamask.io/flask/
-- Experimental features of note
-    - [[[[MetaMask]] Snaps]]
-- How to add a new experimental feature
-    - you'll want to add your method as a permission specification in getPermissionSpecifications in [this file](https://github.com/MetaMask/metamask-extension/blob/develop/app/scripts/controllers/permissions/specifications.js). You may want to read the PermissionController[ readme](https://github.com/MetaMask/snaps-skunkworks/blob/@metamask/controllers@22.0.0/packages/controllers/src/permissions/README.md%5D).
-    - We don't have any specifications that are only included in Flask yet, and we'll probably want them to live in a separate file. However, code fences alone are definitely enough for a proposal. You can read usage instructions for them [here](https://github.com/MetaMask/metamask-extension/blob/develop/development/build/transforms/README.md), and find plenty of examples by searching for `///: BEGIN:ONLY_INCLUDE_IN(flask)`.

@@ -1,9 +1,0 @@
-- [[September 14th, 2022]] at 09:25
-    - [[Tornado Cash]]
-        - https://twitter.com/matthuang/status/1568235735563784193?s=46&t=ei_-jJlU_f0A1-
-- [[September 14th, 2022]] at 14:32
-    - [[Coinbase]]
-        - https://twitter.com/bascule/status/1570159364325150720?s=46&t=ei_-
-- [[September 14th, 2022]] at 19:28
-    - [[abitype]] [[EIP 712: signTypedData]] [[TypeScript]] autocompletion
-        - https://twitter.com/awkweb/status/1570110825372782594?s=46&t=

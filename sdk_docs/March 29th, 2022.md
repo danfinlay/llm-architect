@@ -1,2 +1,0 @@
-- [[revocation]] based design for [[Nomad.xyz]]
-    - https://twitter.com/_prestwich/status/1508844826359332868

@@ -1,3 +1,0 @@
-- https://github.com/danfinlay/herddit
-- An early [[iOS]] app by [[Dan Finlay]]
-- Was basically "audio reddit", and was in fact built using reddit as a backend, with soundcloud API for message recording, but abstracted it away so it felt like recording & playing back threads.

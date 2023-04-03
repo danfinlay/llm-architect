@@ -1,1 +1,0 @@
-- A division of [[permission]]s that are meaningful to a user, enabling them to make good [[authority]] decisions without experiencing [[approval fatigue]].

@@ -1,2 +1,0 @@
-- An enthusiast/expert on [[mutual credit]] who posts on the [[Holochain]] forum.
-- Doesn’t believe [[credit line]]s need limits.

@@ -1,8 +1,0 @@
-- [[December 11th, 2022]] at 03:13
-    - [[Apple]] [[end to end encryption (e2ee)]] [[FBI]] https://twitter.com/matthew_d_green/status/1600567604015497216?s=46&t=
-- [[AI]] [[Scott Aaronson]] referral from [[Zooko Wilcox]]
-    - https://twitter.com/zooko/status/1601997004988551169
-- [[December 11th, 2022]] at 03:13
-    - [[AI]] [[whisper]] https://github.com/ggerganov/whisper.cpp
-- [[December 11th, 2022]] at 03:23
-    - [[ChatGPT]] https://twitter.com/taranjeetio/status/1601600143043620866?s=46&t=TO3mZujcm15ePBoZ7ZzeOw

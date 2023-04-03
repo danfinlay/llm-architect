@@ -1,2 +1,0 @@
-- [[[[EIP]] 1271: Standard Signature Validation Method for Contracts]] delegate is now able to perform actions on [[OpenSea]]
-    - https://twitter.com/xanderatallah/status/1489362516853637122?s=21

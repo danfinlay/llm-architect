@@ -1,2 +1,0 @@
-- A phenomenon first observed after the [[Uniswap]] [[airdrop]] where people would change their behavior to try to court favor of future token drops.
-- Coined by [[Dan Finlay]] as a riff on [[Rokko’s Basilisk]]

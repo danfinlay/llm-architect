@@ -1,6 +1,0 @@
-- 
-- [[[[Gnosis]] SAFE]] [[EIP 712: signTypedData]] example [[dapp]] for [[[[[[EIP]] 1271: Standard Signature Validation Method for Contracts]] variant of [[Delegatable Eth]]]]
-    - https://twitter.com/SchorLukas/status/1595650735081127936
-    - https://github.com/gnosis/safe-test-app
-- [[November 24th, 2022]] at 04:28
-    - [[[[Google]] Wave]] was donated to the [[Apache]] foundation: https://incubator.apache.org/projects/wave.html

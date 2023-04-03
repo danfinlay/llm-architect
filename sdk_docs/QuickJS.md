@@ -1,4 +1,0 @@
-- https://bellard.org/quickjs/
-- a [[wasm]] based [[JavaScript]] VM
-- Used by
-    - [[Figma]], once they became nervous about [[Secure EcmaScript (SES)]] safety.

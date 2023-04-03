@@ -1,2 +1,0 @@
-- A [[typing game]] popular in the 90s
-- Taught [[Dan Finlay]] how to type.

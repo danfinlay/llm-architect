@@ -1,3 +1,0 @@
-- [[[[EIP]] 3074: Delegated Invocation Contracts]] could provide a path off of [[externally owned account (EOA)]]s if it had a method to allow publishing a contract at its own address.
-    - [[[[EIP]] 3607: Reject transactions from senders with deployed code]]
-    - https://twitter.com/_SamWilsn_/status/1482057405219364868?s=20

@@ -1,6 +1,0 @@
-- A [[cryptographic signature]] format for the [[[[evm]] compatible chain]]s intended to be both human-readable and machine-efficient to process.
-- [Current EIP draft](https://eips.ethereum.org/EIPS/eip-712)
-- Audio explanation of the format by [[Dan Finlay]]
-    - {{[[audio]]: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FNAqx-qBxkW.m4a?alt=media&token=d872daca-45d2-42e4-8e62-e9794f441bc2}}
-- Tools for using
-    - https://github.com/danfinlay/eip712-codegen

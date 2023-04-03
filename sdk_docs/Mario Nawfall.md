@@ -1,2 +1,0 @@
-- A founder who began hosting a lot of twitter spaces after the fall of [[FTX]]
-- https://twitter.com/scott_lew_is/status/1591899939335962625

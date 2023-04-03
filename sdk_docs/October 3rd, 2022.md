@@ -1,2 +1,0 @@
-- [[create3]]
-    - https://twitter.com/boredgenius/status/1576754025357115392?s=46

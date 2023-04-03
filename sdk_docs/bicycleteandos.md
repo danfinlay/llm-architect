@@ -1,2 +1,0 @@
-- Described in the book [[[[social collateral]] and microfinance in paraguay's smuggling economy]]
-- “bicycle dollars” bc you bike over to borrow from your friend

@@ -1,2 +1,0 @@
-- a book that came out around the same time as Neuromancer but MarkM felt was more brilliant
-- if your true name online is known, you can be coerced.

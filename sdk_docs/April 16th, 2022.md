@@ -1,2 +1,0 @@
-- [[principal agent problem]]
-    - https://twitter.com/twaschenfelder/status/1515455945127604230

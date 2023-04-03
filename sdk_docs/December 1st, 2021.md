@@ -1,4 +1,0 @@
-- [[Ethan Buchman]] on reframing [[web3]] as [[community computer]]
-    - https://twitter.com/buchmanster/status/1466092508316905478?s=21
-- [[Jay Graeber]] on [[Jaron Lanier]] on [[metaverse]]
-    - https://twitter.com/arcalinea/status/1466270054119399426?s=21

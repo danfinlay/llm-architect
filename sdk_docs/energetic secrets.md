@@ -1,1 +1,0 @@
-- http://erights.org/history/joule/MANUAL.B17.pdf

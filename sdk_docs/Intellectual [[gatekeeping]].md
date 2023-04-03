@@ -1,5 +1,0 @@
-- specifically I have noticed a pattern where sometimes a person in a prestigious position will hear a newcomer’s take on an established idea, and then point to their own proximity to that idea, and use it as a high ground to reject the newcomer’s position from.
-- [[Glen Weyl]] on [[social collateral]]
-    - https://twitter.com/glenweyl/status/1059617683484934150?s=21
-    - https://twitter.com/glenweyl/status/1059617740611313664?s=21
-    - https://twitter.com/glenweyl/status/1059629202402615296?s=21

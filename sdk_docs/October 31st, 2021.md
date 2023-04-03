@@ -1,2 +1,0 @@
-- [[Ryan Petersen]] on [[return on equity]] accounting for [[supply chain]] [[resilience]]
-    - https://twitter.com/typesfast/status/1453753924960219145?s=21

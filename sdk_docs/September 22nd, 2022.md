@@ -1,6 +1,0 @@
-- [[September 22nd, 2022]] at 09:26
-    - [[Roam Research]]API
-        - https://twitter.com/calhistorian/status/1573034862105108480?s=46&t=Ctp-
-- [[September 22nd, 2022]] at 16:50
-    - [[Yul (language)]]
-        - https://twitter.com/jeyffre/status/1572099018934845441?s=46&t=

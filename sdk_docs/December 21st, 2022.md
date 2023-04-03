@@ -1,4 +1,0 @@
-- [[demons]] by [[Visa (friendly ambitious nerd)]]
-    - https://twitter.com/visakanv/status/1560517283633516545?s=46&t=
-- [[MobyMask]] [[[[MetaMask]] Snaps]] by [[Christian Montoya]]
-    - https://montoya.github.io/get-mobymask-snap/

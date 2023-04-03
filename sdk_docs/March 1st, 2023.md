@@ -1,1 +1,0 @@
-- [[Decartography]] is a network to pay people to improve [[sybil resistance]]

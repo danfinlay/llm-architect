@@ -1,3 +1,0 @@
-- http://p1anck.com/
-- A platform for open science funding via [[NFT]] auction by [[Matt Stephenson]]
-- https://twitter.com/mattgcondon/status/1388565343799439360?s=21

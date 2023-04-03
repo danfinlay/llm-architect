@@ -1,2 +1,0 @@
-- [[December 2nd, 2022]] at 10:41
-    - [[AI]] [[large language model (LLM)]] https://fedi.simonwillison.net/@simon/109442174050047125

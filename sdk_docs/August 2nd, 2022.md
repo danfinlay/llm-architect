@@ -1,7 +1,0 @@
-- [[August 2nd, 2022]] at 08:04
-    - [[prompt]]
-        - https://twitter.com/isthisanart_/status/1554389120209850369?
-- [[3L project]] is a [[Scheme]] based [[object capability (ocap)]] [[operating system]]
-    - https://twitter.com/dustyweb/status/1554478826515742722
-- [[August 2nd, 2022]] at 16:09
-    - [[climate change ]] https://twitter.com/bascule/status/1554569795093143552?s=21&t=_R76g

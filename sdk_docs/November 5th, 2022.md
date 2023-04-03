@@ -1,2 +1,0 @@
-- [[Eigenlayer]]
-    - https://twitter.com/MeirBank/status/1589013673385000960

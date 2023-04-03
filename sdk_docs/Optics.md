@@ -1,3 +1,0 @@
-- https://docs.celo.org/celo-codebase/protocol/optics
-- A cheap cross chain bridge solution that allows bidirectional byte streams between arbitrary types of machines.
-- https://twitter.com/danfinlay/status/1396134262588411909?s=20

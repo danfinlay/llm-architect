@@ -1,6 +1,0 @@
-- A type of [[consensus algorithm]] that uses staked tokens to determine who gets to propose the next block of transactions.
-- Features
-    - transactions
-    - taking
-    - swaps
-    - market making

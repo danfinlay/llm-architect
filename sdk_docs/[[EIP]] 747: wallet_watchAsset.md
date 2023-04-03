@@ -1,2 +1,0 @@
-- https://eips.ethereum.org/EIPS/eip-747
-- https://docs.metamask.io/guide/registering-your-token.html#code-free-example

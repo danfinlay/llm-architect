@@ -1,4 +1,0 @@
-- [[Optics]] bridge is live
-    - https://twitter.com/_prestwich/status/1437451282201997313?s=20
-- [[Techmeme]] [[podcast]] with [[1Password]] team discusses [[MetaMask]]
-    - https://www.ridehome.info/show/techmeme-ride-home/twtr-spc-samsung-event-and-the-1password/

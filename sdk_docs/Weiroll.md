@@ -1,2 +1,0 @@
-- https://github.com/weiroll/weiroll
-- by [[Nick Johnson]]and [[Dean Eigenman]]

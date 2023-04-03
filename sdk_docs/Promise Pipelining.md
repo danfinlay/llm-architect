@@ -1,8 +1,0 @@
-- An optimization for [[CapTP]] that allows queuing up pending asynchronous operations in a way that minimizes round trips of communication.
-- Implementations
-    - [[Cap'n Proto]] uses pipelining to optimize its binary communication format.
-    - [[[[Spritely]] Goblins]] [[CapTP]]
-    - [[JavaScript]]
-        - [[Eventual Send]] proposal at [[TC-39]]
-- A visual representation by [[Cap'n Proto]]
-    - ![](https://capnproto.org/images/time-travel.png)

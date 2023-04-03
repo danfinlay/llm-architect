@@ -1,2 +1,0 @@
-- [[October 21st, 2022]] at 13:46
-    - [[identity system] [[reputation]] https://twitter.com/mantisclone/status/1579849708520235009?s=46&t=lJ-

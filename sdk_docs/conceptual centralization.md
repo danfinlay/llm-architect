@@ -1,6 +1,0 @@
-- A concept from [[secure scuttlebutt (SSB)]]
-- The idea that even in a fully decentralized protocol, critical parts of it can be centralized in ways that make the overall network fundamentally centralized.
-- Examples
-    - Influential clients
-    - Default interfaces
-    - Important namespaces

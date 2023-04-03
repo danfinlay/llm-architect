@@ -1,2 +1,0 @@
-- [[Scott Alexander]] wrote an article against the ideas of [[Glen Weyl]] [Contra Weyl](https://astralcodexten.substack.com/p/contra-weyl-on-technocracy)
-- 

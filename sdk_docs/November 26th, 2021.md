@@ -1,3 +1,0 @@
-- apparently [[Intel]]] made an [[ISA]] with [[object capability (ocap)]]: 
-    - https://twitter.com/watsonladd/status/1464197516237447170?s=21
-    - possibly https://homes.cs.washington.edu/~levy/capabook/Chapter9.pdf

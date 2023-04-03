@@ -1,3 +1,0 @@
-- [Wikipedia](https://en.wikipedia.org/wiki/Capability_approach)
-- https://en.wikipedia.org/wiki/Capability_approach
-- An approach to charity that focuses on meeting specific needs, not just giving capital.

@@ -1,2 +1,0 @@
-- [[[[NFT]] community problems]] Presenting as artist friendly but outsourcing arts. investing without knowing who is raising funds.
-    - https://twitter.com/manamoonnft/status/1497637601687212035?s=21

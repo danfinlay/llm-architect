@@ -1,2 +1,0 @@
-- https://cups.cs.cmu.edu/soups/2012/proceedings/a3_Felt.pdf
-- by [[Adrienne Porter Felt]]

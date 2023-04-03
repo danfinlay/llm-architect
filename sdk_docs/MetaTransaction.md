@@ -1,1 +1,0 @@
-- The approach of [[blockchain]] transaction composition where the transaction fee payment is abstracted from the authority of the transaction, so that a different agent may submit a transaction for processing than the agent that authorized that action.

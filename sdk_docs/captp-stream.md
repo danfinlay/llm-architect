@@ -1,3 +1,0 @@
-- A [[JavaScript]] module for establishing a [[CapTP]] connection over any [[node.js stream]].
-- [on npm](https://www.npmjs.com/package/captp-stream)
-- [on GitHub](https://github.com/danfinlay/captp-stream#readme)

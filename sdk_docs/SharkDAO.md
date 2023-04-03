@@ -1,5 +1,0 @@
-- [[DAO]] collect nouns from [[noun project]]
-- Previously was 1mil/eth tokens, now down to 2k tokens per eth.
-- Going to also create their own derivative NFTs
-    - They'll need a way to sell NFTs
-        - [[nnnnicholas]] is building a tool for selling NFTs within their own UI, and dividing the proceeds per [[JuiceBox]]

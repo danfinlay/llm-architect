@@ -1,6 +1,0 @@
-- [[COM/DCOM]] sounds a lot like [[endo]] and [[CapTP]]. via [[Halvar Flake]]
-    - https://twitter.com/halvarflake/status/1472555445948760066?s=21
-- [[[[bulldozer]]s vs [[vetocracy]]]]
-- [[finance.vote]] is a [[DAO]] framework that helped launch [[[[Stoner Cats]] [[DAO]]]]
-- [[Laffer Curve]] resembles a [[MATT: An [[NFT]] Auction Concept]]
-    - https://twitter.com/danfinlay/status/1472627894510047235?s=21

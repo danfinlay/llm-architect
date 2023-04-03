@@ -1,4 +1,0 @@
-- A cross platform [[package manager]] from the creator of [[Homebrew]]
-- Automatically installs any module upon mentioning its name.
-    - Sounds a little dangerous if you fat finger. I hope they keep their namespace safe!
-- Introduces a mechanism for [[compensating dependencies]].

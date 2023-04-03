@@ -1,5 +1,0 @@
-- [Secure Bookmark](https://coins.github.io/secure-bookmark/) by [[Egor Homakov]]
-- Limitations
-    - has no localStorage and cannot store anything (unless you want re-bookmark every time you change state)
-        - https://twitter.com/homakov/status/1357105163903750144?s=20
-        - https://twitter.com/jedschmidt/status/1414757387169275908?s=21

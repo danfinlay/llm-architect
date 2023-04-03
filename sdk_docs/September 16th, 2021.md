@@ -1,2 +1,0 @@
-- [[Graphene OS]]
-    - https://twitter.com/davidvorick/status/1438376234673741824?s=21

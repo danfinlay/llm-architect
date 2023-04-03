@@ -1,2 +1,0 @@
-- [[with ([[JavaScript]] feature)]], [[Proxy]], and [[eval]] allow the [[ses-shim]] to be created.
-- Coined by [[Kris Kowal]]

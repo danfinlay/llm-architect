@@ -1,4 +1,0 @@
-- A message that you could submit to the Blockchain, but you don’t need to, because the guarantees you get by holding it are sufficient to satisfy your needs
-Examples
-Indent holding a credit card is a right to pay somebody but you don’t always cash out your credit card right away holding it is largely a promise that you could do something and saw a lot of reducing network activity and band with a Blockchain is about postponing when people feel the need to redeem their end of a contract
-- The Norm in Web3 today is that every single user action goes onto the theoryum block chain which is a single threaded computer so it has to process everything in order this is equivalent to like bidding for the Supreme Court time like because it’s a single consensus intended to be a global settlement layer you want it to be like the Supreme Court that everybody goes to finally settled their dispute but people Gonna (voice teanscribed)

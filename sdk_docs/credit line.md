@@ -1,1 +1,0 @@
-- When one agent gives another the permission to spend a resource on their behalf, usually with the expectation of being paid back.

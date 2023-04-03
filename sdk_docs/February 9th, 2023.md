@@ -1,7 +1,0 @@
-- [[[[[[MetaMask]] Grants [[DAO]]]] sync]]
-    - [[Agoric]]
-        - [[LavaMoat]]
-        - [[[[MetaMask]] Snaps]]
-        - [[Secure UI]]
-        - [[endo]]
-    - [[[[Spritely]] Institute]]

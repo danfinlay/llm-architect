@@ -1,7 +1,0 @@
-- https://developer.mozilla.org/en-US/docs/Web/API/AudioWorklet
-- The **AudioWorklet** interface of the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) is used to supply custom audio processing scripts that execute in a separate thread to provide very low latency audio processing.
-- Access the audio context's instance of AudioWorklet through the [BaseAudioContext.audioWorklet](https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext/audioWorklet) property.
-- __The AudioWorklet interface does not define any properties of its own, but does inherit properties of [Worklet](https://developer.mozilla.org/en-US/docs/Web/API/Worklet).__
-- See [AudioWorkletNode](https://developer.mozilla.org/en-US/docs/Web/API/AudioWorkletNode) for complete examples of custom audio node creation
-- AudioWorkletProcessor interface. Although not defined on the interface, the deriving class must have the [process](https://developer.mozilla.org/en-US/docs/Web/API/AudioWorkletProcessor/process) method. This method gets called for each block of 128 sample-frames
-    - 

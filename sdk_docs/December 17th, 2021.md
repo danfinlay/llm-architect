@@ -1,1 +1,0 @@
-- [[EIP 2535 Diamond Standard]]

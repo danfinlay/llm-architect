@@ -1,6 +1,0 @@
-- Maybe what [[blockchain]]s are most critically for is a digital representation of [[revocation]].
-- Anyone can sign a message making a claim, but a blockchain uniquely distributes a guarantee that a revocation will be published, which can be much harder to ensure gets distributed to everyone who might respect a signature in time.
-- Examples
-    - Anyone can sign a distribution of software, but what makes it safe to trust that signature is knowing that they never took back that claim.
-    - An allowance does not need to be on chain because when issuing an allowance, no one is losing access to funds, someone is merely gaining access to it.
-    - In [[State Channels]], only to close the channel and withdraw (revoking the other person's ability to withdraw at an earlier state) do you need an on-chain transaction.

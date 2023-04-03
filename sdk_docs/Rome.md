@@ -1,1 +1,0 @@
-- An [[html]] minifier that also bundles css, [[TypeScript]], and [[JavaScript]]

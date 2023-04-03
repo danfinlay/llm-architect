@@ -1,1 +1,0 @@
-- https://github.com/danfinlay/EIPs/blob/AUTH_USURP/EIPS/eip-x.md

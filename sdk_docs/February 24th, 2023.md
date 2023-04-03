@@ -1,7 +1,0 @@
-- [[Farcaster]] stack
-    - https://twitter.com/varunsrin/status/1629161481588580354?s=20
-- [[[[Multiple Network Connection]] API]]
-    - My current thoughts
-        - [[[[CAIP]] 211: Handshake]] is getting pretty good
-            - Emphasizes our need for a reusable [[[[restricted event]] provider]]
-                - This could potentially also be used for registering services as well, as a more consistent pattern than an exports object per service type.

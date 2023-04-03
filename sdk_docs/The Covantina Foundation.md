@@ -1,3 +1,0 @@
-- Bringing feminine values into the things we design
-- For investing in [[Holochain]] currencies, and currencies for universal human needs.
-- 

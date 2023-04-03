@@ -1,5 +1,0 @@
-- New example of [[trusted-in-untrusted [[Secure UI]]]]: Showing times displayed on a website in your local timezone without disclosing your timezone to the website you are visiting.
-- [[CommonJS]] vs [[esm]] module distinction
-    - Any bundler that supports both ESM and CJS must use some heuristics to identify the names of all transitive dependencies of any imports, because ESM allows `export * from ‘other-module’`, which draws namespace from those imported modules, while a CJS module may not define its exports until they are run, and so a bundler needs to perform heuristics/interpretation to anticipate what names will be exported from a CJS module when it is imported into an ESM module.
-- Reading [[[[Polaris]]: Virus Safe Computing for Windows XP]]
-- [[Herddit]] [[aurigami]] https://twitter.com/rabbyte/status/1374592892271013894?s=21

@@ -1,1 +1,0 @@
-- models programs as mathematical functions

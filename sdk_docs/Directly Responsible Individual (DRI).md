@@ -1,1 +1,0 @@
-- an alternative form of [[product management]]

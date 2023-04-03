@@ -1,4 +1,0 @@
-- A decentralized [[Roam Research]] alternative
-    - uses [[cryptographic signature]]s for all data
-    - uses [[User Controlled Authorization Network (UCAN)]] for authorization 
-- Related to [[Noosphere]]

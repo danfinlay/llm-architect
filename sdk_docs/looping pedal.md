@@ -1,3 +1,0 @@
-- A type of electronic device that helps a musician compose spontaneously.
-- Notable artists
-    - [[Reggie Watts]]

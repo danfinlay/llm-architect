@@ -1,1 +1,0 @@
-- [[St. Louis Federal Reserve]] [wrote a report](https://research.stlouisfed.org/publications/review/2021/02/05/decentralized-finance-on-blockchain-and-smart-contract-based-financial-markets?utm_source=twitter&utm_medium=SM&utm_content=stlouisfed&utm_campaign=de84f85f-2492-417b-b9ed-aa92c8b3b41b) on [[DeFi]] and discusses [[DAI]]

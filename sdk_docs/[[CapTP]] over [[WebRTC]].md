@@ -1,7 +1,0 @@
-- WebRTC notes
-    - The **RTCPeerConnection()** constructor returns a newly-created [RTCPeerConnection](https://developer.mozilla.org/en-US/docs/Web/API/RrTCPeerConnection), which represents a connection between the local device and a remote peer.
-    - example simple chat
-        - https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Simple_RTCDataChannel_sample
-    - For resumable connections
-        - When you wish to provide your own certificates for use by an [RTCPeerConnection](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection) instead of having the RTCPeerConnection generate them automatically, you do so by calling the static[RTCPeerConnection.generateCertificate()](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/generateCertificate) function.
-    - 

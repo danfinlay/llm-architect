@@ -1,4 +1,0 @@
-- [[Secure EcmaScript (SES)]] Strategy Call
-    - [[[[JavaScript]] [[invariants]]]]
-    - [[exotic internal slot]]
-    - [[unum]]

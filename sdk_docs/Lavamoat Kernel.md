@@ -1,1 +1,0 @@
-- Provides all modules with a custom `require()` function. When called, the requested modules are initialized according to the [[Lavamoat Policy]], by evaluation inside a [[SES Container]] which contains the policy's [[endowments]].

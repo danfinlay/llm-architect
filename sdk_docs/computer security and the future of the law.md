@@ -1,2 +1,0 @@
-- A talk by [[Mark Miller]]
-- {{youtube: https://www.youtube.com/watch?v=kOFzisF7aNw&list=PLKr-mvz8uvUgybLg53lgXSeLOp4BiwvB2}}

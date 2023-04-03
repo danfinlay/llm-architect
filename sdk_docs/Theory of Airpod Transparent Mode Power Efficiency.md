@@ -1,9 +1,0 @@
-- [[Airpod Pro]] from [[Apple]] has strong sound isolation and three modes:
-    - Normal mode
-    - Noise cancellation mode
-        - Pulses of energy synchronized with incoming sound to negate them.
-    - Transparent mode
-        - Pulses of energy synchronized with incoming sound to facilitate them.
-- My intuitions
-    - Noise cancellation mode is likely the most power consumption.
-    - 

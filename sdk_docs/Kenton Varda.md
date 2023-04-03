@@ -1,5 +1,0 @@
-- Creator of
-    - [[Sandstorm]]
-    - [[Cap'n Proto]]
-- Lead of [[CloudFlare Workers]]
-- https://github.com/kentonv

@@ -1,4 +1,0 @@
-- [[c4ss]] on [[anarchism]] for [[blockchain]]
-    - https://c4ss.org/content/57847
-        - Nice intro!
-        - I would skip the claim “No single entity can seize assets, reverse transactions, or change the ruleset for a given blockchain.” because it creates an unnecessary and ill defined dichotomy that excludes some proof of authority betworks and other hash linked computers like [[Spritely]] or a [[SwingSet]]

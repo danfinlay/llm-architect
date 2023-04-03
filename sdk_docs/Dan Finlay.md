@@ -1,2 +1,0 @@
-- The primary author & editor of this database.
-- Co-founder of the [[MetaMask]] [[wallet]]

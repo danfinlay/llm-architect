@@ -1,1 +1,0 @@
-- https://github.com/Agoric/agoric-sdk/pull/2784

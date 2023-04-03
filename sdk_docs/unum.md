@@ -1,7 +1,0 @@
-- A way of thinking of object identity in a [[loosely-coupled decentralization]] context, allowing a single conceptual object or "unum" to have its responsibilities divided between many [[actor]]s via [[presence]]s.
-- Coined by [[Chip Morningstar]]
-- http://habitatchronicles.com/2019/08/the-unum-pattern/
-- Related to [[the ampitheater pattern]], a method of broadcasting a capability efficiently to many others.
-- Applied in
-    - [[LucasFilm's Habitat]]
-    - [[Elko]]

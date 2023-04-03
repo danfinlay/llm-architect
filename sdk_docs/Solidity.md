@@ -1,1 +1,0 @@
-- A smart contract language that compiles to [[evm]]

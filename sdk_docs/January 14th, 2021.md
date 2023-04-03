@@ -1,6 +1,0 @@
-- [[Venkatesh "vgr" Rao]] thread of threads
-    - https://twitter.com/vgr/status/1279451428302422016?s=20
-- [[An Introduction to [[pet name]] Systems]] Reading Club
-    - https://twitter.com/danfinlay/status/1349933850546237440?s=20
-- At [[Rebooting Web of Trust]] 2020, [[Christine Lemmer Webber]], [[Mark Miller]], [[Zachary Larson]], [[Kate Sills]], and Eli Yaacoby [wrote an article](https://github.com/cwebber/rebooting-the-web-of-trust-spring2018/blob/petnames/draft-documents/petnames.md) on [[pet name]]s.
-- [[Object Capability Security in Virtual Environments]] was the article that got [[Christine Lemmer Webber]] to transition his work to [[OcapPub]]

@@ -1,2 +1,0 @@
-- An [[Ethereum]] wallet building on [[[[EIP]] 4337: [[account abstraction (AA)]] via Entry Point Contract]]
-- https://twitter.com/zengjiajun_eth/status/1636496326723768320

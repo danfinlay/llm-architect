@@ -1,2 +1,0 @@
-- There are now 6 [[Farcaster]] clients
-    - https://twitter.com/dwr/status/1612499274859745283?s=20

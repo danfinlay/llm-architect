@@ -1,2 +1,0 @@
-- Has a bad rap today, maybe thanks to [[Java (language)]] and decades of enterprise jargon.
-    - https://twitter.com/theemilyaccount/status/1448385589745700868?s=20

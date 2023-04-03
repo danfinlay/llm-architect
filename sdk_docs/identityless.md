@@ -1,1 +1,0 @@
-- **I believe** this means that no `===` [[JavaScript]] comparison between this value and another will return `true`.

@@ -1,4 +1,0 @@
-- [[Google]] representative to [[TC-39]]
-- [[TC-39]] Chair
-- [[Domenic Denicola]] called [[Secure EcmaScript (SES)]] snake-oil, citing [[Spectre]], and [[Shu-Yu Guo]] liked the tweet. https://twitter.com/domenic/status/1298045341858660352?s=21
-    - a citation example escape: https://twitter.com/domenic/status/1298049307954774019?s=21

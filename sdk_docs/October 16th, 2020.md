@@ -1,2 +1,0 @@
-- [[Circles UBI]] premiered for public usage on the wider internet.
-    - Crypto-Twitter quickly established a norm of badgering people for trust without bothering to learn how the system works, and criticizing anyone who spoke against reckless trust.

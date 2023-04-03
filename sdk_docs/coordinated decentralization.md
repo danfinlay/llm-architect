@@ -1,6 +1,0 @@
-- A decentralized way to come to a single consistent decision, like a [[blockchain]], or a [[direct democracy]].
-- As opposed to [[loosely-coupled decentralization]].
-- Examples
-    - A group voting on a single decision to make as a group.
-    - The [[Ethereum]] blockchain, creates a single global virtual machine.
-- Coined by [[Mark Miller]]

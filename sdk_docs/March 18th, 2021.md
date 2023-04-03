@@ -1,1 +1,0 @@
-- Rewrote [[What is a [[wallet]]?]]

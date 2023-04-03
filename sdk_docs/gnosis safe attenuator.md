@@ -1,1 +1,0 @@
-- A [[[[[[Gnosis]] SAFE]] module]] that enforces [[attenuation]] over what methods its [[contract owner]] can forward to the parent [[[[Gnosis]] SAFE]].

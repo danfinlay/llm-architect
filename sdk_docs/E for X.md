@@ -1,1 +1,0 @@
-- [[[[ECMA]]Script]] for [[XML]]

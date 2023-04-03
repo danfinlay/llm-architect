@@ -1,2 +1,0 @@
-- [[decentralized]] [[search engine]] [[pentacle]]
-    - https://twitter.com/0x4C756B65/status/1492276506214776834

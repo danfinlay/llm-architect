@@ -1,2 +1,0 @@
-- Working at [[Brave (Browser)]]
-- Formerly at [[Tor (Browser)]]

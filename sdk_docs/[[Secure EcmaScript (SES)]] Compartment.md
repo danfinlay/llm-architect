@@ -1,3 +1,0 @@
-- Aka [[Compartment]] for [[JavaScript]]
-- An API for confining some evaluated code 
-- Javascript execution environment containing its own [[globalThis]] with the same set of [[Intrinsics]] as the [[Root Container]]. Modifications to a compartment's [[globalThis]] will not affect the [[globalThis]] in other compartments. Modifications to a compartment's [[Intrinsics]] does affect the [[Intrinsics]] of other compartments in the same [[Root Container]] to prevent [[Identity Discontinuity]]. 

@@ -1,3 +1,0 @@
-- [[pet name]] [discussion](https://github.com/Agoric/agoric-sdk/issues/1449) at [[Agoric]]
-- [[Balaji]] on [[personal token]]
-    - https://twitter.com/balajis/status/1364626032771272706?s=21

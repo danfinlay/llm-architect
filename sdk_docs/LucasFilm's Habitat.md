@@ -1,4 +1,0 @@
-- One of the first graphical games, and maybe the first MMO game.
-- Built by [[Chip Morningstar]] and [[F. Randall ("Randy") Farmer]]
-- [[NeoHabitat]] is a live web-browser based version that you can play today!
-- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FHbzoGSQY4i.png?alt=media&token=65f627e8-01a2-4fd1-9560-e125d5044df6)

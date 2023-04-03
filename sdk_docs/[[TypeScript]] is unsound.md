@@ -1,4 +1,0 @@
-- unsoundness comes from
-    - inheritance
-    - pervasive mutability
-    - typescript cannot understand property mutability. It cannot reason about [[harden()]] in any meaningful way. Just `(<T>) => <T>`.

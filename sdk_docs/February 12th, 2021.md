@@ -1,2 +1,0 @@
-- [[Tokenized Prioritization System]]
-    - Began [First implementation](https://github.com/Borgroom/token-prioritizer)

@@ -1,1 +1,0 @@
-- The programming pattern of allowing a component to accept any object that exposes a certain interface, to allow it to express [[polymorphism]], and interact with a variety of different [agents]([[agent]]) that it was not originally designed to.

@@ -1,2 +1,0 @@
-- More designers should try their hands at these challenges.
-- https://twitter.com/danfinlay/status/1433130682583162881?s=20

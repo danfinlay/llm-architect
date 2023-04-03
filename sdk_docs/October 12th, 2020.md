@@ -1,4 +1,0 @@
-- [[K. Eric Drexler]] and [[Mark Miller]] [[The Ecology of Computation]]
-    - https://twitter.com/jimepstein/status/1315712538257108992?s=20
-- [[Numerai]] seems like a [[modernist]] [[hedge fund]] of the type [[Friedrich Hayek]] would suggest is inefficient or impossible, trying to aggregate all signals. 
-    - https://twitter.com/numerai/status/1315674670075576320?s=21

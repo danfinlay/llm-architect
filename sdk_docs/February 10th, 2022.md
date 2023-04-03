@@ -1,2 +1,0 @@
-- [[Dework]] is a [[[[Gnosis]] SAFE]] [[project management]]tool
-    - https://twitter.com/deworkxyz/status/1491826767992135689?s=21

@@ -1,1 +1,0 @@
-- A part of a system that is responsible for making trusted claims about external events

@@ -1,9 +1,0 @@
-- "Like an inline anti-quote" - [[Mark Miller]]
-- Best to not think of as a function, since it operates on more than its arguments.
-- Executes in the scope in which it appears.
-- Preserves lexical `this`
-- In [[Secure EcmaScript (SES)]], each [[Compartment]] has its own [[eval]], and will use that eval as its global scope.
-- Invoking [[eval]] directly, as a function.
-    - `let x = 10; eval(“x = 20”)`
-- https://blog.klipse.tech/javascript/2016/06/20/js-eval-secrets.html
-- Opposed to [[indirect eval]]

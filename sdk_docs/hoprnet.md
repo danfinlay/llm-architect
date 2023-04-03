@@ -1,6 +1,0 @@
-- Claims to prove how un private [[MetaMask]] is
-- https://derp.hoprnet.org/?s=09
-- Response
-    - Proves nothing about the privacy practices of [[Infura]]
-    - Demonstrates how MetaMask allows a user to opt into higher privacy provider hosting, and could help nudge more users to self host.
-    - Might itself use data collected for harm.

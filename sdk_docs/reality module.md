@@ -1,2 +1,0 @@
-- A [[Zodiac]] [[oracle]] for [[[[Gnosis]] SAFE]] using a [[Snapshot (dao voting)]]
-- https://reality.eth.link/

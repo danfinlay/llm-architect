@@ -1,2 +1,0 @@
-- https://opentheory.net/2019/11/neural-annealing-toward-a-neural-theory-of-everything/
-- https://twitter.com/algekalipso/status/1408270561659166721?s=21

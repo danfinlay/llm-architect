@@ -1,5 +1,0 @@
-- [[A.R.Moxon]] [[Trump]]
-    - 1 https://twitter.com/juliusgoat/status/1323276364846309378?s=21
-    - 2 
-    - 4 https://twitter.com/juliusgoat/status/1319986819224711168?s=21
-    - 5 https://twitter.com/juliusgoat/status/1320350961773236229?s=21

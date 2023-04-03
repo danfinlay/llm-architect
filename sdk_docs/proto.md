@@ -1,2 +1,0 @@
-- A property that exists on every instance of an object. An object's proto is it's parent's prototype. 
-- Example: `{}` inherits from `Object` therefore `{}.__proto__ === Object.prototype

@@ -1,7 +1,0 @@
-- [[VitaDAO]] [[Vitalik Buterin]] [[Aubrey de Grey]]
-    - https://twitter.com/vita_dao/status/1626250713020899334?s=20
-    - {{youtube: https://www.youtube.com/watch?v=x9TSJK1widA}}
-- [[PayPal]] [[platform risk]]
-    - https://twitter.com/dannypostmaa/status/1625814723974553604?s=20
-- [[Tor (Browser)]] [[Snowflake]]
-    - https://snowflake.torproject.org/

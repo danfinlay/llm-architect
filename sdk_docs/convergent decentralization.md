@@ -1,1 +1,0 @@
-- I believe this is equivalent to [[coordinated decentralization]]

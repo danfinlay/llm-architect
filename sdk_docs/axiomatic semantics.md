@@ -1,1 +1,0 @@
-- defines program behavior in terms of the logical formulae that are satisfied before and after a program

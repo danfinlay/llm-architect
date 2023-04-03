@@ -1,1 +1,0 @@
-- A linux syscall that allows invoking a process into a restricted system mode that can only read and write.

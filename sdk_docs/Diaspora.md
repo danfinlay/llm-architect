@@ -1,1 +1,0 @@
-- A decentralized social network designed to displace [[Facebook]]

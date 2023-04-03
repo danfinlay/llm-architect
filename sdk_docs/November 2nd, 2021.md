@@ -1,2 +1,0 @@
-- [[TWAP]] [[oracle]]
-    - https://twitter.com/mudit__gupta/status/1455627465678749696?s=21

@@ -1,1 +1,0 @@
-- Sometimes called "shadow target"

@@ -1,4 +1,0 @@
-- Specializes in obfuscating [[JavaScript]] code while keeping it valid.
-- Creates an obfuscated interpreter, and then meta-interprets it with another layer of obfuscated meta-interpreter.
-    - It turns out that doing two levels deep is dramatically more effective than one, but three doesn't gain much.
-- Their adversary is view source.

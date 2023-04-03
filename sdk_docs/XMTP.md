@@ -1,3 +1,0 @@
-- Cross-[[wallet]] communication/messaging protocol.
-- Aims to mitigate scams/spam.
-- https://xmtp.com/

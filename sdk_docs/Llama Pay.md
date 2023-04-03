@@ -1,5 +1,0 @@
-- Enables a [[streaming payment]] on [[Ethereum]]
-- https://llamapay.io/
-- [The code on GitHub](https://github.com/LlamaPay/llamapay/blob/master/contracts/LlamaPay.sol)
-- Features
-    - requires an on-chain transaction to create each money stream

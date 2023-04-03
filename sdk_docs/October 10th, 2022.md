@@ -1,5 +1,0 @@
-- [[October 10th, 2022]] at 10:48
-    - [[SMTP]]
-        - https://twitter.com/afdudley0/status/1579497655407083522?s=
-- [[October 10th, 2022]] at 10:48
-    - [[Friedrich Hayek]] [[blockchain]] https://twitter.com/emekaugbah/status/1579301951472570369?s=46&t=

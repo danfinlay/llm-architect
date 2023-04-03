@@ -1,2 +1,0 @@
-- The [[TC-39]] Security Group
-- "Technical Group 3"

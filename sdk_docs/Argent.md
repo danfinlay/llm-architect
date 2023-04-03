@@ -1,3 +1,0 @@
-- https://www.argent.xyz/
-- An [[Ethereum]] based [[contract account]] [[wallet]].
-- Currently primarily onboarding users to [[zk Sync]]

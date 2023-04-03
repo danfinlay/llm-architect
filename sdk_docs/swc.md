@@ -1,9 +1,0 @@
-- https://github.com/swc-project/swc
-- A super-fast [[JavaScript]] bundler written in [[rust (language)]]
-- Sponsored by
-    - [[deno]]
-    - [[parcel]]
-- Advantages
-    - performance
-    - correctness
-    - memory safety

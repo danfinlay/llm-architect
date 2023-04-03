@@ -1,3 +1,0 @@
-- [[Zooko Wilcox]] and [[Least Authority]] [predicted](https://twitter.com/zooko/status/1425597032706711552?s=20) [[The [[DAO]]]] vulnerability
-- [[Zooko Wilcox]] recommends his favorite [[Zcash]] [[wallet]]s
-    - https://twitter.com/zooko/status/1425488985179131911?s=21

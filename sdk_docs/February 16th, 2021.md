@@ -1,8 +1,0 @@
-- [[Agoric]] [[MetaMask]] sync
-    - [[endo]]
-        - What is 1.0?
-            - Maybe no process identity/cryptographic identity.
-            - Basically [[Secure EcmaScript (SES)]] + [[CapTP]]
-        - Eventual goal
-            - A distributed secure programming language
-- [[Rick Dudley]] [work themes](https://twitter.com/afdudley0/status/1093804929901301760?s=21)

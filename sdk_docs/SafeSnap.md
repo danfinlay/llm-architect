@@ -1,1 +1,0 @@
-- Triggering [[[[Gnosis]] SAFE]] transactions from [[Snapshot (dao voting)]] using an [[oracle]]

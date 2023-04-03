@@ -1,2 +1,0 @@
-- [[Dear Son, I am Joining a Cult]] was strangely resonant.
-    - https://twitter.com/dthorson/status/1437092988866473995?s=21

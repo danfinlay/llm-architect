@@ -1,1 +1,0 @@
-- [[GitCoin]] using [[3box style key generation]] [for their zksync feature](https://github.com/gitcoinco/web/blob/master/docs/GRANTS.md#architecture-background)

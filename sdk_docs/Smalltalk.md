@@ -1,2 +1,0 @@
-- - [[Alan Kay]]
-    - > Smalltalk's design—and existence—is due to the insight that everything we can describe can be represented by the recursive composition of a single kind of behavioral building block that hides its combination of state and process inside itself and can be dealt with only through the exchange of messages.

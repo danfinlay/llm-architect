@@ -1,2 +1,0 @@
-- [[Sismo]]
-    - https://twitter.com/dhadrien_/status/1631722264587644929?s=46&t=

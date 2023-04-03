@@ -1,5 +1,0 @@
-- A style of strongly secure cryptographic identifier used to regulate access control.
-- Has [[power/capability]] security properties, since any holder of one is inherently able to share it, even as an [[offline capability]]
-- Supports [[attenuation]]
-- External readings
-    - [Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud](https://research.google/pubs/pub41892/)

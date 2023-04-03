@@ -1,2 +1,0 @@
-- [[Yandex]] leak of source code [[[[search engine]] optimization (SEO)]] may be applicable to [[Google]]
-    - https://arstechnica.com/information-technology/2023/01/massive-yandex-code-leak-reveals-russian-search-engines-ranking-factors/

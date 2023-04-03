@@ -1,3 +1,0 @@
-- I want an off the shelf framework for [[[[CapTP]] over [[WebRTC]]]]. And I think that framework would be a fun starting point to then incentivize building [[[[presence]] handoffs]]
-- [[Alex Pertsev]] was arrested
-    - https://twitter.com/dystopiabreaker/status/1558886550523416577?s

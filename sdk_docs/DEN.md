@@ -1,8 +1,0 @@
-- A client stack for [[[[Gnosis]] SAFE]]
-- Adds features
-    - Notifications for when it’s your turn to sign.
-    - Transaction simulator 
-    - Transaction builder
-- Has some nods to [[MetaMask]]?
-    - Logo is a low-poly fox
-    - Name is Den, like a fox’s den.

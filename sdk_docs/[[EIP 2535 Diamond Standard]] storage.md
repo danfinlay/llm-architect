@@ -1,1 +1,0 @@
-- https://eip2535diamonds.substack.com/p/how-storage-works-in-eip2535-diamonds

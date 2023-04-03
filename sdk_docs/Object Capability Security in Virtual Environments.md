@@ -1,1 +1,0 @@
-- https://www.uni-weimar.de/fileadmin/user/fak/medien/professuren/Virtual_Reality/documents/publications/capsec_vr2008_preprint.pdf

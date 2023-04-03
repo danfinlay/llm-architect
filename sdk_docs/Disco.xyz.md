@@ -1,2 +1,0 @@
-- https://www.disco.xyz/
-- [[verified credentials/verifiable claims (VCs)]] on [[Ethereum]]

@@ -1,3 +1,0 @@
-- An approach to enabling [[[[Multiple Network Connection]] API]]
-- Announced in [frame canary](https://blog.frame.sh/frame-canary/)
-    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FBV8-Be5eql.png?alt=media&token=acea09a9-8f5d-45d1-b985-cdf9b794c68f)

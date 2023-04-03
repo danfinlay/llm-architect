@@ -1,2 +1,0 @@
-- https://gm.megaversepinball.com/
-- NFT themed pinball game. I hear it's very funny.

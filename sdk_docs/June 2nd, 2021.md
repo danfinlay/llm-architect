@@ -1,2 +1,0 @@
-- [[Nick Johnson]] requests [[[[Gnosis]] SAFE]] strategy for [[delegation]] of a single [[contract account]] method. Reminiscent of [[[[[[Gnosis]] SAFE]] [[object capability (ocap)]]]]
-    - https://twitter.com/nicksdjohnson/status/1399898063896858624?s=20

@@ -1,5 +1,0 @@
-- A [[DID]] project at [[TBD]] in partnership with [[Block (formerly Square)]], rooted on [[Bitcoin]]
-- https://www.tbd.website/
-- Team lead by [[Daniel Buchman]]
-- Takes
-    - https://twitter.com/muneeb/status/1535367452388904965?s=21&t=

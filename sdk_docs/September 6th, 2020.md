@@ -1,2 +1,0 @@
-- #[[Quick Capture]]
-    - [[Promise Pipelining]] https://twitter.com/marksammiller/status/1302755461528039426?s=21

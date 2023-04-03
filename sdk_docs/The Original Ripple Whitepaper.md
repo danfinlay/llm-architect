@@ -1,6 +1,0 @@
-- Written 2004 by [[Ryan Fugger]]
-- Outlines how a digital technology could enable emergent peer to peer banking.
-- Was the foundation for the [[Ripple]] protocol, which was modified to hide the core inter-user [[Trustlines]] parameter, because it was seen as too difficult from a user experience perspective. [[only good design can test this theory]]
-- Also, it seems they found banking partners that probably paid better anyways.
-- Original document
-    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FyYc3mAfSbs.pdf?alt=media&token=e4cddeef-71b5-4ea0-acae-eab401416442}}

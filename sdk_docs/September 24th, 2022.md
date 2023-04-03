@@ -1,3 +1,0 @@
-- [[September 24th, 2022]] at 22:53
-    - [[Cosmos]] canonical history
-        - https://twitter.com/cosmoshub/status/1573727971558449154?s=46&t=

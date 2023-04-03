@@ -1,2 +1,0 @@
-- A decentralized [[git]] platform.
-- https://radicle.xyz/

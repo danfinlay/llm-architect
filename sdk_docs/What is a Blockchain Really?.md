@@ -1,1 +1,0 @@
-- https://dustycloud.org/blog/what-is-a-blockchain-really/

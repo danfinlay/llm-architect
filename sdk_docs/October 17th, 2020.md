@@ -1,3 +1,0 @@
-- [[Christopher Allen]] compares [[Circles UBI]] to [[Holochain]] and [[Group Income]]
-    - https://twitter.com/christophera/status/1317562853604220929?s=21
-- [[Vitalik Buterin]] on why companies blocking posts is [[censorship]] in his opinion: https://twitter.com/vitalikbuterin/status/1317613438332325888?s=21

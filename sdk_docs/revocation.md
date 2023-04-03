@@ -1,2 +1,0 @@
-- Withdrawing the right of someone to act with a [[power/capability]]
-- see [[principle of [[revocation]]]]

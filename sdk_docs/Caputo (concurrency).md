@@ -1,9 +1,0 @@
-- A place for trying to answer Big outstanding problem: If operating on references from multiple hosts, how to automatically negotiate the location of the `there()` call. (“Where will we do [[the swap]]?”)
-- A JavaScript implementation of a [[meta-lock]] protocol.
-- Like [[STM]] but for a permissionless open decentralized protocol.
-- “This action is going to interact with 3 things”
-- A call to [[.there()]] could perform the creation of a cryptographic bid, for which anyone could (ideally) execute on and return the valid response.
-    - But even in order to be able to execute on the bid without double-buying, there is need for a sort of [[meta-lock]], a lock on the right to perform this function. Execution environments would race for the right to complete a transaction, possibly by first issuing bids to the submitter for prices to execute and a time limit to complete it in. A transaction submitted after the time limit results in a full revert of the agreement, with the execution environment eating any cost to get as far as it got before failing.
-    - An agent able to acquire locks on “the 3 things” could then complete the transaction and return proof of it.
-    - An agent issuing a [[.there()]] could then evaluate the claims returning that the swap had been completed.
-    - 

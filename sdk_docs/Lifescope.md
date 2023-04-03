@@ -1,2 +1,0 @@
-- https://lifescope.io/
-- A personal data aggregator

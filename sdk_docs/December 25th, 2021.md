@@ -1,2 +1,0 @@
-- [[Solidity]] [[evm]]
-    - https://twitter.com/controlcthenv/status/1474970230334144512?s=21

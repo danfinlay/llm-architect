@@ -1,2 +1,0 @@
-- A [[V8 Engine]] version of [[Waterken]]
-- https://web.eecs.umich.edu/~tpkelly/Ken/

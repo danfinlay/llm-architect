@@ -1,1 +1,0 @@
-- The module [[bundler]] for [[swc]]

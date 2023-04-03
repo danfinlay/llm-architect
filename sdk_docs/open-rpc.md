@@ -1,1 +1,0 @@
-- A specification for describing [[JSON-RPC API]] and a set of tools for using those descriptions.

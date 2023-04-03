@@ -1,6 +1,0 @@
-- A great saying which is probably true.
-- The name of [an article regarding a short-lived feature](https://openbazaar.org/blog/trust-is-risk-a-decentralized-trust-system/) on [[OpenBazaar]].
-    - Cites [[Trust and social collateral: 2009 (Karlan, Mobius, Rosenblat, Szeidl)]]
-    - Used [[Trustlines]] to show users how much they are already exposed to a seller, as a way to establish trustworthiness.
-    - Criticism
-        - Did not use these [[Trustlines]] to penalize bad behavior, and so multiple purchases from multiple buyers at once could easily exceed the [[maximal flow]] of the trustlines, violating the [[social collateral]] principle.

@@ -1,5 +1,0 @@
-- Working on [[AI]] that can explain why they reached a decision via [[Propogators]].
-- A student of [[Gerrald "Jerry" Sussman]]
-- [[Explainable AI (XAI)]]
-- http://people.csail.mit.edu/lgilpin/
-- [Thesis paper](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UFT_ijYAAAAJ&citation_for_view=UFT_ijYAAAAJ:roLk4NBRz8UC)

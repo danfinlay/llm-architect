@@ -1,3 +1,0 @@
-- When trying to send `max` ether, if the `max_fee` isn't exactly the `base_fee`, the maximum eth isn't sent away.
-    - https://twitter.com/CryptoCobain/status/1431988220292747269?s=20
-- It’s irrational to mind this, but people do.

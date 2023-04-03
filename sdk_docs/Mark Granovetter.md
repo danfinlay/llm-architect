@@ -1,6 +1,0 @@
-- American sociologist
-- Specialized in social network theory and economic sociology.
-- https://en.wikipedia.org/wiki/Mark_Granovetter?wprov=sfti1
-- Invented
-    - [[Granovetter diagram]]
-    - [[The Strength of Weak Ties]]

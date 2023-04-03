@@ -1,2 +1,0 @@
-- [[Coinbase]] releases [[wallet as a service]]
-    - https://twitter.com/adietrichs/status/1633911069101150209?s=20

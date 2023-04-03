@@ -1,5 +1,0 @@
-- https://wyvernprotocol.com/
-- https://github.com/wyvernprotocol
-- [Whitepaper](https://github.com/ProjectWyvern/wyvern-protocol/blob/master/build/whitepaper.pdf)
-    - {{[[pdf]]: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FJ2xYDlsB6U.pdf?alt=media&token=9d91eba7-1276-4608-a975-917523db3f94}}
-- 

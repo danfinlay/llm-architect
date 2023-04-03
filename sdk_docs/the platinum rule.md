@@ -1,2 +1,0 @@
-- An improvement over [[the golden rule]].
-- "Do unto others as they would have you do unto them."

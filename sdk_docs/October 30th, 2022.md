@@ -1,4 +1,0 @@
-- [[October 30th, 2022]] at 17:07
-    - [[Stephen Diehl]] https://twitter.com/dystopiabreaker/status/1586831371913207809?s=46&t=_9w
-- [[October 31st, 2022]] at 18:04
-    - [[Christine Lemmer Webber]] on [[guix]] [[org-mode]] [[emacs]] https://twitter.com/dustyweb/status/1587145359616315394?s=46&t=

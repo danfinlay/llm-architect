@@ -1,5 +1,0 @@
-- [[wardley map]]
-    - https://twitter.com/gordonbrander/status/1578804551817187328
-- [[October 8th, 2022]] at 17:34
-    - [[[[Binance]] Smart Chain (BSC)]] [[Cosmos]] [[[[Cosmos]] Zone]] hack [[Ethan Buchman]]
-        - https://twitter.com/buchmanster/status/1578879188542849025?s=46&t=

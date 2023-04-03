@@ -1,2 +1,0 @@
-- https://blog.sweetbridge.com/scott-vinay-talk-a31e3a052f4e
-- {{youtube: https://www.youtube.com/watch?v=dla42bY7k90}}

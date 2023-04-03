@@ -1,6 +1,0 @@
-- [[TrueBlocks]] [[Erigon]]
-    - https://twitter.com/wjvill/status/1613988385840070657?s=46&t=
-- [[evm]] [[instant runoff voting]]
-    - https://twitter.com/0xekez/status/1610843172581826560?s=46&t=-_
-    - 
-- [[Esperanto]] https://twitter.com/justinetunney/status/1614086918249283584?s=46&t=

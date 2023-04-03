@@ -1,5 +1,0 @@
-- When the set of [[Intrinsics]] inside two execution environments don't match. This occurs when creating an `iframe` in the browser.
-- Example, inside of an `iframe`: 
-- `const Array = window.parent.array`;
-- `[1,2,3] instanceof Array`; // false
-- `[1,2,3].constructor === Array`; // false

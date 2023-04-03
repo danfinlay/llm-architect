@@ -1,3 +1,0 @@
-- The Snapchat extensibility system
-- Allows developers to build custom video filters, written in [[JavaScript]].
-- This means the [[[[iOS]] App Store]] has permitted an extensible code environment into their store.

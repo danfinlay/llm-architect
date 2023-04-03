@@ -1,2 +1,0 @@
-- https://snapshot.org/#/
-- [Types of voting available](https://docs.snapshot.org/proposals/voting-types)

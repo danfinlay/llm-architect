@@ -1,9 +1,0 @@
-- https://www.moddable.com/
-- https://github.com/Moddable-OpenSource/moddable
-- An SDK for writing [[Secure EcmaScript (SES)]] on [[IoT]]
-- Runs the [[XS Engine]] as its [[JavaScript]] runtime
-    - Supports the [[Compartment]] API
-- Makers of the [[XS Engine]]
-- Members
-    - [[Peter Hoddie]]
-- {{youtube: https://youtu.be/-2UnCfy5NSs }}

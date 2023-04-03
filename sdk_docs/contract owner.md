@@ -1,2 +1,0 @@
-- The pattern of having an assigned owner/moderator with total authority over a given [[smart contract]].
-- In [[Ethereum]] this is captured as [[EIP 173: Ownable Interface]]

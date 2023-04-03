@@ -1,1 +1,0 @@
-- [[unum]] is a way to think about multi party interactions over [[CapTP]]

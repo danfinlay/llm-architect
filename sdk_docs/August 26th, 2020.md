@@ -1,2 +1,0 @@
-- [[Wong Joon Ian]] writes on [what he thinks](http://joonian.media/what-personal-tokens-are-useful-for/) [[personal token]] will be good for.
-- [[Shreyas Hariharan]] said the idea of [[social collateral]] resonated with him.

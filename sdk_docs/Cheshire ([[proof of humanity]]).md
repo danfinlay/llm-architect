@@ -1,9 +1,0 @@
-- https://cheshire.wtf/
-- Uses on-chain heuristics to suggest if someone is a person
-    - Owns a registered name
-        - [[ENS]]
-        - [[Unstoppable Domains]]
-    - [[Proof of Attendance Protocol (POAP)]] ownership
-    - a few other things
-- Criticism
-    - None of those heuristics are impossible to game, or prove that a person is not malicious (so it's hard to trust someone just for being on the registry).

@@ -1,1 +1,0 @@
-- [Criticisms](https://blog.keys.casa/shamirs-secret-sharing-security-shortcomings/) by [[Casa HODL]]

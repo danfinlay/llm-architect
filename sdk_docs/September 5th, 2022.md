@@ -1,4 +1,0 @@
-- [[The State of [[Secure UI]] in [[web3]]]]
-- Reading [[Heart of [[Spritely]]]]
-- [[[[object capability (ocap)]] Security in Virtual Environments]]
-- Had a weird intuition/inkling that there is a relationship between building a system for efficient [[[[financial graph cycles]] and [[tail call optimization]]]]

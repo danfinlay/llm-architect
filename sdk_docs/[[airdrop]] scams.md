@@ -1,1 +1,0 @@
-- https://medium.com/metamask/phisher-watch-airdrop-scams-82eea95d9b2a

@@ -1,2 +1,0 @@
-- [[distributed systems]] [principles](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/) by [[Jeff Hodges]]
-- 

@@ -1,4 +1,0 @@
-- ## You must not lend more to another than that other values your relationship
-- [[social collateral]] 
-    - There has been game theoretical research that shows large resilient lending networks can be built as long as each agent respects [[the [[social collateral]] principle]].
-        - You must not lend more to another than that other values your relationship

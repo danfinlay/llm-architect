@@ -1,6 +1,0 @@
-- a new [[Lisp]]-based programming language for [[zk snarks]].
-- https://eprint.iacr.org/2023/369
-- Similar projects
-    - [[Glow]]
-    - [[[[Chia]] Lisp]]
-- https://twitter.com/lurklab/status/1595549607492259840?s=46&t=

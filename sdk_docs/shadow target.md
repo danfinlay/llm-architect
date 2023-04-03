@@ -1,2 +1,0 @@
-- When creating a [[membrane]] or [[Proxy]], the [[shadow target]] is 
-    - Unsure! Either the root target, or the proxy itself!

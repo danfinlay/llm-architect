@@ -1,2 +1,0 @@
-- [[Argent]] [[zero day [[vulnerability]]]] [[account abstraction (AA)]]
-    - https://twitter.com/yoavgaziel/status/1594797195538141184

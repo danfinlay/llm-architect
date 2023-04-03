@@ -1,1 +1,0 @@
-- [How to make Discourse plugins](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-1-creating-a-basic-plugin/30515)

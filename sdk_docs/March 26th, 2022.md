@@ -1,2 +1,0 @@
-- [[[[EIP]] 4773]] vs [[[[EIP]] 3074: Delegated Invocation Contracts]]
-    - https://twitter.com/danfinlay/status/1507100674114273309?s=21&t=jYldBUA-57YsEZJChhSQ7w

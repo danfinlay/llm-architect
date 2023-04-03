@@ -1,5 +1,0 @@
-- A [[w3c]] critique of [[DID]] https://lists.w3.org/Archives/Public/public-new-work/2021Sep/0000.html
-- [[Christine Lemmer Webber]] recommends [[Leilani Gilpin]] on [[AI]] [[propagator]]
-    - https://twitter.com/dustyweb/status/1357401614982774789?s=20
-- [[Vitalik Buterin]] tells [[Santiago Siri]] that [[proof of humanity]] merely needs [[economic sink]]s to succeed.
-    - https://twitter.com/VitalikButerin/status/1433230063189725188?s=20

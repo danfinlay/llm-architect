@@ -1,2 +1,0 @@
-- [[n of m multisig]] life
-    - https://twitter.com/0xkarmacoma/status/1501319928434991107

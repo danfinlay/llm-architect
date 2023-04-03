@@ -1,2 +1,0 @@
-- A model of computing that has been independently invited at least three times, in which processes are modeled as separate "actors" who are limited to communication by immutable messages, and are able to create other actors.
-- According to [[History of [[The Actor Model]]]], this model later extended into [[distributed [[object capability (ocap)]]]]

@@ -1,9 +1,0 @@
-- [[November 11th, 2022]] at 13:44
-    - [[ActivityPub]] vs [[Gab]] https://conf.tube/videos/watch/d8c8ed69-79f0
-- [[November 11th, 2022]] at 13:44
-    - https://conf.tube/videos/watch/d8c8ed69-79f0-4987-bafe-84c01f38f966
-- [[November 13th, 2022]] at 04:39
-    - [[FTX]] [[Binance]]
-        - https://twitter.com/maxboonen/status/1591450632010989571?s=
-        - https://github.com/degenliberationsyndicate/binance_data_2019
-        - https://twitter.com/mhonkasalo/status/1591603724887228419?s=46&t=

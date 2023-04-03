@@ -1,1 +1,0 @@
-- The base currency of the [[Ethereum]] [[blockchain]].

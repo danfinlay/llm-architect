@@ -1,3 +1,0 @@
-- An [[Ethereum]] implementation of [[Extended Lightning Network (XLN)]] by [[Egor Homakov]], enabling scalable peer to peer lending
-- [on GitHub](https://github.com/homakov/xlncontracts/blob/main/contracts/xln.sol)
-- https://twitter.com/homakov/status/1372909015257251841

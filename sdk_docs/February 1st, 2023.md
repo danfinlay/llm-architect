@@ -1,4 +1,0 @@
-- [[Jessica Tallon]] shows how [[[[presence]] handoffs]] work in the [[[[Spritely]] Goblins]] [[OCapN]]
-    - {{youtube: https://www.youtube.com/watch?v=rQJB6MSmang}}
-- [[Interaction Observer v2 API]] may allow [[trusted-in-untrusted [[Secure UI]]]]
-    - https://twitter.com/somamine/status/1620884469015261184?s=20

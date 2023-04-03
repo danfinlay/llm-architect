@@ -1,7 +1,0 @@
-- [[[[EIP]] 5573: SIWE ReCap Extension]] by [[SpruceID]] FOR [[EIP-4361: Sign in with Ethereum (SiWE)]]
-    - https://twitter.com/spruceid/status/1580607295146188812?s=46&t=
-- [[The Three Projections of Doctor Futurama]] by [[sigfpe]] mentioned on [[friam]]
-    - http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html
-- [[October 15th, 2022]] at 13:00
-    - [[Mango Markets]]
-        - https://twitter.com/avi_eisen/status/1581326197241180160?s=46&t=

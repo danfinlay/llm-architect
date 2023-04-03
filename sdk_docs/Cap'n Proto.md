@@ -1,3 +1,0 @@
-- A binary data exchange protocol that uses [[Promise Pipelining]] to optimize its performance.
-- Built by [[Kenton Varda]]
-- ![](https://capnproto.org/images/time-travel.png)

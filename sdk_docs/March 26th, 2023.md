@@ -1,2 +1,0 @@
-- [[Plan 9]]
-    - https://twitter.com/msimoni/status/1640009779513896961?s=46&t=

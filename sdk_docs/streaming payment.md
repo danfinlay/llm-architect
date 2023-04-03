@@ -1,6 +1,0 @@
-- A construct that allows one to commit to a continuous payment.
-- On a [[turing complete [[blockchain]]]] like [[Ethereum]], this could be a [[smart contract]] that allows a sender to issue one "allowance" signature that enables the recipient to withdraw at their leisure, up to the rate permitted.
-- Examples
-    - [[Superfluid HQ]]
-    - [[Sablier]]
-    - A [[Delegatable Eth]] [[caveat]].

@@ -1,4 +1,0 @@
-- [[Dfinity]] [[Internet Computer]]
-    - https://twitter.com/mutedialog/status/1484850868465844225?s=21
-- [[The Framework Computer]] opened its firmware
-    - https://frame.work/blog/open-sourcing-our-firmware

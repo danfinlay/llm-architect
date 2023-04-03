@@ -1,1 +1,0 @@
-- node's global objet, like the browser's `window`/`self`

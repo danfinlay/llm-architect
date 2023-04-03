@@ -1,5 +1,0 @@
-- [Home page](http://zesty.ca/)
-- Designer of these classic visual representations of [[Arrow's Theorem]]: http://zesty.ca/voting/sim/
-- Author of papers on [[Secure UI]]
-    - [[User Interaction Design for Secure Systems]]
-    - Authored a section of the book "[[Security and Usability]]" from [[O'Reilly Books]]

@@ -1,2 +1,0 @@
-- [[Bring Your Own Algorithm (BYOA)]] [[trusted-in-untrusted [[Secure UI]]]]
-    - https://twitter.com/ryanberckmans/status/1424229429925097472?s=21

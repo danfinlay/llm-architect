@@ -1,2 +1,0 @@
-- https://eips.ethereum.org/EIPS/eip-1193
-- by [[Erik Marks]]

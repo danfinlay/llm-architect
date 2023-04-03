@@ -1,3 +1,0 @@
-- A tragic thing that happens when users get phished for a private key.
-- Examples
-    - https://twitter.com/adxmboni/status/1366147903195078657?s=20

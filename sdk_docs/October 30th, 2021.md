@@ -1,3 +1,0 @@
-- [[John Carmack]] on [[metaverse]] [[architecture astronaut]]
-    - https://twitter.com/hmltn/status/1453885021371183104?s=21
-    - https://twitter.com/id_aa_carmack/status/1453947215223799810?s=21

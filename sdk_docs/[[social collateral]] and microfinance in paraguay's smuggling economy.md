@@ -1,1 +1,0 @@
-- https://www.ucpress.edu/book/9780520287051/social-collateral

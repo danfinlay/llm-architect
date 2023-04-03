@@ -1,7 +1,0 @@
-- [[conceptual centralization]]
-- Working to make a smoother path from a roam graph to slides for [[Roam to Slides]]
-    - Maybe we can have a simple way to open a given page/node as a slide show from within Roam? 
-        - Investigating Roam plugins
-            - https://catominor3.medium.com/make-roam-for-your-mind-9e7f09e6a7b0
-            - [[hiccup]]
-- [[Social Terminal]]

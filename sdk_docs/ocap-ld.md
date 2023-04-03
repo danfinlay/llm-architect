@@ -1,3 +1,0 @@
-- Now going by the name [[zcap-ld]].
-- A [[w3c]] proposal by [[Mark Miller]] and [[Christine Lemmer Webber]] for a standard cryptographic data format for [[object capability (ocap)]].
-- https://w3c-ccg.github.io/zcap-ld/

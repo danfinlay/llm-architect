@@ -1,2 +1,0 @@
-- [[decentralized [[identity]]]] from [[Zooko Wilcox]]
-    - https://twitter.com/zooko/status/1485680632747360259?s=20

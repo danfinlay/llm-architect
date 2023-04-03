@@ -1,3 +1,0 @@
-- A researcher has supposedly found a flaw in [[[[EIP]] 1559]] but [[Vitalik Buterin]] has  come up with a hot-fix for it.
-    - https://twitter.com/edmundedgar/status/1378819416301834240?s=20
-- [[social token]] report 2020 https://2020inreview.forefront.news/

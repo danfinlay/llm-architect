@@ -1,6 +1,0 @@
-- A strange kind of [[JavaScript]] eval statement that allows accessing variables that come from a parent lexical scope.
-- When [[eval]] is evaluated as a function, which causes it to be called with the global scope, not the lexical scope of the caller.
-    - Direct eval: `let x = 10; eval(“x = 20”)`
-    - Indirect eval: `const e = eval; e(“x = 10”)`
-- https://blog.klipse.tech/javascript/2016/06/20/js-eval-secrets.html
-- Opposed to [[direct eval]]

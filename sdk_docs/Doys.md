@@ -1,2 +1,0 @@
-- The official mascots of the [[Charquin Parent Teacher Cooperative]]
-- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FZaibByA5rm.png?alt=media&token=24378921-17cf-4c13-b9d7-41a53fc70c8d)

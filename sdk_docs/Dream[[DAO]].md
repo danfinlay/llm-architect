@@ -1,2 +1,0 @@
-- A division of [[Civics Unplugged]] oriented at using [[web3]] and [[blockchain]] to address civic problems.
-    - Oriented at social-impact oriented students who maybe have no familiarity with those technologies.

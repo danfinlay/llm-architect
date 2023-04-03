@@ -1,8 +1,0 @@
-- [[demand side aggregation]] is discovery for the buy-side. How can we find what someone would pay for? from [[Vinay Gupta]]
-    - Could represent an [[object capability (ocap)]] to redeem payment in exchange for providing the service requested.
-    - Similar to [[offer safety]]
-    - Requires some trusted intermediary to do the final reconciliation between the thing desired and the payment requested. Could benefit from either a central 3rd party, or a more dynamic [[social collateral]] solution like [[The Simplest Trustworthy Oracle]].
-    - https://twitter.com/leashless/status/1622021630607122433?s=20
-- [[[[EIP]] 6384: Readability for [[EIP 712: signTypedData]]]]
-    - https://twitter.com/danfinlay/status/1622027937431293953
-- 

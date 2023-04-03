@@ -1,2 +1,0 @@
-- Basically a [[Dutch auction]] except each purchase spikes the price.
-- https://sam.mirror.xyz/X0po6x_ia2lKM2l6J2xBtIFUfGwGLG_gtqLs1a4j1SA

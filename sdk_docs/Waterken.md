@@ -1,2 +1,0 @@
-- a distributed [[Joey]] system by [[Tyler Close]] [[Marc Stiegler]] [[Alan Karp]].
-- Featured a distributed [[debugger]] called [[Causeway]]

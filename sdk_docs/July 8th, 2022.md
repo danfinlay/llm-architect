@@ -1,4 +1,0 @@
-- [[July 8th, 2022]] at 17:34
-    - [[IBC]] https://twitter.com/charleenfei/status/1545425563757809665?s=21&t
-- [[July 8th, 2022]] at 19:33
-    - [[boilerplate]] [[dapp]] https://twitter.com/shlokm289/status/1545338871528955904?s=

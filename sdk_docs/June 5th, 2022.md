@@ -1,9 +1,0 @@
-- [[Uniswap]] [[Balancer]] [[Curve.fi]] explained
-    - https://twitter.com/kinaumov/status/1533174556747350019?s=21&t=UDKNCbxYHb-
-    - 
-- [[Kim Stanley Robinson]] gone [[anti [[blockchain]]]]
-    - https://twitter.com/brittwray/status/1533248759622078465?s=21&t=FY2k9V2E--
-- [[MetaModernism]] by [[Venkatesh "vgr" Rao]]
-    - https://twitter.com/vgr/status/1533323178306465792?s=21&t=FY2k9V2E--uLulJz98NzYg
-- [[Remco Bloemen]] is working at [[Worldcoin]]. [[identity system]]
-    - https://twitter.com/recmo/status/1533187243409555456?s=21&t=FY2k9V2E--

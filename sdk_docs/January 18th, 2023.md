@@ -1,2 +1,0 @@
-- [[[[EIP]] 5267: Retrieviable [[EIP 712: signTypedData]] domain]]
-    - https://twitter.com/frangio_/status/1615758258194747393?s=20

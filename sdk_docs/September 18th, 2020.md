@@ -1,2 +1,0 @@
--  [[Christine Lemmer Webber]] wrote the [[ocap-ld]] spec after this session with [[Mark Miller]] at [[[[Rebooting Web of Trust]] 2017]] https://twitter.com/dustyweb/status/1307033695728152578?s=21
-- [[[[iOS]] 14]] has security improvements https://twitter.com/danfinlay/status/1307046251234504706?s=21

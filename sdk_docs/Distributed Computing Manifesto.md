@@ -1,1 +1,0 @@
-- https://www.allthingsdistributed.com/2022/11/amazon-1998-distributed-computing-manifesto.html

@@ -1,7 +1,0 @@
-- [[Discord]] [[Cameron Redman]] [[sim swapping]]
-    - https://twitter.com/zachxbt/status/1565358227574980617?s=21&t=y_C-
-- [[Alex van de Sande (avsa)]] shares [[Mist ([[Ethereum]] browser)]] [[security audit]] by [[cure53]]
-    - {{[[pdf]]: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FurGg4cXipK.pdf?alt=media&token=88520d58-181d-4e6e-81d4-835a5699b76e}}
-    - https://twitter.com/avsa/status/1304483988497629184
-- [[Flashbots]]
-    - https://twitter.com/0x81B/status/1565453130283622400

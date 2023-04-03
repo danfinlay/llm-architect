@@ -1,2 +1,0 @@
-- [[[[Gnosis]] SAFE]] allows the addition of modules, which are additional [[smart contract]]s that are able to invoke any function on behalf of the parent [[[[Gnosis]] SAFE]], allowing complete contract account extensibility.
-- A collection of existing modules: https://github.com/gnosis/safe-modules

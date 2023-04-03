@@ -1,2 +1,0 @@
-- https://gauntlet.network/
-- [Articles](https://gauntlet.network/research/)

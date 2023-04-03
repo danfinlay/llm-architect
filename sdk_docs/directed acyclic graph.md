@@ -1,1 +1,0 @@
-- A [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) is a [directed graph](https://en.wikipedia.org/wiki/Directed_graph) with no [directed cycles](https://en.wikipedia.org/wiki/Cycle_graph#Directed_cycle_graph).

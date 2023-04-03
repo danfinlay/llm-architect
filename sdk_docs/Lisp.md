@@ -1,8 +1,0 @@
-- If [[JavaScript]] is `expt(4, 3)` then lisp is `(expt 4 3)`
-- Function application
-    - Some extensions by [[Christine Lemmer Webber]] as examples
-        - alias <-  to send
-        - send(myActor, "foo")
-        - myActor~.foo()
-        - (<- my-actor "foo")
-        - myActor.foo()

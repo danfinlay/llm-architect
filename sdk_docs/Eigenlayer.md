@@ -1,2 +1,0 @@
-- uses [[eth2]] as collateral for new layer-2s with arbitrary [[execution environment]]s and their own [[metering]] currency.
-- {{youtube: https://www.youtube.com/watch?app=desktop&v=OtUOXTqrSyg}}

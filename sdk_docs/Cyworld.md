@@ -1,4 +1,0 @@
-- Cyworld launched in 1999 and was exclusive to South Korea. In order to get an account you had to sign up with your Korean ID. So only Korean citizens could get access.
-- It had its own virtual currency “acorns.”
-- Years later they launched an American version but it didn’t have the charm of the original and didn’t take off (this was after stuff like Habbo Hotel so the market was saturated too).
-- Used [[pet name]]s

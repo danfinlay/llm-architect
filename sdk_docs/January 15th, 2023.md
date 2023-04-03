@@ -1,6 +1,0 @@
-- [[[[[[EIP]] 1559]] dust management]]
-    - https://twitter.com/cory_eth/status/1614496165004992512?s=46&t=
-- [[to read]] [[Berjon]] [[collective intelligence]] 
-    - https://berjon.com/internet-transition/
-- [[Solidity]] [[Solady]] 
-    - https://twitter.com/paulrberg/status/1614720796269907968?s=46&t=

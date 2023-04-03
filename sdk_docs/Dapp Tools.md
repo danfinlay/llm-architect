@@ -1,5 +1,0 @@
-- A set of [[Ethereum]] command line tools by [[DappHub]]
-- https://dapp.tools
-- Tools
-    - [[seth]]
-    - 

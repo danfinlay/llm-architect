@@ -1,2 +1,0 @@
-- A concept from [[neural annealing]]
-- > Essentially, coherent energy which isn’t strongly linked to any cognitive, emotional, or sensory process will be partially illegible to most existing energy sinks, and so it can persist long enough to build up __–__ basically ‘hacking’ the brain’s activity normalization system.

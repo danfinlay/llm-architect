@@ -1,1 +1,0 @@
-- https://w3c-ccg.github.io/zcap-spec/

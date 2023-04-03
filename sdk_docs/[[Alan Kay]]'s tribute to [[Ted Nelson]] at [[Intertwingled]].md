@@ -1,2 +1,0 @@
-- {{youtube: https://www.youtube.com/watch?v=AnrlSqtpOkw}}
-- Involves [[Secure UI]] and [[Xerox Alto]]

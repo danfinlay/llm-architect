@@ -1,5 +1,0 @@
-- A type of diagram for mapping social relationships first attributed to [[Mark Granovetter]]
-    - [[Dan Finlay]] stumbled on using a similar diagram syntax in [[Trust Mapping Social Arrangements]]
-- The type of [[object capability (ocap)]] diagram popularly used in [[The Agoric Papers]]
-    - http://www.erights.org/elib/capability/ode/ode-linear.html
-- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FSuGJ7yN1W6.jpeg?alt=media&token=ffc34d51-3014-478f-8799-a177f49acb92)

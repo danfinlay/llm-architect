@@ -1,2 +1,0 @@
-- [[October 7th, 2022]] at 15:46
-    - [[Solidity]] [[Yul (language)]] https://twitter.com/z0age/status/1578443865660354560?s=46&t

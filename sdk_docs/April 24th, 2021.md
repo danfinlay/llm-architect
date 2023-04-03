@@ -1,2 +1,0 @@
-- [[Dan Finlay]] writes [[MATT: An [[NFT]] Auction Concept]]
-- [[Christine Lemmer Webber]] writes [[What is a Blockchain Really?]]

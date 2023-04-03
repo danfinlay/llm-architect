@@ -1,9 +1,0 @@
-- Could we take a [mastodon fork](https://github.com/danfinlay/mastodon) and add a custom algorithm for recommending non-latest content to the user?
-- Motivation
-    - To enable serendipity on [[Mastodon]]
-    - https://twitter.com/badgendervibes/status/1590863419309449216
-- Approaches
-    - Forking the [[glitch-soc]] [mastodon fork](https://github.com/glitch-soc/mastodon)
-        - Backend is in [[ruby]]
-    - Independent node process
-        - [[megalodon]] seems like an actively maintained module

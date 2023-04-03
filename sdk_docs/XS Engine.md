@@ -1,4 +1,0 @@
-- A [[Secure EcmaScript (SES)]] compatible [[JavaScript]] runtime built for [[IoT]]
-- Can work on devices capable of running a [[TLS]] connection, so it can also support cryptographically authenticated [[CapTP]]
-- A submodule of [[Moddable SDK]]
-- Being used as the runtime for The [[SwingSet]] by [[Agoric]]

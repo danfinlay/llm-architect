@@ -1,3 +1,0 @@
-- [[object capability (ocap)]] [[podcast]] [[FOSS and Crafts]]
-    - https://twitter.com/fossandcrafts/status/1346126708643147776
-- Had an idea for a [[Jackbox]] game about [capabilities]([[power/capability]]), fleshing out as [[Game: Just Enough!]]

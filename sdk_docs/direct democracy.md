@@ -1,1 +1,0 @@
-- A system where each member gets one vote to express their preference on every decision.

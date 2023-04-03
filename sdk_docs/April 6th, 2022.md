@@ -1,2 +1,0 @@
-- [[mycelila]] [appear to communicate with sentences of electrical pulses](https://royalsocietypublishing.org/doi/10.1098/rsos.211926).
-    - 

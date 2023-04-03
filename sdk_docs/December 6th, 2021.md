@@ -1,6 +1,0 @@
-- [[Mozilla]] announces [[wasm]] [[sandbox]] called [[RLBox]]
-    - https://hacks.mozilla.org/2021/12/webassembly-and-back-again-fine-grained-sandboxing-in-firefox-95/
-- [[The Generalist]] wrote [a detailed post on their perspective](https://www.readthegeneralist.com/briefing/metamask) of [[MetaMask]] and [[What is a [[wallet]]?]]
-- [[Vitalik Buterin]] publishes his [endgame ](https://vitalik.ca/general/2021/12/06/endgame.html)for [[Ethereum]]
-- [[Matt Garnett (lightclient)]] on [[[[EIP]] 3074: Delegated Invocation Contracts]]
-    - https://twitter.com/lightclients/status/1467567065531699200?s=20

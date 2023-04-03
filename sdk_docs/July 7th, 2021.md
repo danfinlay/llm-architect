@@ -1,2 +1,0 @@
-- [[Dan Connolly]] has [[XS Engine]] running on [[Genode Labs]]. [Blog post and notes](https://www.madmode.com/2020/genode-js-hp-envy.html)
-    - Involves C++ message passing as capability transfer [[IDL]]

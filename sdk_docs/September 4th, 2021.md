@@ -1,4 +1,0 @@
-- [[Vinay Gupta]] on [[Loot Project]]
-    - https://twitter.com/leashless/status/1434155395505868802?s=21
-- [[Simon Wardley]] on [[Myers Briggs]]
-    - https://twitter.com/swardley/status/1434147820815200259?s=21

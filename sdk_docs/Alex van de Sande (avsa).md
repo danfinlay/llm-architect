@@ -1,3 +1,0 @@
-- Lead developer of
-    - [[Mist ([[Ethereum]] browser)]]
-    - First version of [[ENS]] website.

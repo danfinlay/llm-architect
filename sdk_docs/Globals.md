@@ -1,1 +1,0 @@
-- Global APIs accessible by default to the node runtime, such as `console` and `process`

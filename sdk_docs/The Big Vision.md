@@ -1,2 +1,0 @@
-- A 10 minute appeal to the future of computing, and the role of [[MetaMask]] in it.
-- Shared with the MetaMask team and a few members of [[ConsenSys]].

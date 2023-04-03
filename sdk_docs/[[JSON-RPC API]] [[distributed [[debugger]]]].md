@@ -1,2 +1,0 @@
-- https://www.w3.org/TR/trace-context/
-- https://groups.google.com/g/json-rpc/c/l7m5SIvwnFs/m/bHNGlIQ3BAAJ

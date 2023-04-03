@@ -1,6 +1,0 @@
-- Shared experience & circumstance
-    - There is a certain scale of popularity that is dangerous because at that scale of popularity, things you encounter by chance are less likely to be by chance, and so you must become more wary of opportunity, increasingly cautious that things that would have seemed normal before are now the result of design. This is one way that the successful are disadvantaged against repeat success. Many opportunities rely on having others that you can trust.
-    - One of the basic ways of creating trust is through shared circumstantial experience that gives us rare glimpses into the nature of each other's character.
-    - When we begin to question the circumstantiality of our life encounters, we become more doubtful that we ever witness authenticity, and so we can be less confident when building up new trust.
-    - Since public success draws deceit, repeated success could benefit from keeping a low profile, at least low enough to preserve the gift of serendipity.
-- https://twitter.com/richdecibels/status/1383865494147457029?s=21

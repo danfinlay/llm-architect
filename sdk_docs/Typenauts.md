@@ -1,2 +1,0 @@
-- https://typenauts.com/
-- an on-chain generated animated svg avatar for the [[typing game]] [[Astrotype]] by [[Shane Jonas]]

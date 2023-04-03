@@ -1,5 +1,0 @@
-- Many systems try to prevent [[delegation]], but it is actually impossible to prevent.
-- Any access that a person has they can share with someone else by either proxying that access to them, or acting on that other person's behalf.
-- Examples
-    - You can have a "no share" policy on a document, but a person can still print it and share it.
-    - DRM only works when the client software obeys it, and is regularly cracked.

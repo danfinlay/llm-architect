@@ -1,2 +1,0 @@
-- Repeating four-part cycle every 80-100 years
-- [[Steve Bannon]] is really into it.

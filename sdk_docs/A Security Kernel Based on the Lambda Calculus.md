@@ -1,3 +1,0 @@
-- By [[Jonathan A Rees]]
-- Describes the architecture and approach of [[[[Scheme]] 48]], a secure microkernel to achieving [[object capability (ocap)]] security.
-- http://mumble.net/~jar/pubs/secureos/secureos.html

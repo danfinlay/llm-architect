@@ -1,1 +1,0 @@
-- Some projects on [[[[GitCoin]] [[CLR]]]] have issued tokens to previous backers creating a [[Rokko’s Token Drop]] situation.

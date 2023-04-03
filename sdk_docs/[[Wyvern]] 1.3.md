@@ -1,1 +1,0 @@
-- Used [[personal_sign]] to sign a binary payload, to create sale offers, and so users were shown no warning text when potentially signing away their NFTs.

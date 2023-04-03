@@ -1,2 +1,0 @@
-- [[SecureRender]]
-    - https://twitter.com/marknadal/status/1510341731593515018

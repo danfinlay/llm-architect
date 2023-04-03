@@ -1,2 +1,0 @@
-- [[Mikko Ohtamma]] on [[ERC-20 Token Allowance]] [[Secure UI]]
-    - https://twitter.com/moo9000/status/1619319039230197760?s=

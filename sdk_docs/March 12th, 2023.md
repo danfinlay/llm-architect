@@ -1,2 +1,0 @@
-- Praises for [[[[Google]] Wave]]
-    - https://twitter.com/danfinlay/status/1634762814496854016?s=20

@@ -1,5 +1,0 @@
-- [[credit line]]s are limited by the proximity of trust between the lender and borrower. Big businesses are then biased to big businesses, and only smaller local developers have a plausible shot at successfully investing in local business growth.
-    - https://twitter.com/devonzuegel/status/1511532891876036624
-- [[Modern Monetary Theory (MMT)]] on [[Varn Vlog]]
-    - {{youtube: https://www.youtube.com/watch?v=S75oI7tw2Jo}}
-- [[supply chain security]] [article](https://josephg.com/blog/node-sandbox/)

@@ -1,4 +1,0 @@
-- An extension of [[[[Bitcoin]] Lightning]] to incorporate [[credit line]], in a scheme resembling [[The Original Ripple Whitepaper]] by [[Egor Homakov]].
-- Designed to address [[The Inbound Capacity Problem]] as seen by [[Egor Homakov]] in [[[[Bitcoin]] Lightning]]
-- Implemented in [[Ethereum]] as [[xln.sol]]
-- https://medium.com/fairlayer/xln-extended-lightning-network-80fa7acf80f3

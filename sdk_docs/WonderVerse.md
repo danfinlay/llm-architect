@@ -1,2 +1,0 @@
-- A [[project management]] [[dapp]]
-- https://wonderverse.xyz/

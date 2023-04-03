@@ -1,5 +1,0 @@
-- [[expert]] failures
-    - over regulating hearing aids
-        - https://twitter.com/zackkanter/status/1452360260056850436?s=21
-    - https://twitter.com/scottastevenson/status/1452292277783695374?s=21
-    - https://twitter.com/eladgil/status/1452130494313746443?s=21

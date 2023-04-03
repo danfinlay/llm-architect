@@ -1,1 +1,0 @@
-- [[[[Simon Wardley]]'s System of Theft]]

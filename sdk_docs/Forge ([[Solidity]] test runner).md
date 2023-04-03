@@ -1,1 +1,0 @@
-- [[rust (language)]] test runner built by [[Paradigm]]

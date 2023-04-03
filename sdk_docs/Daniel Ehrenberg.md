@@ -1,2 +1,0 @@
-- Past projects
-    - [[SIMD]] (first on JS, now on [[wasm]])

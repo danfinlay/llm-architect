@@ -1,5 +1,0 @@
-- [[[[EIP-4361: Sign in with Ethereum (SiWE)]]]]
-- [[automated curation]]
-    - https://twitter.com/soft/status/1449406390976409600?s=21
-- [[Hypercore]][[Spork]] by [[Paul Frazee]]
-    - https://twitter.com/pfrazee/status/1449479462144380939?s=21

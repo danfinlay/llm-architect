@@ -1,5 +1,0 @@
-- 
-- [[August 11th, 2022]] at 22:02
-    - [[Scheme]] [[Lisp]] [[Christine Lemmer Webber]]
-        - [[A [[Scheme]] Primer]]
-        - https://twitter.com/dustyweb/status/1556638068848861184?s=2

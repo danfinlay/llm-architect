@@ -1,3 +1,0 @@
-- Named for the mythical properties associated with Swiss bank account numbers.
-    - Knowledge of the shared secret is strong enough to exercise authority over the account.
-- Usage in [[capability based security]] coined by [[Mark Miller]]

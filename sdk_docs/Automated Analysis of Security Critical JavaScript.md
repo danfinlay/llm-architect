@@ -1,7 +1,0 @@
-- https://papers.agoric.com/papers/automated-analysis-of-security-critical-javascript-apis/abstract/
-- Authors
-    - [[Ankur Taly]]
-    - [[Úlfar Erlingsson]]
-    - [[John C. Mitchell]]
-    - [[Mark Miller]]
-    - [[Jasvir Nagra]]

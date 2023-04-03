@@ -1,3 +1,0 @@
-- [[September 2nd, 2022]] at 05:00
-    - [[David Graeber]] [[anarchism]] [[Bob Black]] [[Abolition of Work]]
-        - https://twitter.com/julio_linares_/status/1565636983048884224?s=21&t=0-gdg

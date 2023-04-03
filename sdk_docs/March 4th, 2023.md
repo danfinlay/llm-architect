@@ -1,1 +1,0 @@
-- [[large language model (LLM)]] [[Waluigi Principle]]

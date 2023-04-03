@@ -1,2 +1,0 @@
-- A term by [[Mark Miller]]
-- Allows writing code that defines defensive objects that can be exposed directly to malicious objects, and be sure that the defensive objects will continue to act as they were intended to act.

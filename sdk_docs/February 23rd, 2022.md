@@ -1,3 +1,0 @@
-- [[[[[[EIP]] 3074: Delegated Invocation Contracts]] revocation extension]]
-- [[lockfile-lint]] as a [[malicious [[[[npm]] [[dependency]]]]]] protection
-    - https://twitter.com/liran_tal/status/1496008243742715906?s=20&t=D-slGmvlaahdKpKgNcMEDQ

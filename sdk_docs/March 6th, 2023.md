@@ -1,6 +1,0 @@
-- [[privacypools]] proof of non membership in sanction list for [[Tornado Cash]]
-    - https://twitter.com/ameensol/status/1632089405220442116?s=20
-- [[Venkatesh "vgr" Rao]] on [[The Unreasonable Effectiveness of [[protocol]]s]]
-    - https://twitter.com/vgr/status/1632844349653549056?s=20
-- [[viem]] from [[wagmi]] as alternative for [[ethers.js]] and [[web3.js]] via [[Paul Razvan Berg]]
-    - https://twitter.com/PaulRBerg/status/1632875061832036354?s=20

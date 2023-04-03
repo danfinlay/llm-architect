@@ -1,2 +1,0 @@
-- https://github.com/ukstv/powergate-auth
-- I'm not yer familiar with  

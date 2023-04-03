@@ -1,2 +1,0 @@
-- [[On2]] is an [[NFT]] marketplace https://twitter.com/nnnnicholas/status/1479465600674107393?s=21
-- I want to make a [[[[[[EIP 2535 Diamond Standard]] facet]] for [[[[Ethereum]] [[object capability (ocap)]]]]]]

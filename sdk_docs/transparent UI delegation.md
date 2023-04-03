@@ -1,7 +1,0 @@
-- The notion that UI may be extensible in a way that added components do not receive a second-class visible experience.
-- Currently just a theory! Looking for the properties or best practices that would allow this pattern to be safely adopted.
-- Examples
-    - [[iframes]] are nearly invisible within a website, although they are confined to a rectangle.
-    - [[WebExtension]]s are allowed to trigger popups with no URL bar and with custom titles, making their source invisible.
-- May be a sort of [[Secure UI]] equivalent of a [[near [[membrane]]]]:
-    - Allowing a "remote" or "installed" portion of interface to be displayed as if it were part of the main system.

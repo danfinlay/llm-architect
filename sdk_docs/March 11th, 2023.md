@@ -1,3 +1,0 @@
-- [[AI]] [[large language model (LLM)]]
-    - https://twitter.com/simonw/status/1634635007712165888?s=20
-    - https://til.simonwillison.net/llms/llama-7b-m2

@@ -1,3 +1,0 @@
-- [Full text](https://cs.brown.edu/~sk/Publications/Papers/Published/sfk-feat-ocap-reconcil/)
-    - {{pdf: https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcapabul%2FulOTWZ0ah_.pdf?alt=media&token=16c9cbab-431a-41e2-a8dd-b711d03df02e}}
-- A critique of the limitations of [[object capability (ocap)]]

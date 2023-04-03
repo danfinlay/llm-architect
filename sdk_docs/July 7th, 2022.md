@@ -1,8 +1,0 @@
-- [[July 7th, 2022]] at 13:51
-    - [[Effective Altruism (EA)]]
-        - https://twitter.com/kerrylvaughan/status/1545060355432337409?s=21
-- [[Roam Research]] releasing the [[Roam Depot]], a [[plugin]] marketplace where all incoming code gets audited by the Roam team.
-    - https://twitter.com/hashbrown490/status/1545198251493584896
-    - https://twitter.com/danfinlay/status/1545203660916809729
-        - [[Reflections on Trusting Trust]]
-        - [[Report on the Pvote security review]]

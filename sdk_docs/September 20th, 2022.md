@@ -1,6 +1,0 @@
-- [[Art Gobblers]] by [[Paradigm]] and [[Justin Roiland]]
-- [[tail call optimization]] is part of the [[[[ECMA]]Script]] spec but only implemented by [[Safari]]
-    - https://2ality.com/2015/06/tail-call-optimization.html
-- [[September 20th, 2022]] at 20:43
-    - [[Justin Roiland]] [[Art Gobblers]]
-        - https://twitter.com/frankieislost/status/1572261013164273665?s=46&t=-Huw

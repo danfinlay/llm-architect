@@ -1,1 +1,0 @@
-- To have the platform you are building on suddenly de-funded.

@@ -1,5 +1,0 @@
-- [[The Actor Model]] [[History of [[The Actor Model]]]]
-- [[Christine Lemmer Webber]] recommends the three tutorials at the top of the [[Racket]] docs for learning [[Lisp]] to start.
-    - It ships with its own IDE, [[DrRacket]], which is pretty good! Helps make all the parentheses pretty nice and manageable even.
-- [[Christine Lemmer Webber]] [wrote this tutorial](https://dustycloud.org/misc/digital-humanities/Snowman.html) for teaching kids to write [[Racket]]
-- [[wasm-adventure]] is an experiment in using [[Racket]] to define a [[Domain Specific Language (DSL)]] that compiles to [[wasm]]

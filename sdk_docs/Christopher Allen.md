@@ -1,1 +1,0 @@
-- Author of [[The Path to Self Sovereign Identity]]

@@ -1,3 +1,0 @@
-- By [[Microsoft]]
-- [[Dean Tribble]]
-- 

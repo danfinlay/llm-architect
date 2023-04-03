@@ -1,3 +1,0 @@
-- https://ethereum-magicians.org/t/erc-account-abstraction-via-endorsed-operations/9799
-- By [[Agusx1211]] of [[Sequence]]
-    - > an alternative to [[[[EIP]] 4337: [[account abstraction (AA)]] via Entry Point Contract]] that doesn't break compatibility with existing smart contract wallets

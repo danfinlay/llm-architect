@@ -1,3 +1,0 @@
-- [[social token]] https://twitter.com/cooopahtroopa/status/1332831062259449856?s=21
-- [[AleezaGroks]] describes the similarity of [[Trustlines]] and [[Circles UBI]] https://twitter.com/aleezagroks/status/1329709111638978561?s=20
-    - Makes me want to write something about [[Object Capabilities for Those Who Understand Social Collateral]]

@@ -1,7 +1,0 @@
-- [[Bored Ape Yacht Club (BAYC)]] [[SeaPort]] [[EIP 712: signTypedData]] [[phishing]]
-    - https://twitter.com/Serpent/status/1604074440941506560
-- [[[[Truffle]] debugger]]
-    - truffle debugger has a y command for asking this very question ("why error?")
-    - the way it works is you use y to go to the last revert, and then Y steps you backwards through all the inner reverts
-    - `truffle debug <transaction hash> --fetch-external --network <network>`
-        - `truffle debug 0x2a276c74476c0af23f21059b1d9654c1da805d3719e19f85fa5422440a500875 --fetch-external --network mainnet`

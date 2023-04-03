@@ -1,2 +1,0 @@
-- A controller within [[MetaMask]] designed to allow multiple [[key management]] schemes.
-- 

@@ -1,5 +1,0 @@
-- https://capyloon.org/
-- A rebooting of [[[[Firefox]] OS/[[B2G]]]]. A new [[operating system]] designed to be more web native and permissionless
-- Tech
-    - [[IPFS]]
-    - 

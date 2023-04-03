@@ -1,7 +1,0 @@
-- Early cipherpunk
-- Inventor of
-    - [[Zcash]]
-- Founder of
-    - [[Least Authority]]
-- Author of
-    - [[An Introduction to [[pet name]] Systems]]

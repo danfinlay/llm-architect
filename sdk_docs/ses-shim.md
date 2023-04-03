@@ -1,1 +1,0 @@
-- A [[JavaScript]] shim for [[Secure EcmaScript (SES)]]

@@ -1,2 +1,0 @@
-- [[Sarah Jamie Lewis]] on [[Orchid Protocol]]
-    - https://twitter.com/SarahJamieLewis/status/1460678209029042178?s=20
