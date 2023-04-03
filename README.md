@@ -1,17 +1,8 @@
-# LLM Architected Extensible Chess
-
-You run `node build.js` and:
-- The files in `specification` are used as the high level spec of an application to build.
-- The files in `internal_prompts` are used to guide the intermediate steps of turning the initial spec into code.
-- Some files are written to `/implementation`, which someday it would be cool if they were a full working application.
-
-For now, the files written there may be a good starting point for an application. There's clearly a lot of art needed to enable graceful decomposition of a large problem without losing the context when having an LLM build a subcomponent of a larger system.
-
-Here's how the AI describes this module:
-
 # Module: AI-Assisted Code Generation
 
 This module uses the OpenAI language model and a collection of internal prompts to help generate code based on a given specification. It starts by simplifying the components, implementing them, and then checking for correctness. The module uses caching to speed up the process and avoid repeated computations.
+
+![diagram](./flow.png)
 
 ## Prerequisites
 
