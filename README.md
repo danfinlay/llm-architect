@@ -8,6 +8,7 @@ This module uses the OpenAI language model and a collection of internal prompts 
 
 - Node.js
 - An OpenAI API key
+- A [Helicone](https://www.helicone.ai/) account setup
 
 ## Dependencies
 

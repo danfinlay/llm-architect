@@ -40,6 +40,8 @@ async function start () {
     temperature: 0,
     openAIApiKey: OPENAI_API_KEY,
     vectorStore,
+  }, {
+    basePath: "https://oai.hconeai.com/v1",
   });
 
   // Simplify the components
